@@ -1,0 +1,36 @@
+{% extends "templates/base/index.twig" %}
+
+{% block content %}
+
+	<section class="title-page">
+		<div class="container-fluid my-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="ht-250 adaptive"></div>
+						{% if titling %}
+							{% include "components/titling/index.twig" with titling %}
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{% if categoryPage %}
+		{% include "sections/categorySection/index.twig" with categoryPage %}
+		{% if flexibleContent %}
+			<script>
+				jQuery(document).ready(function(){
+					jQuery(".simply-html-block .additional-content").removeClass("line-up");
+					jQuery(".simply-html-block .additional-content .container .row .col-md-10.offset-md-1.col-xl-8.offset-xl-2").removeClass();
+				});
+			</script>
+		{% endif %}
+	{% endif %}
+
+	{% include "sections/flexibleContactContent/index.twig" with {"flexibleContent": flexibleContent} %}	
+
+
+{% endblock %}
+

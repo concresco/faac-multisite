@@ -1,0 +1,17 @@
+.expanded-text-content{
+    padding-top: 80px;
+    padding-bottom: 90px;
+
+    .light {
+        color: $color-white;
+        p, h1, h2, h3, h4, h5, h6, a{
+            color: $color-white;
+        }
+    }
+    .dark {
+        color: $color-grey-dark;
+        p, h1, h2, h3, h4, h5, h6, a{
+            color: $color-grey-dark;
+        }
+    }
+}

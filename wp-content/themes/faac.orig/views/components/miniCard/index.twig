@@ -1,0 +1,13 @@
+{% set img = img | default('https://picsum.photos/1024/600') %}
+{% set url = url | default('#') %}
+{% set description = description | default('Lorem ipsum dolor') %}
+
+
+<div class="mini-card">
+    <a href="{{ url }}" class="text-decoration-none">
+        <div class="img-mini-card"
+        style="background-image: url({{ img }});">
+        </div>
+        <h6 class="mt-2">{{ description }}</h6>
+    </a>
+</div>

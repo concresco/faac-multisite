@@ -1,0 +1,40 @@
+<section class="hero-page-simply">
+    {% if post.thumbnail %}
+    <div class="hero-image-simply"
+        style="background-image: url({{ post.thumbnail.src }})"
+    >
+    {% endif %}
+        <div class="container title-content">
+            <div class="row mb-4">
+                <div class="col-xs-12 col-md-12 col-xl-9">
+                    <div class="breadcrumbs mb-3">
+                        {% if breadcrumbs %}
+                        <h6 class="color-white">
+                            {% for item in breadcrumbs %}
+                                {% if item.url %}
+                                <a href="{{ item.url }}">
+                                {% endif %}
+                                    <span class="color-white">{{ item.text }}{{ loop.last ? "" : " \\ "}}</span>
+                                {% if item.url %}
+                                </a>
+                                {% endif %}
+                            {% endfor %}
+                        </h6>
+                        {% endif %}
+                    </div>
+                    <h1 class="color-white">{{ post.post_title }}</h1>
+                    {% if post.post_subtitle %}
+                        <h5 class="color-white">{{ post.post_subtitle}}</h5>
+                    {% endif %}
+                    {% if post.post_content %}
+                        <div class="post-content color-white">
+                            {{ post.post_content | wpautop }}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% if post.thumbnail %}
+    </div>
+    {% endif %}
+</section>

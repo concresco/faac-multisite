@@ -1,0 +1,42 @@
+# Cursor Project Rules for FAAC
+
+## Environment Overview
+
+This project involves the development and maintenance of the **FAAC** web application, which is a **WordPress Multisite** installation.
+
+**Server Configuration:**
+- **Operating System:** Linux (Ubuntu/Debian derivative likely, managed by RunCloud)
+- **Web Server:** LiteSpeed Web Server
+- **PHP:** Version managed via RunCloud panel. Application name in RunCloud likely `FAAC`.
+- **Database:** MariaDB (Database name `prod`, user `prodfaac`)
+- **Server Management:** Managed via the **RunCloud** panel.
+
+**Workspace:**
+- **Root Directory:** `/home/runcloud/webapps/FAAC/`
+
+## Operational Rules & Patterns
+
+### User Impersonation & Permissions
+
+- **Rule:** File operations (creation, modification, deletion) **within** the workspace directory (`/home/runcloud/webapps/FAAC/` and its subdirectories) should target files owned by `runcloud:runcloud`.
+- **Guidance:**
+    - When executing terminal commands that modify files within `/home/runcloud/webapps/FAAC/`, be mindful of file ownership. Using `sudo` directly might create files owned by `root`.
+    - If direct modification as `runcloud` user is needed via terminal, consider using `sudo -u runcloud <command>`.
+    - Standard file edits using Cursor's tools should generally respect existing permissions if possible, but be aware of this context.
+- **Rule:** Operations requiring system-level changes (e.g., installing packages, managing services, editing files **outside** `/home/runcloud/`) **can and often should use `sudo`**.
+
+### Cursor/Node.js Optimization
+
+- **Context:** To prevent excessive resource usage by Cursor's backend Node.js processes on this production server (where Node.js is not required by the main application), a specific optimization has been implemented.
+- **Mechanism:**
+    - A `systemd` service (`cursor.service`) manages Cursor-related Node.js processes, limiting their memory usage (currently set to 512MB) and ensuring they restart if they crash.
+    - A script (`/usr/local/bin/kill-cursor.sh`) is executed automatically on SSH logout (via `~/.bash_logout`) to terminate any remaining Cursor Node.js processes.
+- **Guidance:** Be aware of this setup. If troubleshooting Cursor-related performance issues, check the status (`sudo systemctl status cursor.service`) and logs (`sudo journalctl -u cursor.service`) of this service.
+
+### Memory Bank
+
+- **Rule:** The `/home/runcloud/webapps/FAAC/memory-bank/` directory is critical. It MUST be read and updated regularly per the standard Memory Bank workflow outlined in the custom instructions.
+
+### Error Logging
+
+- **Rule:** Record encountered linter errors or significant operational errors in `errorlint.txt` in the workspace root. (Note: This file will be created if not present when the first error occurs).

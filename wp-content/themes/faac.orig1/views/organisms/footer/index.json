@@ -1,0 +1,94 @@
+{
+    "slogan":{
+        "title": "We also like to be social",
+        "subtitle": "Look at our latest updates"
+    },
+    "socialLinks": [
+        {
+            "social": "linkedin",
+            "url": "#"
+        },
+        {
+            "social": "twitter",
+            "url": "#"
+        },
+        {
+            "social": "instagram",
+            "url": "#"
+        }
+    ],
+    "footerMenu":[
+        {
+            "text": "Voce 1",
+            "url":"#",
+            "submenu":[
+                {
+                    "text": "submenu 1.1",
+                    "url": "#"
+                },
+                {
+                    "text": "submenu 1.2",
+                    "url": "#"
+                },
+                {
+                    "text": "submenu 1.3",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "text": "Voce 2",
+            "url":"#",
+            "submenu":[
+                {
+                    "text": "submenu 2.1",
+                    "url": "#"
+                },
+                {
+                    "text": "submenu 2.2",
+                    "url": "#"
+                },
+                {
+                    "text": "submenu 2.3",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "text": "Voce 3",
+            "url":"#",
+            "submenu":[
+                {
+                    "text": "submenu 3.1",
+                    "url": "#"
+                },
+                {
+                    "text": "submenu 3.2",
+                    "url": "#"
+                },
+                {
+                    "text": "submenu 3.3",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "text": "Colonna 3",
+            "url":"#",
+            "submenu":[
+                {
+                    "text": "Voce a4",
+                    "url":"#"
+                },
+                {
+                    "text": "Voce b4",
+                    "url":"#"
+                },
+                {
+                    "text": "Voce c4",
+                    "url":"#"
+                }
+            ]
+        }
+    ]
+}

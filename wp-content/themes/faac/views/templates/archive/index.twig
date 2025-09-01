@@ -1,0 +1,14 @@
+{% extends "templates/base/index.twig" %}
+
+{% block content %}
+    
+    {% include "organisms/heroPage/index.twig" %}
+
+    {% if blog_archive %}
+        <div class="container">
+            {% include "organisms/newsList/index.twig" with blog_archive %}
+        </div>
+    {% endif %}
+    
+
+{% endblock %}

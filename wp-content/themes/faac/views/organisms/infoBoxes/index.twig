@@ -1,0 +1,40 @@
+<div class="row">
+    {% if equal %}
+        {% for box in boxes %}
+            {% set colNumber = 12 / loop.length %}       
+            <div class="col-lg-{% if colNumber < 4 %}4{% else %}{{ colNumber }}{% endif %}
+                 col-12 line-left {% if loop.last %}line-right{% endif %} line-lg-down">
+
+                {% if colNumber == 12 %}
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 col-12">
+                        {% set boxClass = 'height-auto' %}
+                {% endif %}
+                    
+                    {% include "components/infobox/index.twig" with box %}
+
+                {% if colNumber == 12 %}
+                    </div>
+                </div>
+                {% endif %}
+
+            </div>
+        {% endfor %}
+    {% else %}
+        {% for box in boxes %}
+            {% if loop.first %}
+                <div class="col-lg-8 col-12 line-left line-lg-down line-lg-right">
+                    {% include "components/infobox/index.twig" with box %} 
+                </div>
+                <div class="col-lg-4 col-12 line-left line-right">
+                    <div class="row">
+            {% else %}
+                        <div class="col-12 {% if not loop.last %}line-down{% endif %} line-lg-down">
+                            {% include "components/infobox/index.twig" with box | merge({"small": true }) %}
+                        </div>
+            {% endif %}
+        {% endfor %}
+                    </div>
+                </div>
+    {% endif %}
+</div>

@@ -1,0 +1,64 @@
+<div class="row">
+    {% for post in postList %}
+
+        {% if loop.index % 8 == 1 %}
+
+            {% set size = "medium" %}
+            <div class="col-12 col-lg-8">
+                {% include "components/newsPreview/index.twig" with post %}
+            </div>
+        {% elseif loop.index % 8 == 2 or loop.index % 8 == 3 %}
+
+            {% if loop.index % 8 == 2 %}
+            <div class="col-12 col-lg-4">
+            {% endif %}
+            
+            {% set size = "small" %}
+            <div class="col-12">
+                {% include "components/newsPreview/index.twig" with post %}
+            </div>
+
+            {% if loop.index % 8 == 3  or loop.last %}
+            </div>
+            {% endif %}
+
+        {% elseif loop.index % 4 == 0 %}
+
+            {% set size = "big" %}
+            <div class="col-12">
+                {% include "components/newsPreview/index.twig" with post %}
+            </div>
+
+        {% elseif loop.index % 8 == 5 or loop.index % 8 == 6 %}
+
+            {% if loop.index % 8 == 5 %}
+            <div class="col-12 col-lg-4">
+            {% endif %}
+            
+                {% set size = "small" %}
+                <div class="col-12">
+                    {% include "components/newsPreview/index.twig" with post %}
+                </div>
+            
+            {% if loop.index % 8 == 6 or loop.last %}
+            </div>
+            {% endif %}
+
+        {% elseif loop.index % 8 == 7 %}
+            {% set size = "medium" %}
+            <div class="col-12 col-lg-8">
+                {% include "components/newsPreview/index.twig" with post %}
+            </div>
+
+        {% endif %}
+
+    {% endfor %}
+</div>
+<div class="row">
+    <div class="ht-20"></div>
+    <div class="col-12 my-4">
+        {% include "components/pagination/index.twig" with pagination %}
+    </div>
+</div>
+    <div class="ht-200 adaptive"></div>
+</div>

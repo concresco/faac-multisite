@@ -1,0 +1,7 @@
+@mixin transition($speed) {
+    transition: all $speed ease;
+}
+
+@mixin rotate($deg) {
+    transform: rotate($deg);
+}

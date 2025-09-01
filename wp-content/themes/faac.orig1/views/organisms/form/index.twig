@@ -1,0 +1,204 @@
+{# this data is insert in the flexible content
+	<div class="mb-3">
+	{% if title %}
+		<h2 class="">{{ title }}</h2>
+	{% endif %}
+	{% if preText %}
+		<p class="">{{ preText | raw }}</p>
+	{% endif %}
+</div> #}
+
+<form action="#" {% if formId %} id="{{ formId }}" {% endif %}
+    method="{{ formMethod | default('post') }}"
+    {# {% if submitRecaptcha == 1 %} onsubmit="return submitRecaptcha();" {% endif %} #}
+    {# {% if upload %} #} enctype="multipart/form-data" {# {% endif %} #}
+    {% if CustomValidationMessages %} novalidate {% endif %}
+    class="{{ formClass }}" data-status="init"
+>
+
+	{% if subjectEmail %}
+		<input type="hidden" name="subjectEmail" id="subjectEmail" value="{{ subjectEmail }}" required>
+	{% endif %}
+
+	{% if sendTo %}
+		<input type="hidden" name="sendTo" id="sendTo" value="{{ sendTo }}" required>
+	{% endif %}
+
+	<div class="ht-30 full-width"></div>
+	{% for row in rows %}
+		{# <fieldset {{ row.disabled ? 'disabled' : '' }}
+		      {{ row.id ? 'id="'~ row.id ~'"' : '' }}
+		    > #}
+		{% if row.title %}
+			<h4 class="">{{ row.title }}</h4>
+		{% endif %}
+		<div class="row {{ row.class }}">
+			{% if row.html %}
+				<div class="{{ row.htmlClass }}">{{ row.html | raw }}</div>
+			{% endif %}
+			{% if row.field %}
+				{% include "components/formField/index.twig" with row.field %}
+			{% elseif row.fields %}
+				{% for field in row.fields %}
+					{% include "components/formField/index.twig" with field %}
+				{% endfor %}
+			{% endif %}
+		</div>
+		{# </div> #}
+		{# </fieldset> #}
+	{% endfor %}
+	{# {% if submitRecaptcha == 1 %}
+	  <div class="ht-20"></div>
+	  <div id="gContainer">
+	    <div class="g-recaptcha" data-sitekey="6LegpDEaAAAAAEbtaNaszukmuCw6AqaWAOgS9uM-"></div>
+	  </div>
+	  {% endif %} #}
+	{% if submit_Area_Fields %}
+
+		<div class="submit-area py-3">
+			<div class="adaptive-wrapper pl-common pr-common">
+				{% for field in submit_Area_Fields %}
+					{% include "components/formField/index.twig" with field %}
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+
+	<div class="ty-message text-center alert-success py-3" id="alert-success">
+		<p class="h6 font-bold">{{ thankyou_message | raw }}</p>
+	</div>
+
+	<div class="ty-message text-center alert-success py-3" id="alert-problem">
+		<p class="h6 font-bold"></p>
+	</div>
+
+</form>
+
+<script>
+jQuery(document).ready(function($) {
+
+    var numInputFile = $('input[type="file"]').length;
+	var limitSize = 8192 / numInputFile;
+	var LabelText = "{{LabelFileSize}}";
+
+	$('input[type="file"]').each(function(index, element){
+        var nomeCampo = $(element).attr('name');
+        //console.log("Campo di tipo file: " + nomeCampo);
+		var labelConTesto = $('label[for="'+nomeCampo+'"]');
+		var LabelTextMsg = LabelText.replace(/8MB/g, (limitSize / 1024).toFixed(2)+"MB");
+		labelConTesto.text(LabelTextMsg);
+    });
+
+	$('input[type="file"]').change(function () {
+        //var numInputFile = $('input[type="file"]').length;
+		//var limitSize = 8192 / numInputFile;
+		//console.log(numInputFile);
+		
+		$('#alert-problem').hide();
+		$('#alert-problem p').text('');
+		if (this.files.length > 0) {
+			var fileSize = 0;
+			// allineare la lista delle estensioni supportate con quella del file functions.php riga 202
+			var type = ["image/gif", "image/png", "image/jpeg", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.ms-powerpoint", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.oasis.opendocument.text", "application/vnd.oasis.opendocument.spreadsheet", "application/vnd.oasis.opendocument.presentation", "application/pdf", "application/zip", "application/vnd.rar", "application/x-7z-compressed"];
+            $.each(this.files, function (index, value) {
+                fileSize = fileSize + Math.round((value.size / 1024));
+				fileType = value.type;
+				//console.log(value);
+            });
+			// allineare il limite max di upload, 8MB, con quella del server se aumentata
+			//if(fileSize > 8192){
+			if(fileSize > limitSize){
+				var errText = "{{errFileSize}}";
+				var alertLimitSize = limitSize / 1024;
+				var errFileSize = errText.replace(/8MB/g, alertLimitSize.toFixed(2)+"MB");
+				$('#alert-problem').show();
+				$('#alert-problem').css('background-color','red');
+				//$('#alert-problem p').text(fileSize+' KB');
+				//$('#alert-problem p').text("{{errFileSize}}");
+				$('#alert-problem p').text(errFileSize);
+				$('html, body').animate({
+        			scrollTop: $("#alert-problem").offset().top - 250
+    			}, 1000);
+				$('input[type="file"]').val("");
+			} else if(type.indexOf(fileType) < 0){
+				$('#alert-problem').show();
+				$('#alert-problem').css('background-color','red');
+				$('#alert-problem p').text("{{errFileType}}");
+				$('html, body').animate({
+        			scrollTop: $("#alert-problem").offset().top - 250
+    			}, 1000);
+				$('input[type="file"]').val("");
+			}
+        }
+    });
+
+  // $('form#{{ formId }} input[type="submit"]').click(function(){
+	$('#alert-success').hide();
+	$('#alert-problem').hide();
+  	$('form#{{ formId }}').submit(function (event) {
+      	event.preventDefault();
+		$('#alert-success').hide();
+		$('#alert-problem').show();
+		$('#alert-problem').css('background-color','#badbcc');
+		$('#alert-problem p').text("{{textWait}}");
+		$('form#{{ formId }} button.submit-form-btn').hide();
+		var data = new FormData();
+		if($('input[type="file"]').length > 0){
+			//var file_data = $('input[type="file"]')[0].files[0]; 
+			var file_data = $('input[type="file"]'); 
+			//console.log(file_data);
+			// for multiple files
+			for(var i = 0;i<file_data.length;i++){
+				data.append("file_"+i, file_data[i].files[0]);
+			}
+			//data.append("attachment", file_data);
+		}
+		var other_data = $('form#{{ formId }}').serializeArray();
+		$.each(other_data,function(key,input){
+			data.append(input.name,input.value);
+		});
+		data.append('action','sendFormMessage');
+      	//var data = { action:'sendFormMessage', formdata: $('form#{{ formId }}').serialize() };
+		$.ajax({
+			url: ajaxPostsUrl,
+			data: data,
+			contentType: false,
+			processData: false,
+			type: 'POST',
+			success: function(response){
+				var return_resp = response.split(" - ");
+          		//console.log(return_resp[1]);
+		  		//console.log(response);
+				if(return_resp[0] == 'mail_sent'){
+					$('#alert-problem').hide();
+					$('#alert-success').show();
+					//$('form#{{ formId }}').find("textarea,input,select").val("");
+					$('form#{{ formId }}').find("textarea,input,select").each(function() {
+						if($(this).attr('name') != 'sendTo' && $(this).attr('name') != 'subjectEmail'){
+							$(this).val('');
+						}
+					});
+					$('form#{{ formId }} input[type="checkbox"]').prop( "checked", false );
+					$('form#{{ formId }} input[type="radio"]').prop( "checked", false );
+					$('form#{{ formId }} button.submit-form-btn').show();
+				} else {
+					$('#alert-problem p').text(return_resp[0]);
+					$('#alert-problem').show();
+					$('#alert-problem').css('background-color','red');
+					$('form#{{ formId }} button.submit-form-btn').show();
+				}
+			}
+		});
+	  
+	  //$.post(ajaxPostsUrl, data, function(response) {
+      	// var return_resp = response.split(" - ");
+      	// console.log(return_resp[1]);
+		// console.log(response);
+		//			if(return_resp[0] == 'mail_sent'){
+		//				$('#alert-success').show();
+		//				$(this).find("textarea,input,select").val("");
+		//			}
+      //});
+  });
+});
+</script>

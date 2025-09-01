@@ -1,0 +1,50 @@
+{
+    "sectionTitle": "The FAAC Entrance Solution way",
+    "cards":[
+        {
+            "title": "Responsibility",
+            "excerpt": "FAAC is committed in social responsibility and develops a complete and integrated security policy in order to guarantee transparency and respect for all players in our market",
+            "thumbnail":{
+                "link": true,
+                "linkEffect": "linear-in alpha",
+                "src": "https://picsum.photos/1024/600"
+            },
+            "readMoreBtn":{
+                "href": "#",
+                "style": "btn read-more linear-out",
+                "text": "Discovere more"
+            },
+            "mediaBreakpoint1": "(min-width: 768px)"
+        },
+        {
+            "title": "Quality expertise",
+            "excerpt": "FAAC is committed in social responsibility and develops a complete and integrated security policy in order to guarantee transparency and respect for all players in our market",
+            "thumbnail":{
+                "link": true,
+                "linkEffect": "linear-in alpha",
+                "src": "https://picsum.photos/1024/600"
+            },
+            "readMoreBtn":{
+                "href": "#",
+                "style": "btn read-more linear-out",
+                "text": "Discovere more"
+            },
+            "mediaBreakpoint1": "(min-width: 768px)"
+        },
+        {
+            "title": "Assistance",
+            "excerpt": "FAAC is committed in social responsibility and develops a complete and integrated security policy in order to guarantee transparency and respect for all players in our market",
+            "thumbnail":{
+                "link": true,
+                "linkEffect": "linear-in alpha",
+                "src": "https://picsum.photos/1024/600"
+            },
+            "readMoreBtn":{
+                "href": "#",
+                "style": "btn read-more linear-out",
+                "text": "Discovere more"
+            },
+            "mediaBreakpoint1": "(min-width: 768px)"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+.product-lines-section{
+    padding: 50px 0 0 0;
+    border-bottom: 1px solid $color-grey-cool;
+    .section-title{
+        margin-bottom: 50px;
+    }
+    .product-lines{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: stretch;
+        margin-bottom: 2rem;        
+    
+        .col{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            
+            a{
+                .img-line{
+                    width: 85px;
+                    //max-width: 85px;
+                    margin-bottom: 25px;
+                    display: flex;
+                    align-items: flex-end;
+                    height: 85px;
+                    background-size: contain;
+                    background-position: bottom center;
+                    background-repeat: no-repeat;
+                }
+                h6.small{
+                    text-align: center;
+                    line-height: 1.1;
+                }
+                &:hover{
+                    h6{
+                        color: $color-blue;
+                    }
+                }
+            }
+
+            @include media-breakpoint-down(lg){
+                flex: 33.333%;
+            }
+            @include media-breakpoint-down(md){
+                flex: 50%;
+            }
+        }
+    }
+    .second-line{
+        @include media-breakpoint-down(lg){
+
+            .product-lines{
+                display: none;
+            }
+        }
+    }
+    .btn.show-product-lines{
+        background-color: $color-grey-cool;
+        font-size: 16px;
+        color: $color-white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 50px;
+        padding: 17px 18px 14px 18px !important;
+        transition: all 0.35s ease-in-out;
+        
+        &::after{
+            font-family: $font-family-icons;
+            content: '\e806';
+            margin-left: 10px;
+            font-size: 8px;   
+        }
+        &.active{
+            &::after{
+                transition: all 0.35s ease-in-out;
+                transform: rotate(180deg);
+            }
+        }
+        @include media-breakpoint-up(lg){
+            display: none;
+        }
+    }
+}

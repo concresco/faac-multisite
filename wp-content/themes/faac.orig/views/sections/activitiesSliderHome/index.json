@@ -1,0 +1,50 @@
+{
+    "activities_section_title": "We proudly serve all these markets",
+    "activitiesSlider":{
+        "sliderActivities":[
+            {
+                "img": "https://picsum.photos/1024/600",
+                "description": "lorem ipsum",
+                "url": "#"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "description": "lorem ipsum",
+                "url": "#"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "description": "lorem ipsum",
+                "url": "#"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "description": "lorem ipsum",
+                "url": "#"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "description": "lorem ipsum",
+                "url": "#"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "description": "lorem ipsum",
+                "url": "#"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "description": "lorem ipsum",
+                "url": "#"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "description": "lorem ipsum",
+                "url": "#"
+            }
+        ],
+        "navigation":{
+            "navigationColor": "white"
+        }
+    }
+}

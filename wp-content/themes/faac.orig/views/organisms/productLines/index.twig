@@ -1,0 +1,41 @@
+{# <section class="product-lines-section {{ styleSection }}"> 
+-->  this tag is declared in the parent template 
+#}
+<div class="row">
+	{% if sectionTitle %}
+		<div class="col-12 text-center">
+			<h2 class="section-title text-center">{{ sectionTitle }}</h2>
+		</div>
+	{% endif %}
+	<div class="product-lines">
+		{% for item in productLines.firstRow %}
+			<div class="col">
+				<a class="d-flex flex-column align-items-center text-decoration-none" href="{{ item.url }}">
+					<div class="img-line" style="background-image: url({{ item.img }});">
+						<img class="d-none" src="{#{ baseUrl }#}{{ item.img }}" alt="{{ item.lineTitle }}">
+					</div>
+					<h6 class="small color-grey-dark">{{ item.lineTitle }}</h6>
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+	{% if productLines.secondRow %}
+		<div class="second-line">
+			<button class="btn show-product-lines">{{ productLines.buttonSecondRow }}</button>
+
+			<div class="product-lines">
+				{% for item in productLines.secondRow %}
+					<div class="col">
+						<a class="d-flex flex-column align-items-center text-decoration-none" href="{{ item.url }}">
+							<div class="img-line" style="background-image: url({{ item.img }});">
+								<img class="d-none" src="{#{ baseUrl }#}{{ item.img }}" alt="{{ item.lineTitle }}">
+							</div>
+							<h6 class="small color-grey-dark">{{ item.lineTitle }}</h6>
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+</div>
+{# </section> #}

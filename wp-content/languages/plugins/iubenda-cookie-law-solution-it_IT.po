@@ -1,0 +1,81 @@
+# Translation of Plugins - iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-18 10:57:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more - Stable (latest release)\n"
+
+#: views/partials/csPluginSettings.php:62
+msgid "Custom scripts"
+msgstr "Script personalizzati"
+
+#: views/integrate-setup.php:118 views/partials/csPluginSettings.php:14
+msgid "Secondary"
+msgstr "Secondario"
+
+#: views/integrate-setup.php:114 views/partials/csPluginSettings.php:10
+msgid "Primary"
+msgstr "Principale"
+
+#: views/partials/csPluginSettings.php:45
+msgid "Menu position"
+msgstr "Posizione del menu"
+
+#: views/partials/csPluginSettings.php:53
+msgid "Submenu"
+msgstr "Sottomenu"
+
+#: views/partials/csPluginSettings.php:49
+msgid "Top menu"
+msgstr "Menu in alto"
+
+#: views/partials/csPluginSettings.php:56
+msgid "Select whether to display iubenda in a top admin menu or the Settings submenu."
+msgstr "Scegli se visualizzare iubenda nel menu di amministrazione o nel sottomenu delle Impostazioni."
+
+#: views/partials/csPluginSettings.php:41
+msgid "Delete all plugin data upon deactivation"
+msgstr "Eliminare tutti i dati del plugin al momento della disattivazione"
+
+#: includes/settings.php:710
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#. Author of the plugin
+msgid "iubenda"
+msgstr "iubenda"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.iubenda.com"
+msgstr "https://www.iubenda.com"
+
+#: views/partials/csPluginSettings.php:33
+msgid "Do not run the plugin inside the RSS feed (recommended)"
+msgstr "Non eseguire il plugin all'interno del feed RSS (consigliato)"
+
+#: views/integrate-setup.php:126 views/partials/csPluginSettings.php:22
+msgid "Leave scripts untouched on the page if the user has already given consent"
+msgstr "Lascia gli script inalterati nella pagina se l'utente ha già dato il consenso"
+
+#: includes/settings.php:355
+msgid "You don't have permission to access this page."
+msgstr "Non hai il permesso di accedere a questa pagina."
+
+#: views/partials/csPluginSettings.php:29
+msgid "Restrict the plugin to run only for requests that have \"Content-type: text / html\" (recommended)"
+msgstr "Fai funzionare il plugin solo per le richieste che hanno \"Content-type: text / html\" (raccomandato)"
+
+#: views/integrate-setup.php:108 views/partials/csPluginSettings.php:4
+msgid "Automatically block scripts detected by the plugin"
+msgstr "Blocca automaticamente gli script individuati dal plugin"
+
+#: views/integrate-setup.php:121 views/partials/csPluginSettings.php:17
+msgid "Select Parsing Engine"
+msgstr "Seleziona il motore di analisi."

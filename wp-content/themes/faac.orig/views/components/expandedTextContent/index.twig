@@ -1,0 +1,14 @@
+<div class="container-fluid expanded-text-content" style="background-color: {{ bgColor}};">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="content {{ textAlign | default ('text-start')}}">
+                    <h2 class="{{ titleClass }} {{ textColor }}">{{ title }}</h2>
+                    <div class="{{ textColor }}" style="color: ;">
+                        {{ content | raw }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

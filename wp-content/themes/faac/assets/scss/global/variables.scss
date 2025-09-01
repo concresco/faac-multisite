@@ -1,0 +1,44 @@
+// use it to enforce rule override, but avoid in twig patterns wherever possible!
+$sitename-selector: "body.faac";
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1600px,
+	fhd: 1920px,
+	qhd: 2560px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  fhd: 1640px
+);
+
+
+$font-family-primary:     	"Univers";
+$font-family-base:			$font-family-primary;
+$font-family-secondary:		"Manrope";
+$font-family-icons:			"faac";
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:         1.4;
+$line-height-reduced:      1.2;
+$line-height-normal:       1;
+$line-height-expand:       1.29;
+
+//** Number of columns in the grid.
+$grid-columns:              12;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         16px;
+
+// Other useful variables
+$section-spacer-base: 50px;
+$border-radius-base: 10px;
+$border-radius-more: 24px;

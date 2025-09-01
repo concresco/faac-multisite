@@ -1,0 +1,172 @@
+{
+    "archiveFilterElement": "Product range",
+    "type": "list",
+    "category":[
+        {
+            "mainTitle": "Automatic door",
+            "url":"/automatic-doors",
+            "subCategory":[
+                {
+                    "mainTitle": "Folding doors",
+                    "url":"/folding-doors"
+                },
+                {
+                    "mainTitle": "ICU doors",
+                    "url":"/icu-doors"
+                },
+                {
+                    "mainTitle": "Revolving doors",
+                    "url":"/revolving-doors",
+                    "subCategory":[
+                        {
+                            "mainTitle": "Access controlled revolving doors",
+                            "url": "/Access-controlled-revolving-doors"
+                        },
+                        {
+                            "mainTitle": "All glass revolving doors",
+                            "url": "/All-glass-revolving-doors"
+                        },
+                        {
+                            "mainTitle": "Compact revolving doors",
+                            "url": "/Compact-revolving-doors"
+                        },
+                        {
+                            "mainTitle": "High capacity revolving doors",
+                            "url": "/High-capacity-revolving-doors"
+                        },
+                        {
+                            "mainTitle": "Manual revolving doors",
+                            "url": "/Manual-revolving-doors"
+                        }
+                    ]
+                },
+                {
+                    "mainTitle": "Sliding doors",
+                    "url":"/Sliding-doors"
+                },
+                {
+                    "mainTitle": "Swing doors",
+                    "url":"/Swing-doors"
+                },
+                {
+                    "mainTitle": "Accessories",
+                    "url":"/automatic-doors"
+                }
+            ]
+        },
+        {
+            "mainTitle": "Industrial door",
+            "subCategory":[
+                {
+                    "mainTitle": "Folding doors",
+                    "url": "/Folding-doors"
+                },
+                {
+                    "mainTitle": "ICU doors",
+                    "url": "/ICU-doors"
+                },
+                {
+                    "mainTitle": "Revolving doors",
+                    "subCategory":[
+                        {
+                            "mainTitle": "Access controlled revolving doors",
+                            "url": "/#"
+                        },
+                        {
+                            "mainTitle": "All glass revolving doors",
+                            "url": "/#"
+                        },
+                        {
+                            "mainTitle": "Compact revolving doors",
+                            "url": "/#"
+                        },
+                        {
+                            "mainTitle": "High capacity revolving doors",
+                            "url": "/#"
+                        },
+                        {
+                            "mainTitle": "Manual revolving doors",
+                            "url": "/#"
+                        }
+                    ]
+                },
+                {
+                    "mainTitle": "Sliding doors",
+                    "url": "/#"
+                },
+                {
+                    "mainTitle": "Swing doors",
+                    "url": "/#"
+                },
+                {
+                    "mainTitle": "Accessories",
+                    "url": "/#"
+                }
+            ]
+        },
+        {
+            "mainTitle": "Roller Shutters",
+            "url": "/Roller-Shutters"
+        },
+        {
+            "mainTitle": "Loading Bay Equipment",
+            "url": "/Loading-Bay-Equipment"
+        },
+        {
+            "mainTitle": "High Speed Doors",
+            "url": "/High-Speed-Doors",
+            "subCategory":[
+                {
+                    "mainTitle": "Hight speed Folding doors",
+                    "url": "/high-speed-doors"
+                },
+                {
+                    "mainTitle": "External doors",
+                    "url": "/high-speed-doors"
+                },
+                {
+                    "mainTitle": "Revolver doors",
+                    "url": "revolver-door",
+                    "subCategory":[
+                        {
+                            "mainTitle": "Access controlled revolving doors",
+                            "url": "/#"
+                        },
+                        {
+                            "mainTitle": "All glass revolving doors",
+                            "url": "/#"
+                        },
+                        {
+                            "mainTitle": "Compact revolving doors",
+                            "url": "/#"
+                        },
+                        {
+                            "mainTitle": "High capacity revolving doors",
+                            "url": "/#"
+                        },
+                        {
+                            "mainTitle": "Manual revolving doors",
+                            "url": "/#"
+                        }
+                    ]
+                },
+                {
+                    "mainTitle": "Sliding doors",
+                    "url": "/#"
+                },
+                {
+                    "mainTitle": "Swing doors",
+                    "url": "/#"
+                },
+                {
+                    "mainTitle": "Accessories",
+                    "url": "/#"
+                }
+            ]
+        },
+        {
+            "mainTitle": "Megadoors",
+            "url": "/#"
+        }
+    ]
+}

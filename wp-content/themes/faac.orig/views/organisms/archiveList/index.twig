@@ -1,0 +1,16 @@
+<section class="archive-list">
+    <div class="row">
+        {% for item in list %}
+            <div class="single-list col-12 col-md-6 col-xl-4"
+            >
+                {% include "components/archiveBox/index.twig" with item %}
+            </div>
+            {# insert new row #}
+            
+        {% endfor %}
+        {% if loop.last is divisible by(3) %}
+        <div class="single-list d-none d-md-block col-12 col-md-6 col-xl-4">
+        </div>
+        {% endif %}
+    </div>
+</section>

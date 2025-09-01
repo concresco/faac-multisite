@@ -1,0 +1,16 @@
+<div id="simply_slider" class="swiper">
+    <div class="swiper-wrapper">
+        {% for slide in simplySlider %}
+            <div class="swiper-slide">
+                <div class="image ratio ratio-16x9">
+                    <img src="{{ slide.image }}" alt="{{ slide.description }}">   
+                </div>
+                <div class="description color-grey mt-4">{{ slide.description }}</div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="navigation simplySlider">
+        <div class="slider-prev blue"></div>
+        <div class="slider-next blue"></div>
+    </div>
+</div>

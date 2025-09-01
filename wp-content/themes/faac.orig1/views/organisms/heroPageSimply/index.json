@@ -1,0 +1,20 @@
+{
+    "breadcrumbs":[
+        {
+            "text":"Product",
+            "url":"#"
+        },
+        {
+            "text":"Automatic doors",
+            "url":"#"
+        },
+        {
+            "text":"Revolving doors",
+            "url":"#"
+        }
+    ],
+    "post":{
+        "post_title": "Revolving doors",
+        "post_content": "<h3>Lorem ipsum</he><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+    }
+}

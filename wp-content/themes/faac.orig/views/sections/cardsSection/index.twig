@@ -1,0 +1,23 @@
+<div class="row">
+	{% if sectionTitle %}
+		<div class="col-12">
+			<h2 class="section-title mb-0 {{ sectionTitleClass }}{{alignTitling}}">{{ sectionTitle }}</h2>
+		</div>
+	{% endif %}
+	{% if sectionDescription %}
+		<div class="col-12 mb-3">
+			<p class="{{ sectionDescriptionClass }}{{alignTitling}}">{{ sectionDescription }}</p>
+        </div>
+    {% endif %}
+    {% for card in cards %}
+		{% if loop.length == 1 %}
+			{% set colOffset = 'offset-lg-4' %}
+		{% elseif loop.length == 2 %}
+			{% set colOffset = 'offset-lg-2' %}
+		{% endif %}
+
+        <div class="col-12 col-lg-4 {% if loop.first %}{{ colOffset }}{% endif %}">
+            {% include "organisms/card/index.twig" with card %}
+        </div>
+    {% endfor %}
+</div>

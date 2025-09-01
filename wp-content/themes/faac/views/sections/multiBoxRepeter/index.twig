@@ -1,0 +1,22 @@
+{% for singleBox in flex_multibox %}
+<div class="container-fluid my-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                {% include "components/titling/index.twig" with singleBox | merge ({ "breadcrumbs": false }) %}
+            </div>
+        </div>
+    </div>
+    {% if singleBox.infoboxes %}
+        <div class="line-section mt-3 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        {% include "organisms/infoBoxes/index.twig" with singleBox.infoboxes %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</div>
+{% endfor %}

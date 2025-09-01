@@ -1,0 +1,291 @@
+[
+    {
+        "key": "group_62a749c62a1be",
+        "title": "Activities Slider",
+        "fields": [
+            {
+                "key": "field_62a8a76d83598",
+                "label": "Activities Section",
+                "name": "activitiesSection",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_62a75149dff52",
+                        "label": "Section titlte",
+                        "name": "activities_section_title",
+                        "type": "text",
+                        "instructions": "insert the title",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "80",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62b1e16cd74e0",
+                        "label": "Title color",
+                        "name": "activities_title_color",
+                        "type": "select",
+                        "instructions": "select the title color",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "color-white": "White",
+                            "color-blue": "Blue",
+                            "color-ice-blue": "Ice blue",
+                            "color-grey": "Grey",
+                            "color-grey-dark": "Grey Dark",
+                            "color-grey-cool": "Grey Cool",
+                            "color-green": "Green",
+                            "color-milk": "Milk"
+                        },
+                        "default_value": false,
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_62b1de64a6e12",
+                        "label": "Section decription",
+                        "name": "activities_section_description",
+                        "type": "text",
+                        "instructions": "description displayed below the title",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "60",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62b1e25dd74e1",
+                        "label": "Description color",
+                        "name": "activities_description_color",
+                        "type": "select",
+                        "instructions": "select the description color",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "color-white": "White",
+                            "color-blue": "Blue",
+                            "color-ice-blue": "Ice blue",
+                            "color-grey": "Grey",
+                            "color-grey-dark": "Grey Dark",
+                            "color-grey-cool": "Grey Cool",
+                            "color-green": "Green",
+                            "color-milk": "Milk"
+                        },
+                        "default_value": false,
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_62b1df28a6e14",
+                        "label": "sectionBg",
+                        "name": "sectionBg",
+                        "type": "text",
+                        "instructions": "insert class css for background color",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "double-bg-color-blue",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62a749ce6cacc",
+                        "label": "Slider",
+                        "name": "activities_slider",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "table",
+                        "button_label": "",
+                        "sub_fields": [
+                            {
+                                "key": "field_62a749eb6cacd",
+                                "label": "images",
+                                "name": "img",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "url",
+                                "preview_size": "thumbnail",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": ""
+                            },
+                            {
+                                "key": "field_62a74a566cace",
+                                "label": "description",
+                                "name": "description",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_62a74a6d6cacf",
+                                "label": "url",
+                                "name": "url",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "30",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_62b30f5cdc1d9",
+                        "label": "do you want to add a description after the slider?",
+                        "name": "add_description",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_62b1def3a6e13",
+                        "label": "post slider description",
+                        "name": "postDescription",
+                        "type": "wysiwyg",
+                        "instructions": "description displayed below the slider",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_62b30f5cdc1d9",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 0,
+                        "delay": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_template",
+                    "operator": "==",
+                    "value": "homepage.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": false,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

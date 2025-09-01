@@ -1,0 +1,94 @@
+<div class="accordion" id="accordion_information">
+    {% for item in accordion %}
+        {% if item.accordionBody is not null %}
+            <div class="row {% if (item.ID != 'similar') and (item.ID != 'accessories') %}line-up{% endif %} {% if loop.last %}line-down{% endif %}">
+
+                <div class="col-12">
+                    <div class="container px-lg-0">
+                        <div class="row">
+                            <div class="accordion-item col-12">
+                                <div id="{{item.ID}}"></div> {# DIV to anchor internal to the page  #}
+                                <h4 class="color-blue accordion-header" id="heading_{{ loop.index }}_{{item.ID}}">
+                                    <button class="h4 m-0 accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseInfo_{{ loop.index }}_{{item.ID}}" 
+                                        aria-expanded="true" aria-controls="collapseInfo_{{ loop.index }}_{{item.ID}}">
+                                        {{ item.accordionTitle }}
+                                    </button>
+                                </h4>
+                                <div id="collapseInfo_{{ loop.index }}_{{item.ID}}" class="accordion-collapse collapse" 
+                                        aria-labelledby="heading_{{ loop.index }}_{{item.ID}}" data-bs-parent="#accordion_information">
+                                    <div class="accordion-body{% if item.accordionType == "list" %} p-0{% endif %}" style="{% if item.accordionType is not defined %}overflow-x: auto;{% endif %}">
+                                        
+                                        {% if item.accordionType == "list" %}
+
+                                            <div class="d-flex flex-wrap">
+                                                {% for prod in item.productsList %}
+                                                    <div class="col-3 list">
+                                                        {% include "components/archiveBox/index.twig" with prod %}
+                                                    </div>                                            
+                                                {% endfor %}
+                                            </div>
+                                            {% if item.btnLoadMore %}
+                                            <div class="d-flex">
+                                                <a href="{{ item.btnLoadMore.url }}" class="btn btn-black linear-out mx-auto my-4">{{ item.btnLoadMore.text }}</a>
+                                            </div>
+                                            {% endif %}
+
+                                        {% elseif item.accordionType == "download" %}
+                                        
+                                            {% for cat in item.accordionBody %}
+                                                <div class="download-list d-flex flex-column pb-4">
+                                                    {# <h5 class="font-bold color-grey">{{ cat.category_name }}{% if cat.category_lock == 1 %} <i class="icon-lock"></i>{% endif %}</h5> #}
+                                                    <h5 class="font-bold color-grey">{{ cat.category_name }}</h5>
+                                                
+                                                    {% for doc in cat.file_list %}
+                                                        <a href="/downloadmanager/?dcat={{ cat.category_name }}&pid={{ cat.productId }}&f={{ doc.url_file | url_encode(true) }}" 
+                                                        class="dowload-item color-blue font-regular icon-doc d-flex text-decoration-none pb-2">
+                                                        {# <a href="{{ doc.url_file }}" target="_blank"
+                                                        class="dowload-item color-blue font-regular icon-doc d-flex text-decoration-none pb-2"> #}
+
+                                                        {% set bytes = doc.size_file %}
+                                                        {% macro bytesToSize(bytes) %}
+                                                                {% set kilobyte = 1024 %}
+                                                                {% set megabyte = kilobyte * 1024 %}
+                                                                {% set gigabyte = megabyte * 1024 %}
+                                                                {% set terabyte = gigabyte * 1024 %}
+
+                                                                {% if bytes * 1024 < megabyte %}
+                                                                    {{ (bytes * 1024 / kilobyte)|number_format(0, '.') ~ ' KB' }}
+                                                                {% elseif bytes * 1024 < gigabyte %}
+                                                                    {{ (bytes * 1024 / megabyte)|number_format(2, '.') ~ ' MB' }}
+                                                                {% elseif bytes * 1024 < terabyte %}
+                                                                    {{ (bytes * 1024 / gigabyte)|number_format(2, '.') ~ ' GB' }}
+                                                                {% else %}
+                                                                    {{ (bytes * 1024 / terabyte)|number_format(2, '.') ~ ' TB' }}
+                                                                {% endif %}
+                                                        {% endmacro %}
+
+
+                                                            <span class="ps-2">{{ doc.name_file }} <span class="font-light {{bytes}}">({{doc.type_file}}, {{ _self.bytesToSize(bytes) }}) {% if cat.category_lock == 1 %} <span><i class="icon-lock"></i></span>{% endif %}</span></span> 
+                                                        </a>
+                                                    {% endfor %}
+                                                
+                                                </div>
+                                            {% endfor %}
+                                                
+                                            <a href="{{ item.download_all }}" class="btn btn-black large linear-out">{{ item.download_all_text }}</a>
+                                            {% if item.download_all %}
+                                            {% endif %}
+                                                
+                                        {% else %}
+                                            {{ item.accordionBody | raw }}
+                                        {% endif %}
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+        	
+    {% endfor %}
+</div>

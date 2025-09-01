@@ -1,0 +1,3262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-10T14:15:28+00:00\n"
+"PO-Revision-Date: 2025-04-10T14:15:28+00:00\n"
+"Language: \n"
+
+#. Plugin Name of the plugin
+msgid "WP Mail SMTP Pro"
+msgstr "WP Mail SMTP Pro"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpmailsmtp.com/"
+msgstr "https://wpmailsmtp.com/"
+
+#. Description of the plugin
+msgid "Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/SendGrid/SMTP instead of the default <code>mail()</code> and creates an options page to manage the settings."
+msgstr "Riconfigura la funzione <code>wp_mail()</code> per utilizzare Gmail/Mailgun/SendGrid/SMTP invece del predefinito <code>mail()</code> e crea una pagina di opzioni per gestire le impostazioni."
+
+#. Author of the plugin
+#: src/Pro/Admin/DashboardWidget.php:223
+#: src/Pro/Admin/DashboardWidget.php:514
+#: src/Pro/Emails/Logs/Webhooks/Providers/Sendinblue/Subscriber.php:58
+#: src/Pro/Emails/Logs/Webhooks/Providers/SparkPost/Subscriber.php:58
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:108
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:146
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:73
+#: src/Pro/Emails/Logs/Importers/ImporterAbstract.php:96
+#: src/Pro/Emails/Logs/Logs.php:1066
+#: src/Pro/Emails/Logs/Reports/Admin.php:458
+#: src/Pro/Emails/Logs/Resend.php:40
+#: src/Pro/Emails/Logs/Resend.php:97
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:370
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:417
+msgid "Access rejected."
+msgstr "Accesso rifiutato."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:112
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:150
+#: src/Pro/Emails/Logs/Logs.php:783
+#: src/Pro/Emails/Logs/Logs.php:1070
+#: src/Pro/Emails/Logs/Reports/Admin.php:462
+#: src/Pro/Emails/Logs/Resend.php:44
+#: src/Pro/Emails/Logs/Resend.php:101
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:363
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:410
+#: src/Pro/Multisite.php:888
+msgid "You don't have the capability to perform this action."
+msgstr "Non hai la capacità di eseguire questa azione."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:117
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:155
+#: src/Pro/Emails/Logs/Logs.php:788
+msgid "Required parameters are missing."
+msgstr "Mancano i parametri necessari."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:162
+msgid "Connection not found."
+msgstr "Connessione non trovata."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:214
+msgid "Connection was successfully deleted."
+msgstr "La connessione è stata eliminata con successo."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:221
+msgid "There was an error while processing your request, and connection were not deleted. Please try again."
+msgstr "Si è verificato un errore durante l'elaborazione della tua richiesta e la connessione non è stata eliminata. Prova di nuovo."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:228
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:530
+#: src/Pro/Alerts/Admin/SettingsTab.php:508
+#: src/Pro/Emails/Control/Admin/SettingsTab.php:137
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:457
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:415
+msgid "Settings were successfully saved."
+msgstr "Le impostazioni sono state salvate con successo."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:270
+msgid "Additional Connections"
+msgstr "Connessioni aggiuntive"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:273
+#: src/Pro/Providers/AmazonSES/Options.php:286
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:194
+msgid "Add New"
+msgstr "Aggiungi"
+
+#. translators: %s - Additional Connections documentation page URL.
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:282
+msgid "Create additional connections to set a backup for your Primary Connection or to configure Smart Routing. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>."
+msgstr "Aggiungi una nuova connessione per creare un backup della tua connessione primaria o per configurare lo Smart Routing. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Approfondisci</a>."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:308
+msgid "Back to All Connections"
+msgstr "Torna alla pagina delle connessioni"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:333
+msgid "Saved Connections"
+msgstr "Connessioni salvate"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:370
+msgid "Get Started"
+msgstr "Inizia"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:419
+msgid "<b>Warning!</b> You’re editing your backup mailer."
+msgstr "<b>Attenzione!</b> Stai modificando il tuo mailer di backup."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:432
+msgid "Connection Nickname"
+msgstr "Nickname della connessione"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:443
+msgid "Use as Primary Connection"
+msgstr "Usa come connessione primaria"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:456
+msgid "Delete Connection"
+msgstr "Elimina la connessione"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:472
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:686
+msgid "Something went wrong"
+msgstr "Qualcosa è andato storto"
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:474
+msgid "You are trying to access an additional connection that is no longer available or never existed."
+msgstr "Stai cercando di accedere a una connessione aggiuntiva che non è più disponibile o non è mai esistita."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:477
+msgid "Please use the \"Back to All Connections\" button to return to the list of all available connections."
+msgstr "Usa il pulsante \"Torna alla pagina delle connessioni\" per tornare all'elenco di tutte le connessioni disponibili."
+
+#: src/Pro/AdditionalConnections/Admin/SettingsTab.php:495
+msgid "Something goes wrong. Missed connection ID parameter."
+msgstr "Qualcosa non torna. Manca il parametro ID della connessione."
+
+#: src/Pro/AdditionalConnections/Admin/TestTab.php:61
+#: src/Pro/Emails/Logs/Resend.php:179
+msgid "Connection"
+msgstr "Connessione"
+
+#: src/Pro/AdditionalConnections/Admin/TestTab.php:77
+msgid "Choose which connection you'd like to use to send a test email."
+msgstr "Scegli la connessione che vuoi usare per inviare un'email di prova."
+
+#: src/Pro/Admin/DashboardWidget.php:200
+#: src/Pro/Emails/Logs/Reports/Admin.php:187
+msgid "Confirmed sent emails"
+msgstr "Email confermate e inviate"
+
+#: src/Pro/Admin/DashboardWidget.php:201
+#: src/Pro/Emails/Logs/Reports/Admin.php:188
+msgid "Sent emails"
+msgstr "Email inviate"
+
+#: src/Pro/Admin/DashboardWidget.php:202
+#: src/Pro/Emails/Logs/Reports/Admin.php:189
+msgid "Unconfirmed sent emails"
+msgstr "Email inviate non confermate"
+
+#: src/Pro/Admin/DashboardWidget.php:203
+#: src/Pro/Emails/Logs/Reports/Admin.php:190
+msgid "Failed emails"
+msgstr "Email non recapitate"
+
+#: src/Pro/Admin/DashboardWidget.php:313
+msgid "Error icon"
+msgstr "Icona dell'errore"
+
+#. translators: 1: Number of failed emails, 2: Timespan.
+#: src/Pro/Admin/DashboardWidget.php:321
+msgid "We detected %1$d failed email in the last %2$d days."
+msgid_plural "We detected %1$d failed emails in the last %2$d days."
+msgstr[0] "Abbiamo rilevato %1$d email fallite negli ultimi %2$d giorni."
+msgstr[1] "Abbiamo rilevato %1$d email non inviate negli ultimi %2$d giorni."
+
+#. translators: %s - URL to WP Mail SMTP -> Settings -> Alerts Admin page..
+#: src/Pro/Admin/DashboardWidget.php:333
+msgid "<a href=\"%s\">Enable Email Alerts</a> and get instant notifications when they fail."
+msgstr "<a href=\"%s\">Abilita gli avvisi sulle email</a> e ricevi notifiche istantanee quando non vengono inviate."
+
+#: src/Pro/Admin/DashboardWidget.php:354
+msgid "Dismiss email alert block"
+msgstr "Ignora il blocco degli avvisi email"
+
+#: src/Pro/Admin/DashboardWidget.php:375
+msgid "Pattie the WP Mail SMTP mascot"
+msgstr "Pattie, la mascotte di WP Mail SMTP"
+
+#: src/Pro/Admin/DashboardWidget.php:376
+msgid "Enable Email Logs to View Stats"
+msgstr "Abilita i registri delle email per visualizzare le statistiche"
+
+#: src/Pro/Admin/DashboardWidget.php:377
+msgid "Automatically keep track of every email sent from your WordPress site and view valuable statistics right here in your dashboard."
+msgstr "Tieni automaticamente traccia di ogni email inviata dal tuo sito WordPress e visualizza utili statistiche direttamente nella tua Bacheca."
+
+#: src/Pro/Admin/DashboardWidget.php:379
+msgid "Enable Email Logging"
+msgstr "Abilita la registrazione delle email"
+
+#: src/Pro/Admin/DashboardWidget.php:382
+#: src/Pro/Admin/DashboardWidget.php:637
+msgid "Learn More"
+msgstr "Scopri di più"
+
+#: src/Pro/Admin/DashboardWidget.php:409
+msgid "View Full Log"
+msgstr "Visualizza il registro completo"
+
+#: src/Pro/Admin/DashboardWidget.php:435
+msgid "Select timespan"
+msgstr "Seleziona l'intervallo di tempo"
+
+#. translators: %d - Number of days.
+#: src/Pro/Admin/DashboardWidget.php:439
+msgid "Last %d day"
+msgid_plural "Last %d days"
+msgstr[0] "Ultimo %d giorno"
+msgstr[1] "Ultimi %d giorni"
+
+#: src/Pro/Admin/DashboardWidget.php:456
+#: src/Pro/Emails/Logs/Reports/Admin.php:185
+#: src/Pro/Emails/Logs/Reports/Admin.php:286
+msgid "All Emails"
+msgstr "Tutte le email"
+
+#: src/Pro/Admin/DashboardWidget.php:457
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:183
+msgid "Confirmed Emails"
+msgstr "Email confermate"
+
+#: src/Pro/Admin/DashboardWidget.php:458
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:190
+msgid "Unconfirmed Emails"
+msgstr "Email non confermate"
+
+#: src/Pro/Admin/DashboardWidget.php:459
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:198
+msgid "Failed Emails"
+msgstr "Email non riuscite"
+
+#: src/Pro/Admin/DashboardWidget.php:464
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:176
+msgid "Sent Emails"
+msgstr "Email inviate"
+
+#: src/Pro/Admin/DashboardWidget.php:468
+msgid "Select email type"
+msgstr "Seleziona il tipo di email"
+
+#: src/Pro/Admin/DashboardWidget.php:497
+msgid "Graph Style"
+msgstr "Stile del grafico"
+
+#: src/Pro/Admin/DashboardWidget.php:501
+msgid "Bar"
+msgstr "Barra"
+
+#: src/Pro/Admin/DashboardWidget.php:505
+msgid "Line"
+msgstr "Linea"
+
+#: src/Pro/Admin/DashboardWidget.php:510
+msgid "Color Scheme"
+msgstr "Schema colore"
+
+#: src/Pro/Admin/DashboardWidget.php:518
+msgid "WordPress"
+msgstr "WordPress"
+
+#: src/Pro/Admin/DashboardWidget.php:522
+msgid "Save Changes"
+msgstr "Salva le modifiche"
+
+#: src/Pro/Admin/DashboardWidget.php:556
+msgid "No email logs for selected period."
+msgstr "Non ci sono registri delle email per il periodo selezionato."
+
+#: src/Pro/Admin/DashboardWidget.php:603
+msgid "Table cell icon"
+msgstr "Icona della cella della tabella"
+
+#: src/Pro/Admin/DashboardWidget.php:631
+msgid "Recommended Plugin:"
+msgstr "Plugin suggeriti:"
+
+#: src/Pro/Admin/DashboardWidget.php:633
+msgid "WPForms"
+msgstr "WPForms"
+
+#: src/Pro/Admin/DashboardWidget.php:635
+msgid "Install"
+msgstr "Installa"
+
+#: src/Pro/Admin/DashboardWidget.php:640
+msgid "Dismiss recommended plugin block"
+msgstr "Ignora il blocco dei plugin consigliati"
+
+#: src/Pro/Admin/DashboardWidget.php:659
+msgid "No email logs yet"
+msgstr "Non ci sono ancora registri delle email"
+
+#: src/Pro/Admin/DashboardWidget.php:660
+msgid "Please check back tomorrow."
+msgstr "Ricontrolla domani."
+
+#. translators: %d number of total emails sent.
+#: src/Pro/Admin/DashboardWidget.php:1190
+msgid "%d total"
+msgstr "%d totale"
+
+#. translators: %d number of confirmed emails sent.
+#: src/Pro/Admin/DashboardWidget.php:1197
+msgid "%d confirmed"
+msgstr "%d confermato"
+
+#. translators: %d number of unconfirmed emails sent.
+#: src/Pro/Admin/DashboardWidget.php:1204
+msgid "%d unconfirmed"
+msgstr "%d non confermato"
+
+#. translators: %d number of failed email sent attempts.
+#: src/Pro/Admin/DashboardWidget.php:1211
+msgid "%d failed"
+msgstr "%d fallito"
+
+#. translators: %d number of sent emails.
+#: src/Pro/Admin/DashboardWidget.php:1223
+msgid "%d sent"
+msgstr "%d inviato"
+
+#: src/Pro/Admin/Pages/MiscTab.php:27
+msgid "Max emails per minute"
+msgstr "Email massime al minuto"
+
+#: src/Pro/Admin/Pages/MiscTab.php:28
+msgid "Max emails per hour"
+msgstr "Email massime all'ora"
+
+#: src/Pro/Admin/Pages/MiscTab.php:29
+msgid "Max emails per day"
+msgstr "Max email al giorno"
+
+#: src/Pro/Admin/Pages/MiscTab.php:30
+msgid "Max emails per week"
+msgstr "Max email a settimana"
+
+#: src/Pro/Admin/Pages/MiscTab.php:31
+msgid "Max emails per month"
+msgstr "Email massime al mese"
+
+#: src/Pro/Admin/Pages/MiscTab.php:38
+msgid "Email Rate Limiting"
+msgstr "Limitazione del tasso di invio email"
+
+#. translators: %1$s - Documentation URL.
+#: src/Pro/Admin/Pages/MiscTab.php:56
+msgid "Limit the number of emails this site will send in each time interval (per minute, hour, day, week and month). Emails that will cross those set limits will be queued and sent as soon as your limits allow. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>"
+msgstr "Limita il numero di email che questo sito invierà in ogni intervallo di tempo (al minuto, all'ora, al giorno, alla settimana e al mese). Le email che supereranno i limiti impostati saranno messe in coda e inviate non appena i limiti lo permetteranno. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Approfondisci</a>"
+
+#. translators: %s: enqueued email count.
+#: src/Pro/Admin/Pages/MiscTab.php:151
+msgid "Currently there is %s email in the queue."
+msgid_plural "Currently there are %s emails in the queue."
+msgstr[0] "Al momento c'è %s email in coda."
+msgstr[1] "Al momento ci sono %s email in coda."
+
+#. translators: %1$s - WP Mail SMTP Pro URL; %2$s - WP Mail SMTP Pro purchase link.
+#: src/Pro/Admin/PluginsList.php:329
+msgid "<a href=\"%1$s\">Activate WP Mail SMTP Pro</a> to receive features, updates, and support. Don't have a license? <a target=\"_blank\" href=\"%2$s\" rel=\"noopener noreferrer\">Purchase one now</a>."
+msgstr "<a href=\"%1$s\">Attiva WP Mail SMTP Pro</a> per ricevere caratteristiche, aggiornamenti e supporto. Non hai una licenza? <a target=\"_blank\" href=\"%2$s\" rel=\"noopener noreferrer\">Acquistala ora</a>."
+
+#. translators: %1$s - WP Mail SMTP Pro URL; %2$s - WP Mail SMTP Pro purchase link.
+#: src/Pro/Admin/PluginsList.php:341
+msgid "<a href=\"%1$s\">Activate</a> your license to access this update, new features, and support. Don't have a license? <a target=\"_blank\" href=\"%2$s\" rel=\"noopener noreferrer\">Purchase one now</a>."
+msgstr "<a href=\"%1$s\">Attiva</a> la tua licenza per accedere a questo aggiornamento, alle nuove caratteristiche e all'assistenza. Non hai una licenza? <a target=\"_blank\" href=\"%2$s\" rel=\"noopener noreferrer\">Acquistala ora</a>."
+
+#. translators: %s - WP Mail SMTP Pro renew link.
+#: src/Pro/Admin/PluginsList.php:362
+msgid "<strong style=\"color: #e72f0a\">Your WP Mail SMTP Pro license is expired.</strong> <a target=\"_blank\" href=\"%s\" rel=\"noopener noreferrer\">Renew now</a> to receive new features, updates, and support."
+msgstr "<strong style=\"color: #e72f0a\">La tua licenza di WP Mail SMTP Pro è in scadenza.</strong> <a target=\"_blank\" href=\"%s\" rel=\"noopener noreferrer\">Rinnova ora</a> per ricevere nuove caratteristiche, aggiornamenti e supporto."
+
+#. translators: %1$s - WPMailSMTP.com account area URL; %2$s - WPMailSMTP.com pricing page URL.
+#: src/Pro/Admin/PluginsList.php:388
+msgid "<strong style=\"color: #e72f0a\">Your WP Mail SMTP Pro license has no site activations left.</strong> You can update the list of your sites or upgrade the license in the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Account area</a>. Or you can <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">purchase a new license key</a>."
+msgstr "<strong style=\"color: #e72f0a\">La tua licenza WP Mail SMTP Pro non permette l'attivazione di nuovi siti.</strong> Puoi aggiornare l'elenco dei tuoi siti o <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">fare l'upgrade della licenza nell'area Account</a>. Oppure puoi <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">acquistare una nuova chiave di licenza</a>."
+
+#. translators: %1$s - WP Mail SMTP Pro Changelog link; %2$s - WP Mail SMTP Pro latest version.
+#: src/Pro/Admin/PluginsList.php:431
+msgid "There is a new version of WP Mail SMTP Pro available. <a target=\"_blank\" href=\"%1$s\" rel=\"noopener noreferrer\">View version %2$s details</a>."
+msgstr "È disponibile una nuova versione di WP Mail SMTP Pro. <a target=\"_blank\" href=\"%1$s\" rel=\"noopener noreferrer\">Visualizza i dettagli della versione %2$s</a>."
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:131
+#: src/Pro/Emails/Logs/Logs.php:479
+#: src/Pro/Providers/Providers.php:237
+msgid "OK"
+msgstr "OK"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:132
+#: src/Pro/Emails/Logs/Logs.php:483
+#: src/Pro/Providers/Providers.php:253
+msgid "Heads up!"
+msgstr "Occhio!"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:133
+msgid "Alerts settings have changed. Please save the settings before you can perform a test."
+msgstr "Le impostazioni degli avvisi sono state modificate. Salva le impostazioni prima di poter eseguire un test."
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:184
+msgid "Alerts"
+msgstr "Avvisi"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:186
+msgid "Configure at least one of these integrations to receive notifications when email fails to send from your site. Alert notifications will contain the following important data: email subject, email Send To address, the error message, and helpful links to help you fix the issue."
+msgstr "Configura almeno una di queste integrazioni per ricevere notifiche quando l'invio di email dal tuo sito non va a buon fine. Le notifiche conterranno i seguenti dati: l'oggetto dell'email, l'indirizzo email del destinatario, il messaggio di errore e i link utili per aiutarti a correggere il problema."
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:195
+msgid "Notify when"
+msgstr "Notifica quando"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:205
+msgid "The initial email sending request fails"
+msgstr "La richiesta iniziale di invio dell'email non va a buon fine"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:213
+msgid "This option is always enabled and will notify you about instant email sending failures."
+msgstr "Questa opzione è sempre abilitata e ti avviserà di eventuali fallimenti nell'invio istantaneo di email."
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:230
+msgid "The deliverability verification process detects a hard bounce"
+msgstr "Il processo di verifica della deliverability individua un hard bounce"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:237
+msgid "Get notified about emails that were successfully sent, but have hard bounced on delivery attempt. A hard bounce is an email that has failed to deliver for permanent reasons, such as the recipient's email address being invalid."
+msgstr "Ricevi una notifica sulle email inviate correttamente ma che hanno subito un hard bounce al momento del tentativo di consegna. Un hard bounce è un'email che non è stata consegnata per motivi permanenti, per esempio perché l'indirizzo email del destinatario non è valido."
+
+#. translators: %s - Alert title.
+#: src/Pro/Alerts/Admin/SettingsTab.php:269
+msgid "%s Alerts"
+msgstr "%s Avvisi"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:323
+msgid "Alert Tests sent successfully."
+msgstr "Test di avviso inviati correttamente."
+
+#. translators: %1$s - Default success notice; %2$d. number of minutes until new email alerts can be sent.
+#: src/Pro/Alerts/Admin/SettingsTab.php:336
+msgid "%1$s Any additional email alerts from this site are paused for %2$d minutes."
+msgstr "%1$s Qualsiasi altro avviso via email proveniente da questo sito viene messo in pausa per %2$d minuti."
+
+#. translators: %d - number of minutes until new email alerts can be sent.
+#: src/Pro/Alerts/Admin/SettingsTab.php:369
+msgid "Any additional email alerts from this site are paused for %d minutes. You can still test other types of alerts."
+msgstr "Qualsiasi altro avviso via email proveniente da questo sito viene messo in pausa per %d minuti. Puoi comunque testare altri tipi di avvisi."
+
+#. translators: %d - number of minutes until new email alerts can be sent.
+#: src/Pro/Alerts/Admin/SettingsTab.php:398
+msgid "Any additional push notifications alerts from this site are paused for %d minutes. You can still test other types of alerts."
+msgstr "Tutte le notifiche push aggiuntive provenienti da questo sito vengono messe in pausa per %d minuti. Puoi comunque testare altri tipi di avvisi."
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:433
+msgid "Email Log has to be enabled for hard bounce detection to work."
+msgstr "Email Log deve essere abilitato affinché il rilevamento dei bounce funzioni."
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:441
+msgid "Please enable Email Log"
+msgstr "Abilita Email Log"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:444
+msgid "Your Primary Connection mailer doesn't support delivery verification. If you want to enable this option, please switch to a transactional mailer like SendLayer."
+msgstr "Il tuo mailer Primary Connection non supporta la verifica della consegna. Se vuoi abilitare questa opzione, passa a un mailer transazionale come SendLayer."
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:465
+msgid "Save Settings"
+msgstr "Salva le impostazioni"
+
+#: src/Pro/Alerts/Admin/SettingsTab.php:468
+msgid "Test Alerts"
+msgstr "Avvisi di test"
+
+#: src/Pro/Alerts/Alerts.php:288
+msgid "WP Mail SMTP Alerts Test"
+msgstr "Avvisi di test di WP Mail SMTP"
+
+#: src/Pro/Alerts/Alerts.php:289
+msgid "This is a test error message triggered from the WP Mail SMTP Alerts settings"
+msgstr "Questo è un messaggio di errore di test generato dalle impostazioni degli avvisi di WP Mail SMTP."
+
+#: src/Pro/Alerts/Providers/CustomWebhook/Handler.php:97
+msgid "Custom Webhook alert requests were processed."
+msgstr "Sono state elaborate richieste di avvisi Webhook personalizzati."
+
+#: src/Pro/Alerts/Providers/CustomWebhook/Handler.php:117
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:138
+#: src/Pro/Alerts/Providers/Push/Handler.php:132
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:138
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:150
+msgid "Your Site Failed to Send an Email"
+msgstr "Il tuo sito non è riuscito a inviare un'email"
+
+#: src/Pro/Alerts/Providers/CustomWebhook/Handler.php:121
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:142
+#: src/Pro/Alerts/Providers/Push/Handler.php:136
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:142
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:154
+msgid "Your Site failed to send an email via the Primary connection, but the email was sent successfully via the Backup connection"
+msgstr "Il tuo sito non è riuscito a inviare un'email tramite la connessione primaria, ma l'email è stata inviata con successo tramite la connessione di backup."
+
+#: src/Pro/Alerts/Providers/CustomWebhook/Handler.php:125
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:146
+#: src/Pro/Alerts/Providers/Push/Handler.php:140
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:146
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:158
+msgid "Your Site failed to send an email via Primary and Backup connection"
+msgstr "Il sito non è riuscito a inviare un'email tramite la connessione primaria e di backup."
+
+#: src/Pro/Alerts/Providers/CustomWebhook/Handler.php:129
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:150
+#: src/Pro/Alerts/Providers/Push/Handler.php:144
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:150
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:162
+#: src/Pro/Alerts/Providers/TwilioSMS/Handler.php:176
+msgid "An email failed to be delivered"
+msgstr "L'email non è stata consegnata."
+
+#. translators: %s - Documentation link.
+#: src/Pro/Alerts/Providers/CustomWebhook/Options.php:33
+msgid "Paste in the webhook URL you’d like to use to receive alerts when email sending fails. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read our documentation on setting up webhook alerts</a>."
+msgstr "Incolla l'URL del webhook che vuoi usare per ricevere gli avvisi quando l'invio dell'email non va a buon fine. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Leggi la nostra documentazione sull'impostazione degli avvisi webhook</a>."
+
+#: src/Pro/Alerts/Providers/CustomWebhook/Options.php:56
+msgid "Webhook"
+msgstr "Webhook"
+
+#: src/Pro/Alerts/Providers/CustomWebhook/Options.php:58
+msgid "Add Another Webhook URL"
+msgstr "Aggiungi un altro URL di Webhook"
+
+#: src/Pro/Alerts/Providers/CustomWebhook/Options.php:109
+#: src/Pro/Alerts/Providers/DiscordWebhook/Options.php:109
+#: src/Pro/Alerts/Providers/SlackWebhook/Options.php:109
+#: src/Pro/Alerts/Providers/TeamsWebhook/Options.php:109
+msgid "Webhook URL"
+msgstr "URL Webhook"
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:109
+msgid "Discord Webhook alert request was sent."
+msgstr "È stata richiesta una richiesta di avviso da parte del Webhook Discord."
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:112
+msgid "Alert: Discord Webhook."
+msgstr "Avviso: Webhook di Discord."
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:164
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:169
+msgid "Website"
+msgstr "Sito web"
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:169
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:182
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:178
+msgid "Website URL"
+msgstr "URL del sito web"
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:174
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:195
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:187
+msgid "To email addresses"
+msgstr "Agli indirizzi email"
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:179
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:208
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:196
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:247
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:235
+#: src/Pro/Emails/Logs/Admin/Table.php:210
+#: src/Pro/Emails/Logs/Export/Export.php:129
+#: src/Pro/Emails/Logs/Reports/Table.php:60
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:66
+msgid "Subject"
+msgstr "Oggetto"
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:187
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:224
+#: src/Pro/Emails/Logs/EmailsCollection.php:114
+msgid "Error Message"
+msgstr "Messaggio di errore"
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:236
+msgid "Need more help?"
+msgstr "Hai bisogno di aiuto?"
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Handler.php:237
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:291
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:263
+msgid "Read our troubleshooting guide"
+msgstr "Leggi la nostra guida alla risoluzione dei problemi"
+
+#. translators: %s - Documentation link.
+#: src/Pro/Alerts/Providers/DiscordWebhook/Options.php:33
+msgid "Paste in the Discord webhook URL you'd like to use to receive alerts when email sending fails. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read our documentation on setting up Discord alerts</a>."
+msgstr "Incolla l'URL del webhook di Discord che vuoi utilizzare per ricevere gli avvisi quando l'invio dell'email fallisce. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Leggi la nostra documentazione sull'impostazione degli avvisi Discord</a>."
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Options.php:56
+msgid "Discord"
+msgstr "Discord"
+
+#: src/Pro/Alerts/Providers/DiscordWebhook/Options.php:58
+#: src/Pro/Alerts/Providers/SlackWebhook/Options.php:58
+#: src/Pro/Alerts/Providers/TeamsWebhook/Options.php:58
+msgid "Add Another Webhook"
+msgstr "Aggiungi un altro webhook"
+
+#: src/Pro/Alerts/Providers/Email/Handler.php:131
+msgid "An Email alert request was sent."
+msgstr "È stata inviata una richiesta di avviso via email."
+
+#. translators: %s - Documentation link.
+#: src/Pro/Alerts/Providers/Email/Options.php:33
+msgid "Enter the email addresses (3 max) you’d like to use to receive alerts when email sending fails. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read our documentation on setting up email alerts</a>."
+msgstr "Inserisci gli indirizzi email (massimo 3) che vuoi usare per ricevere gli avvisi quando l'invio delle email non va a buon fine. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Leggi la nostra documentazione sull'impostazione degli avvisi email</a>."
+
+#. translators: %s - Plugin general settings page link.
+#: src/Pro/Alerts/Providers/Email/Options.php:62
+#: src/Pro/Alerts/Providers/Push/Options.php:62
+msgid "This integration will not work without a valid WP Mail SMTP license key. <a href=\"%s\">Please verify your license key</a>."
+msgstr "Questa integrazione non funziona senza una valida chiave di licenza WP Mail SMTP. <a href=\"%s\">Verifica la chiave di licenza</a>."
+
+#: src/Pro/Alerts/Providers/Email/Options.php:81
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:115
+msgid "Email"
+msgstr "Email"
+
+#: src/Pro/Alerts/Providers/Email/Options.php:83
+msgid "Add Another Email Address"
+msgstr "Aggiungi un altro indirizzo email"
+
+#: src/Pro/Alerts/Providers/Email/Options.php:135
+msgid "Send To"
+msgstr "Invia a"
+
+#: src/Pro/Alerts/Providers/Push/Handler.php:101
+msgid "Push notifications alert request was sent."
+msgstr "È stata inviata una richiesta di notifiche push."
+
+#: src/Pro/Alerts/Providers/Push/Handler.php:104
+msgid "Alert: Push notifications."
+msgstr "Avviso: notifiche push."
+
+#: src/Pro/Alerts/Providers/Push/Handler.php:127
+msgid "Email sending failed"
+msgstr "Invio email fallito"
+
+#. translators: %s - Documentation link.
+#: src/Pro/Alerts/Providers/Push/Options.php:33
+msgid "To receive push notifications on this device, you'll need to allow our plugin to send notifications via this browser. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read our documentation on setting up Push Notification alerts</a>."
+msgstr "Per ricevere le notifiche push su questo dispositivo, dovrai consentire al nostro plugin di inviare notifiche tramite questo browser. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Leggi la nostra documentazione sull'impostazione delle notifiche push</a>."
+
+#: src/Pro/Alerts/Providers/Push/Options.php:81
+msgid "Push Notifications"
+msgstr "Notifiche push"
+
+#: src/Pro/Alerts/Providers/Push/Options.php:83
+msgid "Enable push notifications on this device"
+msgstr "Abilita le notifiche push su questo dispositivo"
+
+#: src/Pro/Alerts/Providers/Push/Options.php:151
+msgid "current"
+msgstr "attuale"
+
+#: src/Pro/Alerts/Providers/Push/Options.php:152
+msgid "Connection Name"
+msgstr "Nome della connessione"
+
+#: src/Pro/Alerts/Providers/Push/Provider.php:451
+msgid "This browser doesn't support push notifications"
+msgstr "Questo browser non supporta le notifiche push"
+
+#. translators: %s - Plugin general settings page link.
+#: src/Pro/Alerts/Providers/Push/Provider.php:455
+msgid "Push notifications are disabled on this browser, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">please follow this guide to enable them</a>"
+msgstr "Le notifiche push sono disabilitate su questo browser, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">segui questa guida per abilitarle</a>"
+
+#: src/Pro/Alerts/Providers/Push/Provider.php:474
+msgid "Error loading service worker"
+msgstr "Errore nel caricamento del service worker"
+
+#: src/Pro/Alerts/Providers/Push/Provider.php:475
+msgid "Error fetching push notification subscription"
+msgstr "Errore nel recuperare la sottoscrizione alle notifiche push"
+
+#: src/Pro/Alerts/Providers/Push/Provider.php:476
+msgid "Error subscribing to push notifications"
+msgstr "Errore nella sottoscrizione delle notifiche push"
+
+#: src/Pro/Alerts/Providers/Push/Provider.php:477
+msgid "Error unsubscribing from push notifications"
+msgstr "Errore nella disiscrizione dalle notifiche push"
+
+#: src/Pro/Alerts/Providers/Push/Provider.php:478
+msgid "API request error"
+msgstr "Errore nella richiesta API"
+
+#: src/Pro/Alerts/Providers/Push/Provider.php:622
+msgid "WP Mail SMTP Alerts"
+msgstr "Avvisi WP Mail SMTP"
+
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:109
+msgid "Slack Webhook alert request was sent."
+msgstr "La richiesta di avviso webhook di Slack è stata inviata."
+
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:112
+msgid "Alert: Slack Webhook."
+msgstr "Avviso: Webhook di Slack."
+
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:224
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:208
+msgid "Error message"
+msgstr "Messaggio di errore"
+
+#. translators: %s - Email Log ID.
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:238
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:221
+msgid "Email Log [#%s]"
+msgstr "Registro delle email [#%s]"
+
+#. translators: %s - Debug Event ID.
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:246
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:229
+msgid "Debug Event [#%s]"
+msgstr "Evento di debug [#%s]"
+
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:269
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:245
+msgid "WP Mail SMTP settings"
+msgstr "Impostazioni di WP Mail SMTP"
+
+#. translators: %s - Troubleshooting guide link.
+#: src/Pro/Alerts/Providers/SlackWebhook/Handler.php:282
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:254
+msgid ""
+"Need more help?\n"
+" %s."
+msgstr ""
+"Hai bisogno di ulteriore aiuto?\n"
+" %s."
+
+#. translators: %s - Documentation link.
+#: src/Pro/Alerts/Providers/SlackWebhook/Options.php:33
+msgid "Paste in the Slack webhook URL you’d like to use to receive alerts when email sending fails. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read our documentation on setting up Slack alerts</a>."
+msgstr "Incolla l'URL del webhook di Slack che vuoi usare per ricevere gli avvisi quando l'invio dell'email non va a buon fine. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Leggi la nostra documentazione sull'impostazione degli avvisi Slack</a>."
+
+#: src/Pro/Alerts/Providers/SlackWebhook/Options.php:56
+msgid "Slack"
+msgstr "Slack"
+
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:122
+msgid "Microsoft Teams Webhook alert request was sent."
+msgstr "È stata inviata una richiesta di avviso Webhook di Microsoft Teams."
+
+#: src/Pro/Alerts/Providers/TeamsWebhook/Handler.php:125
+msgid "Alert: Microsoft Teams Webhook."
+msgstr "Avviso: Webhook di Microsoft Teams."
+
+#. translators: %s - Documentation link.
+#: src/Pro/Alerts/Providers/TeamsWebhook/Options.php:33
+msgid "Paste in the Microsoft Teams webhook URL you’d like to use to receive alerts when email sending fails. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read our documentation on setting up Microsoft Teams alerts</a>."
+msgstr "Incolla l'URL del webhook di Microsoft Teams che vuoi usare per ricevere gli avvisi quando l'invio delle email fallisce. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Leggi la nostra documentazione sull'impostazione degli avvisi di Microsoft Teams</a>."
+
+#: src/Pro/Alerts/Providers/TeamsWebhook/Options.php:56
+msgid "Microsoft Teams"
+msgstr "Microsoft Teams"
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Handler.php:135
+msgid "Twilio SMS alert request was sent."
+msgstr "È stata richiesta una notifica via SMS da parte di Twilio."
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Handler.php:138
+msgid "Alert: Twilio SMS."
+msgstr "Avviso: Twilio SMS."
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Handler.php:164
+msgid "Your Site Failed to Send an Email."
+msgstr "Il tuo sito non è riuscito a inviare un'email."
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Handler.php:168
+#: src/Pro/MailCatcherTrait.php:79
+msgid "Your Site failed to send an email via the Primary connection, but the email was sent successfully via the Backup connection."
+msgstr "Il tuo sito non è riuscito a inviare un'email tramite la connessione primaria, ma l'email è stata inviata con successo tramite la connessione di backup."
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Handler.php:172
+#: src/Pro/MailCatcherTrait.php:93
+msgid "Your Site failed to send an email via Primary and Backup connection."
+msgstr "Il tuo sito non è riuscito a inviare un'email tramite la connessione primaria e di backup."
+
+#. translators: %s - email subject.
+#: src/Pro/Alerts/Providers/TwilioSMS/Handler.php:184
+msgid "Subject: “%s”."
+msgstr "Argomento: \"%s\"."
+
+#. translators: %s - Email Log ID.
+#: src/Pro/Alerts/Providers/TwilioSMS/Handler.php:191
+msgid "Email Log [#%s]."
+msgstr "Registro email [#%s]."
+
+#. translators: %s - Documentation link.
+#: src/Pro/Alerts/Providers/TwilioSMS/Options.php:33
+msgid "To receive SMS alerts, you’ll need a Twilio account. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read our documentation</a> to learn how to set up Twilio SMS, then enter your connection details below."
+msgstr "Per ricevere gli avvisi via SMS, devi avere un account Twilio. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Leggi la nostra documentazione</a> per scoprire come configurare Twilio SMS, poi inserisci i dati di connessione qui sotto."
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Options.php:56
+msgid "SMS via Twilio"
+msgstr "SMS via Twilio"
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Options.php:58
+msgid "Add Another Account"
+msgstr "Aggiungi un altro account"
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Options.php:118
+msgid "Twilio Account ID"
+msgstr "ID dell'account Twilio"
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Options.php:147
+msgid "Twilio Auth Token"
+msgstr "Twilio Auth Token"
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Options.php:176
+msgid "From Phone Number"
+msgstr "Numero di telefono del mittente"
+
+#: src/Pro/Alerts/Providers/TwilioSMS/Options.php:205
+msgid "To Phone Number"
+msgstr "Numero di telefono del destinatario"
+
+#: src/Pro/BackupConnections/Admin/SettingsTab.php:52
+#: src/Pro/BackupConnections/Admin/SettingsTab.php:84
+msgid "Backup Connection"
+msgstr "Connessione di backup"
+
+#. translators: %s - Backup Connections documentation page URL.
+#: src/Pro/BackupConnections/Admin/SettingsTab.php:57
+msgid "Don’t worry about losing emails. Add an additional connection, then set it as your Backup Connection. Emails that fail to send with the Primary Connection will be sent via the selected Backup Connection. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>."
+msgstr "Non preoccuparti di perdere le email. Aggiungi una nuova connessione e impostala come connessione di backup. Le email che non riescono a essere inviate con la connessione primaria saranno inviate tramite la connessione di backup selezionata. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Approfondisci</a>."
+
+#: src/Pro/BackupConnections/Admin/SettingsTab.php:91
+msgid "None"
+msgstr "Nessuna"
+
+#. translators: %s - Additional connections settings page url.
+#: src/Pro/BackupConnections/Admin/SettingsTab.php:108
+msgid "Once you add an <a href=\"%s\">additional connection</a>, you can select it here."
+msgstr "Una volta inserita una <a href=\"%s\">connessione aggiuntiva</a>, puoi selezionarla qui."
+
+#: src/Pro/BackupConnections/Admin/SettingsTab.php:125
+msgid "Choose which connection you’d like to use as your Backup Connection."
+msgstr "Scegli quale connessione vuoi utilizzare come connessione di backup."
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:154
+msgid "Contains"
+msgstr "Contiene"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:158
+msgid "Does not contain"
+msgstr "Non contiene"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:162
+msgid "Is"
+msgstr "È"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:166
+msgid "Is not"
+msgstr "Non è"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:170
+msgid "Starts with"
+msgstr "Inizia con"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:174
+msgid "Ends with"
+msgstr "Termina con"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:235
+msgid "Create new rule"
+msgstr "Crea una nuova regola"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:235
+msgctxt "Conditional Logic: new rule logic."
+msgid "And"
+msgstr "E"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:237
+msgid "Delete rule"
+msgstr "Elimina la regola"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:246
+msgctxt "Conditional Logic: new rule logic."
+msgid "or"
+msgstr "oppure"
+
+#: src/Pro/ConditionalLogic/ConditionalLogicSettings.php:252
+msgid "Add New Group"
+msgstr "Aggiungi un nuovo gruppo"
+
+#: src/Pro/Emails/Control/Admin/SettingsTab.php:33
+msgid "Email Controls"
+msgstr "Controlli email"
+
+#: src/Pro/Emails/Control/Admin/SettingsTab.php:35
+msgid "WordPress, by default, will send out emails for many events on your site. Using the toggles below, you can decide exactly which emails you'd like enabled."
+msgstr "Come impostazione predefinita, WordPress invia email quando si verificano diversi eventi sul tuo sito. Attivando o disattivando le opzioni qui sotto, puoi decidere esattamente per quali eventi abilitare l'invio di email."
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:43
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:57
+msgid "Email Log"
+msgstr "Registro delle email"
+
+#. translators: %1$s - number of email logs found; %2$s - filtered status.
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:108
+msgid "Found <strong>%1$s %2$s email log</strong>"
+msgid_plural "Found <strong>%1$s %2$s email logs</strong>"
+msgstr[0] "Trovato <strong>%1$s %2$s registro email</strong>"
+msgstr[1] "Trovato <strong>%1$s %2$s registri email</strong>"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:137
+#: src/Pro/Emails/Logs/Reports/Table.php:342
+msgid "Search Emails"
+msgstr "Ricerca degli indirizzi email"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:209
+msgid "Email Address"
+msgstr "Indirizzo email"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:210
+msgid "is"
+msgstr "è"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:214
+msgid "Subject or Headers"
+msgstr "Argomento o header"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:215
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:220
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:225
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:230
+msgid "contains"
+msgstr "contiene"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:219
+#: src/Pro/Emails/Logs/EmailsCollection.php:113
+msgid "Content"
+msgstr "Contenuto"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:229
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:292
+#: src/Pro/Emails/Logs/Admin/Table.php:213
+#: src/Pro/Emails/Logs/EmailsCollection.php:115
+#: src/Pro/Emails/Logs/Export/Export.php:174
+msgid "Source"
+msgstr "Origine"
+
+#. translators: %1$s - field name; %2$s - verb; %3$s - term.
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:235
+msgid "where %1$s %2$s \"%3$s\""
+msgstr "dove %1$s %2$s \"%3$s\""
+
+#. translators: %s - Date.
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:271
+msgid "on %s"
+msgstr "su %s"
+
+#. translators: %1$s - Date. %2$s - Date.
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:277
+msgid "between %1$s and %2$s"
+msgstr "tra %1$s e %2$s"
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:59
+msgid "Email Log is Not Enabled"
+msgstr "Il registro delle email non è abilitato"
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:62
+msgid "Emails sent when logging is disabled are not stored in the database and will not display when enabled. "
+msgstr "Le email inviate quando il logging è disabilitato non vengono memorizzate nel database e non vengono visualizzate quando vengono abilitate. "
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:66
+#: src/Pro/Emails/Logs/Reports/Admin.php:373
+msgid "Enable Email Log"
+msgstr "Abilita il registro delle email"
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:102
+msgid "Email Logging is Not Installed Correctly"
+msgstr "La registrazione delle email non è stata installata correttamente"
+
+#. translators: %1$s - create missing tables link; %2$s - contact support link.
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:109
+#: src/Pro/Emails/Logs/Reports/Admin.php:414
+msgid "WP Mail SMTP is using custom database tables for some of its features. In order to work properly, the custom tables should be created, and it seems they are missing. Please try to <a href=\"%1$s\">create the missing DB tables by clicking on this link</a>. If this issue persists, please <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support</a> and provide the error message below:"
+msgstr "WP Mail SMTP usa tabelle di database personalizzate per alcune caratteristiche. Per poter funzionare correttamente, devi creare le tabelle personalizzate e sembra che ora manchino. Prova a <a href=\"%1$s\">creare le tabelle del database mancanti facendo clic su questo link</a>. Se il problema persiste, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">contatta il nostro supporto</a> e fornisci il messaggio di errore qui sotto:"
+
+#. translators: %1$s - create missing tables link; %2$s - contact support link.
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:126
+#: src/Pro/Emails/Logs/Reports/Admin.php:431
+msgid "WP Mail SMTP is using custom database tables for some of its features. In order to work properly, the custom tables should be created, and it seems they are missing. Please try to <a href=\"%1$s\">create the missing DB tables by clicking on this link</a>. If this issue persists, please <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support</a>."
+msgstr "WP Mail SMTP utilizza tabelle di database personalizzate per alcune caratteristiche. Per poter funzionare correttamente, è necessario creare tabelle personalizzate ma sembra che ora manchino. Prova a <a href=\"%1$s\">creare le tabelle mancanti facendo clic su questo link</a>. Se il problema persiste, <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">contatta il nostro supporto</a> e segnala il messaggio di errore qui sotto."
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:141
+msgid "Right now all sent emails are not logged."
+msgstr "Al momento tutte le email inviate non sono registrate."
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:82
+msgid "WP Mail SMTP - Email Details"
+msgstr "WP Mail SMTP - Dettagli email"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:109
+msgid "Normal view"
+msgstr "Visualizzazione normale"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:111
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:157
+msgid "Compact view"
+msgstr "Vista compatta"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:152
+#: src/Pro/Providers/Providers.php:243
+msgid "Close"
+msgstr "Chiudi"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:153
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:521
+msgid "Print"
+msgstr "Stampa"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:174
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:172
+msgid "Created"
+msgstr "Creato"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:189
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:185
+#: src/Pro/Emails/Logs/Admin/Table.php:211
+msgid "From"
+msgstr "Da"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:197
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:214
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:193
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:208
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:735
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:753
+#: src/Pro/Emails/Logs/Admin/Table.php:398
+#: src/Pro/Emails/Logs/Admin/Table.php:424
+#: src/Pro/Emails/Logs/Admin/Table.php:498
+#: src/Pro/Emails/Logs/Admin/Table.php:524
+#: src/Pro/Emails/Logs/Admin/Table.php:542
+#: src/Pro/Emails/Logs/Admin/Table.php:562
+#: src/Pro/Emails/Logs/Admin/Table.php:591
+#: src/Pro/Emails/Logs/Export/AbstractData.php:173
+#: src/Pro/Emails/Logs/Export/AbstractData.php:193
+msgid "N/A"
+msgstr "N/D"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:206
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:200
+#: src/Pro/Emails/Logs/Admin/Table.php:212
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:82
+msgid "To"
+msgstr "A"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:228
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:220
+#: src/Pro/Emails/Logs/Export/Export.php:166
+msgid "Carbon Copy (CC)"
+msgstr "Copia (CC)"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:240
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:230
+#: src/Pro/Emails/Logs/Export/Export.php:167
+msgid "Blind Carbon Copy (BCC)"
+msgstr "Copia nascosta (CCN)"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:253
+#: src/Pro/Emails/Logs/Export/Export.php:165
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:84
+msgid "Status"
+msgstr "Stato"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:263
+#: src/Pro/Emails/Logs/Admin/Table.php:214
+#: src/Pro/Emails/Logs/Export/Export.php:169
+msgid "Mailer"
+msgstr "Mailer"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:273
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:375
+#: src/Pro/Emails/Logs/Admin/Table.php:472
+msgid "(backup)"
+msgstr "(backup)"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:309
+msgid "Print preview email content"
+msgstr "Stampa l'anteprima del contenuto delle email"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:94
+msgid "Enable Log"
+msgstr "Abilita il registro"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:110
+msgid "Keep a record of basic details for all emails sent from your site."
+msgstr "Tieni un registro con le informazioni di base di tutte le email inviate dal tuo sito."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:114
+msgid "This will allow you to view both general information (date sent, subject, email status) and technical information (all the headers, including TO, CC, BCC) for all sent emails."
+msgstr "In questo modo potrai visualizzare sia le informazioni generali (data di invio, oggetto, stato dell'email) che quelle tecniche (tutti gli header, compresi A, CC, CCN) per tutte le email inviate."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:128
+msgid "Log Email Content"
+msgstr "Registrazione del contenuto delle email"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:144
+msgid "Keep a record of all content for all emails sent from your site."
+msgstr "Tieni un registro di tutti i contenuti di ogni email inviata dal tuo sito."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:148
+msgid "Email content may contain personal information, such as plain text passwords. Please carefully consider before enabling this option, as it will store all sent email content to your site’s database."
+msgstr "Il contenuto delle email può contenere informazioni personali, come per esempio le password in chiaro. Valuta attentamente prima di abilitare questa opzione, perché memorizzerà tutti i contenuti delle email inviate nel database del tuo sito."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:150
+msgid "This option has to be enabled if you want to <strong>resend emails</strong> from our Email Log."
+msgstr "Questa opzione deve essere abilitata se vuoi <strong>reinviare le email</strong> dal nostro Registro delle email."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:164
+msgid "Save Attachments"
+msgstr "Salva gli allegati"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:180
+msgid "Save the sent attachments to the Email Log."
+msgstr "Salva gli allegati inviati nel Registro delle email."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:184
+msgid "All sent attachments will be saved to your WordPress uploads folder. If your site sends a lot of big unique attachments, this could potentially cause some disk space issue."
+msgstr "Tutti gli allegati inviati verranno salvati nella cartella Uploads di WordPress. Se il tuo sito invia molti allegati unici di grandi dimensioni, questo potrebbe causare problemi di spazio su disco."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:198
+msgid "Open Email Tracking"
+msgstr "Monitoraggio aperture email"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:214
+msgid "Track when an email is opened."
+msgstr "Traccia quando un'email viene aperta."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:218
+msgid "This will allow you to see which emails were opened by the recipients."
+msgstr "In questo modo potrai vedere quali email sono state aperte dai destinatari."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:232
+msgid "Click Link Tracking"
+msgstr "Monitoraggio clic sui link"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:248
+msgid "Track clicked links in emails."
+msgstr "Traccia i link cliccati nelle email."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:252
+msgid "This will allow you to see which links were clicked in the sent emails."
+msgstr "In questo modo potrai vedere quali link sono stati cliccati nelle email inviate."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:269
+msgid "Log Retention Period"
+msgstr "Periodo di conservazione dei registri"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:276
+msgid "Forever"
+msgstr "Per sempre"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:283
+msgid "Email logs older than the selected period will be permanently deleted from the database."
+msgstr "I registri delle email più vecchi del periodo selezionato verranno eliminati definitivamente dal database."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:348
+msgid "Webhooks Status"
+msgstr "Stato dei webhook"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:353
+msgid "Subscribed."
+msgstr "Abbonato."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:356
+msgid "Webhooks subscription was created."
+msgstr "L'abbonamento a Webhook è stato creato."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:361
+msgid "If you need to change the values of your constants, click the Unsubscribe button below. After completing your changes, return to this page and click the Subscribe button to re-enable the delivery verification webhooks."
+msgstr "Se devi modificare i valori delle costanti, fai clic sul pulsante Annulla iscrizione qui sotto. Dopo aver completato le modifiche, torna a questa pagina e fai clic sul pulsante Iscriviti per abilitare i webhook di verifica della consegna."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:368
+msgid "Unsubscribe"
+msgstr "Annulla l’iscrizione"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:371
+msgid "Subscription is broken."
+msgstr "L'abbonamento è interrotto."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:373
+msgid "Potential reasons:"
+msgstr "Potenziali motivi:"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:375
+msgid "Website domain was changed."
+msgstr "Il dominio del sito web è stato cambiato."
+
+#. translators: %s - mailer title.
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:379
+msgid "Subscription was removed or modified manually in %s account."
+msgstr "L'abbonamento è stato rimosso o modificato manualmente nell'account %s ."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:387
+msgid "Resubscribe"
+msgstr "Iscriviti di nuovo"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:390
+msgid "Failed."
+msgstr "Non inviate."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:393
+msgid "Automatic creation of webhooks subscription for email deliverability status verification has failed."
+msgstr "La creazione automatica di un abbonamento ai webhook per la verifica dello stato di deliverability delle email è fallita."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:397
+msgid "Please fix the errors below and try to subscribe again."
+msgstr "Correggi gli errori e prova a iscriverti di nuovo."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:402
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:413
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:405
+msgid "Unsubscribed."
+msgstr "Cancellato."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:408
+msgid "The subscription was manually removed. If you want to use webhooks for email deliverability status verification, please perform the \"Subscribe\" action."
+msgstr "L'abbonamento è stato rimosso manualmente. Se vuoi utilizzare i webhook per la verifica dello stato di deliverability delle email, esegui l'azione \"Iscriviti\"."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:472
+msgid "1 Day"
+msgstr "1 Giorno"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:473
+msgid "1 Week"
+msgstr "1 settimana"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:474
+msgid "1 Month"
+msgstr "1 mese"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:475
+msgid "6 Months"
+msgstr "6 mesi"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:476
+msgid "1 Year"
+msgstr "1 anno"
+
+#. translators: %d - days count.
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:490
+msgid "%d Day"
+msgid_plural "%d Days"
+msgstr[0] "%d Giorno"
+msgstr[1] "%d Giorni"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:64
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:484
+#: src/Pro/Emails/Logs/Admin/Table.php:301
+msgid "View Email"
+msgstr "Visualizza l'email"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:81
+msgid "Back to Email Log"
+msgstr "Torna al Registro delle email"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:166
+msgid "Email Details"
+msgstr "Dettagli email"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:261
+msgid "Technical Details"
+msgstr "Dettagli tecnici"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:270
+msgid "Toggle panel: Technical Details"
+msgstr "Pannello attivo/disattivo: Dettagli tecnici"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:280
+msgid "Hide Technical Details"
+msgstr "Nascondi i dettagli tecnici"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:283
+#: src/Pro/Emails/Logs/Export/Export.php:168
+msgid "Headers"
+msgstr "Header"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:300
+#: src/Pro/SiteHealth.php:201
+msgid "Error"
+msgstr "Errore"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:325
+msgid "Log Details"
+msgstr "Dettagli del registro"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:335
+#: src/Pro/Emails/Logs/Admin/Table.php:85
+#: src/Pro/Emails/Logs/Admin/Table.php:261
+#: src/Pro/Emails/Logs/Email.php:443
+msgid "Delivered"
+msgstr "Consegnato"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:338
+#: src/Pro/Emails/Logs/Admin/Table.php:86
+#: src/Pro/Emails/Logs/Admin/Table.php:263
+#: src/Pro/Emails/Logs/Email.php:441
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:85
+#: src/Pro/Emails/Logs/Reports/Table.php:64
+#: src/Pro/Providers/Providers.php:232
+msgid "Sent"
+msgstr "Inviate"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:341
+#: src/Pro/Emails/Logs/Admin/Table.php:265
+#: src/Pro/Emails/Logs/Email.php:442
+msgid "Waiting for confirmation"
+msgstr "In attesa di conferma"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:344
+#: src/Pro/Emails/Logs/Admin/Table.php:267
+#: src/Pro/Emails/Logs/Email.php:440
+msgid "Not Sent"
+msgstr "Non inviato"
+
+#. translators: %s - Sent status text (like Delivered or Not Sent, ...)
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:354
+msgid "Status: %s"
+msgstr "Stato: %s"
+
+#. translators: %s - name of the mailer.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:380
+msgid "Mailer: %s"
+msgstr "Mailer: %s"
+
+#. translators: %s - number of attachments.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:394
+msgid "Attachments: %s"
+msgstr "Allegati: %s"
+
+#. translators: %s - ID of an email log.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:404
+msgid "Log ID: %s"
+msgstr "ID del registro: %s"
+
+#. translators: %s - whether email was opened.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:414
+msgid "Opened: %s"
+msgstr "Apertura: %s"
+
+#. translators: %s - whether one of email links was clicked.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:425
+msgid "Clicked: %s"
+msgstr "Cliccato: %s"
+
+#. translators: %s - email source.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:436
+msgid "Source: %s"
+msgstr "Fonte: %s"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:461
+msgid "Delete Log"
+msgstr "Elimina il registro"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:526
+msgid "Export (CSV)"
+msgstr "Esporta (CSV)"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:531
+msgid "Export (XLSX)"
+msgstr "Esporta (XLSX)"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:536
+msgid "Export (EML)"
+msgstr "Esportazione (EML)"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:544
+#: src/Pro/Emails/Logs/Admin/Table.php:625
+#: src/Pro/Providers/AmazonSES/Identity.php:220
+#: src/Pro/Providers/Providers.php:233
+msgid "Resend"
+msgstr "Invia di nuovo"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:564
+msgid "Re-check email status"
+msgstr "Ricontrolla lo stato delle email"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:580
+msgid "Actions"
+msgstr "Azioni"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:630
+#: src/Pro/Emails/Logs/Export/Export.php:133
+msgid "Attachments"
+msgstr "Allegati"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:688
+msgid "You are trying to access an email log entry that is no longer available or never existed."
+msgstr "Stai cercando di accedere a una voce del registro email che non è più disponibile o che non è mai esistita."
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:691
+msgid "Please use the \"Back to Email Log\" button to return to the list of all saved emails."
+msgstr "Usa il pulsante \"Torna al registro delle email\" per tornare all'elenco di tutte le email salvate."
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:739
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:757
+#: src/Pro/Emails/Logs/Admin/Table.php:546
+#: src/Pro/Emails/Logs/Admin/Table.php:566
+#: src/Pro/Emails/Logs/Export/AbstractData.php:177
+#: src/Pro/Emails/Logs/Export/AbstractData.php:197
+#: src/Pro/Emails/Logs/Logs.php:484
+#: src/Pro/Providers/Providers.php:244
+#: src/Pro/Providers/Providers.php:254
+msgid "Yes"
+msgstr "Sì"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:740
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:758
+#: src/Pro/Emails/Logs/Admin/Table.php:547
+#: src/Pro/Emails/Logs/Admin/Table.php:567
+#: src/Pro/Emails/Logs/Export/AbstractData.php:178
+#: src/Pro/Emails/Logs/Export/AbstractData.php:198
+msgid "No"
+msgstr "No"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:87
+msgid "Awaiting Confirmation"
+msgstr "In attesa di conferma"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:88
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:123
+#: src/Pro/Emails/Logs/Reports/Table.php:70
+msgid "Failed"
+msgstr "Non inviate"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:153
+msgid "All"
+msgstr "Tutto"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:215
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:86
+msgid "CC"
+msgstr "CC"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:216
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:90
+msgid "BCC"
+msgstr "CCN"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:219
+#: src/Pro/Emails/Logs/Export/Export.php:172
+msgid "Opened"
+msgstr "Apertura"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:223
+#: src/Pro/Emails/Logs/Export/Export.php:173
+msgid "Clicked"
+msgstr "Cliccato"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:226
+msgid "Date Sent"
+msgstr "Data di invio"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:291
+msgid "View Log"
+msgstr "Visualizza il registro"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:310
+#: src/Pro/Emails/Logs/Admin/Table.php:624
+#: src/Pro/Providers/AmazonSES/Identity.php:229
+msgid "Delete"
+msgstr "Elimina"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:626
+msgid "Re-check status"
+msgstr "Ricontrolla lo stato"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:901
+msgid "No emails found."
+msgstr "Nessuna email trovata."
+
+#: src/Pro/Emails/Logs/Admin/Table.php:903
+msgid "No emails have been logged for now."
+msgstr "Per il momento non sono state registrate email."
+
+#: src/Pro/Emails/Logs/Admin/Table.php:938
+#: src/Pro/Emails/Logs/Export/Admin.php:233
+#: src/Pro/Emails/Logs/Reports/Table.php:396
+msgid "Select a date range"
+msgstr "Seleziona un intervallo di date"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:942
+#: src/Pro/Emails/Logs/Reports/Table.php:400
+msgid "Filter"
+msgstr "Filtro"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:954
+msgid "Delete All Logs"
+msgstr "Elimina tutti i registri"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:966
+msgid "Re-check All Email Statuses"
+msgstr "Ricontrolla tutti gli stati delle email"
+
+#: src/Pro/Emails/Logs/CanResendEmailTrait.php:41
+msgid "Email can't be resent with empty content."
+msgstr "Le email non possono essere inviate nuovamente con un contenuto vuoto."
+
+#: src/Pro/Emails/Logs/DeliveryVerification/AbstractDeliveryVerifier.php:84
+msgid "Unable to find email connection."
+msgstr "Impossibile trovare una connessione email."
+
+#: src/Pro/Emails/Logs/DeliveryVerification/AbstractDeliveryVerifier.php:91
+msgid "Unable to find mailer options."
+msgstr "Impossibile trovare le opzioni del mailer."
+
+#: src/Pro/Emails/Logs/DeliveryVerification/AbstractDeliveryVerifier.php:148
+msgid "Unable to verify email delivery status."
+msgstr "Impossibile verificare lo stato di consegna delle email."
+
+#: src/Pro/Emails/Logs/DeliveryVerification/AbstractDeliveryVerifier.php:196
+#: src/Pro/Emails/Logs/Webhooks/Events/Failed.php:51
+#: src/Pro/Tasks/Logs/VerifySentStatusTaskAbstract.php:173
+msgid "The email failed to be delivered. No specific reason was provided by the API."
+msgstr "L'email non è stata consegnata. L'API non ha fornito alcun motivo specifico."
+
+#: src/Pro/Emails/Logs/DeliveryVerification/DeliveryVerification.php:90
+msgid "Unable to find email."
+msgstr "Impossibile trovare l'email."
+
+#: src/Pro/Emails/Logs/DeliveryVerification/DeliveryVerification.php:99
+msgid "Invalid mailer."
+msgstr "Mailer non valido."
+
+#: src/Pro/Emails/Logs/DeliveryVerification/DeliveryVerification.php:117
+msgid "Invalid verifier."
+msgstr "Verificatore non valido."
+
+#: src/Pro/Emails/Logs/EmailsCollection.php:111
+msgid "Email Addresses"
+msgstr "Indirizzi email"
+
+#: src/Pro/Emails/Logs/EmailsCollection.php:112
+msgid "Subject & Headers"
+msgstr "Argomento e header"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:112
+msgid "Export Email Logs"
+msgstr "Esportazione registri email"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:117
+msgid "Export Type"
+msgstr "Tipo di esportazione"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:122
+msgid "Common Information"
+msgstr "Informazioni di base"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:127
+msgid "Additional Information"
+msgstr "Informazioni aggiuntive"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:132
+#: src/Pro/Emails/Logs/Reports/Table.php:377
+msgid "Custom Date Range"
+msgstr "Intervallo di date personalizzato"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:137
+msgid "Search"
+msgstr "Cerca"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:145
+msgid "Download Export File"
+msgstr "Scarica il file di esportazione"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:152
+#: src/Pro/Emails/Logs/Logs.php:485
+#: src/Pro/Providers/Providers.php:242
+#: src/Pro/Providers/Providers.php:256
+msgid "Cancel"
+msgstr "Cancella"
+
+#. translators: %1$d - email log ID; %2$s - error message.
+#: src/Pro/Emails/Logs/Export/EMLData.php:39
+msgid "Email #%1$s was skipped. Reason: %2$s."
+msgstr "L'email #%1$s è stata saltata. Motivo: %2$s."
+
+#: src/Pro/Emails/Logs/Export/Export.php:64
+#: src/Pro/Emails/Logs/Export/Export.php:73
+msgid "An error occurred while preparing your export file. Please recheck export settings and try again."
+msgstr "Si è verificato un errore durante la preparazione del file di esportazione. Ricontrolla le impostazioni di esportazione e riprova."
+
+#: src/Pro/Emails/Logs/Export/Export.php:65
+msgid "You don't have enough capabilities to complete this request."
+msgstr "Non hai abbastanza permessi per completare questa richiesta."
+
+#: src/Pro/Emails/Logs/Export/Export.php:66
+msgid "Unknown request."
+msgstr "Richiesta sconosciuta."
+
+#: src/Pro/Emails/Logs/Export/Export.php:67
+msgid "Incorrect email ID has been specified."
+msgstr "È stato specificato un ID email non corretto."
+
+#: src/Pro/Emails/Logs/Export/Export.php:68
+msgid "Export file cannot be retrieved from the file system."
+msgstr "Il file di esportazione non può essere recuperato dal file system."
+
+#: src/Pro/Emails/Logs/Export/Export.php:69
+msgid "Export file is empty."
+msgstr "Il file di esportazione è vuoto."
+
+#: src/Pro/Emails/Logs/Export/Export.php:74
+msgid "Generating a list of email logs according to your filters."
+msgstr "Generare un elenco di email connesse in base ai tuoi filtri."
+
+#: src/Pro/Emails/Logs/Export/Export.php:75
+msgid "This can take a while. Please wait."
+msgstr "Potrebbe volerci un po' di tempo. Attendi."
+
+#: src/Pro/Emails/Logs/Export/Export.php:76
+msgid "No email logs found after applying your filters."
+msgstr "Non sono stati trovati registri delle email dopo l'applicazione dei filtri."
+
+#: src/Pro/Emails/Logs/Export/Export.php:77
+msgid "The file was generated successfully."
+msgstr "Il file è stato generato correttamente."
+
+#: src/Pro/Emails/Logs/Export/Export.php:78
+msgid "The file was generated partially. Please check below notices."
+msgstr "Il file è stato generato parzialmente. Controlla le seguenti note."
+
+#: src/Pro/Emails/Logs/Export/Export.php:79
+msgid "If the download does not start automatically"
+msgstr "Se il download non si avvia automaticamente"
+
+#: src/Pro/Emails/Logs/Export/Export.php:80
+msgid "click here"
+msgstr "fai clic qui"
+
+#: src/Pro/Emails/Logs/Export/Export.php:126
+msgid "To Address"
+msgstr "Indirizzo destinatario"
+
+#: src/Pro/Emails/Logs/Export/Export.php:127
+msgid "From Address"
+msgstr "Indirizzo mittente"
+
+#: src/Pro/Emails/Logs/Export/Export.php:128
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:78
+msgid "From Name"
+msgstr "Nome mittente"
+
+#: src/Pro/Emails/Logs/Export/Export.php:130
+msgid "Body"
+msgstr "Contenuto"
+
+#: src/Pro/Emails/Logs/Export/Export.php:131
+msgid "Created Date"
+msgstr "Data di creazione"
+
+#: src/Pro/Emails/Logs/Export/Export.php:132
+msgid "Number of Attachments"
+msgstr "Numero di allegati"
+
+#: src/Pro/Emails/Logs/Export/Export.php:170
+msgid "Error Details"
+msgstr "Dettagli dell'errore"
+
+#: src/Pro/Emails/Logs/Export/Export.php:171
+msgid "Email log ID"
+msgstr "ID registro email"
+
+#: src/Pro/Emails/Logs/Export/Export.php:196
+msgid "Export in CSV (.csv)"
+msgstr "Esportazione in CSV (.csv)"
+
+#: src/Pro/Emails/Logs/Export/Export.php:200
+msgid "Export in Microsoft Excel (.xlsx)"
+msgstr "Esporta in Microsoft Excel (.xlsx)"
+
+#: src/Pro/Emails/Logs/Export/Export.php:201
+msgid "Export in EML (.eml)"
+msgstr "Esportazione in EML (.eml)"
+
+#. translators: %s - Error code.
+#: src/Pro/Emails/Logs/Export/File.php:175
+msgid "An error occurred when creating a zip file. Error code: %s."
+msgstr "Si è verificato un errore durante la creazione di un file zip. Codice errore: %s."
+
+#: src/Pro/Emails/Logs/Export/File.php:366
+msgid "Your WP site is not using the direct file system method, which is needed for this export."
+msgstr "Il tuo sito WP non utilizza il metodo del file system diretto, necessario per questa esportazione."
+
+#: src/Pro/Emails/Logs/Export/File.php:380
+msgid "Something went wrong while opening the export file for writing."
+msgstr "Qualcosa è andato storto durante l'apertura del file di esportazione per la scrittura."
+
+#: src/Pro/Emails/Logs/Export/File.php:395
+msgid "Something went wrong while writing to the export file."
+msgstr "Qualcosa è andato storto durante la scrittura del file di esportazione."
+
+#: src/Pro/Emails/Logs/Export/Handler.php:250
+msgid "No Email Logs found. It looks like the Email Logs database table is missing."
+msgstr "Non è stato trovato alcun registro delle email. Sembra che manchi la tabella del database Registri delle email."
+
+#: src/Pro/Emails/Logs/Importers/ImporterAbstract.php:100
+msgid "Import process rejected."
+msgstr "Processo di importazione rifiutato."
+
+#: src/Pro/Emails/Logs/Importers/ImporterAbstract.php:111
+msgid "Import operation failed."
+msgstr "L'operazione di importazione non è riuscita."
+
+#: src/Pro/Emails/Logs/Importers/ImporterTabAbstract.php:107
+msgid "Import Summary:"
+msgstr "Riepilogo dell'importazione:"
+
+#: src/Pro/Emails/Logs/Importers/ImporterTabAbstract.php:111
+msgid "Successfully imported:"
+msgstr "Importato con successo:"
+
+#: src/Pro/Emails/Logs/Importers/ImporterTabAbstract.php:114
+msgid "Failed to import:"
+msgstr "Importazione fallita:"
+
+#: src/Pro/Emails/Logs/Importers/ImporterTabAbstract.php:117
+msgid "Failed attachment imports:"
+msgstr "Importazioni di allegati non riuscite:"
+
+#: src/Pro/Emails/Logs/Importers/ImporterTabAbstract.php:151
+msgid "Import Email Logs"
+msgstr "Importa i registri delle email"
+
+#: src/Pro/Emails/Logs/Importers/ImporterTabAbstract.php:164
+msgid "We found records that need to be imported. Click the import button to get started."
+msgstr "Abbiamo trovato dei record che devono essere importati. Fai clic sul pulsante Importa per iniziare."
+
+#: src/Pro/Emails/Logs/Importers/ImporterTabAbstract.php:177
+msgid "Importing:"
+msgstr "Importazione:"
+
+#: src/Pro/Emails/Logs/Importers/ImporterTabAbstract.php:199
+msgid "Import"
+msgstr "Importa"
+
+#. translators: %d -Number of logs to be imported; %s the URL link to the importer page.
+#: src/Pro/Emails/Logs/Importers/WPMailLogging/Importer.php:159
+msgid "Do you want to import email logs from WP Mail Logging? You have %1$d email logs available for import to WP Mail SMTP. <a href=\"%2$s\">Get started</a>."
+msgstr "Vuoi importare i registri delle email da WP Mail Logging? Hai a disposizione %1$d registri di email da importare in WP Mail SMTP. <a href=\"%2$s\">Inizia</a>."
+
+#: src/Pro/Emails/Logs/Importers/WPMailLogging/Tab.php:93
+msgid "Successful import. All email logs were successfully imported."
+msgstr "Importazione riuscita. Tutti i registri delle email sono stati importati con successo."
+
+#: src/Pro/Emails/Logs/Importers/WPMailLogging/Tab.php:94
+msgid "Some items failed to import."
+msgstr "Alcuni elementi non sono stati importati."
+
+#: src/Pro/Emails/Logs/Importers/WPMailLogging/Tab.php:95
+msgid "Import failed!"
+msgstr "Importazione fallita!"
+
+#: src/Pro/Emails/Logs/Importers/WPMailLogging/Tab.php:109
+#: src/Pro/Emails/Logs/Importers/WPMailLogging/Tab.php:145
+msgid "WP Mail Logging Importer"
+msgstr "Importatore di WP Mail Logging"
+
+#. translators: Date time of the last import operation.
+#: src/Pro/Emails/Logs/Importers/WPMailLogging/Tab.php:173
+msgid "You recently imported email logs on %s. Performing this action again will import all email logs from the WP Mail Logging plugin and might result in duplicate logs."
+msgstr "Hai recentemente importato i registri delle email su %s. Eseguendo nuovamente questa azione, importerai tutti i registri delle email dal plugin WP Mail Logging e potresti ottenere dei registri duplicati."
+
+#. translators: %d - Number of logs to be imported.
+#: src/Pro/Emails/Logs/Importers/WPMailLogging/Tab.php:205
+msgid "We found %d WP Mail Logging email logs available for import to WP Mail SMTP. Do you want to import them?"
+msgstr "Abbiamo trovato %d registri di WP Mail Logging disponibili per l'importazione in WP Mail SMTP. Vuoi importarli?"
+
+#: src/Pro/Emails/Logs/Logs.php:220
+msgid "Number of log entries per page:"
+msgstr "Numero di voci di registro per pagina:"
+
+#: src/Pro/Emails/Logs/Logs.php:478
+msgid "Are you sure that you want to delete this email log? This action cannot be undone."
+msgstr "Confermi di voler eliminare questo registro email? Questa azione non può essere annullata."
+
+#: src/Pro/Emails/Logs/Logs.php:480
+#: src/Pro/Providers/Providers.php:239
+msgid "Icon"
+msgstr "Icona"
+
+#: src/Pro/Emails/Logs/Logs.php:481
+msgid "Are you sure you want to permanently delete all email logs?"
+msgstr "Vuoi davvero eliminare definitivamente tutti i registri delle email?"
+
+#: src/Pro/Emails/Logs/Logs.php:482
+msgid "Are you sure you want to re-check the statuses of all pending email logs?"
+msgstr "Vuoi davvero ricontrollare lo stato di tutti i registri delle email in attesa?"
+
+#: src/Pro/Emails/Logs/Logs.php:486
+#: src/Pro/Providers/Providers.php:240
+msgid "An error occurred!"
+msgstr "Si è verificato un errore!"
+
+#: src/Pro/Emails/Logs/Logs.php:506
+msgid "Queuing emails..."
+msgstr "Email in coda..."
+
+#: src/Pro/Emails/Logs/Logs.php:513
+msgid "Sending email..."
+msgstr "Invio dell'email..."
+
+#: src/Pro/Emails/Logs/Logs.php:514
+#: src/Pro/Emails/Logs/Resend.php:58
+msgid "Invalid recipients email addresses."
+msgstr "Indirizzi email dei destinatari non validi."
+
+#: src/Pro/Emails/Logs/Logs.php:840
+msgid "Email Log entry was successfully deleted."
+msgstr "La voce del Registro delle email è stata eliminata con successo."
+
+#: src/Pro/Emails/Logs/Logs.php:847
+msgid "Email Log entries were successfully deleted."
+msgstr "Le voci del Registro delle email sono state eliminate con successo."
+
+#: src/Pro/Emails/Logs/Logs.php:854
+msgid "There was an error while processing your request, and no email log entries were deleted. Please try again."
+msgstr "Si è verificato un errore durante l'elaborazione della tua richiesta e non è stata eliminata alcuna voce del registro delle email. Prova di nuovo."
+
+#: src/Pro/Emails/Logs/Logs.php:1089
+msgid "All email log entries were deleted successfully."
+msgstr "Tutte le voci del registro delle email sono state eliminate con successo."
+
+#. translators: %s - WPDB error message.
+#: src/Pro/Emails/Logs/Logs.php:1094
+msgid "There was an issue while trying to delete all email log entries. Error message: %s"
+msgstr "Si è verificato un problema durante il tentativo di eliminare tutti i registri delle email. Messaggio di errore: %s"
+
+#: src/Pro/Emails/Logs/Providers/Common.php:187
+#: src/Pro/Emails/Logs/Providers/SMTP.php:161
+msgid "Unknown error."
+msgstr "Errore sconosciuto."
+
+#: src/Pro/Emails/Logs/RecheckDeliveryStatus.php:108
+#: src/Pro/Emails/Logs/RecheckDeliveryStatus.php:182
+msgid "Re-checking email status was added to queue."
+msgstr "La verifica dello stato delle email è stata aggiunta alla coda."
+
+#: src/Pro/Emails/Logs/RecheckDeliveryStatus.php:133
+msgid "Email delivery status was updated."
+msgstr "Lo stato di consegna delle email è stato aggiornato."
+
+#: src/Pro/Emails/Logs/RecheckDeliveryStatus.php:135
+msgid "Unable to verify the email status at this time. Please try again later."
+msgstr "Al momento non è possibile verificare lo stato dell'email. Riprova più tardi."
+
+#: src/Pro/Emails/Logs/RecheckDeliveryStatus.php:153
+msgid "Invalid request!"
+msgstr "Richiesta non valida!"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:186
+#: src/Pro/Emails/Logs/Reports/Admin.php:284
+msgid "Search Results"
+msgstr "Risultati della ricerca"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:191
+msgid "Opened emails"
+msgstr "Email aperte"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:192
+msgid "Clicked links"
+msgstr "Link cliccati"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:226
+msgid "Number of items per page:"
+msgstr "Numero di elementi per pagina:"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:293
+msgid "total"
+msgstr "totale"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:297
+msgid "sent"
+msgstr "Inviate"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:301
+msgid "confirmed"
+msgstr "Confermate"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:304
+msgid "unconfirmed"
+msgstr "Non confermate"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:308
+msgid "failed"
+msgstr "Non inviate"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:312
+msgid "open count"
+msgstr "Aperture"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:317
+msgid "click count"
+msgstr "Clic"
+
+#. translators: %1$d - items count; %2$s - search term.
+#: src/Pro/Emails/Logs/Reports/Admin.php:336
+msgid "Found <strong>%1$d item</strong> where the subject contains <i>%2$s</i>"
+msgid_plural "Found <strong>%1$d items</strong> where the subject contains <i>%2$s</i>"
+msgstr[0] "Trovato <strong>%1$d elemento</strong> in cui l'argomento contiene <i>%2$s</i>"
+msgstr[1] "Trovati <strong>%1$d elementi</strong> in cui l'argomento contiene <i>%2$s</i>"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:366
+msgid "Email Log Required"
+msgstr "Registro email obbligatorio"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:369
+msgid "Email Reports provide valuable insights by aggregating data from the Email Log, allowing you to measure the success of your emails."
+msgstr "I Report Email forniscono preziose informazioni aggregando i dati del Registro delle email, così puoi misurare i risultati delle tue email."
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:408
+msgid "Email Reports are Not Installed Correctly"
+msgstr "I report email non sono installati correttamente"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:60
+msgid "Hi there,"
+msgstr "Ciao,"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:63
+msgid "Let’s see how your emails performed in the past week."
+msgstr "Vediamo che risultati hanno ottenuto le tue email nell'ultima settimana."
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:71
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:168
+msgid "Total Emails"
+msgstr "Totale email"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:97
+#: src/Pro/Emails/Logs/Reports/Table.php:66
+msgid "Confirmed"
+msgstr "Confermate"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:109
+#: src/Pro/Emails/Logs/Reports/Table.php:67
+msgid "Unconfirmed"
+msgstr "Non confermate"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:140
+msgid "Last Week’s Top Emails"
+msgstr "Le email più importanti dell'ultima settimana"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:145
+msgid "View All Emails"
+msgstr "Visualizza tutte le email"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:206
+msgid "Opened Emails"
+msgstr "Email aperte"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:219
+msgid "Clicked Links"
+msgstr "Link cliccati"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:61
+msgid "Total"
+msgstr "Totale"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:73
+msgid "Open Count"
+msgstr "Aperture"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:77
+msgid "Click Count"
+msgstr "Clic"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:80
+msgid "Graph"
+msgstr "Grafico"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:307
+msgid "No email reports are available."
+msgstr "Non sono disponibili report email."
+
+#: src/Pro/Emails/Logs/Reports/Table.php:374
+msgid "Last 7 days"
+msgstr "Ultimi 7 giorni"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:375
+msgid "Last 14 days"
+msgstr "Ultimi 14 giorni"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:376
+msgid "Last 30 days"
+msgstr "Ultimi 30 giorni"
+
+#: src/Pro/Emails/Logs/Resend.php:50
+msgid "Email ID must be specified."
+msgstr "L'ID dell'email deve essere specificata."
+
+#: src/Pro/Emails/Logs/Resend.php:56
+msgid "Email recipients must be specified."
+msgstr "I destinatari delle email devono essere specificati."
+
+#: src/Pro/Emails/Logs/Resend.php:67
+msgid "Invalid email ID."
+msgstr "Email non valida."
+
+#: src/Pro/Emails/Logs/Resend.php:73
+msgid "Email was successfully sent!"
+msgstr "L'email è stata inviata con successo!"
+
+#. translators: %s - Error message.
+#: src/Pro/Emails/Logs/Resend.php:78
+msgid "Email sending error. <br>%s"
+msgstr "Errore nell'invio dell'email. <br>%s"
+
+#: src/Pro/Emails/Logs/Resend.php:107
+msgid "Email ID's must be specified."
+msgstr "Gli ID delle email devono essere specificati."
+
+#: src/Pro/Emails/Logs/Resend.php:114
+msgid "Emails were added to the send queue. If these selected emails have their email content, they will be resent shortly."
+msgstr "Le email sono state aggiunte alla coda di invio. Se queste email selezionate hanno il loro contenuto, saranno inviate di nuovo a breve."
+
+#: src/Pro/Emails/Logs/Resend.php:163
+msgid "Are you sure you want to resend selected emails?"
+msgstr "Sei sicuro di voler inviare nuovamente le email selezionate?"
+
+#: src/Pro/Emails/Logs/Resend.php:165
+msgid "Are you sure you want to resend this email?"
+msgstr "Vuoi inviare nuovamente questa email?"
+
+#: src/Pro/Emails/Logs/Resend.php:172
+msgid "Email recipients (separate with a comma)"
+msgstr "Destinatari dell'email (separati con una virgola)"
+
+#. translators: %1$s - mailer name; %2$s - action; %3$s - error message.
+#: src/Pro/Emails/Logs/Webhooks/AbstractProvider.php:276
+msgid "Webhooks subscription. Mailer: %1$s. Action: %2$s. Error: %3$s."
+msgstr "Abbonamento a webhooks. Mailer: %1$s. Azione: %2$s. Errore: %3$s."
+
+#: src/Pro/Emails/Logs/Webhooks/Providers/Mailgun/Processor.php:49
+msgid "Invalid webhook signature."
+msgstr "Firma webhook non valida."
+
+#: src/Pro/Emails/Logs/Webhooks/Providers/Mailjet/Subscriber.php:251
+msgid "Mailjet webhook registration limit reached."
+msgstr "Il limite di registrazione di Mailjet webhook è stato raggiunto."
+
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:374
+msgid "The email log is disabled. Please first enable the email log."
+msgstr "Il registro delle email è disabilitato. Abilitalo prima."
+
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:383
+msgid "Mailer setup is not completed. Please complete your mailer configuration first."
+msgstr "La configurazione del mailer non è stata completata. Completa prima la configurazione del mailer."
+
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:399
+msgid "Subscription created successfully."
+msgstr "L'abbonamento è stato creato con successo."
+
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:426
+msgid "The subscription was not created yet."
+msgstr "L'abbonamento non è stato ancora creato."
+
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:437
+msgid "Subscription removed successfully."
+msgstr "L'abbonamento è stato rimosso con successo."
+
+#. translators: %1$s - error message; %2$s - error code.
+#: src/Pro/Emails/Logs/Webhooks/Webhooks.php:507
+msgid "Seems that the REST API on your website is disabled. For correct work of email deliverability status verification via webhooks, REST API must be enabled. Please enable your REST API or whitelist \"/wp-mail-smtp/v1\" endpoint. The REST API request failed due to an error: %1$s (%2$s)."
+msgstr "Sembra che l'API REST sul tuo sito web sia disabilitata. Per un corretto funzionamento della verifica dello stato di deliverability delle email tramite webhook, l'API REST deve essere abilitata. Abilita l'API REST o inserisci l'endpoint \"/wp-mail-smtp/v1\" nella whitelist. La richiesta dell'API REST è fallita a causa di un errore: %1$s (%2$s)."
+
+#: src/Pro/License/License.php:162
+#: src/Pro/Providers/Providers.php:276
+msgid "Something went wrong. Please try again later."
+msgstr "Qualcosa è andato storto. Prova di nuovo."
+
+#: src/Pro/License/License.php:244
+msgid "Renew License"
+msgstr "Rinnova la licenza"
+
+#: src/Pro/License/License.php:250
+msgid "Verify Key"
+msgstr "Verifica la chiave"
+
+#: src/Pro/License/License.php:254
+msgid "Remove Key"
+msgstr "Rimuovi la chiave"
+
+#. translators: %1$s - WP Mail SMTP account dashboard url; %2$s - pricing page url.
+#: src/Pro/License/License.php:267
+msgid "Your license key can be found in your <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">WP Mail SMTP Account Dashboard</a>. Don't have a license?  <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Sign up today!</a>"
+msgstr "La chiave di licenza si trova nella Bacheca del tuo account WP Mail SMTP <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\"></a>. Non hai una licenza?  <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Registrati oggi stesso!</a>"
+
+#. translators: $s - license type.
+#: src/Pro/License/License.php:282
+msgid "Your license key level is %s."
+msgstr "La tua chiave di licenza è di tipo %s."
+
+#: src/Pro/License/License.php:287
+#: src/Pro/License/License.php:304
+#: src/Pro/License/License.php:360
+msgid "If your license has been upgraded or is incorrect, then please <a href=\"#\" id=\"wp-mail-smtp-setting-license-key-refresh\">force a refresh</a>."
+msgstr "Se la tua licenza è stata aggiornata o non è corretta, <a href=\"#\" id=\"wp-mail-smtp-setting-license-key-refresh\">forzane l'aggiornamento</a>."
+
+#: src/Pro/License/License.php:297
+msgid "<b>Your license has expired.</b> An active license is needed to access some of the Pro features, plugin updates (including security improvements), and our world class support!"
+msgstr "<b>La tua licenza è in scadenza.</b> Una licenza attiva è necessaria per accedere ad alcune caratteristiche Pro, agli aggiornamenti dei plugin (compresi i miglioramenti della sicurezza) e al nostro supporto di prima classe!"
+
+#: src/Pro/License/License.php:314
+msgid "<b>Your license key has been disabled.</b> Please use a different key to continue receiving automatic updates."
+msgstr "<b>La tua chiave di licenza è stata disabilitata.</b> Per continuare a ricevere gli aggiornamenti automatici, usa una chiave diversa."
+
+#: src/Pro/License/License.php:321
+msgid "<b>Your license key is invalid.</b> The key no longer exists or the user associated with the key has been deleted. Please use a different key to continue receiving automatic updates."
+msgstr "<b>La tua chiave di licenza non è valida.</b> La chiave non esiste più o l'utente associato alla chiave è stato eliminato. Per continuare a ricevere gli aggiornamenti automatici usa una chiave diversa."
+
+#. translators: %1$s - WPMailSMTP.com account area URL; %2$s - WPMailSMTP.com pricing page URL.
+#: src/Pro/License/License.php:329
+msgid "<b>Sorry, but this license has no site activations left.</b> You can update the list of your sites or upgrade the license in the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Account area</a>. Or you can <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">purchase a new license key</a>."
+msgstr "<b>Questa licenza non permette più attivazioni di nuovi siti.</b> Puoi aggiornare l'elenco dei tuoi siti o <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">fare l'upgrade della licenza nell'area Account</a>. Oppure puoi <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">acquistare una nuova chiave di licenza</a>."
+
+#: src/Pro/License/License.php:460
+msgid "There was an error connecting to the remote key API. Please try again later."
+msgstr "Si è verificato un errore durante la connessione all'API della chiave remota. Riprova più tardi."
+
+#: src/Pro/License/License.php:481
+msgid "Congratulations! This site is now receiving automatic updates."
+msgstr "Congratulazioni! Questo sito da ora riceverà gli aggiornamenti automatici."
+
+#: src/Pro/License/License.php:580
+#: src/Pro/License/License.php:731
+#: src/Pro/License/License.php:1013
+msgid "There was an error connecting to the remote server. Please try again later."
+msgstr "Si è verificato un errore nella connessione al server remoto. Riprova più tardi."
+
+#: src/Pro/License/License.php:608
+#: src/Pro/License/License.php:855
+msgid "Your license key for WP Mail SMTP Pro is invalid. The key no longer exists or the user associated with the key has been deleted. Please use a different key to continue receiving automatic updates."
+msgstr "La chiave della tua licenza di WP Mail SMTP Pro non è valida. La chiave non esiste più o l'utente associato alla chiave è stato eliminato. Usa una chiave differente per continuare a ricevere gli aggiornamenti automatici."
+
+#: src/Pro/License/License.php:621
+msgid "Your license key for WP Mail SMTP Pro has expired. Please renew your license key on WPMailSMTP.com to continue receiving automatic updates."
+msgstr "La chiave della tua licenza per WP Mail SMTP Pro è in scadenza. Rinnova la chiave di licenza su WPMailSMTP.com per continuare a ricevere gli aggiornamenti automatici."
+
+#: src/Pro/License/License.php:634
+#: src/Pro/License/License.php:846
+msgid "Your license key for WP Mail SMTP Pro has been disabled. Please use a different key to continue receiving automatic updates."
+msgstr "La chiave della tua licenza per WP Mail SMTP Pro è stata disabilitata. Usa una chiave differente per continuare a ricevere gli aggiornamenti automatici."
+
+#. translators: %1$s - WPMailSMTP.com account area URL; %2$s - WPMailSMTP.com pricing page URL.
+#: src/Pro/License/License.php:650
+msgid "Sorry, but this license has no site activations left. You can update the list of your sites or upgrade the license in the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Account area</a>. Or you can <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">purchase a new license key</a>."
+msgstr "Questa licenza non permette più attivazioni di nuovi siti. Puoi aggiornare l'elenco dei tuoi siti o <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">fare l'upgrade dela licenza nell'area Account</a>. Oppure puoi <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">acquistare una nuova chiave di licenza</a>."
+
+#: src/Pro/License/License.php:693
+msgid "Your key has been refreshed successfully."
+msgstr "La tua chiave è stata aggiornata con successo."
+
+#: src/Pro/License/License.php:753
+msgid "You have deactivated the key from this site successfully."
+msgstr "Hai disattivato la chiave per questo sito con successo."
+
+#. translators: %s - plugin settings page URL.
+#: src/Pro/License/License.php:802
+#: src/Pro/License/License.php:997
+msgid "Please <a href=\"%s\">enter and activate</a> your license key for WP Mail SMTP Pro to enable automatic updates."
+msgstr "<a href=\"%s\">Inserisci e attiva</a> la chiave di licenza di WP Mail SMTP Pro per abilitare gli aggiornamenti automatici."
+
+#. translators: %s - WPMailSMTP.com login page URL.
+#: src/Pro/License/License.php:825
+#: src/Pro/License/License.php:1021
+msgid "Your license key for WP Mail SMTP Pro has expired. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Please click here to renew your license key and continue receiving automatic updates.</a>"
+msgstr "La tua chiave di licenza per WP Mail SMTP Pro è in scadenza. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Fai clic qui per rinnovare la chiave di licenza e continuare a ricevere gli aggiornamenti automatici.</a>"
+
+#. translators: %1$s - WPMailSMTP.com account area URL; %2$s - WPMailSMTP.com pricing page URL.
+#: src/Pro/License/License.php:868
+msgid "<b>Your WP Mail SMTP Pro license has no site activations left.</b> You can update the list of your sites or upgrade the license in the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Account area</a>. Or you can <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">purchase a new license key</a>."
+msgstr "<b>La tua licenza WP Mail SMTP Pro non permette l'attivazione di nuovi siti.</b> Puoi aggiornare l'elenco dei tuoi siti o <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">fare l'upgrade della licenza nell'area Account</a>. Oppure puoi <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">acquistare una nuova chiave di licenza</a>."
+
+#. translators: %s - plugin settings page URL.
+#: src/Pro/License/License.php:1039
+msgid "Your license key for WP Mail SMTP Pro has been disabled. Please <a href=\"%s\">enter and activate</a> a different key for WP Mail SMTP Pro to continue receiving automatic updates."
+msgstr "La chiave della tua licenza per WP Mail SMTP Pro è stata disabilitata. <a href=\"%s\">Inserisci e attiva</a> un'altra chiave di WP Mail SMTP Pro per continuare a ricevere gli aggiornamenti automatici."
+
+#. translators: %s - plugin settings page URL.
+#: src/Pro/License/License.php:1055
+msgid "Your license key for WP Mail SMTP Pro is invalid. Please <a href=\"%s\">enter and activate</a> a different key for WP Mail SMTP Pro to continue receiving automatic updates."
+msgstr "La chiave della tua licenza per WP Mail SMTP Pro non è valida. <a href=\"%s\">Inserisci e attiva</a> un'altra chiave per WP Mail SMTP Pro per continuare a ricevere gli aggiornamenti automatici."
+
+#. translators: %1$s - WPMailSMTP.com account area URL; %2$s - WPMailSMTP.com pricing page URL.
+#: src/Pro/License/License.php:1071
+msgid "Your WP Mail SMTP Pro license has no site activations left. You can update the list of your sites or upgrade the license in the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Account area</a>. Or you can <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">purchase a new license key</a>."
+msgstr "La tua licenza WP Mail SMTP Pro non permette l'attivazione di nuovi siti. Puoi aggiornare l'elenco dei tuoi siti o <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">fare l'upgrade della licenza nell'area Account</a>. Oppure puoi <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">acquistare una nuova chiave di licenza</a>."
+
+#: src/Pro/License/License.php:1103
+msgid "Your WP Mail SMTP Pro license is active and valid."
+msgstr "La tua licenza WP Mail SMTP Pro è attiva e valida."
+
+#: src/Pro/MailCatcherTrait.php:86
+msgid "Primary connection"
+msgstr "Connessione primaria"
+
+#: src/Pro/MailCatcherTrait.php:89
+msgid "Backup connection"
+msgstr "Connessione di backup"
+
+#: src/Pro/Multisite.php:241
+msgid "The results could not be loaded."
+msgstr "Non è stato possibile caricare i risultati."
+
+#: src/Pro/Multisite.php:242
+msgid "Loading more results..."
+msgstr "Caricamento di altri risultati..."
+
+#: src/Pro/Multisite.php:243
+msgid "No results found."
+msgstr "Nessun risultato trovato."
+
+#: src/Pro/Multisite.php:244
+msgid "Searching..."
+msgstr "Ricerca..."
+
+#: src/Pro/Multisite.php:279
+msgid "Multisite"
+msgstr "Multisito"
+
+#: src/Pro/Multisite.php:286
+msgid "Settings control"
+msgstr "Controllo delle impostazioni"
+
+#: src/Pro/Multisite.php:294
+msgid "Make the plugin settings global network-wide"
+msgstr "Rendi le impostazioni del plugin globali a livello di network o di rete"
+
+#: src/Pro/Multisite.php:298
+msgid "If disabled, each subsite of this multisite will have its own WP Mail SMTP settings page that has to be configured separately."
+msgstr "Se disabilitato, ogni sotto-sito di questo multisito avrà la propria pagina di impostazioni WP Mail SMTP che dovrà essere configurata separatamente."
+
+#: src/Pro/Multisite.php:300
+msgid "If enabled, these global settings will manage email sending for all subsites of this multisite."
+msgstr "Se abilitate, queste impostazioni globali gestiranno l'invio di email per tutti i sottositi di questo multisito."
+
+#. Translators: %s - Network admin email address.
+#: src/Pro/Multisite.php:418
+msgid "Sorry, you are not allowed to access the WP Mail SMTP settings for individual network subsite. The network-wide setting is enabled, so the plugin settings are only accessible in the network admin dashboard. Please contact your network admin: %s."
+msgstr "Non hai i permessi per accedere alle impostazioni di WP Mail SMTP per i singoli sottositi della rete. L'impostazione a livello di rete è abilitata, quindi le impostazioni del plugin sono accessibili solo nella Bacheca dell'amministratore della rete. Contatta il tuo amministratore di rete: %s."
+
+#: src/Pro/Multisite.php:685
+msgid "Clear these errors"
+msgstr "Cancella questi errori"
+
+#: src/Pro/Multisite.php:759
+msgid "Site"
+msgstr "Sito"
+
+#: src/Pro/Pro.php:646
+msgid "Go to WP Mail SMTP Settings page"
+msgstr "Vai alla pagina Impostazioni di WP Mail SMTP"
+
+#: src/Pro/Pro.php:647
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: src/Pro/Pro.php:655
+msgid "Go to WPMailSMTP.com support page"
+msgstr "Vai alla pagina di supporto di WPMailSMTP.com"
+
+#: src/Pro/Pro.php:656
+msgid "Support"
+msgstr "Supporto"
+
+#: src/Pro/Pro.php:663
+msgid "Go to WPMailSMTP.com documentation page"
+msgstr "Vai alla pagina della documentazione di WPMailSMTP.com"
+
+#: src/Pro/Pro.php:664
+msgid "Docs"
+msgstr "Docs"
+
+#: src/Pro/Pro.php:758
+msgid "There was an error while processing the authentication request. The connection was not found. Please try again."
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta di autenticazione. La connessione non è stata trovata. Prova di nuovo."
+
+#: src/Pro/Pro.php:766
+msgid "There was an error while processing the authentication request. The authorization code is missing. Please try again."
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta di autenticazione. Il codice di autorizzazione è mancante. Prova di nuovo."
+
+#: src/Pro/Pro.php:774
+msgid "There was an error while processing the authentication request. The nonce is invalid. Please try again."
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta di autenticazione. Il nonce non è valido. Prova di nuovo."
+
+#: src/Pro/Pro.php:781
+msgid "There was an error while processing the authentication request. Please recheck your Client ID and Client Secret and try again."
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta di autenticazione. Ricontrolla l'ID e il Client Secret e riprova."
+
+#: src/Pro/Pro.php:788
+msgid "There was an error while processing the authentication request. Please make sure that you have Client ID and Client Secret both valid and saved."
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta di autenticazione. Assicurati che l'ID e il Client Secret siano validi e salvati."
+
+#. translators: %s - error code, returned by Zoho API.
+#: src/Pro/Pro.php:796
+msgid "There was an error while processing the authentication request: %s. Please try again."
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta di autenticazione: %s. NON SI TRADUCE."
+
+#: src/Pro/Pro.php:803
+msgid "There was an error while processing the authentication request. Please recheck your Region, Client ID and Client Secret and try again."
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta di autenticazione. Ricontrolla la regione, l'ID e il Client Secret e riprova."
+
+#: src/Pro/Pro.php:811
+msgid "There was an error while processing the authentication request."
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta di autenticazione."
+
+#: src/Pro/Pro.php:820
+msgid "You have successfully linked the current site with your Microsoft API project. Now you can start sending emails through Outlook."
+msgstr "Hai collegato con successo il sito attuale con il tuo progetto Microsoft API. Ora puoi iniziare a inviare email attraverso Outlook."
+
+#: src/Pro/Pro.php:827
+msgid "You have successfully linked the current site with your Zoho Mail API project. Now you can start sending emails through Zoho Mail."
+msgstr "Hai collegato con successo il sito attuale con il tuo progetto Zoho Mail API. Ora puoi iniziare a inviare email attraverso Zoho Mail."
+
+#: src/Pro/Pro.php:834
+msgid "You have successfully connected your site with your Gmail account. This site will now send emails via your Gmail account."
+msgstr "Hai collegato correttamente il tuo sito al tuo account Gmail. Questo sito ora invierà email tramite il tuo account Gmail."
+
+#: src/Pro/Pro.php:841
+msgid "You have successfully connected your site with your Outlook account. This site will now send emails via your Outlook account."
+msgstr "Hai collegato correttamente il tuo sito con il tuo account Outlook. Questo sito ora invierà le email tramite il tuo account Outlook."
+
+#: src/Pro/Pro.php:871
+msgid "Auto-updates are not available."
+msgstr "Gli aggiornamenti automatici non sono disponibili."
+
+#: src/Pro/Pro.php:1134
+#: src/Pro/Providers/Providers.php:319
+#: src/Pro/Providers/Providers.php:363
+msgid "Please provide a valid email address."
+msgstr "Fornisci un indirizzo email valido."
+
+#: src/Pro/Pro.php:1136
+msgid "Please provide a domain."
+msgstr "Fornisci un dominio."
+
+#: src/Pro/Pro.php:1216
+msgid "You don't have the permission to perform this action."
+msgstr "Non hai i permessi per eseguire questa azione."
+
+#: src/Pro/Pro.php:1222
+msgid "Please enter a valid license key!"
+msgstr "Inserisci una chiave di licenza valida!"
+
+#: src/Pro/Pro.php:1232
+msgid "License functionality missing!"
+msgstr "Manca la funzionalità di licenza!"
+
+#: src/Pro/Pro.php:1295
+msgid "Inactive &mdash; You are already using WP Mail SMTP Pro"
+msgstr "Inattivo &mdash; Stai già usando WP Mail SMTP Pro"
+
+#: src/Pro/ProductApi/CredentialsGenerator.php:74
+msgid "Max number of attempts to generate credentials has been reached."
+msgstr "È stato raggiunto il numero massimo di tentativi di generazione delle credenziali."
+
+#: src/Pro/ProductApi/CredentialsGenerator.php:78
+msgid "Credentials generation already started by another request."
+msgstr "La generazione delle credenziali è già stata avviata da un'altra richiesta."
+
+#: src/Pro/ProductApi/CredentialsGenerator.php:111
+msgid "Invalid response for credentials generation."
+msgstr "Risposta non valida per la generazione delle credenziali."
+
+#: src/Pro/Providers/AmazonSES/Auth.php:134
+msgid "US East (N. Virginia)"
+msgstr "Stati Uniti Est (N. Virginia)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:135
+msgid "US East (Ohio)"
+msgstr "Stati Uniti Est (Ohio)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:136
+msgid "US West (N. California)"
+msgstr "Stati Uniti Ovest (N. California)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:137
+msgid "US West (Oregon)"
+msgstr "Stati Uniti Ovest (Oregon)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:138
+msgid "EU (Ireland)"
+msgstr "UE (Irlanda)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:139
+msgid "EU (London)"
+msgstr "UE (Londra)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:140
+msgid "EU (Paris)"
+msgstr "UE (Parigi)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:141
+msgid "EU (Frankfurt)"
+msgstr "UE (Francoforte)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:142
+msgid "EU (Stockholm)"
+msgstr "UE (Stoccolma)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:143
+msgid "EU (Milan)"
+msgstr "UE (Milano)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:144
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asia Pacifico (Mumbai)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:145
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asia Pacifico (Tokyo)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:146
+msgid "Asia Pacific (Seoul)"
+msgstr "Asia Pacifico (Seul)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:147
+msgid "Asia Pacific (Osaka)"
+msgstr "Asia Pacifico (Osaka)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:148
+msgid "Asia Pacific (Singapore)"
+msgstr "Asia Pacifico (Singapore)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:149
+msgid "Asia Pacific (Sydney)"
+msgstr "Asia Pacifico (Sydney)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:150
+msgid "Africa (Cape Town)"
+msgstr "Africa (Città del Capo)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:151
+msgid "Canada (Central)"
+msgstr "Canada (Centrale)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:152
+msgid "Middle East (Bahrain)"
+msgstr "Medio Oriente (Bahrain)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:153
+msgid "South America (São Paulo)"
+msgstr "Sud America (San Paolo)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:154
+msgid "GovCloud (US-West)"
+msgstr "GovCloud (USA-Ovest)"
+
+#. translators: %s - domain name.
+#: src/Pro/Providers/AmazonSES/Auth.php:471
+msgid "It looks like DKIM is not enabled for this domain. Please visit AWS SES console and enable DKIM for %s."
+msgstr "Sembra che il DKIM non sia abilitato per questo dominio. Visita la console di AWS SES e abilita il DKIM per %s."
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:82
+msgid "Sender"
+msgstr "Mittente"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:83
+msgid "Type"
+msgstr "Tipo"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:85
+msgid "Action"
+msgstr "Azione"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:118
+msgid "Domain"
+msgstr "Dominio"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:237
+msgid "No registered SES identities found."
+msgstr "Non sono state trovate identità SES registrate."
+
+#: src/Pro/Providers/AmazonSES/Identity.php:202
+msgid "Delete this domain"
+msgstr "Elimina questo dominio"
+
+#: src/Pro/Providers/AmazonSES/Identity.php:203
+msgid "Delete this email"
+msgstr "Elimina questa email"
+
+#: src/Pro/Providers/AmazonSES/Identity.php:209
+#: src/Pro/Providers/AmazonSES/Identity.php:213
+msgid "View DNS"
+msgstr "Visualizza i DNS"
+
+#: src/Pro/Providers/AmazonSES/Identity.php:216
+msgid "Resend a verification email to this address"
+msgstr "Invia di nuovo un'email di verifica a questo indirizzo email"
+
+#: src/Pro/Providers/AmazonSES/Mailer.php:76
+msgid "An email request was sent to the Amazon SES API."
+msgstr "È stata inviata una richiesta di email all'API Amazon SES."
+
+#: src/Pro/Providers/AmazonSES/Mailer.php:99
+msgid "Amazon SES request failed (empty response)."
+msgstr "La richiesta di Amazon SES è fallita (risposta vuota)."
+
+#: src/Pro/Providers/AmazonSES/Mailer.php:103
+msgid "Something went wrong. Please try again."
+msgstr "Qualcosa è andato storto. NON SI TRADUCE."
+
+#: src/Pro/Providers/AmazonSES/Options.php:38
+msgid "Amazon SES"
+msgstr "Amazon SES"
+
+#: src/Pro/Providers/AmazonSES/Options.php:39
+msgid "Amazon SES is a transactional email provider that allows you to send email via its API. We recommend this mailer for existing users of Amazon Web Services because the setup steps are a little more complicated than other mailers."
+msgstr "Amazon SES è un provider di email transazionali che ti permette di inviare email tramite le sue API. Consigliamo questo mailer a chi già usa Amazon Web Services perché la configurazione è un po' più complicata rispetto ad altri mailer."
+
+#. translators: %s - WPMailSMTP.com URL.
+#: src/Pro/Providers/AmazonSES/Options.php:43
+msgid "To get started, read our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Amazon SES documentation</a>."
+msgstr "Per iniziare, leggi la nostra <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentazione di Amazon SES</a>."
+
+#: src/Pro/Providers/AmazonSES/Options.php:57
+msgid "The Amazon SES mailer will be a good choice for technically advanced users who already have experience working with Amazon's web services.<br><br>If you aren't sure whether this mailer sounds like the right fit for your site, then we recommend considering one of our other mailer options."
+msgstr "Il mailer Amazon SES è una buona scelta per utenti con conoscenze tecniche avanzate e che hanno già esperienza con i servizi web di Amazon.<br><br>Se non hai la certezza che questo mailer sia adatto al tuo sito, ti consigliamo di prendere in considerazione una delle altre opzioni di mailer."
+
+#: src/Pro/Providers/AmazonSES/Options.php:104
+msgid "Access Key ID"
+msgstr "ID chiave di accesso"
+
+#: src/Pro/Providers/AmazonSES/Options.php:121
+msgid "Secret Access Key"
+msgstr "Chiave di accesso segreta"
+
+#: src/Pro/Providers/AmazonSES/Options.php:140
+msgid "Remove Secret Access Key"
+msgstr "Rimuovi la chiave di accesso segreta"
+
+#: src/Pro/Providers/AmazonSES/Options.php:153
+msgid "Closest Region"
+msgstr "Regione più vicina"
+
+#: src/Pro/Providers/AmazonSES/Options.php:172
+msgid "--- Select region ---"
+msgstr "--- Seleziona la regione ---"
+
+#: src/Pro/Providers/AmazonSES/Options.php:179
+msgid "The closest Amazon SES region to your website was preselected."
+msgstr "È stata preselezionata la regione Amazon SES più vicina al tuo sito web."
+
+#: src/Pro/Providers/AmazonSES/Options.php:181
+msgid "Please select the Amazon SES API region which is the closest to where your website is hosted."
+msgstr "Seleziona l'area API di Amazon SES più vicina al luogo in cui è ospitato il tuo sito web."
+
+#: src/Pro/Providers/AmazonSES/Options.php:183
+msgid "This can help to decrease network latency between your site and Amazon SES, which will speed up email sending."
+msgstr "Questo può aiutare a ridurre la latenza di rete tra il tuo sito e Amazon SES, velocizzando l'invio delle email."
+
+#: src/Pro/Providers/AmazonSES/Options.php:186
+msgid "To access this section, please click the Save Settings button."
+msgstr "Per accedere a questa sezione, clicca sul pulsante Salva impostazioni."
+
+#: src/Pro/Providers/AmazonSES/Options.php:196
+msgid "SES Identities"
+msgstr "Identità SES"
+
+#: src/Pro/Providers/AmazonSES/Options.php:271
+msgid "Here are the domains and email addresses that have been verified and can be used as the From Email address."
+msgstr "Ecco i domini e gli indirizzi email che sono stati verificati e che possono essere utilizzati come indirizzo email del mittente."
+
+#: src/Pro/Providers/AmazonSES/Options.php:277
+msgid "No registered domains or emails."
+msgstr "Nessun dominio o email registrati."
+
+#: src/Pro/Providers/AmazonSES/Options.php:278
+msgid "You will not be able to send emails until you verify at least one domain or email address."
+msgstr "Non potrai inviare email finché non avrai verificato almeno un dominio o un indirizzo email."
+
+#: src/Pro/Providers/AmazonSES/Options.php:284
+msgid "Add new SES identity"
+msgstr "Aggiungi una nuova identità SES"
+
+#: src/Pro/Providers/AmazonSES/Options.php:309
+msgid "Enter the domain name to verify it on Amazon SES and generate the required DNS CNAME records."
+msgstr "Inserisci il nome del dominio per verificarlo su Amazon SES e generare i record DNS CNAME necessari."
+
+#: src/Pro/Providers/AmazonSES/Options.php:312
+msgid "Enter a valid email address. A verification email will be sent to the email address you entered."
+msgstr "Inserisci un indirizzo email valido. Verrà inviata un'email di verifica all'indirizzo email inserito."
+
+#: src/Pro/Providers/AmazonSES/Options.php:316
+msgid "Verify Domain"
+msgstr "Verifica il dominio"
+
+#: src/Pro/Providers/AmazonSES/Options.php:318
+msgid "Verify Email Address"
+msgstr "Verifica l'indirizzo email"
+
+#: src/Pro/Providers/AmazonSES/Options.php:321
+msgid "Please enter a domain"
+msgstr "Inserisci un dominio"
+
+#: src/Pro/Providers/AmazonSES/Options.php:322
+msgid "Please enter a valid email address"
+msgstr "Inserisci un indirizzo email valido"
+
+#: src/Pro/Providers/AmazonSES/Options.php:325
+msgid "Verify"
+msgstr "Verifica"
+
+#: src/Pro/Providers/AmazonSES/Options.php:343
+msgid "Verify SES identity"
+msgstr "Verifica l'identità del SES"
+
+#: src/Pro/Providers/AmazonSES/Options.php:355
+msgid "To access this section, please add an Access Key ID and Secret Access Key, select the Closest Region, then click the Save Settings button."
+msgstr "Per accedere a questa sezione, aggiungi un ID e una chiave di accesso segreta, seleziona la Regione più vicina e fai clic sul pulsante Salva impostazioni."
+
+#: src/Pro/Providers/AmazonSES/Options.php:446
+msgid "Add the following CNAME records to your domain's DNS settings:"
+msgstr "Aggiungi i seguenti record CNAME alle impostazioni DNS del tuo dominio:"
+
+#: src/Pro/Providers/AmazonSES/Options.php:452
+msgid "Name"
+msgstr "Nome"
+
+#: src/Pro/Providers/AmazonSES/Options.php:455
+msgid "Value"
+msgstr "Valore"
+
+#. translators: %s - URL to Amazon SES documentation.
+#: src/Pro/Providers/AmazonSES/Options.php:481
+msgid "For information on how to add CNAME DNS records, <br><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">please refer to the Amazon SES documentation</a>."
+msgstr "Per informazioni su come aggiungere record DNS CNAME, <br><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">fai riferimento alla documentazione di Amazon SES</a>."
+
+#: src/Pro/Providers/AmazonSES/Options.php:520
+msgid "Please add this TXT record to your domain's DNS settings:"
+msgstr "Aggiungi questo record TXT alle impostazioni DNS del tuo dominio:"
+
+#: src/Pro/Providers/AmazonSES/Options.php:522
+msgid "Name:"
+msgstr "Nome:"
+
+#: src/Pro/Providers/AmazonSES/Options.php:527
+msgid "Value:"
+msgstr "Valore:"
+
+#. translators: %s - URL to Amazon SES documentation.
+#: src/Pro/Providers/AmazonSES/Options.php:534
+msgid "For information on how to add TXT DNS records, please <br><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">refer to the Amazon SES documentation</a>."
+msgstr "Per informazioni su come aggiungere record DNS TXT, fai riferimento alla documentazione di Amazon SES <br><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\"></a>."
+
+#: src/Pro/Providers/Gmail/Auth.php:145
+msgid "Google authorization error. Missing required arguments."
+msgstr "Errore di autorizzazione di Google. Mancano gli argomenti necessari."
+
+#. Translators: %1$s the error code passed from Google.
+#: src/Pro/Providers/Gmail/Auth.php:184
+msgid "Google authorization error. %1$s"
+msgstr "Errore di autorizzazione di Google. %1$s"
+
+#: src/Pro/Providers/Gmail/Mailer.php:81
+msgid "An email request was sent to the Gmail API."
+msgstr "È stata inviata una richiesta di email all'API di Gmail."
+
+#: src/Pro/Providers/Gmail/Mailer.php:125
+msgid "One-Click Setup for Google Mailer requires authorization. Perform authorization before sending emails."
+msgstr "La configurazione in un clic di Google Mailer richiede un'autorizzazione. Esegui l'autorizzazione prima di inviare le email."
+
+#: src/Pro/Providers/Gmail/Mailer.php:143
+msgid "One-Click Setup for Google Mailer requires an active license. Verify your license before sending emails."
+msgstr "La configurazione in un clic di Google Mailer richiede una licenza attiva. Verifica la licenza prima di inviare le email."
+
+#: src/Pro/Providers/Gmail/Mailer.php:164
+msgid "The email message ID is missing."
+msgstr "L'ID del messaggio email è mancante."
+
+#: src/Pro/Providers/Gmail/Options.php:38
+msgid "Google / Gmail"
+msgstr "Google / Gmail"
+
+#. translators: %s - URL to our Gmail doc.
+#: src/Pro/Providers/Gmail/Options.php:41
+msgid "Our Gmail mailer works with any Gmail or Google Workspace account via the Google API. You can send WordPress emails from your main email address or a Gmail alias, and it's more secure than connecting to Gmail using SMTP credentials. We now have a One-Click Setup, which simply asks you to authorize your Google account to use our app and takes care of everything for you. Alternatively, you can connect manually, which involves several steps that are more technical than other mailer options, so we created a detailed guide to walk you through the process.<br><br>To get started, read our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Gmail documentation</a>."
+msgstr "Il nostro mailer Gmail funziona con qualsiasi account Gmail o Google Workspace tramite le API di Google. Puoi inviare email a WordPress dal tuo indirizzo email principale o da un alias Gmail ed è più sicuro rispetto alla connessione a Gmail con le credenziali SMTP. Ora abbiamo una configurazione in un clic, che ti chiede semplicemente di autorizzare il tuo account Google a usare la nostra app e si occupa di tutto. In alternativa, puoi connetterti manualmente, il che comporta diversi passaggi più tecnici rispetto alle altre opzioni di mailer; per questo abbiamo creato una guida dettagliata per guidarti attraverso il processo.<br><br>Per iniziare, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">leggi la nostra documentazione su Gmail</a>."
+
+#: src/Pro/Providers/Gmail/Options.php:55
+msgid "The Gmail mailer works well for sites that send low numbers of emails. However, Gmail's API has rate limitations and a number of additional restrictions that can lead to challenges during setup.<br><br>If you expect to send a high volume of emails, or if you find that your web host is not compatible with the Gmail API restrictions, then we recommend considering a different mailer option."
+msgstr "Il mailer di Gmail funziona bene per i siti che inviano un basso numero di email. Tuttavia, l'API di Gmail ha limitazioni di velocità e una serie di restrizioni aggiuntive che possono creare problemi durante la configurazione.<br><br>Se prevedi di inviare un volume elevato di email o se scopri che il tuo host non è compatibile con le restrizioni dell'API di Gmail, ti consigliamo di prendere in considerazione un'opzione di mailer diversa."
+
+#: src/Pro/Providers/Gmail/Options.php:94
+#: src/Pro/Providers/Outlook/OneClick/Options.php:79
+msgid "One-Click Setup"
+msgstr "Configurazione in un clic"
+
+#: src/Pro/Providers/Gmail/Options.php:108
+msgid "Provides a quick and easy way to connect to Google that doesn't require creating your own app."
+msgstr "Offre un modo semplice e veloce per connettersi a Google senza dover creare una propria app."
+
+#: src/Pro/Providers/Gmail/Options.php:130
+#: src/Pro/Providers/Outlook/OneClick/Options.php:115
+#: src/Pro/Providers/Outlook/Options.php:159
+#: src/Pro/Providers/Zoho/Options.php:198
+msgid "Authorization"
+msgstr "Autorizzazione"
+
+#. translators: %1$s - WPMailSMTP.com renew URL.
+#: src/Pro/Providers/Gmail/Options.php:156
+#: src/Pro/Providers/Outlook/OneClick/Options.php:141
+msgid "One-Click Setup requires an active license. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Renew your license</a> and reconnect your authorization."
+msgstr "La configurazione in un clic richiede una licenza attiva. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Rinnova la licenza</a> e ristabilisci l'autorizzazione."
+
+#: src/Pro/Providers/Gmail/Options.php:178
+#: src/Pro/Providers/Outlook/OneClick/Options.php:163
+msgid "One-Click Setup requires an active license. You can renew your license above to proceed with this One-Click Setup."
+msgstr "La configurazione in un clic richiede una licenza attiva. Puoi rinnovare la tua licenza qui sopra per procedere con la configurazione in un clic."
+
+#: src/Pro/Providers/Gmail/Options.php:184
+#: src/Pro/Providers/Outlook/OneClick/Options.php:169
+msgid "One-Click Setup requires an active license. Verify your license above to proceed with this One-Click Setup."
+msgstr "La configurazione in un clic richiede una licenza attiva. Verifica la tua licenza qui sopra per procedere con la configurazione in un clic."
+
+#: src/Pro/Providers/Gmail/Options.php:188
+#: src/Pro/Providers/Outlook/OneClick/Options.php:173
+msgid "One-Click Setup requires an active license. You can verify your license above to proceed with this One-Click Setup."
+msgstr "La configurazione in un clic richiede una licenza attiva. Puoi verificare la tua licenza qui sopra per procedere con la configurazione in un clic."
+
+#: src/Pro/Providers/Gmail/Options.php:215
+msgid "Sign in with Google"
+msgstr "Accedi con Google"
+
+#: src/Pro/Providers/Gmail/Options.php:221
+#: src/Pro/Providers/Outlook/OneClick/Options.php:206
+msgid "Reconnect"
+msgstr "Riconnetti"
+
+#: src/Pro/Providers/Gmail/Options.php:224
+#: src/Pro/Providers/Gmail/Options.php:246
+#: src/Pro/Providers/Outlook/OneClick/Options.php:209
+#: src/Pro/Providers/Outlook/OneClick/Options.php:231
+#: src/Pro/Providers/Outlook/Options.php:196
+#: src/Pro/Providers/Zoho/Options.php:235
+msgid "Remove OAuth Connection"
+msgstr "Rimuovere la connessione OAuth"
+
+#. translators: %1$s - email address, as received from Google API.
+#: src/Pro/Providers/Gmail/Options.php:233
+#: src/Pro/Providers/Gmail/Options.php:255
+msgid "Connected as %1$s"
+msgstr "Connesso con %1$s"
+
+#: src/Pro/Providers/Gmail/Options.php:241
+msgid "Your Google account connection has expired. Please reconnect your account."
+msgstr "La tua connessione all'account Google è scaduta. Riconnettiti al tuo account."
+
+#. translators: %s - URL to Google Gmail alias documentation page.
+#: src/Pro/Providers/Gmail/Options.php:266
+msgid "If you want to use a different From Email address you can set up a Google email alias. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Follow these instructions</a> and then select the From Email at the top of this page."
+msgstr "Se vuoi utilizzare un indirizzo email del mittente diverso, puoi impostare un alias dell'email di Google. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Segui queste istruzioni</a> e poi seleziona l'indirizzo Email mittente in cima alla pagina."
+
+#: src/Pro/Providers/Gmail/Options.php:280
+#: src/Pro/Providers/Outlook/OneClick/Options.php:248
+#: src/Pro/Providers/Outlook/Options.php:212
+msgid "You can also send emails with different From Email addresses, by disabling the Force From Email setting and using registered aliases throughout your WordPress site as the From Email addresses."
+msgstr "Puoi anche inviare email con indirizzi email diversi, disabilitando l'impostazione Forza l'email del mittente e utilizzando gli alias registrati sul tuo sito WordPress come indirizzi email."
+
+#: src/Pro/Providers/Gmail/Options.php:283
+msgid "Removing the OAuth connection will give you an ability to redo the OAuth connection or link to another Google account."
+msgstr "Rimuovendo la connessione OAuth potrai rifare la connessione OAuth o linkare un altro account Google."
+
+#: src/Pro/Providers/Gmail/Options.php:288
+#: src/Pro/Providers/Outlook/OneClick/Options.php:256
+msgid "You need to save settings before you can proceed."
+msgstr "Devi salvare le impostazioni prima di poter procedere."
+
+#: src/Pro/Providers/Gmail/Provider.php:210
+#: src/Pro/Providers/Gmail/Provider.php:240
+#: src/Pro/Providers/Gmail/Provider.php:261
+#: src/Pro/Providers/Outlook/Provider.php:223
+#: src/Pro/Providers/Outlook/Provider.php:253
+#: src/Pro/Providers/Outlook/Provider.php:274
+msgid "Action Required!"
+msgstr "Azione necessaria!"
+
+#. translators: %1$s - WPMailSMTP.com renew URL.
+#: src/Pro/Providers/Gmail/Provider.php:214
+msgid "One-Click Setup for Google Mailer requires an active license. Emails are currently not being sent. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Renew your license</a> and reconnect your authorization."
+msgstr "La configurazione in un clic di Google Mailer richiede una licenza attiva. Al momento le email non vengono inviate. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Rinnova la licenza</a> e ristabilisci l'autorizzazione."
+
+#. translators: %1$s - URL to plugin settings page.
+#: src/Pro/Providers/Gmail/Provider.php:244
+msgid "One-Click Setup for Google Mailer requires an active license. Emails are currently not being sent. <a href=\"%1$s\">Verify your license</a> and reconnect your authorization."
+msgstr "La configurazione in un clic di Google Mailer richiede una licenza attiva. Al momento le email non vengono inviate. <a href=\"%1$s\">Verifica la licenza</a> e ristabilisci l'autorizzazione."
+
+#. translators: %1$s - URL to plugin settings page.
+#: src/Pro/Providers/Gmail/Provider.php:265
+msgid "Your Google account connection has expired. Please <a href=\"%1$s\">reconnect</a> your authorization."
+msgstr "La connessione del tuo account Google è scaduta. <a href=\"%1$s\">Ristabilisci la tua autorizzazione.</a>"
+
+#. translators: %1$s is an argument name.
+#: src/Pro/Providers/Gmail/Provider.php:300
+msgid "The %1$s authenticate parameter is missing"
+msgstr "Manca il parametro di autenticazione %1$s"
+
+#: src/Pro/Providers/Gmail/Provider.php:317
+msgid "Invalid one time token sent"
+msgstr "Invio del token una tantum non valido"
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:94
+msgid "The attachment file size can't be calculated."
+msgstr "La dimensione del file allegato non può essere calcolata."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:121
+msgid "Attachment file not found."
+msgstr "File allegato non trovato."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:141
+msgid "Regular attachment upload failed."
+msgstr "Caricamento normale di un allegato non riuscito."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:204
+msgid "Large attachment upload failed."
+msgstr "Caricamento di un allegato di grandi dimensioni non riuscito."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:242
+msgid "Upload session creation failed."
+msgstr "La creazione della sessione di caricamento è fallita."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:248
+msgid "Upload session creation failed. The response is invalid, missing the \"uploadUrl\" field."
+msgstr "La creazione di una sessione di caricamento non è riuscita. La risposta non è valida perché manca il campo \"uploadUrl\"."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:289
+msgid "Upload URL has expired."
+msgstr "L'URL di caricamento dei file è scaduto."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:300
+msgid "Last part of the file upload failed."
+msgstr "L'ultima parte del caricamento del file è fallita."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:305
+msgid "File chunk upload failed."
+msgstr "Caricamento del file non riuscito."
+
+#: src/Pro/Providers/Outlook/AttachmentsUploader.php:315
+msgid "File chunk upload failed. The response is invalid, missing the \"nextExpectedRanges\" field."
+msgstr "Upload del frammento di file non riuscito. La risposta non è valida perché manca il campo \"nextExpectedRanges\"."
+
+#: src/Pro/Providers/Outlook/Mailer.php:634
+msgid "An email request was sent to the Microsoft Graph API."
+msgstr "È stata richiesta un'email all'API Microsoft Graph."
+
+#: src/Pro/Providers/Outlook/Mailer.php:709
+msgid "Outlook attachment upload failed."
+msgstr "Upload dell'allegato in Outlook non riuscito."
+
+#: src/Pro/Providers/Outlook/Mailer.php:747
+msgid "Note: this issue could also be caused by hitting the total message size limit. If you are using big attachments, please remove the existing Outlook mailer OAuth connection in WP Mail SMTP settings and connect it again. We recently added support for bigger attachments, but the oAuth re-connection is required."
+msgstr "Nota: questo problema potrebbe essere causato anche dal superamento del limite di dimensione del messaggio. Se utilizzi allegati di grandi dimensioni, rimuovi la connessione OAuth del mailer Outlook esistente nelle impostazioni di WP Mail SMTP e connettila di nuovo. Di recente abbiamo aggiunto il supporto per allegati più grandi, ma è necessaria una nuova connessione OAuth."
+
+#. translators: %1$s - exception message.
+#: src/Pro/Providers/Outlook/OneClick/Auth.php:146
+msgid "Failed to refresh access token. %1$s"
+msgstr "Impossibile aggiornare il token di accesso. %1$s"
+
+#: src/Pro/Providers/Outlook/OneClick/Auth.php:253
+msgid "Microsoft authorization error. Authorization code is empty."
+msgstr "Errore di autorizzazione Microsoft. Il codice di autorizzazione è vuoto."
+
+#. translators: %1$s - exception message.
+#: src/Pro/Providers/Outlook/OneClick/Auth.php:285
+msgid "Failed to obtain access token. %1$s"
+msgstr "Impossibile ottenere il token di accesso. %1$s"
+
+#: src/Pro/Providers/Outlook/OneClick/Options.php:93
+msgid "Provides a quick and easy way to connect to Microsoft that doesn't require creating your own app."
+msgstr "Offre un modo semplice e veloce per connettersi a Microsoft senza dover creare una propria applicazione."
+
+#: src/Pro/Providers/Outlook/OneClick/Options.php:200
+msgid "Sign in with Microsoft"
+msgstr "Accedi con Microsoft"
+
+#. translators: %s - Display name and email, as received from Microsoft API.
+#. translators: %s - Display name and email, as received from oAuth provider.
+#: src/Pro/Providers/Outlook/OneClick/Options.php:218
+#: src/Pro/Providers/Outlook/OneClick/Options.php:240
+#: src/Pro/Providers/Outlook/Options.php:205
+#: src/Pro/Providers/Zoho/Options.php:244
+msgid "Connected as %s"
+msgstr "Connesso con %s"
+
+#: src/Pro/Providers/Outlook/OneClick/Options.php:226
+msgid "Your Microsoft account connection has expired. Please reconnect your account."
+msgstr "La connessione del tuo account Microsoft è in scadenza. Ricollega il tuo account."
+
+#: src/Pro/Providers/Outlook/OneClick/Options.php:251
+#: src/Pro/Providers/Outlook/Options.php:215
+msgid "Removing the OAuth connection will give you an ability to redo the OAuth connection or link to another Microsoft account."
+msgstr "Rimuovendo la connessione OAuth potrai rifare la connessione OAuth o collegarti a un altro account Microsoft."
+
+#: src/Pro/Providers/Outlook/Options.php:36
+msgid "365 / Outlook"
+msgstr "365 / Outlook"
+
+#. translators: %s - URL to Outlook doc.
+#: src/Pro/Providers/Outlook/Options.php:39
+msgid "The Microsoft 365 / Outlook mailer is a great choice if you already use Microsoft's email services (Outlook, Office 365, Microsoft 365, or Hotmail). Due to the fairly complex manual Microsoft App configuration, we recommend the One-Click Setup, which will get you up and running in just a few seconds.<br><br>To get started, read our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Microsoft 365 / Outlook documentation</a>."
+msgstr "Il mailer Microsoft 365 / Outlook è un'ottima scelta se usi già i servizi email di Microsoft (Outlook, Office 365, Microsoft 365 o Hotmail). A causa della complessa configurazione manuale dell'app Microsoft, ti consigliamo la configurazione con un clic, che ti permetterà di partire in pochi secondi.<br><br>Per iniziare, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">leggi la nostra documentazione su Microsoft 365 / Outlook</a>."
+
+#: src/Pro/Providers/Outlook/Options.php:90
+msgid "Application ID"
+msgstr "ID dell'applicazione"
+
+#: src/Pro/Providers/Outlook/Options.php:105
+msgid "Application Password"
+msgstr "Password per l'applicazione"
+
+#: src/Pro/Providers/Outlook/Options.php:123
+msgid "Remove Application Password"
+msgstr "Rimuovi la password dell'applicazione"
+
+#: src/Pro/Providers/Outlook/Options.php:135
+#: src/Pro/Providers/Zoho/Options.php:174
+msgid "Redirect URI"
+msgstr "URI di reindirizzamento"
+
+#: src/Pro/Providers/Outlook/Options.php:143
+#: src/Pro/Providers/Zoho/Options.php:182
+msgid "Copy URL to clipboard"
+msgstr "Copia l'URL negli appunti"
+
+#: src/Pro/Providers/Outlook/Options.php:148
+msgid "This is the page on your site that you will be redirected to after you have authenticated with Microsoft."
+msgstr "Questa è la pagina del tuo sito a cui ti reindirizzeremo dopo l'autenticazione con Microsoft."
+
+#: src/Pro/Providers/Outlook/Options.php:150
+msgid "You need to copy this URL into \"Authentication > Redirect URIs\" web field for your application on Microsoft Azure site for your project there."
+msgstr "Devi copiare questo URL nel campo web \"Autenticazione > URI di reindirizzamento\" della tua applicazione sul sito di Microsoft Azure per il tuo progetto."
+
+#: src/Pro/Providers/Outlook/Options.php:187
+msgid "Allow plugin to send emails using your Microsoft account"
+msgstr "Consenti al plugin di inviare email utilizzando il tuo account Microsoft"
+
+#: src/Pro/Providers/Outlook/Options.php:190
+#: src/Pro/Providers/Zoho/Options.php:229
+msgid "Click the button above to confirm authorization."
+msgstr "Clicca sul pulsante qui sopra per confermare l'autorizzazione."
+
+#: src/Pro/Providers/Outlook/Options.php:223
+msgid "To access this section, please add an Application ID and Application Password, then click the Save Settings button."
+msgstr "Per accedere a questa sezione, aggiungi un ID e una password per l'applicazione, quindi fai clic sul pulsante Salva impostazioni."
+
+#. translators: %1$s - WPMailSMTP.com renew URL.
+#: src/Pro/Providers/Outlook/Provider.php:227
+msgid "One-Click Setup for Microsoft Outlook requires an active license. Emails are currently not being sent. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Renew your license</a> and reconnect your authorization."
+msgstr "La configurazione in un clic per Microsoft Outlook richiede una licenza attiva. Al momento le email non vengono inviate. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Rinnova la licenza</a> e ricollega l'autorizzazione."
+
+#. translators: %1$s - URL to plugin settings page.
+#: src/Pro/Providers/Outlook/Provider.php:257
+msgid "One-Click Setup for Microsoft Outlook requires an active license. Emails are currently not being sent. <a href=\"%1$s\">Verify your license</a> and reconnect your authorization."
+msgstr "La configurazione in un clic per Microsoft Outlook richiede una licenza attiva. Al momento le email non vengono inviate. <a href=\"%1$s\">Verifica la licenza</a> e ricollega l'autorizzazione."
+
+#. translators: %1$s - URL to plugin settings page.
+#: src/Pro/Providers/Outlook/Provider.php:278
+msgid "Your Microsoft account connection has expired. Please <a href=\"%1$s\">reconnect</a> your authorization."
+msgstr "La connessione del tuo account Microsoft è in scadenza. <a href=\"%1$s\">Ricollega la tua autorizzazione</a>."
+
+#: src/Pro/Providers/Providers.php:230
+msgid "Sending..."
+msgstr "Invio in corso..."
+
+#: src/Pro/Providers/Providers.php:231
+msgid "Loading..."
+msgstr "In caricamento ..."
+
+#: src/Pro/Providers/Providers.php:234
+msgid "Are you sure you want to delete this email address? You will need to add and verify it again if you want to use it in the future."
+msgstr "Sei sicuro di voler eliminare questo indirizzo email? Dovrai aggiungerlo e verificarlo nuovamente se vorrai utilizzarlo in futuro."
+
+#: src/Pro/Providers/Providers.php:235
+msgid "Something went wrong, please reload the page and try again."
+msgstr "Qualcosa è andato storto, ricarica la pagina e riprova."
+
+#: src/Pro/Providers/Providers.php:236
+msgid "Please make sure that the email address is valid."
+msgstr "Verifica che l'indirizzo email sia valido."
+
+#: src/Pro/Providers/Providers.php:241
+msgid "Resend failed!"
+msgstr "Reinvio fallito!"
+
+#: src/Pro/Providers/Providers.php:245
+msgid "Done"
+msgstr "Fatto"
+
+#: src/Pro/Providers/Providers.php:246
+msgid "Are you sure you want to delete this domain? You will need to add and verify it again if you want to use it in the future."
+msgstr "Confermi di voler eliminare questo dominio? Dovrai aggiungerlo e verificarlo nuovamente se vorrai utilizzarlo in futuro."
+
+#: src/Pro/Providers/Providers.php:247
+msgid "Add verified domain"
+msgstr "Aggiungi un dominio verificato"
+
+#: src/Pro/Providers/Providers.php:248
+msgid "The AWS SES identities could not load because of an error."
+msgstr "Le identità AWS SES non sono state caricate a causa di un errore."
+
+#: src/Pro/Providers/Providers.php:255
+msgid "Yes, Delete"
+msgstr "Sì, cancella"
+
+#: src/Pro/Providers/Providers.php:257
+msgid "You're about to delete a connection. Are you sure you want to proceed?"
+msgstr "Stai per eliminare una connessione. Confermi di voler procedere?"
+
+#: src/Pro/Providers/Providers.php:258
+msgid "You're about to delete your Backup Connection. Are you sure you want to proceed?"
+msgstr "Stai per eliminare la tua connessione di backup. Confermi di voler procedere?"
+
+#: src/Pro/Providers/Providers.php:259
+msgid "You're about to delete a connection that is used in Smart Routing. Are you sure you want to proceed? You will need to reconfigure your Smart Routing rules."
+msgstr "Stai per eliminare una connessione usata in Smart Routing. Confermi di voler procedere? Dovrai riconfigurare le regole di Smart Routing."
+
+#: src/Pro/Providers/Providers.php:260
+msgid "Are you sure you want to use this additional connection as your new primary connection? Your existing primary connection will be moved to the additional connections list."
+msgstr "Confermi di voler usare questa connessione aggiuntiva come nuova connessione primaria? La tua connessione primaria esistente verrà spostata nell'elenco delle connessioni aggiuntive."
+
+#: src/Pro/Providers/Providers.php:321
+#: src/Pro/Providers/Providers.php:365
+#: src/Pro/Providers/Providers.php:403
+msgid "Please provide a domain name."
+msgstr "Fornisci un nome di dominio."
+
+#. translators: %s - email address.
+#: src/Pro/Providers/Providers.php:333
+msgid "Please check inbox of <code>%s</code> address for a verification email."
+msgstr "Controlla la casella di posta elettronica dell'indirizzo <code>%s</code> per ricevere un'email di verifica."
+
+#. translators: %s - actual email address.
+#: src/Pro/Providers/Providers.php:376
+msgid "Email address <code>%s</code> was successfully deleted."
+msgstr "L'indirizzo email <code>%s</code> è stato eliminato correttamente."
+
+#. translators: %s - actual domain name.
+#: src/Pro/Providers/Providers.php:378
+msgid "Domain <code>%s</code> was successfully deleted."
+msgstr "Il dominio <code>%s</code> è stato eliminato correttamente."
+
+#: src/Pro/Providers/Providers.php:458
+msgid "The additional connection has been successfully switched to the primary connection."
+msgstr "La connessione aggiuntiva è stata commutata con successo nella connessione primaria."
+
+#: src/Pro/Providers/Zoho/Mailer.php:367
+msgid "An email request was sent to the Zoho Mail API."
+msgstr "È stata inviata una richiesta di email all'API di Zoho Mail."
+
+#: src/Pro/Providers/Zoho/Options.php:57
+msgid "Zoho Mail"
+msgstr "Zoho Mail"
+
+#. translators: %1$s - URL to Zoho Mail page, %2$s - URL to Zoho Mail documentation page on WP Mail SMTP.
+#: src/Pro/Providers/Zoho/Options.php:60
+msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Zoho Mail</a> allows you to create secure email accounts for your business without providing your credit card details. It's easy to connect to Zoho Mail using its API. This allows you to send WordPress emails from your Zoho Mail address.<br><br>To get started, read our <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Zoho Mail documentation</a>."
+msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Zoho Mail</a> ti permette di creare account email sicuri per la tua azienda senza fornire i dati della tua carta di credito. È facile connettersi a Zoho Mail utilizzando le sue API. In questo modo potrai inviare email a WordPress dal tuo indirizzo email di Zoho Mail.<br><br>Per iniziare, leggi la nostra <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">documentazione di Zoho Mail</a>."
+
+#: src/Pro/Providers/Zoho/Options.php:108
+msgid "Region"
+msgstr "Regione"
+
+#: src/Pro/Providers/Zoho/Options.php:120
+msgid "The data center location used by your Zoho account"
+msgstr "La posizione del data center utilizzato dal tuo account Zoho"
+
+#: src/Pro/Providers/Zoho/Options.php:129
+msgid "Client ID"
+msgstr "ID cliente"
+
+#: src/Pro/Providers/Zoho/Options.php:144
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: src/Pro/Providers/Zoho/Options.php:162
+msgid "Remove Client Secret"
+msgstr "Rimuovi il segreto cliente"
+
+#: src/Pro/Providers/Zoho/Options.php:187
+msgid "This is the page on your site that you will be redirected to after you have authenticated with Zoho Mail."
+msgstr "Questa è la pagina del tuo sito a cui ti reindirizzeremo dopo l'autenticazione con Zoho Mail."
+
+#: src/Pro/Providers/Zoho/Options.php:189
+msgid "You need to copy this URL into \"Client Details > Authorized Redirect URIs\" web field for your application on Zoho Developer Console."
+msgstr "Devi copiare questo URL nel campo web \"Dettagli cliente > URI di reindirizzamento autorizzati\" della tua applicazione su Zoho Developer Console."
+
+#: src/Pro/Providers/Zoho/Options.php:226
+msgid "Allow plugin to send emails using your Zoho Mail account"
+msgstr "Permetti al plugin di inviare email utilizzando il tuo account Zoho Mail"
+
+#: src/Pro/Providers/Zoho/Options.php:251
+msgid "Removing the OAuth connection will give you the ability to redo the OAuth connection or link to another Zoho Mail account."
+msgstr "Rimuovendo la connessione OAuth potrai rifare la connessione OAuth o linkare un altro account Zoho Mail."
+
+#: src/Pro/Providers/Zoho/Options.php:259
+msgid "To access this section, please add a Domain, Client ID and Client Secret, then click the Save Settings button."
+msgstr "Per accedere a questa sezione, aggiungi il dominio, l'ID del cliente e il Client Secret, quindi fai clic sul pulsante Salva impostazioni."
+
+#: src/Pro/SiteHealth.php:55
+msgid "Is WP Mail SMTP Pro license active and valid?"
+msgstr "La licenza di WP Mail SMTP Pro è attiva e valida?"
+
+#: src/Pro/SiteHealth.php:91
+msgid "Pro install date"
+msgstr "Data di installazione di Pro"
+
+#: src/Pro/SiteHealth.php:98
+msgid "Email log entries"
+msgstr "Voci del registro delle email"
+
+#: src/Pro/SiteHealth.php:125
+msgid "WP Mail SMTP Pro license is active and valid"
+msgstr "La licenza di WP Mail SMTP Pro è attiva e valida."
+
+#: src/Pro/SiteHealth.php:135
+msgid "View license setting"
+msgstr "Visualizza l'impostazione delle licenze"
+
+#: src/Pro/SiteHealth.php:145
+msgid "WP Mail SMTP Pro license is invalid"
+msgstr "La licenza di WP Mail SMTP Pro non è valida"
+
+#: src/Pro/SiteHealth.php:167
+msgid "Your site can communicate with wpmailsmtp.com"
+msgstr "Il tuo sito può comunicare con wpmailsmtp.com"
+
+#: src/Pro/SiteHealth.php:175
+msgid "Communicating with the wpmailsmtp.com servers is used to check for new plugin versions, and to verify license keys."
+msgstr "La comunicazione con i server wpmailsmtp.com viene utilizzata per verificare la presenza di nuove versioni dei plugin e per verificare le chiavi della licenza."
+
+#: src/Pro/SiteHealth.php:195
+msgid "Could not reach wpmailsmtp.com"
+msgstr "Impossibile raggiungere wpmailsmtp.com"
+
+#. translators: %s - The error returned by the lookup.
+#: src/Pro/SiteHealth.php:203
+msgid "Your site is unable to reach wpmailsmtp.com, and returned the error: %s"
+msgstr "Il tuo sito non è in grado di raggiungere wpmailsmtp.com e ha restituito l'errore: %s"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:70
+msgid "Message"
+msgstr "Messaggio"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:74
+msgid "From Email"
+msgstr "Email mittente"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:94
+msgid "Reply-To"
+msgstr "Rispondi a"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:98
+msgid "Header Name"
+msgstr "Nome dell'header"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:102
+msgid "Header Value"
+msgstr "Valore dell'header"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:106
+msgid "Initiator"
+msgstr "Iniziatore"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:191
+msgid "Smart Routing"
+msgstr "Smart Routing"
+
+#. translators: %s - Smart Routing documentation page URL.
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:202
+msgid "Send emails from different additional connections based on your configured conditions. Emails that do not match any of the conditions below will be sent via your Primary Connection. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>."
+msgstr "Invia email da diverse connessioni aggiuntive in base alle condizioni configurate. Le email che non corrispondono a nessuna delle condizioni indicate di seguito saranno inviate tramite la tua connessione primaria. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Approfondisci</a>."
+
+#. translators: %s - Additional connections settings page url.
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:231
+msgid "You need to configure at least one <a href=\"%s\">additional connection</a> before you can use Smart Routing."
+msgstr "Devi configurare almeno una <a href=\"%s\">connessione aggiuntiva</a> prima di poter utilizzare Smart Routing."
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:254
+msgid "Enable Smart Routing"
+msgstr "Abilita lo Smart Routing"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:272
+msgid "Light bulb icon"
+msgstr "Icona della lampadina"
+
+#. translators: %s - Primary Connection settings page URL.
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:278
+msgid "Friendly reminder, your <u><b><a href=\"%s\">Primary Connection</a></b></u> will be used for all emails that do not match the conditions above."
+msgstr "Ti ricordiamo che la tua connessione primaria <u><b><a href=\"%s\"></a></b></u> sarà utilizzata per tutte le email che non corrispondono alle condizioni di cui sopra."
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:313
+msgid "Send with"
+msgstr "Invia con"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:315
+msgid "if the following conditions are met..."
+msgstr "se si verificano le seguenti condizioni..."
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:320
+msgid "Arrow Up"
+msgstr "Freccia su"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:323
+msgid "Arrow Down"
+msgstr "Freccia giù"
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:338
+msgid "These conditions will not be met because the connection no longer exists. Please select another connection."
+msgstr "Queste condizioni non saranno soddisfatte perché la connessione non esiste più. Seleziona un'altra connessione."
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:379
+msgid "-- Select a Connection --"
+msgstr "-- Seleziona una connessione."
+
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:434
+msgid "WP Core"
+msgstr "WP Core"
+
+#. translators: %s - theme name.
+#: src/Pro/SmartRouting/Admin/SettingsTab.php:441
+msgid "Theme (%s)"
+msgstr "Tema (%s)"
+
+#. translators: %d - The number of tries.
+#: src/Pro/Tasks/Logs/VerifySentStatusTaskAbstract.php:109
+msgid "The email sent status verification timed-out after %d tries. No information on email status (delivered/failed) was provided by the mailer API."
+msgstr "La verifica dello stato dell'email inviata è scaduta dopo %d tentativi. L'API del mailer non ha fornito informazioni sullo stato dell'email (consegnata/fallita)."

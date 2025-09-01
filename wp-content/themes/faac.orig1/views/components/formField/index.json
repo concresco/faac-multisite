@@ -1,0 +1,15 @@
+{
+	"type": "text",
+	"style": "",
+	"innerStyle": "",
+	"mandatory": true,
+	"name": "nome",
+	"label": "Nome",
+	"attributes": [
+		{
+			"name": "data-fakedata",
+			"value": 1
+		}
+	],
+	"options": null
+}

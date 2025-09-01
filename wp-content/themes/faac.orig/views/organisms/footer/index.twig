@@ -1,0 +1,90 @@
+<footer>
+    <div class="container">
+        <div class="row social-footer">
+            <div class="col-12 col-lg-8">
+                {% if slogan %}
+                <div class="slogan">
+                    <h3 class="color-grey-dark">{{ slogan.title }}</h3>
+                    <h4 class="color-blue">{{ slogan.subtitle }}</h4>
+                </div>
+                {% endif %}
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="social-links">
+                    {% for social in socialLinks %}
+                        <a href="{{ social.url }}"><span class="icon-{{ social.social }}"></span></a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-color-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mt-3 pt-3">
+                            <div class="footer-logo">
+                                <img src="{{ themeAssets.logoAltSrc }}" alt="Faac logo" class="w-100">
+                            </div>
+                        </div>
+                        {% if searchBox %}
+                        <div class="col-12">
+                            {# form di ricerca #}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {# footer menu #}
+                <div class="col-12 col-lg-8">
+                    <div class="row footermenu mt-5 pt-2">
+                        {% for item in footerMenu %}
+
+                            {% if loop.last %}
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        {% for child in item.submenu %}
+                                            <li>
+                                                <a class="dropdown-item font-secondary color-white {{ child.active ? 'active' : '' }}" 
+                                                    href="{{ child.url }}">
+                                                    {{ child.text }}
+                                                </a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            {% else %}
+                                <div class="col">
+                                    <div class="nav-item dropdown">
+                                        <a class="nav-link font-secondary color-white dropdown-toggle {{ item.active ? 'active' : '' }}" 
+                                            href="#" id="footerMenuDropdown_{{ loop.index }}" 
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        {{ item.text }}
+                                        </a>
+                                        <ul class="dropdown-menu" 
+                                            aria-labelledby="footerMenuDropdown_{{ loop.index }}">
+                                            {% for child in item.submenu %}
+                                                <li>
+                                                    <a class="dropdown-item font-secondary color-white {{ child.active ? 'active' : '' }}" 
+                                                        href="{{ child.url }}">
+                                                        {{ child.text }}
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            {% endif %}
+                                                            
+                        {% endfor %}
+                    </div> {# End footerMenu #}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mb-4 text-center legals">
+                    <p class="color-white">{{ legals | raw }}</p>
+                </div>
+            </div>
+        </div>
+    </div> {# End container-fluid #}
+</footer>

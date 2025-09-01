@@ -1,0 +1,107 @@
+# WordPress
+wp-config.php
+wp-config.php.backup*
+wp-config.php.bak
+wp-config-sample.php
+
+# Sensitive files with passwords/keys
+info.php
+test-*.php
+pim-proxy.php
+
+# Logs and temporary files
+*.log
+logs/
+errorlint.txt
+test_mailgun.txt
+
+# WordPress uploads and cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/litespeed/
+wp-content/updraft/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/out-of-the-box-cache/
+wp-content/log_archives/
+wp-content/wflogs/
+
+# Backup files
+backups/
+*.backup
+*.bak
+*.sql
+memory-bank/backup_*.sql
+
+# Node modules and build artifacts
+node_modules/
+wp-content/themes/*/node_modules/
+wp-content/themes/*/assets/dist/
+wp-content/themes/*/yarn.lock
+wp-content/themes/*/package-lock.json
+
+# Composer vendor (can be regenerated)
+vendor/
+wp-content/themes/*/vendor/
+
+# IDE and system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+FAAC.code-workspace
+
+# LiteSpeed specific
+litespeed.conf
+.htaccess
+
+# Memory bank sensitive data
+memory-bank/backup_*.sql
+memory-bank/*.tsv
+memory-bank/*.txt
+memory-bank/ops/drop-reminder.txt
+
+# Plugin specific excludes
+wp-content/plugins/*/cache/
+wp-content/plugins/*/logs/
+
+# Theme specific excludes
+wp-content/themes/*/logs/
+wp-content/themes/faac/assets/dist/
+wp-content/themes/faac/vendor/
+
+# Deactivated plugins
+wp-content/plugins/*.deactivated/
+
+# Site-specific domains and configs
+domains.txt
+google*.html
+readme*.html
+
+# Scripts with potential sensitive data
+change_absolute_to_relative*.php
+convert_links.sh
+
+# WordPress core files (managed by WordPress updates)
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-admin/
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-cron.php
+/wp-includes/
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php*
+
+# Theme twentytwentyfive (WordPress default)
+wp-content/themes/twentytwentyfive/

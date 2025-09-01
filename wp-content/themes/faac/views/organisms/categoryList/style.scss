@@ -1,0 +1,21 @@
+#{$sitename-selector} {
+    .archive-list {
+        .single-list {
+            position: relative;
+            border-bottom: 1px solid $color-grey-cool;
+            @include media-breakpoint-up(xl){
+                &:not(:nth-child(3n)){
+                    border-right: 1px solid $color-grey-cool;
+                }
+            }
+            @include media-breakpoint-up(md){
+                min-height: 500px;                
+            }
+            @include media-breakpoint-between(md, xl){
+                &:not(:nth-child(2n)){
+                    border-right: 1px solid $color-grey-cool;
+                }
+            }
+        }
+    }
+}

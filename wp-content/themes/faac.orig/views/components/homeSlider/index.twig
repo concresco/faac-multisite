@@ -1,0 +1,21 @@
+<div id="home_slider" class="swiper">
+    <div class="swiper-wrapper">
+        {% for slide in homeSlider %}
+            <div class="swiper-slide linear-in alpha">
+                <div class="image-bg" style="background-image: url({{ slide.imageBg }});">
+                    <div class="content">
+                        <h1 class="h2 title-slide" style="color:{{ slide.titleColor }};">{{ slide.title }}</h1>
+                        <a href="{{ slide.url }}" class="btn btn-white linear-out">{{ slide.btnText }}</a>
+                        
+                    </div>
+                    <div class="description small">{{ slide.description }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="navigation with-arrow homeSlider">
+        <div class="slider-prev white"></div>
+        <div class="slider-next white"></div>
+    </div>
+</div>

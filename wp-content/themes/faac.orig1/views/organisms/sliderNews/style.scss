@@ -1,0 +1,37 @@
+
+.navigation.with-arrow{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    display: flex;
+    z-index: 10;
+    @include media-breakpoint-down(lg){
+        transform: translateX(50%);
+    }
+    .slider-next,
+    .slider-prev{
+        font-family: $font-family-icons;
+        font-size: 30px;
+        
+        &.blue{
+            color: $color-blue;
+        }
+        &.black{
+            color: $color-grey-dark;
+        }
+        &.white{
+            color: $color-white;
+        }
+    }
+    .slider-prev{
+        margin-right: 35px;
+        &:before {
+            content: '\e805';
+        }
+    }
+    .slider-next{
+        &:before {
+            content: '\e804';
+        }
+    }
+}

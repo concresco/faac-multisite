@@ -1,0 +1,2049 @@
+# Translation of Plugins - Matomo Analytics &#8211; Ethical Stats. Powerful Insights. - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Matomo Analytics &#8211; Ethical Stats. Powerful Insights. - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-06-11 08:36:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Matomo Analytics &#8211; Ethical Stats. Powerful Insights. - Stable (latest release)\n"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:274
+msgid "Pick a task to run"
+msgstr "Kies een taak om uit te voeren"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:268
+msgid "Run scheduled task"
+msgstr "Geplande taak uitvoeren"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:267
+msgid "Run a scheduled task by name."
+msgstr "Een geplande taak uit op naam uitvoeren."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:261
+msgid "Regenerate tracking code"
+msgstr "Volgen code opnieuw genereren"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:260
+msgid "Force the cached tracking code to be regenerated. The tracking code is usually regenerated on update and after changing tracking settings, or if a Matomo plugin is installed/updated, but if you need to do it manually, you can do it here."
+msgstr "Forceer het opnieuw genereren van de volgcode in de cache. De volgcode wordt meestal geregenereerd bij een update en na het wijzigen van volging instellingen, of als een Matomo plugin is geïnstalleerd/geüpdatet, maar als je het handmatig wilt doen, kun je dat hier doen."
+
+#: classes/WpMatomo/Admin/SystemReport.php:273
+msgid "Task ran successfully"
+msgstr "Taak succesvol uitgevoerd"
+
+#: classes/WpMatomo/Admin/SystemReport.php:265
+msgid "No task specified."
+msgstr "Er is geen taak gespecificeerd."
+
+#: classes/WpMatomo/Admin/SystemReport.php:256
+#: classes/WpMatomo/Admin/SystemReport.php:275
+msgid "Matomo Error"
+msgstr "Matomo fout"
+
+#: classes/WpMatomo/Admin/SystemReport.php:254
+msgid "JavaScript tracking code regenerated successfully."
+msgstr "JavaScript code voor volgen is succesvol geregenereerd."
+
+#: classes/WpMatomo/Updater.php:168
+msgid "Invalid version. The given version is greater than the current Matomo version."
+msgstr "Ongeldige versie. De gegeven versie is groter dan de huidige Matomo versie."
+
+#: classes/WpMatomo/Updater.php:164
+msgid "Invalid version. Please specify a full version identifier like \"5.0.0\"."
+msgstr "Ongeldige versie. Specificeer een volledige versie-identificatie zoals \"5.0.0\"."
+
+#: classes/WpMatomo/Admin/views/tracking.php:256
+msgid "Use server generated Visitor ID"
+msgstr "Gebruik server gegenereerde bezoeker ID"
+
+#: classes/WpMatomo/Admin/views/tracking.php:252
+msgid "Also note: this setting will not work if you are using using Varnish or another caching mechanism as it starts the WooCommerce session early for visitors that do not have the visitor ID cookie."
+msgstr "Let ook op: deze instelling werkt niet als je Varnish of een ander caching mechanisme gebruikt, omdat het de WooCommerce sessie vroeg start voor bezoekers die de visitor ID cookie niet hebben."
+
+#: classes/WpMatomo/Admin/views/tracking.php:250
+msgid "Note that using this setting may not be allowed by your local privacy regulations, as some regulations require consent to be given before using a visitor ID and/or tracking ecommerce events."
+msgstr "Houd er rekening mee dat het gebruik van deze instelling mogelijk niet is toegestaan door je lokale privacyregels, aangezien sommige regels vereisen dat er toestemming wordt gegeven voordat een bezoekers ID en/of het volgen van eCommerce evenementen wordt gebruikt."
+
+#: classes/WpMatomo/Admin/views/tracking.php:248
+msgid "When enabled Matomo will force the use of a temporary server side generated ID if a Visitor ID cookie is not found. This allows ecommerce events to be properly attributed to visits when cookies are blocked or cookieless tracking is used. The visitor ID will only be valid for the duration of a single visit."
+msgstr "Wanneer ingeschakeld, zal Matomo het gebruik van een tijdelijk server-side gegenereerd ID afdwingen als er geen bezoeker ID cookie wordt gevonden. Dit zorgt ervoor dat e-commerce evenementen correct worden toegeschreven aan bezoeken wanneer cookies worden geblokkeerd of cookie loze volging wordt gebruikt. Het bezoeker ID is alleen geldig voor de duur van een enkel bezoek."
+
+#: classes/WpMatomo/Admin/WhatsNewNotifications.php:291
+msgid "With Crash Analytics, you can improve user experience, boost conversion rates and grow revenue with 100% website reliability."
+msgstr "Met Crash Analytics kun je de gebruikerservaring verbeteren, de conversie verhogen en de omzet verhogen met 100% betrouwbare sites."
+
+#: classes/WpMatomo/Admin/WhatsNewNotifications.php:288
+msgid "Broken carts, glitchy checkouts, unresponsive contact forms – they're not just annoyances; they're revenue pitfalls waiting to happen."
+msgstr "Kapotte winkelwagens, haperende afrekeningen, contactformulieren die niet reageren - Het zijn niet alleen maar ergernissen."
+
+#: classes/WpMatomo/Admin/WhatsNewNotifications.php:286
+msgid "Uncover Errors and Elevate Your Site’s Performance"
+msgstr "Fouten opsporen en de prestaties van je site verbeteren"
+
+#: classes/WpMatomo/Admin/WhatsNewNotifications.php:285
+msgid "Crash Analytics"
+msgstr "Crash analytics"
+
+#: classes/WpMatomo/Admin/WhatsNewNotifications.php:284
+msgid "New Premium Plugin"
+msgstr "Nieuwe Premium plugin"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:198
+msgid "New!"
+msgstr "Nieuw!"
+
+#: classes/WpMatomo/Admin/views/tracking.php:798
+msgid "If enabling on demand, add '&debug=1' to tracker requests to trigger debug output."
+msgstr "Als inschakelen op aanvraag, voeg '&debug=1' toe aan tracker aanvragen om debug uitvoer te activeren."
+
+#: classes/WpMatomo/Admin/views/tracking.php:784
+msgid "If your tracking code is not working as expected, this setting may help you find out why. When enabled, the tracker debug mode will output diagnostic information in tracking requests. It is recommended to only enable it when/if you need it, and disable it immediately after."
+msgstr "Als je volgingscode niet werkt zoals verwacht, kan deze instelling je helpen te achterhalen waarom. Wanneer ingeschakeld, zal de tracker debugmodus diagnostische informatie in volgingsaanvragen tonen. Het wordt aanbevolen om het alleen in te schakelen wanneer/als je het nodig hebt, en het onmiddellijk daarna uit te schakelen."
+
+#: classes/WpMatomo/Admin/views/tracking.php:783
+msgid "Developer Settings"
+msgstr "Ontwikkelaar instellingen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:745
+#: classes/WpMatomo/Admin/views/tracking.php:771
+msgid "This setting does not apply to the Manual tracking mode."
+msgstr "Deze instelling is niet van toepassing op de handmatige volgingsmodus."
+
+#: classes/WpMatomo/Admin/views/tracking.php:744
+msgid "Choose if you want to force Matomo to use HTTP or HTTPS."
+msgstr "Kies of je Matomo wil dwingen om HTTP of HTTPS te gebruiken."
+
+#: classes/WpMatomo/Admin/views/tracking.php:733
+msgid "These options are available for most tracking modes and control exactly how Matomo for WordPress embeds <script> elements into your pages. Most users will not need to change these settings."
+msgstr "Deze opties zijn beschikbaar voor de meeste volgingsmodi en bepalen precies hoe Matomo voor WordPress <script> elementen in je pagina's insluit. De meeste gebruikers zullen deze instellingen niet hoeven te veranderen."
+
+#: classes/WpMatomo/Admin/views/tracking.php:732
+msgid "<script> Tag Settings"
+msgstr "<script> Tag instellingen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:716
+msgid "Enter your custom &lt;noscript&gt; code here. This will only show if the noscript feature is enabled."
+msgstr "Voer hier je aangepaste &lt;noscript&gt; code in. Dit zal alleen worden weergegeven als de noscript functie is ingeschakeld."
+
+#: classes/WpMatomo/Admin/views/tracking.php:701
+msgid "Enter your tracking code here. If you need a starting point, you can use the Auto tracking mode settings and view the generated code in the above section. Have a look at the system report to get a list of all available JS tracker and tracking API endpoints. Note: all you need to do is define the code here. You don't need to embed it into your website, our plugin does this automatically. %s"
+msgstr "Voer hier je volgingscode in. Als je een startpunt nodig hebt, kun je de instellingen voor de Auto volgingsmodus gebruiken en de gegenereerde code in de bovenstaande sectie bekijken. Bekijk het systeemrapport om een lijst te krijgen van alle beschikbare JS-tracker en volging API endpoints. Opmerking: alles wat je hoeft te doen is de code hier te definiëren. Je hoeft het niet in je site in te voegen, onze plugin doet dit automatisch. %s"
+
+#: classes/WpMatomo/Admin/views/tracking.php:692
+msgid "With the Manual tracking mode, you can write the JavaScript tracking code yourself, customizing it any way you need to. Matomo for WordPress will then embed this script into your website's HTML."
+msgstr "Met de handmatige volging modus kun je de JavaScript volgingscode zelf schrijven, deze op elke gewenste manier aanpassen. Matomo voor WordPress zal dit script vervolgens in de HTML van je site insluiten."
+
+#: classes/WpMatomo/Admin/views/tracking.php:689
+msgid "Settings for Manual Tracking mode"
+msgstr "Instellingen voor handmatige volgingsmodus"
+
+#: classes/WpMatomo/Admin/views/tracking.php:688
+msgid "Note: these settings will only apply if the Manual tracking mode is active."
+msgstr "Opmerking: deze instellingen zijn alleen van toepassing als de handmatige volgingsmodus actief is."
+
+#: classes/WpMatomo/Admin/views/tracking.php:620
+msgid "Enable a heartbeat timer to get more accurate visit lengths by sending periodic HTTP ping requests while a visitor is viewing your website. Enter the time between the pings in seconds (Matomo default: 15) to enable or 0 to disable this feature. <strong>Note:</strong> This will multiply the HTTP requests your website receives, which may cause performance issues based on your infrastructure and website traffic. Enable this setting with care."
+msgstr "Schakel een heartbeat timer in om nauwkeurigere bezoeklengtes te krijgen door periodieke HTTP ping aanvragen te verzenden terwijl een bezoeker je site bekijkt. Voer de tijd tussen de pings in seconden in (Matomo standaard: 15) om deze functie in te schakelen of 0 om deze functie uit te schakelen. <strong>Opmerking:</strong> Dit zal het aantal HTTP aanvragen dat je site ontvangt vermenigvuldigen, wat prestatieproblemen kan veroorzaken op basis van je infrastructuur en siteverkeer. Schakel deze instelling met zorg in."
+
+#: classes/WpMatomo/Admin/views/tracking.php:619
+msgid "Enable heartbeat timer (enable with care)"
+msgstr "Inschakelen heartbeat timer (inschakelen met zorg)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:611
+msgid "Content tracking allows you to track interactions with pieces of content within your website."
+msgstr "Content volging stelt je in staat om interacties met stukken inhoud binnen je site te volgen."
+
+#: classes/WpMatomo/Admin/views/tracking.php:598
+msgid "For more advanced reporting of crashes, check out our %1$sCrash Analytics premium feature%2$s."
+msgstr "Voor meer geavanceerde rapportage van crashes, controleer onze %1$sCrash Analytics premium functie%2$s."
+
+#: classes/WpMatomo/Admin/views/tracking.php:576
+msgid "Set CSS classes of links that, when clicked, should be treated as outlinks (in addition to piwik_link), divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings."
+msgstr "Stel CSS klassen in voor links die, wanneer erop geklikt, als uitgaande links moeten worden behandeld (naast piwik_link), gescheiden door een verticale balk (&#124;). Laat leeg om de standaardinstellingen van Matomo te behouden."
+
+#: classes/WpMatomo/Admin/views/tracking.php:563
+msgid "Set the CSS classes of links that, when clicked, should be tracked as downloads (in addition to 'piwik_download'). Enter the list of CSS classes divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings."
+msgstr "Stel de CSS klassen in van links die, wanneer erop geklikt, als downloads moeten worden gevolgd (naast 'piwik_download'). Voer de lijst van CSS klassen in, gescheiden door een verticale streep (&#124;). Laat leeg om de standaardinstellingen van Matomo te behouden."
+
+#: classes/WpMatomo/Admin/views/tracking.php:539
+msgid "Matomo automatically detects file downloads if the extension of the file is in %1$sthis list%2$s. If you'd like to track other file types as downloads, you can add their extensions here, divided by a vertical bar (&#124;)."
+msgstr "Matomo detecteert automatisch bestand downloads als de extensie van het bestand in %1$sdeze lijst%2$s staat. Als je andere bestandstypen als downloads wil volgen, kun je hun extensies hier toevoegen, gescheiden door een verticale streep (&#124;)."
+
+#: classes/WpMatomo/Admin/views/tracking.php:531
+msgid "Link Tracking"
+msgstr "Volgen van links"
+
+#: classes/WpMatomo/Admin/views/tracking.php:510
+msgid "Treats all subdomains as part of the same website, by adding a *.-prefix to the tracked domain."
+msgstr "Behandelt alle subdomeinen als onderdeel van dezelfde site, door een *.-voorvoegsel toe te voegen aan het gevolgde domein."
+
+#: classes/WpMatomo/Admin/views/tracking.php:497
+msgid "Track visitors across subdomains by adding a *.-prefix to the cookie domain."
+msgstr "Volg bezoekers over subdomeinen door een *.-voorvoegsel toe te voegen aan het cookie domein."
+
+#: classes/WpMatomo/Admin/views/tracking.php:490
+msgid "Subdomains"
+msgstr "Subdomeinen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:456
+msgid "If necessary, you can limit the cookie lifetime to avoid tracking your users over a longer period."
+msgstr "Indien nodig, kun je de levensduur van de cookie beperken om te voorkomen dat je je gebruikers over een langere periode volgt."
+
+#: classes/WpMatomo/Admin/views/tracking.php:448
+msgid "Disable the use of tracking cookies entirely. Using this setting may make it easier to achieve privacy compliance, but Matomo will not be able to recognize returning visitors as effectively."
+msgstr "Schakel het gebruik van volgingscookies volledig uit. Het gebruik van deze instelling kan het gemakkelijker maken om te voldoen aan privacyvoorschriften, maar Matomo zal terugkerende bezoekers niet zo effectief kunnen herkennen."
+
+#: classes/WpMatomo/Admin/views/tracking.php:441
+msgid "Privacy"
+msgstr "Privacy"
+
+#: classes/WpMatomo/Admin/views/tracking.php:422
+msgid "This is a preview of your &lt;noscript&gt; code which is part of your tracking code. This code will only be embedded into your website if the noscript feature is enabled."
+msgstr "Dit is een voorbeeld van je &lt;noscript&gt; code die deel uitmaakt van je volgingscode. Deze code zal alleen in je site worden ingesloten als de noscript functie is ingeschakeld."
+
+#: classes/WpMatomo/Admin/views/tracking.php:420
+msgid "<noscript> code"
+msgstr "<noscript> code"
+
+#: classes/WpMatomo/Admin/views/tracking.php:406
+msgid "This is a preview of the tracking code generated based on the configuration below. You don't need to do anything with it and this is purely for your information. The tracking code is a piece of code that will be automatically embedded into your site and send information about your visitors to Matomo. Have a look at the system report to get a list of all available JS tracker and tracking API endpoints. Our plugin will automatically embed this code into your website. %s"
+msgstr "Dit is een voorbeeld van de volgingscode die is gegenereerd op basis van de onderstaande configuratie. Je hoeft er niets mee te doen en dit is puur ter informatie. De volgingscode is een stuk code dat automatisch in je site zal worden ingesloten en informatie over je bezoekers naar Matomo zal sturen. Bekijk het systeemrapport om een lijst te krijgen van alle beschikbare JS tracker en volging API-endpoints. Onze plugin zal deze code automatisch in je site insluiten. %s"
+
+#: classes/WpMatomo/Admin/views/tracking.php:398
+msgid "Hide generated tracking code"
+msgstr "Verberg gegenereerde volgingscode"
+
+#: classes/WpMatomo/Admin/views/tracking.php:397
+msgid "Show generated tracking code"
+msgstr "Toon gegenereerde volgingscode"
+
+#: classes/WpMatomo/Admin/views/tracking.php:396
+msgid "The Auto tracking mode automatically generates and embeds the Matomo tracking JavaScript based on the settings below. Pick and choose what you'd like to track, and Matomo for WordPress will set everything else up for you."
+msgstr "De Auto volgingsmodus genereert en sluit de Matomo volging JavaScript automatisch in op basis van de onderstaande instellingen. Kies wat je wil volgen, en Matomo voor WordPress zal de rest voor je instellen."
+
+#: classes/WpMatomo/Admin/views/tracking.php:394
+#: classes/WpMatomo/Admin/views/tracking.php:690
+msgid "Inactive"
+msgstr "Inactief"
+
+#: classes/WpMatomo/Admin/views/tracking.php:393
+msgid "Settings for Auto Tracking mode"
+msgstr "Instellingen voor Auto volgingsmodus"
+
+#: classes/WpMatomo/Admin/views/tracking.php:392
+msgid "Note: these settings will only apply if the Auto tracking mode is active."
+msgstr "Opmerking: deze instellingen zijn alleen van toepassing als de Auto volgingsmodus actief is."
+
+#: classes/WpMatomo/Admin/views/tracking.php:380
+msgid "This setting does not apply to the Tag Manager tracking mode."
+msgstr "Deze instelling is niet van toepassing op de Tag Manager volgingsmodus."
+
+#: classes/WpMatomo/Admin/views/tracking.php:379
+msgid "Adds the &lt;noscript&gt; code to your footer. This code is either generated automatically or defined by you, based on which tracking mode you choose use. This can be useful if you have a lot of visitors that have JavaScript disabled."
+msgstr "Voegt de &lt;noscript&gt; code toe aan je footer. Deze code wordt automatisch gegenereerd of door je gedefinieerd, afhankelijk van welke volgingsmodus je kiest. Dit kan nuttig zijn als je veel bezoekers hebt die JavaScript hebben uitgeschakeld."
+
+#: classes/WpMatomo/Admin/views/tracking.php:378
+msgid "Add &lt;noscript&gt; to track visitors who disable JavaScript"
+msgstr "Voeg &lt;noscript&gt; toe om bezoekers te volgen die JavaScript uitschakelen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:360
+msgid "On new post of type"
+msgstr "Bij nieuw bericht van type"
+
+#: classes/WpMatomo/Admin/views/tracking.php:355
+msgid "Create Matomo annotations on"
+msgstr "Maak Matomo annotaties aan op"
+
+#: classes/WpMatomo/Admin/views/tracking.php:347
+msgid "The campaign name to use if RSS feed links are tracked as a campaign."
+msgstr "De campagnenaam die moet worden gebruikt als RSS feedlinks worden gevolgd als een campagne."
+
+#: classes/WpMatomo/Admin/views/tracking.php:346
+msgid "RSS feed campaign name"
+msgstr "RSS feed campagne naam"
+
+#: classes/WpMatomo/Admin/views/tracking.php:329
+msgid "Enable to use a tracking pixel to track visitors that view posts in RSS feed viewers."
+msgstr "Inschakelen om een volgingspixel te gebruiken om bezoekers te volgen die berichten bekijken in RSS feedlezers."
+
+#: classes/WpMatomo/Admin/views/tracking.php:286
+msgid "Track WordPress User ID"
+msgstr "Volg WordPress gebruiker ID"
+
+#: classes/WpMatomo/Admin/views/tracking.php:268
+#: classes/WpMatomo/Admin/views/tracking.php:589
+msgid "Other Tracking"
+msgstr "Anders volgen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:227
+msgid "Ecommerce Tracking"
+msgstr "E-commerce volging"
+
+#: classes/WpMatomo/Admin/views/tracking.php:225
+msgid "These settings apply to all tracking modes (unless otherwise stated)."
+msgstr "Deze instellingen zijn van toepassing op alle volgingsmodi (tenzij anders vermeld)."
+
+#: classes/WpMatomo/Admin/views/tracking.php:224
+msgid "General Tracking Settings"
+msgstr "Algemene volgingsinstellingen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:205
+msgid "Tracking mode"
+msgstr "Volgingsmodus"
+
+#: classes/WpMatomo/Admin/views/tracking.php:197
+msgid "Here you can configure visit tracking to your liking. Alternatively, you can simply enable tracking, and just rely on the default settings."
+msgstr "Hier kun je bezoekvolging naar wens configureren. Alternatief kun je gewoon volging inschakelen en vertrouwen op de standaardinstellingen."
+
+#: classes/WpMatomo/Admin/views/info_help.php:19
+msgid "Enter search term"
+msgstr "Zoekterm invoeren"
+
+#: classes/WpMatomo/Admin/views/info.php:57
+msgid "Matomo will always cost you nothing to use, but if you'd like to support Matomo in a more meaningful way, take a look at our %1$spremium plugins%2$s."
+msgstr "Matomo zal je altijd niets kosten om te gebruiken, maar als je Matomo op een meer betekenisvolle manier wil ondersteunen, kijk dan naar onze %1$spremium plugins%2$s."
+
+#: classes/WpMatomo/Admin/views/get_started.php:100
+msgid "Hide this page"
+msgstr "Verberg deze pagina"
+
+#: classes/WpMatomo/Admin/views/get_started.php:93
+msgid "Once some data is tracked, your reports will soon appear!"
+msgstr "Zodra er gegevens zijn gevolgd, zullen je rapporten snel verschijnen!"
+
+#: classes/WpMatomo/Admin/views/get_started.php:82
+msgid "Enable tracking using the default configuration by clicking this button"
+msgstr "Schakel volging in met de standaardconfiguratie door op deze knop te klikken"
+
+#: classes/WpMatomo/Admin/views/get_started.php:62
+msgid "You can %1$stweak the opt-out to your liking - see the Privacy Settings%2$s."
+msgstr "Je kunt %1$s de opt-out naar eigen wens aanpassen. Zie hiervoor de privacy instellingen%2$s."
+
+#: classes/WpMatomo/Admin/views/get_started.php:61
+msgid "Give your users the chance to opt-out of tracking by either adding the shortcode %1$s or by adding the \"Matomo opt out\" block to your privacy page."
+msgstr "Geef je gebruikers de kans om zich af te melden voor volgings door of de shortcode %1$s toe te voegen of door de \"Matomo opt out\" blok aan je privacy pagina toe te voegen."
+
+#: classes/WpMatomo/Admin/views/get_started.php:57
+msgid "Before tracking any data, it's important to think about how you will respect the privacy of your users, and how you will ensure compliance with any relevant privacy guidelines, like the GDPR or ePrivacy Directive."
+msgstr "Voordat je gegevens gaat volgen, is het belangrijk om na te denken over hoe je de privacy van je gebruikers zult respecteren en hoe je ervoor zult zorgen dat je voldoet aan relevante privacyrichtlijnen, zoals de AVG/GDPR of de ePrivacy richtlijn."
+
+#: classes/WpMatomo/Admin/views/get_started.php:51
+msgid "To start getting relevant reports and insights, complete these steps:"
+msgstr "Om relevante rapporten en inzichten te krijgen, volg deze stappen:"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:323
+msgid "Read our documentation on the Matomo Tag Manager to learn more."
+msgstr "Lees onze documentatie over de Matomo Tag Manager voor meer informatie."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:317
+msgid "For Matomo to track you will need to %1$sadd a Matomo Tag to the container%2$s. It otherwise won't track automatically."
+msgstr "Voor Matomo om te volgen, moet je %1$s een Matomo tag aan de container toevoegen %2$s. Het zal anders niet automatisch volgen."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:309
+msgid "Select which Tag Manager containers will be added to each page"
+msgstr "Selecteer welke Tag Manager containers aan elke pagina zullen worden toegevoegd"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:306
+msgid "This mode is not selectable since no containers have been created in the Tag Manager."
+msgstr "Deze modus is niet selecteerbaar omdat er geen containers zijn aangemaakt in de Tag Manager."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:305
+msgid "No containers were found. Create one to be able to use the Tag Manager tracking mode."
+msgstr "Geen containers gevonden. Maak er een aan om de volgingsmodus van de Tag Manager te kunnen gebruiken."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:300
+msgid "If you've created containers in the Tag Manager, you can use this tracking mode to embed one or more of them into your website automatically."
+msgstr "Als je containers hebt gemaakt in de Tag Manager, kun je deze volgingsmodus gebruiken om een of meer van hen automatisch in je site in te voegen."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:296
+msgid "Make sure to use the placeholder {ID} to add the Matomo site ID."
+msgstr "Zorg ervoor dat je de plaatshouder {ID} gebruikt om de Matomo site ID toe te voegen."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:296
+msgid "%1$sDefine your own tracking JavaScript by hand below%2$s, and Matomo will embed it into your website."
+msgstr "%1$sDefinieer hieronder je eigen volging JavaScript handmatig%2$s, en Matomo zal het in je site insluiten."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:294
+msgid "This is the recommended mode for most users."
+msgstr "Dit is de aanbevolen modus voor de meeste gebruikers."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:294
+msgid "Matomo will automatically generate and embed the tracking code based on the Auto Tracking settings below."
+msgstr "Matomo zal automatisch de volgingscode genereren en insluiten op basis van de Auto volging instellingen hieronder."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:279
+msgid "Manual"
+msgstr "Handmatig"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:275
+msgid "Auto (recommended)"
+msgstr "Auto (aanbevolen)"
+
+#: classes/WpMatomo/Admin/Menu.php:216 classes/WpMatomo/Admin/Menu.php:217
+msgid "Help"
+msgstr "Hulp"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:242
+msgid "Enter a version to re-run updates from, eg, \"5.0.0\"."
+msgstr "Voer een versie in om updates opnieuw uit te voeren vanaf, bijv, \"5.0.0\"."
+
+#: classes/WpMatomo/Admin/SystemReport.php:214
+#: classes/WpMatomo/Admin/SystemReport.php:226
+msgid "Matomo Update Error"
+msgstr "Matomo update fout"
+
+#: classes/WpMatomo/Admin/views/scheduled_tasks_failures.php:25
+msgid "See error details in the Diagnostics page."
+msgstr "Zie fout details op de diagnostische pagina."
+
+#: classes/WpMatomo/Admin/views/scheduled_tasks_failures.php:22
+msgid "Matomo Cron Error"
+msgstr "Matomo cron fout"
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:181
+msgid "Unfortunately, you do not appear to have the ability to upload plugin archives. Please ask your WordPress site administrator to complete this setup for you."
+msgstr "Helaas lijk je niet de mogelijkheid te hebben om plugin archieven te uploaden. Vraag je WordPress site beheerder om deze installatie voor je te voltooien."
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:175
+msgid "To manage Matomo plugins from the Matomo Marketplace, the %1$sMatomo Marketplace for WordPress%2$s must be installed."
+msgstr "Om Matomo plugins te beheren vanuit de %1$sMatomo Marketplace voor WordPress%2$s moet deze geïnstalleerd zijn."
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:162
+msgid "Activate"
+msgstr "Activeren"
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:158
+msgid "The Matomo Marketplace plugin is installed but not active. Activate it by clicking the button below."
+msgstr "De Matomo Marketplace plugin is geïnstalleerd maar niet actief. Activeer het door op de knop hieronder te klikken."
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:156
+msgid "Activate the Matomo Marketplace for WordPress plugin"
+msgstr "Activeer de Matomo Marketplace voor WordPress plugin"
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:152
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:169
+msgid "Loading marketplace..."
+msgstr "Marktplaats aan het laden..."
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:149
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:166
+msgid "Waiting for plugin activation..."
+msgstr "Wachten op plugin activatie..."
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:142
+msgid "Don't want to use the Matomo Marketplace? You can download Matomo plugins directly on %1$sour marketplace%2$s, but keep in mind, you won't receive automatic updates unless you use the Matomo Marketplace plugin."
+msgstr "Wil je de Matomo Marketplace niet gebruiken? Je kunt Matomo plugins rechtstreeks downloaden op %1$sonze marktplaats%2$s, maar houd er rekening mee dat je geen automatische updates ontvangt tenzij je de Matomo Marketplace plugin gebruikt."
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:134
+msgid "Go to plugins admin"
+msgstr "Ga naar plugins beheer"
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:131
+msgid "Upload and install the plugin."
+msgstr "Upload en installeer de plugin.."
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:121
+msgid "Download the %1$sMatomo Marketplace for WordPress%2$s plugin."
+msgstr "Download de %1$sMatomo Marketplace voor WordPress%2$s plugin."
+
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:111
+msgid "Setup the Matomo Marketplace in two easy steps"
+msgstr "Stel de Matomo Marketplace in twee eenvoudige stappen in"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:47
+msgid "Only WordPress network admins can see this page"
+msgstr "Alleen WordPress netwerk beheerders kunnen deze pagina zien"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:40
+msgid "Subscriptions"
+msgstr "Abonnementen"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:36
+msgid "Install Plugins"
+msgstr "Installeer plugins"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:31
+msgid "Overview"
+msgstr "Overzicht"
+
+#: classes/WpMatomo/Admin/SystemReport.php:489
+msgid "The detected PHP CLI version does not match the PHP web version. To avoid archiving errors, %1$senable archiving via HTTP requests%2$s, or %3$smanually set the path to your PHP CLI executable%4$s to the one for PHP version %5$s."
+msgstr "De gedetecteerde PHP CLI versie komt niet overeen met de PHP webversie. Om archiveringsfouten te voorkomen, %1$sinschakelen archivering via HTTP aanvragen%2$s, of %3$sstel handmatig het pad naar je PHP CLI uitvoerbaar bestand%4$s in op de versie van PHP %5$s."
+
+#: classes/WpMatomo/PluginAdminOverrides.php:39
+msgid "Data will %1$snot%2$s be deleted upon plugin deletion."
+msgstr "Gegevens zullen %1$sniet%2$s worden verwijderd bij het verwijderen van de plugin."
+
+#: classes/WpMatomo/PluginAdminOverrides.php:37
+msgid "Data will be permanently deleted upon plugin deletion."
+msgstr "Gegevens zullen permanent worden verwijderd bij het verwijderen van de plugin."
+
+#: classes/WpMatomo/PluginAdminOverrides.php:34
+msgid "Change data deletion settings."
+msgstr "Wijzig de instellingen voor gegevensverwijdering."
+
+#: classes/WpMatomo/PluginAdminOverrides.php:32
+msgid "Note"
+msgstr "Opmerking"
+
+#: classes/WpMatomo/Admin/views/measurable_settings.php:43
+msgid "Plugin Settings for"
+msgstr "Plugin instellingen voor"
+
+#: classes/WpMatomo/Admin/views/measurable_settings.php:36
+msgid "Click this link to open them in a new window."
+msgstr "Klik op deze link om ze in een nieuw venster te openen."
+
+#: classes/WpMatomo/Admin/views/measurable_settings.php:34
+msgid "Settings not loading?"
+msgstr "Instellingen laden niet?"
+
+#: classes/WpMatomo/Admin/views/access.php:80
+msgid "Want to give individual users access to Matomo? Create a user in your WordPress with one of these roles:"
+msgstr "Wil je individuele gebruikers toegang geven tot Matomo? Maak een gebruiker aan in je WordPress met een van deze rollen:"
+
+#. Description of the plugin
+#: matomo.php
+msgid "Privacy friendly, GDPR compliant and self-hosted. Matomo is the #1 Google Analytics alternative that gives you control of your data. Free and secure."
+msgstr "Privacy vriendelijk, AVG/GDPR conform en zelf-gehost. Matomo is het #1 Google Analytics alternatief dat je controle over je gegevens geeft. Gratis en veilig."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1335
+msgid "The WordPress Filesystem abstraction was not initialized correctly (WP_Filesystem() returned false). This indicates a WordPress or server configuration issue which may cause problems in Matomo and other plugins. To resolve it, contact your hosting provider."
+msgstr "De WordPress bestandsysteem abstractie was niet correct geïnitialiseerd (WP_Filesystem() gaf false terug). Dit duidt op een WordPress of server configuratieprobleem dat problemen kan veroorzaken in Matomo en andere plugins. Om dit op te lossen, neem contact met ons op met je hosting provider."
+
+#: classes/WpMatomo/Admin/SystemReport.php:553
+msgid "warning"
+msgstr "waarschuwing"
+
+#: classes/WpMatomo/Admin/SystemReport.php:546
+msgid "WordPress cannot be loaded via PHP CLI. Please ensure both WordPress and PHP CLI are correctly configured. Note: If you are using get_cfg_var() in your wp-config.php, you will need to make sure the php.ini file for PHP CLI has the correct values. You may need to contact your hosting provider for these changes to be made."
+msgstr "WordPress kan niet worden geladen via PHP CLI. Zorg ervoor dat zowel WordPress als PHP CLI correct zijn geconfigureerd. Reactie: als je get_cfg_var() gebruikt in je wp-config.php, moet je ervoor zorgen dat het php.ini bestand voor PHP CLI de juiste waarden heeft. Je moet mogelijk contact met ons opnemen met je hostingprovider om deze wijzigingen aan te brengen."
+
+#: classes/WpMatomo/Admin/SystemReport.php:543
+msgid "Configured correctly"
+msgstr "Correct geconfigureerd"
+
+#: classes/WpMatomo/Admin/SystemReport.php:469
+msgid "Could not detect whether async archiving is enabled: %s"
+msgstr "Kon niet detecteren of asynchrone archivering is ingeschakeld: %s"
+
+#: classes/WpMatomo/Admin/SystemReport.php:467
+msgid "Unexpected error"
+msgstr "Onverwachte fout"
+
+#: classes/WpMatomo/Admin/SystemReport.php:466
+#: classes/WpMatomo/Admin/SystemReport.php:542
+#: classes/WpMatomo/Admin/SystemReport.php:552
+msgid "PHP CLI configuration"
+msgstr "PHP CLI configuratie"
+
+#: classes/WpMatomo/ErrorNotice.php:42
+msgid "There are some errors in the %1$sMatomo Diagnostics System report%2$s that may prevent the plugin for working normally."
+msgstr "Er zijn enkele fouten in het %1$sMatomo diagnostics system rapport%2$s die kunnen voorkomen dat de plugin normaal functioneert."
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:92
+msgid "CLI archiving (aka async archiving) is not supported for your server, so archiving via HTTP requests is always enabled."
+msgstr "CLI archivering (ook wel async archivering genoemd) wordt niet ondersteund voor je server, dus archivering via HTTP aanvragen is altijd ingeschakeld."
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:91
+msgid "If you are experiencing trouble with archiving (as in, report generation), enabling this option may solve the issue."
+msgstr "Als je problemen ondervindt met archiveren (zoals bij rapportgeneratie), kan het inschakelen van deze optie het probleem oplossen."
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:79
+msgid "Enable archiving via HTTP requests"
+msgstr "Inschakelen archivering via HTTP aanvragen"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1901
+msgid "We noticed you are using Matomo with Ninja Firewall. This can result in Matomo cache file changes showing up in Ninja Firewall which likely undesired."
+msgstr "We hebben opgemerkt dat je Matomo gebruikt met Ninja Firewall. Dit kan resulteren in wijzigingen van Matomo cachebestanden die verschijnen in Ninja Firewall, wat waarschijnlijk ongewenst is."
+
+#: classes/WpMatomo/Admin/SystemReport.php:938
+msgid "The .yml files in the wp-content/plugins/matomo/app/vendor directory are accessible from the internet. This can cause some web security tools to flag your website as suspicious. If you are using Apache, it is probably due to your server configuration disabling the use of .htaccess files. If you are instead using nginx, it is due to your nginx configuration allowing .yml files. You may need to contact your hosting provider to fix this."
+msgstr "De .yml bestanden in de wp-content/plugins/matomo/app/vendor map zijn toegankelijk vanaf het internet. Dit kan ervoor zorgen dat sommige web beveiligingsgereedschappen je site als verdacht markeren. Als je Apache gebruikt, is het waarschijnlijk te wijten aan je serverconfiguratie die het gebruik van .htaccess bestanden uitschakelt. Als je in plaats daarvan nginx gebruikt, is het te wijten aan je nginx configuratie die .yml bestanden toestaat. Je moet mogelijk contact opnemen met je hostingprovider om dit op te lossen."
+
+#: classes/WpMatomo/Admin/SystemReport.php:936
+msgid "YML files should not be accessible"
+msgstr "YML bestanden mogen niet toegankelijk zijn"
+
+#: classes/WpMatomo/Admin/SystemReport.php:789
+#: classes/WpMatomo/Admin/SystemReport.php:795
+msgid "Supports Async Archiving"
+msgstr "Ondersteunt asynchrone archivering"
+
+#: classes/WpMatomo/Admin/SystemReport.php:173
+msgid "Matomo Archiving completed successfully!"
+msgstr "Matomo archivering succesvol afgerond!"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1902
+msgid "Read our FAQ to learn how to prevent these entries."
+msgstr "Lees onze FAQ om te leren hoe je deze invoeren kunt voorkomen."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1966
+msgid "Tracking might not work because it looks like you have Long URLs disabled in iThemes Security. To fix this please contact ithemes security support."
+msgstr "Tracking werkt mogelijk niet omdat het lijkt alsof je lange URL's hebt uitgeschakeld in iThemes Security. Neem contact op met de beveiligingsondersteuning van iThemes om dit op te lossen."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1674
+msgid "There is an error in your Matomo records. Please contact wordpress@matomo.org"
+msgstr "Er is een fout in je Matomo records. Neem contact op met wordpress@matomo.org"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1990
+msgid "If reports aren't being generated then you may need to disable the feature \"Firewall -> Block Bad Request Methods\" in SecuPress (if it is enabled) or add the following line to your \"wp-config.php\""
+msgstr "Als er geen rapporten worden gegenereerd, moet je mogelijk de functie \"Firewall -> Blokkeer slechte aanvraagmethoden\" in SecuPress uitschakelen (indien ingeschakeld) of de volgende regel toevoegen aan je \"wp-config.php\""
+
+#: classes/WpMatomo/Admin/SystemReport.php:1974
+msgid "You have disabled the PHP usage in the plugins folder from your ithemes security plugin. Matomo won't work in this configuration. You must uncheck the checkbox \"Security > Settings > Advanced > System tweaks > Disable PHP in plugins.\""
+msgstr "Je hebt het PHP gebruik uitgeschakeld in de plugins map van je ithemes beveiliging plugin. Matomo zal niet werken in deze configuratie. Je moet het selectievakje \"Beveiliging > Instellingen > Geavanceerd > Systeemtweaks > PHP uitschakelen in plugins.\""
+
+#: classes/WpMatomo/Admin/SystemReport.php:1936
+msgid "this FAQ"
+msgstr "deze FAQ"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1936
+msgid "Matomo may work fine when using these plugins but there may be some issues. For more information %1$sSee %2$s"
+msgstr "Matomo werkt mogelijk goed bij het gebruik van deze plugins, maar er kunnen enkele problemen zijn. Voor meer informatie %1$sbekijk %2$s"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1878
+#: classes/WpMatomo/Admin/SystemReport.php:1897
+msgid "Network enabled"
+msgstr "Netwerk ingeschakeld"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1567
+msgid "Because you are using MS Edge browser, you may see a warning like \"This site has been reported as unsafe\" from \"Microsoft Defender SmartScreen\" when you view the Matomo Reporting, Admin or Tag Manager page. This is a false alert and you can safely ignore this warning by clicking on the icon next to the URL (in the address bar) and choosing either \"Report as safe\" (preferred) or \"Show unsafe content\". We are hoping to get this false warning removed in the future."
+msgstr "Omdat je de MS Edge browser gebruikt, zie je mogelijk een waarschuwing als \"Deze site is gerapporteerd als onveilig\" van \"Microsoft Defender SmartScreen\" wanneer je de Matomo Rapportering , Beheer of Tag manager pagina bekijkt. Dit is een valse waarschuwing en je kunt deze waarschuwing veilig negeren door op het pictogram naast de URL (in de adresbalk) te klikken en \"Melden als veilig\" (voorkeur) of \"Toon onveilige inhoud\" te kiezen. We hopen deze valse waarschuwing in de toekomst te verwijderen."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1521
+msgid "You need to set \"zlib.output_compression\" in your php.ini to \"Off\"."
+msgstr "Je moet \"zlib.output_compression\" in je php.ini op \"Off\" zetten."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1459
+msgid "At least %1$dMB recommended. Depending on your traffic %2$dMB or more may be needed."
+msgstr "Minstens %1$dMB aanbevolen. Afhankelijk van je verbruik kan %2$dMB of meer nodig zijn."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1382
+msgid "Supported"
+msgstr "Ondersteund"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1378
+msgid "FAQ"
+msgstr "FAQ"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1378
+msgid "The AddHandler Apache directive maybe disabled. If you get a 500 error code when accessing Matomo, please read this %s"
+msgstr "De AddHandler Apache directive is mogelijk uitgeschakeld. Als je een 500 foutcode krijgt bij het openen van Matomo, lees dan deze %s"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1377
+msgid "To be confirmed"
+msgstr "Te bevestigen"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1345
+msgid "the following problem"
+msgstr "het volgende probleem"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1345
+msgid "You may encounter %s"
+msgstr "Je kunt %s tegenkomen"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1344
+msgid "Not loaded"
+msgstr "Niet geladen"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1344
+msgid "Loaded"
+msgstr "Geladen"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1343
+msgid "PHP Maxmind DB extension"
+msgstr "PHP Maxmind DB extensie"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1305
+msgid "Connect Matomo is configured in \"PHP mode\". This is known to cause issues with Matomo for WordPress. We recommend you either deactivate Connect Matomo or you go \"Settings => Connect Matomo\" and change the \"Matomo Mode\" in the \"Connect to Matomo\" section to \"Self-hosted HTTP API\"."
+msgstr "Connect Matomo is geconfigureerd in \"PHP-modus\". Dit staat bekend om problemen te veroorzaken met Matomo voor WordPress. We raden je aan om Connect Matomo te deactiveren of naar \"Instellingen => Connect Matomo\" te gaan en de \"Matomo modus\" in de \"Verbinden met Matomo\" sectie te wijzigen naar \"Self-hosted HTTP API\"."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1293
+msgid "URL"
+msgstr "URL"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1293
+msgid "It is usually not recommended or needed to run Matomo for WordPress and Connect Matomo at the same time. To learn more about the differences between the two plugins view this %s"
+msgstr "Het wordt normaal gesproken niet aanbevolen en het is onnodig om Matomo voor WordPress en Connect Matomo tegelijkertijd uit te voeren. Bekijk dit %s voor meer informatie over de verschillen tussen de twee plugins"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1039
+msgid "fix this issue"
+msgstr "los dit probleem op"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1039
+msgid "It looks like MySQL is not available on CLI. Please read our FAQ on how to %s"
+msgstr "Het lijkt erop dat MySQL niet beschikbaar is op CLI. Lees onze FAQ over hoe %s"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1024
+msgid "As there are no outstanding plugin updates it looks like this log can be ignored."
+msgstr "Aangezien er geen openstaande plugin updates zijn, lijkt het erop dat deze log kan worden genegeerd."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1022
+msgid "more info"
+msgstr "meer info"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1022
+msgid "Please reach out to us and include the copied system report (%s)<br><br>You can also retry the update manually by clicking in the top on the \"Troubleshooting\" tab and then clicking on the \"Run updater\" button."
+msgstr "Neem contact met ons op en voeg het gekopieerde systeemrapport (%s) toe<br><br>Je kunt de update ook handmatig opnieuw proberen door bovenaan op de tab \"Problemen oplossen\" te klikken en vervolgens op de knop \"Update uitvoeren\"."
+
+#: classes/WpMatomo/Admin/SystemReport.php:891
+msgid "It looks like there were no visits in the last %s days. This may be expected if tracking is disabled, you have not added the tracking code, or your website does not have many visitors in general and you exclude your own visits."
+msgstr "Het lijkt erop dat er de afgelopen %s dagen geen bezoeken waren. Dit kan worden verwacht als tracking is uitgeschakeld, als je de trackingcode niet hebt toegevoegd of als je site over het algemeen niet veel bezoekers heeft en je je eigen bezoeken uitsluit."
+
+#: classes/WpMatomo/Admin/SystemReport.php:867
+msgid "%s If the plugin requires a different Matomo version you may need to update it. If you no longer use it consider uninstalling it."
+msgstr "%s Als de plugin een andere Matomo versie vereist, moet je deze mogelijk updaten. Als je het niet langer gebruikt, overweeg dan om het te verwijderen."
+
+#: classes/WpMatomo/Admin/SystemReport.php:850
+msgid "A proxy header is set which means you maybe need to configure a proxy header in the Advanced settings to make location reporting work. If the location in your reports is detected correctly, you can ignore this warning. %s"
+msgstr "Er is een proxy header ingesteld, wat betekent dat je misschien een proxy header moet configureren in de geavanceerde instellingen om locatiemelding te laten werken. Als de locatie in je rapporten correct wordt gedetecteerd, kun je deze waarschuwing negeren. %s"
+
+#: classes/WpMatomo/Admin/SystemReport.php:514
+msgid "MySQLi support"
+msgstr "MySQLi ondersteuning"
+
+#: classes/WpMatomo/Admin/SystemReport.php:510
+msgid "Your PHP cli does not load the MySQLi extension. You might have archiving problems in Matomo but also others problems in your WordPress cron tasks. You should enable this extension"
+msgstr "Je PHP cli laadt de MySQLi extensie niet. Je hebt mogelijk archiveringsproblemen in Matomo, maar ook andere problemen in je WordPress cron taken. Je moet deze extensie inschakelen"
+
+#: classes/WpMatomo/Admin/SystemReport.php:508
+msgid "missing"
+msgstr "ontbrekend"
+
+#: classes/WpMatomo/Admin/SystemReport.php:505
+msgid "ok"
+msgstr "ok"
+
+#: classes/WpMatomo/Admin/SystemReport.php:498
+msgid "PHP CLI Version"
+msgstr "PHP CLI versie"
+
+#: classes/WpMatomo/Admin/views/import_wp_statistics.php:39
+msgid "The data will now show up in your Matomo Summary page and Matomo Reporting. Please note that the \"Visits Log\" feature won't show any data, as we only import aggregated reports."
+msgstr "De gegevens worden nu weergegeven op je Matomo overzichtspagina en Matomo rapportage. Houd er rekening mee dat de functie \"Bezoeken log\" geen gegevens weergeeft, aangezien we alleen geaggregeerde rapporten importeren."
+
+#: classes/WpMatomo/Admin/views/import_wp_statistics.php:35
+msgid "Run the command %1$s or depending on your set-up you may need to run it like this: %2$s."
+msgstr "Voer het commando %1$s uit of afhankelijk van je instellingen moet je het mogelijk als volgt uitvoeren: %2$s."
+
+#: classes/WpMatomo/Admin/views/import_wp_statistics.php:33
+msgid "Run the import"
+msgstr "Voer het rapport uit"
+
+#: classes/WpMatomo/Admin/views/import_wp_statistics.php:32
+msgid "The WP-CLI is the official WordPress client command line tool. Follow these installation instructions: %s."
+msgstr "De WP-CLI is de officiële opdrachtregel gereedschap voor WordPress clients. Volg deze installatie instructies: %s."
+
+#: classes/WpMatomo/Admin/views/import_wp_statistics.php:30
+msgid "Install the WP-CLI"
+msgstr "Installeer de WP-CLI"
+
+#: classes/WpMatomo/Admin/views/import_wp_statistics.php:28
+msgid "Import your WP Statistics data into Matomo"
+msgstr "Importeer je WP statistiek gegevens in Matomo"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:71
+msgid "By default, when you uninstall the Matomo plugin, all data is deleted and cannot be restored unless you have backups. When you disable this feature, the tracked data in the database will be kept. This can be useful to prevent accidental deletion of all your historical analytics data when you uninstall the plugin."
+msgstr "Wanneer je de Matomo plugin verwijdert, worden standaard alle gegevens verwijderd en kunnen deze niet worden hersteld, tenzij je back-ups hebt. Wanneer je deze functie uitschakelt, blijven de bijgehouden gegevens in de database behouden. Dit kan handig zijn om te voorkomen dat al je historische analysegegevens per ongeluk worden verwijderd wanneer je de plugin verwijdert."
+
+#: classes/WpMatomo/Admin/Menu.php:204 classes/WpMatomo/Admin/Menu.php:205
+msgid "Import WP Statistics"
+msgstr "Importeer WP statistieken"
+
+#: classes/WpMatomo/Admin/views/tracking.php:294
+msgid "When a user is logged in to WordPress, track their &quot;User ID&quot;. You can select which field from the User's profile is tracked as the &quot;User ID&quot;."
+msgstr "Wanneer een gebruiker is ingelogd op WordPress, volg dan zijn &quot;Gebruikers-ID&quot;. Je kunt selecteren welk veld van het gebruikersprofiel wordt bijgehouden als de &quot;Gebruikers-ID&quot;."
+
+#: classes/WpMatomo/Admin/views/tracking.php:675
+msgid "By default the JS tracking code will be loaded from \"%1$s\". You can choose to serve the JS file through the WP Rest API (%2$s) for example to hide matomo.js. Please note that this means every request to the JavaScript file will launch WordPress PHP and therefore will be slower compared to your webserver serving the JS file directly. Using the \"Plugin\" method will cause issues with our paid Heatmap and Session Recording, Form Analytics, and Media Analytics plugin."
+msgstr "Standaard wordt de JS volgen code geladen van \"%1$s\". Je kunt ervoor kiezen om het JS bestand via de WP Rest API (%2$s) te serveren, bijvoorbeeld om matomo.js te verbergen. Let op dat dit betekent dat elke aanvraag naar het JavaScript bestand WordPress PHP zal starten en daarom langzamer zal zijn in vergelijking met je webserver die het JS bestand direct serveert. Het gebruik van de \"Plugin\" methode zal problemen veroorzaken met onze betaalde Heatmap en Session Recording, Form Analytics, en Media Analytics plugin."
+
+#: classes/WpMatomo/Admin/views/tracking.php:661
+msgid "By default the HTTP Tracking API points to your Matomo plugin directory \"%1$s\". You can choose to use the WP Rest API (%2$s) instead for example to hide matomo.php or if the other URL doesn't work for you. Note: If the \"Tag Manager\" tracking mode is selected, then this URL will only be used in feed tracking."
+msgstr "Standaard wijst de HTTP Tracking API naar je Matomo plugin folder \"%1$s\". Je kunt ervoor kiezen om de WP Rest API (%2$s) te gebruiken bijvoorbeeld om matomo.php te verbergen of als de andere URL niet voor je werkt. Opmerking: als de \"Tag Manager\" volgen modus is geselecteerd, dan zal deze URL alleen worden gebruikt in feed volging."
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:98
+msgid "Or you can add the \"Matomo opt out\" block directly to your page."
+msgstr "Of je kunt het blok \"Matomo opt-out\" rechtstreeks aan je pagina toevoegen."
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:85
+msgid "Use the short code %1$s."
+msgstr "Gebruik de shortcode %1$s."
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:80
+msgid "You have two options to embed the opt out iframe into your website:"
+msgstr "Je hebt twee opties om het opt-out iframe in je site in te sluiten:"
+
+#: classes/WpMatomo/Admin/views/tracking.php:645
+msgid "Activates a specific Matomo consent mode. Only configure a consent mode if you are implementing a consent screen yourself. This requires a custom consent implementation. For more information please read this %1$sFAQ%2$s (this option will take care of step 1 for you). By default no consent mode is applied."
+msgstr "Activeert een specifieke Matomo-toestemmingsmodus. Configureer alleen een toestemmingsmodus als je zelf een toestemmingsscherm implementeert. Dit vereist een implementatie van aangepaste toestemming. Lees voor meer informatie deze %1$sFAQ%2$s (deze optie regelt stap 1 voor je). Standaard wordt er geen toestemmingsmodus toegepast."
+
+#: classes/WpMatomo/Admin/views/tracking.php:642
+msgid "Custom consent screen"
+msgstr "Aangepast toestemming scherm"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:263
+msgid "Settings have not been saved. There is an issue with the HTML comments in the field \"Noscript code\". Make sure all opened comments (<!--) are closed (-->) correctly."
+msgstr "Instellingen zijn niet opgeslagen. Er is een probleem met de HTML commentaren in het veld \"Noscript-code\". Zorg ervoor dat alle geopende commentaren correct (<!--) zijn gesloten (-->)."
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:260
+msgid "Settings have not been saved. There is an issue with the HTML comments in the field \"Tracking code\". Make sure all opened comments (<!--) are closed (-->) correctly."
+msgstr "Instellingen zijn niet opgeslagen. Er is een probleem met de HTML commentaren in het veld \"Noscript-code\". Zorg ervoor dat alle geopende commentaren correct (<!--) zijn gesloten (-->)."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1662
+msgid "Some tables may be missing: %s"
+msgstr "Sommige tabellen kunnen ontbreken: %s"
+
+#: classes/WpMatomo/Admin/CookieConsent.php:23
+msgid "Require tracking consent"
+msgstr "Toestemming vereist voor tracking"
+
+#: classes/WpMatomo/Admin/CookieConsent.php:22
+msgid "Require cookie consent"
+msgstr "Toestemming vereist voor cookie"
+
+#: classes/WpMatomo/Admin/views/tracking.php:673
+msgid "Plugin (an alternative JS file if the default is blocked by the webserver)"
+msgstr "Plugin (een alternatief JS-bestand als de standaard wordt geblokkeerd door de webserver)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:243
+msgid "Choose the currency which will be used in reports. This currency will be used if you have an ecommerce store or if you are using the Matomo goals feature and assign a monetary value to a goal."
+msgstr "Kies de valuta die in rapporten zal worden gebruikt. Deze valuta zal worden gebruikt als je een ecommerce winkel hebt of als je de Matomo doelen functie gebruikt en een geldwaarde aan een doel toewijst."
+
+#: classes/WpMatomo/Admin/views/update_notice_clear_cache.php:14
+msgid "Settings have been updated successfully. In case you are using a caching plugin like WP-Rocket, W3 Total Cache, WP Super Cache, ... make sure to invalidate (also known as reset or clear or purge) the cache within this caching plugin for the changes to become effective on your website. Please note not every caching plugin has such a feature."
+msgstr "Instellingen zijn succesvol geüpdatet. Als je een caching plugin zoals WP-Rocket, W3 Total Cache, WP Super Cache, ... gebruikt, zorg er dan voor dat je de cache binnen deze caching plugin ongeldig maakt (ook wel reset of clear of purge genoemd), zodat de wijzigingen van kracht worden op je site. Houd er rekening mee dat niet elke caching plugin zo'n functie heeft."
+
+#: classes/WpMatomo/Admin/views/get_started.php:76
+msgid "Click here to optionally configure the tracking code to your liking (not required)."
+msgstr "Klik hier om eventueel de trackingcode naar wens in te stellen (niet vereist)."
+
+#: classes/WpMatomo/Admin/views/get_started.php:75
+msgid "Tracking should be working now and you don't have to do anything else to set up tracking."
+msgstr "Tracking zou nu moeten werken en je hoeft verder niets te doen om tracking in te stellen."
+
+#: classes/WpMatomo/Admin/views/summary.php:46
+msgid "Matomo Tracking is not enabled. If you have added the Matomo tracking code in a different way, for example using a consent plugin, then you can ignore this message."
+msgstr "Matomo Tracking is niet ingeschakeld. Als je de Matomo trackingcode op een andere manier hebt toegevoegd, bijvoorbeeld met een toestemming plugin, dan kun je dit bericht negeren."
+
+#: classes/WpMatomo/Admin/views/tracking.php:796
+msgid "For security and privacy reasons you should only enable this setting for as short time of a time as possible."
+msgstr "Om veiligheids- en privacyredenen dien je deze instelling slechts zo kort mogelijk in te schakelen."
+
+#: classes/WpMatomo/Admin/views/tracking.php:794
+msgid "Enabled on demand"
+msgstr "Op verzoek ingeschakeld"
+
+#: classes/WpMatomo/Admin/views/tracking.php:793
+msgid "Always enabled"
+msgstr "Altijd ingeschakeld"
+
+#: classes/WpMatomo/Admin/views/tracking.php:792
+msgid "Disabled (recommended)"
+msgstr "Uitgeschakeld (aanbevolen)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:790
+msgid "Tracker Debug Mode"
+msgstr "Tracker debug modus"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:56
+msgid "Matomo sites"
+msgstr "Matomo sites"
+
+#: classes/WpMatomo/Admin/views/tracking.php:596
+msgid "Enable to track JavaScript errors that occur on your website as Matomo events."
+msgstr "Schakel het volgen van JavaScript fouten in, die op je site optreden als Matomo gebeurtenissen."
+
+#: classes/WpMatomo/Admin/views/tracking.php:595
+msgid "Track JS errors"
+msgstr "Track JS fouten"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:237
+msgid "Run Updater"
+msgstr "Voer updater uit"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:236
+msgid "Force trigger a Matomo update in case it failed error"
+msgstr "Forceer een Matomo update als deze mislukt"
+
+#: classes/WpMatomo/Admin/SystemReport.php:860
+#: classes/WpMatomo/Admin/SystemReport.php:873
+msgid "Incompatible Matomo plugins"
+msgstr "Incompatibele Matomo plugins"
+
+#: classes/WpMatomo/Admin/views/info_help.php:32
+msgid "General FAQs"
+msgstr "Algemene FAQ's"
+
+#: classes/WpMatomo/Admin/views/info_help.php:28
+msgid "Matomo for WordPress FAQs"
+msgstr "Veelgestelde vragen over Matomo voor WordPress"
+
+#: classes/WpMatomo/Admin/views/tracking.php:241
+msgid "Currency"
+msgstr "Valuta"
+
+#: classes/WpMatomo/Admin/views/get_started.php:69
+msgid "By %1$sdisabling cookies in the tracking settings%2$s, you might not need to ask for any cookie or tracking consent if the GDPR or ePrivacy applies to you (%3$slearn more%4$s)."
+msgstr "Door %1$shet uitschakelen van cookies in de tracering instellingen%2$s, hoef je mogelijk geen toestemming voor cookies of tracering te vragen als de AVG/GDPR of ePrivacy op je van toepassing is (%3$smeer informatie%4$s)."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1034
+msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
+msgstr "Je PHP-installatie lijkt de MySQL extensie te missen die vereist is voor WordPress."
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:28
+msgid "The privacy settings have to be configured per site currently."
+msgstr "De privacy-instellingen moeten momenteel per site worden geconfigureerd."
+
+#: classes/WpMatomo/Admin/views/settings.php:32
+msgid "You are running Matomo in network mode."
+msgstr "Je gebruikt Matomo in netwerk modus."
+
+#: classes/WpMatomo/Admin/views/summary.php:123
+msgid "Click to add this report to the WordPress admin dashboard"
+msgstr "Klik om dit rapport toe te voegen aan het WordPress beheerder dashboard"
+
+#: classes/WpMatomo/Admin/views/summary.php:121
+msgid "Click to remove this report from the WordPress admin dashboard"
+msgstr "Klik om dit rapport te verwijderen uit het WordPress beheerder dashboard"
+
+#: classes/WpMatomo/Admin/views/summary.php:38
+msgid "Dashboard updated."
+msgstr "Dashboard geüpdatet."
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:63
+msgid "MaxMind is configured."
+msgstr "MaxMind is geconfigureerd."
+
+#: classes/WpMatomo/Admin/views/access.php:60
+msgid "A user with role administrator automatically has the super user role."
+msgstr "Een gebruiker met de rol beheerder heeft automatisch de rol van supergebruiker."
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:62
+msgid "Delete all data on uninstall"
+msgstr "Alle gegevens verwijderen bij de-installatie"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:166
+#: classes/WpMatomo/Admin/views/marketplace_setup_wizard.php:124
+msgid "Download"
+msgstr "Downloaden"
+
+#: classes/WpMatomo/Admin/SystemReport.php:659
+msgid "Matomo Install Version"
+msgstr "Matomo installatieversie"
+
+#: classes/WpMatomo/Admin/views/tracking.php:635
+msgid "When enabled, Matomo will always use POST requests. This can be helpful should you experience HTTP 414 URI too long errors in your tracking code."
+msgstr "Wanneer ingeschakeld, zal Matomo altijd POST aanvragen gebruiken. Dit kan nuttig zijn als je HTTP 414 URI te lange fouten ervaart in je volgen code."
+
+#: classes/WpMatomo/Admin/views/tracking.php:634
+msgid "Force POST requests"
+msgstr "Forceer POST aanvragen"
+
+#: classes/WpMatomo/Admin/GeolocationSettings.php:34
+msgid "Geolocation"
+msgstr "Geolocatie"
+
+#: classes/WpMatomo/Admin/views/info.php:43
+msgid ""
+"Matomo is a collaborative project brought to you by %1$sMatomo team%2$s members as well as many other contributors around the globe. If you like Matomo,\n"
+"        %3$splease give us a review%4$s and spread the word about us."
+msgstr ""
+"Matomo is een samenwerkingsproject van %1$sMatomo team%2$s en vele andere medewerkers over de hele wereld. Als je Matomo leuk vindt, \n"
+"        %3$sgeef ons dan een beoordeling%4$s en verspreid het woord over ons."
+
+#: classes/WpMatomo/Admin/Menu.php:190 classes/WpMatomo/Admin/Menu.php:191
+#: classes/WpMatomo/Admin/views/systemreport.php:86
+msgid "Diagnostics"
+msgstr "Diagnostiek"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:56
+msgid "Should your IP address not match the above value, your WordPress might be behind a proxy and you may need to select a different HTTP header depending on which of the values on the left shows your correct IP address."
+msgstr "Als je IP-adres niet overeenkomt met bovenstaande waarde, dan bevindt je WordPress zich mogelijk achter een proxy en moet je mogelijk een andere HTTP-header selecteren, afhankelijk van welke van de waarden aan de linkerkant je juiste IP-adres toont."
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:54
+msgid "To compare this value with your actual IP address %1$splease click here%2$s."
+msgstr "Om deze waarde te vergelijken met je werkelijke IP-adres %1$sklik hier%2$s."
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:52
+msgid "We detected you have the following IP address:"
+msgstr "We hebben vastgesteld dat je het volgende IP-adres hebt:"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:44
+#: classes/WpMatomo/Admin/views/advanced_settings.php:47
+msgid "No value found"
+msgstr "Geen waarde gevonden"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:40
+msgid "Proxy IP headers"
+msgstr "Proxy IP headers"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:35
+msgid "Advanced settings"
+msgstr "Geavanceerde instellingen"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:68
+msgid "When configured, your WordPress will send an HTTP request to a MaxMind server to download an approx. 60MB database and store it in your \"wp-content/uploads/matomo\" directory."
+msgstr "Indien geconfigureerd, stuur je WordPress een HTTP request naar een MaxMind server om een ca. 60 MB database te downloaden en sla deze op in je \"wp-content/uploads/matomo\" folder."
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:67
+msgid "Leave the field empty and click on \"Save Changes\" to configure the default DB-IP database."
+msgstr "Laat het veld leeg en klik op \"Wijzigingen opslaan\" om de standaard DB-IP database te configureren."
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:52
+msgid "MaxMind License Key"
+msgstr "MaxMind licentiesleutel"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:41
+msgid "To use MaxMind instead of the default DB-IP geolocation database %1$s get a MaxMind license key%2$s and then configure this key below."
+msgstr "Om MaxMind te gebruiken in plaats van de standaard DB-IP geolocatie database %1$s, krijgt je een MaxMind-licentiesleutel%2$s en configureer je deze sleutel hieronder."
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:37
+msgid "To detect the location of a visitor, the IP address of a visitor is looked up in a so called geolocation database. This is automatically taken care of for you. However, the freely available database DB-IP we are using is sometimes less accurate than other freely available geolocation databases. This applies to the free and paid version of DB-IP. An alternative geolocation database is called MaxMind which has a free and a paid version as well. Because of GDPR we cannot configure this database automatically for you."
+msgstr "Om de locatie van een bezoeker te achterhalen, wordt het IP-adres van een bezoeker opgezocht in een zogenaamde geolocatie database. Dit wordt automatisch voor je geregeld. De vrij beschikbare database DB-IP die we gebruiken is echter soms minder nauwkeurig dan andere vrij beschikbare geolocatie databases. Dit geldt voor de gratis en betaalde versie van DB-IP. Een alternatieve geolocatie database heet MaxMind, die ook een gratis en een betaalde versie heeft. Vanwege de AVG/GDPR kunnen we deze database niet automatisch voor je configureren."
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:34
+msgid "On this page you can configure how Matomo detects the locations of your visitors."
+msgstr "Op deze pagina kun je configureren hoe Matomo de locaties van je bezoekers detecteert."
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:24
+msgid "It looks like the MaxMind license key has a wrong format."
+msgstr "Het lijkt erop dat de MaxMind licentiesleutel een verkeerd format heeft."
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:43
+msgid "Subscribe"
+msgstr "Abonneren"
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:40
+msgid "Learn more about it on our %1$sPrivacy Policy page%2$s."
+msgstr "Lees er meer over op onze %1$sPrivacybeleid pagina%2$s."
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:39
+msgid "This service uses MadMimi."
+msgstr "Deze dienst maakt gebruik van MadMimi."
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:38
+msgid "Subscribe to our newsletter to receive regular information about Matomo, web analytics, and privacy. You can unsubscribe from it any time."
+msgstr "Abonneer je op onze nieuwsbrief om regelmatig informatie te ontvangen over Matomo, webanalyse en privacy. Je kunt je op elk moment weer uitschrijven."
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:21
+msgid "Thank you for signing up to our newsletter."
+msgstr "Bedankt voor het aanmelden voor onze nieuwsbrief."
+
+#: classes/WpMatomo/Admin/views/access.php:72
+msgid "Want to redirect to the home page when not logged in?"
+msgstr "Wil je omleiden naar de homepage als je niet bent ingelogd?"
+
+#: classes/WpMatomo/Admin/AdvancedSettings.php:60
+#: classes/WpMatomo/Admin/views/tracking.php:372
+#: classes/WpMatomo/Admin/views/tracking.php:628
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: classes/WpMatomo/views/referral.php:20
+msgid "Rate Matomo"
+msgstr "Waardeer Matomo"
+
+#: classes/WpMatomo/views/referral.php:16
+msgid "Like Matomo? We would really appreciate if you took 1 minute to rate us."
+msgstr "Vind je Matomo leuk? We zouden het zeer op prijs stellen als je 1 minuut de tijd neemt om ons te waarderen."
+
+#: classes/WpMatomo/ScheduledTasks.php:61
+msgid "Monthly"
+msgstr "Maandelijks"
+
+#: classes/WpMatomo.php:176
+msgid "Matomo Analytics requires the uploads directory %s to be writable. Please make the directory writable for it to work."
+msgstr "Matomo Analytics vereist dat de upload folder %s beschrijfbaar is. Maak de folder beschrijfbaar zodat deze werkt."
+
+#: plugins/WordPress/WordPress.php:158
+msgid "Alternatively, simply go to \"Tracking Settings\" in your WordPress Admin and select \"Tag Manager\" as tracking mode or choose \"Manually\" and paste the above code into the tracking code field."
+msgstr "Of ga gewoon naar \"Tracking instellingen\" in je WordPress beheer en selecteer \"Tag manager\" als tracking modus of kies \"Handmatig\" en plak de bovenstaande code in het tracking code veld."
+
+#: plugins/WordPress/WordPress.php:148
+msgid "In WordPress Admin go to Matomo Analytics => Settings => Tracking to embed the tracking code."
+msgstr "Ga in WordPress beheer naar Matomo Analytics => Instellingen => Tracking om de trackingcode in te sluiten."
+
+#: plugins/WordPress/Menu.php:60
+msgid "Go back to WordPress Admin Dashboard"
+msgstr "Ga terug naar het WordPress beheer dashboard"
+
+#: plugins/WordPress/Menu.php:60
+msgid "WordPress Admin"
+msgstr "WordPress beheerder"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1321
+msgid "It looks like you are maybe using a custom WordPress content directory. The Matomo reporting/admin pages might not work. You may be able to workaround this."
+msgstr "Het lijkt erop dat je misschien een aangepaste WordPress content folder gebruikt. De rapport/beheer pagina's van Matomo werken mogelijk niet. Mogelijk kun je wel gewoon werken."
+
+#: classes/WpMatomo/Annotations.php:75
+msgid "Published:"
+msgstr "Gepubliceerd:"
+
+#: classes/WpMatomo/Report/Renderer.php:94
+msgid "Report %s not found"
+msgstr "Rapport %s niet gevonden"
+
+#: classes/WpMatomo/Report/Renderer.php:59
+msgid "Sorry, you are not allowed to view this report."
+msgstr "Je hebt geen toestemming om dit rapport te bekijken."
+
+#: classes/WpMatomo/Admin/views/info_help.php:50
+msgid "Click here if you are having Trouble with Matomo"
+msgstr "Klik hier als je problemen hebt met Matomo"
+
+#: classes/WpMatomo/Admin/views/info_help.php:45
+msgid "Let our experienced team assist you online on how to best utilise Matomo"
+msgstr "Laat ons ervaren team je online helpen hoe je Matomo het beste kunt gebruiken"
+
+#: classes/WpMatomo/Admin/views/info_help.php:44
+msgid "Support Plans"
+msgstr "Ondersteuning abonnementen"
+
+#: classes/WpMatomo/Admin/views/info_help.php:41
+msgid "Learn about commonly used terms to make the most of Matomo Analytics"
+msgstr "Lees meer over veelgebruikte termen om het meeste uit Matomo Analytics te halen"
+
+#: classes/WpMatomo/Admin/views/info_help.php:40
+msgid "Glossary"
+msgstr "Glossary"
+
+#: classes/WpMatomo/Admin/views/info_help.php:37
+msgid "Get help directly from the community of Matomo users"
+msgstr "Krijg rechtstreeks hulp van de community van Matomo gebruikers"
+
+#: classes/WpMatomo/Admin/views/info_help.php:36
+msgid "Forums"
+msgstr "Forums"
+
+#: classes/WpMatomo/Admin/views/info_help.php:29
+#: classes/WpMatomo/Admin/views/info_help.php:33
+msgid "Get answers to frequently asked questions"
+msgstr "Krijg antwoord op veelgestelde vragen"
+
+#: classes/WpMatomo/Admin/views/info_help.php:25
+msgid "Learn how to configure Matomo and how to effectively analyse your data"
+msgstr "Leer hoe je Matomo configureert en hoe je je gegevens effectief analyseert"
+
+#: classes/WpMatomo/Admin/views/info_help.php:24
+msgid "User guides"
+msgstr "Gebruikershandleidingen"
+
+#: classes/WpMatomo/Admin/views/info_help.php:16
+msgid "How can we help?"
+msgstr "Hoe kunnen we helpen?"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:322
+msgid "You may want to disable %1$s in your %2$s and set up an actual cronjob and %3$scheck out our recommended server sizing%4$s."
+msgstr "Misschien wil je %1$s uitschakelen in je %2$s en een actuele cron taak instellen en %3$sonze aanbevolen server grootte bekijken%4$s."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:318
+msgid "Having performance issues?"
+msgstr "Performance problemen?"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:315
+msgid "To debug issues that happen in the background, for example report generation during a cronjob, you might also want to enable %1$s."
+msgstr "Om problemen op te sporen die op de achtergrond optreden, bijvoorbeeld het genereren van rapporten tijdens een cron taak, wil je misschien ook %1$s inschakelen."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:314
+msgid "You may also want to enable %1$s."
+msgstr "Misschien wil je ook %1$s inschakelen."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:312
+msgid "If you experience any issue in Matomo, it is always a good idea to first check your webserver logs (if possible) for any errors."
+msgstr "Als je een probleem ondervindt in Matomo, is het altijd een goed idee om eerst je webserver logs (indien mogelijk) te controleren op fouten."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:311
+msgid "Before you create an issue"
+msgstr "Voordat je een probleem aanmeldt"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:308
+msgid "View all FAQs"
+msgstr "Bekijk alle FAQ's"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:305
+msgid "How do I manually delete or reset all Matomo for WordPress data?"
+msgstr "Hoe verwijder of reset ik handmatig alle gegevens van Matomo voor WordPress?"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:301
+msgid "I have an issue with the plugin, how do I troubleshoot and enable debug mode?"
+msgstr "Ik heb een probleem met de plugin, hoe los ik problemen op en schakel ik de debug modus in?"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:297
+msgid "I cannot open the Matomo Reporting, Admin, or Tag Manager page, how do I troubleshoot it?"
+msgstr "Ik kan de Matomo Rapportering, Beheer of Tag manager pagina niet openen. Hoe los ik dit op?"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:293
+msgid "Matomo is not showing any statistics / reports, how do I fix it?"
+msgstr "Matomo toont geen statistieken/rapporten, hoe los ik dit op?"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:288
+msgid "Popular Troubleshooting FAQs"
+msgstr "Populaire veelgestelde vragen over probleemoplossingen"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:255
+msgid "Sync all sites (blogs)"
+msgstr "Synchroniseer alle sites (blogs)"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:250
+msgid "Sync all users across sites / blogs"
+msgstr "Synchroniseer alle gebruikers op verschillende sites/blogs"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:232
+msgid "Sync site (blog)"
+msgstr "Synchroniseer site (blog)"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:231
+#: classes/WpMatomo/Admin/views/systemreport.php:253
+msgid "Sites / blogs are synced automatically. If for some reason Matomo is not showing up for a specific blog, then triggering a manual sync may help to fix this issue immediately or it may show which error prevents the automatic syncing."
+msgstr "Sites/blogs worden automatisch gesynchroniseerd. Als Matomo om de een of andere reden niet verschijnt voor een specifieke blog, kan het activeren van een handmatige synchronisatie helpen om dit probleem onmiddellijk op te lossen of het kan inzicht gegeven welke fout de automatische synchronisatie verhindert."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:227
+msgid "Sync users"
+msgstr "Gebruikers synchroniseren"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:226
+#: classes/WpMatomo/Admin/views/systemreport.php:249
+msgid "Users are synced automatically. If for some reason a user cannot access Matomo pages even though the user has the permission, then triggering a manual sync may help to fix this issue immediately or it may show which error prevents the automatic syncing."
+msgstr "Gebruikers worden automatisch gesynchroniseerd. Als een gebruiker om de een of andere reden geen toegang heeft tot Matomo pagina's, ook al heeft de gebruiker toestemming, dan kan het activeren van een handmatige synchronisatie dit probleem onmiddellijk oplossen of inzicht geven welke fout de automatische synchronisatie verhindert."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:220
+msgid "Install/Update Geo-IP DB"
+msgstr "Geo-IP DB installeren/updaten"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:219
+msgid "Updates the geolocation database which is used to detect the location (city/region/country) of visitors. This task is performed automatically. If the geolocation DB is not loaded or updated, you may need to trigger it manually to find the error which is causing it."
+msgstr "Updates de geolocatie database die wordt gebruikt om de locatie (stad/regio/land) van bezoekers te detecteren. Deze taak wordt automatisch uitgevoerd. Als de geolocatie DB niet is geladen of geüpdatet, moet je deze mogelijk handmatig activeren om de fout te vinden die deze veroorzaakt."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:213
+msgid "Clear system report logs"
+msgstr "Wis systeem rapport logs"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:212
+msgid "Removes all stored Matomo logs that are shown in the system report"
+msgstr "Verwijdert alle opgeslagen Matomo logs die in het systeemrapport worden weergegeven"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:207
+msgid "Clear Matomo cache"
+msgstr "Wis de Matomo cache"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:206
+msgid "Will reset / empty the Matomo cache which can be helpful if something is not working as expected for example after an update."
+msgstr "Zal de Matomo cache resetten/leegmaken, wat handig kan zijn als iets niet werkt zoals verwacht, bijvoorbeeld na een update."
+
+#: classes/WpMatomo/Admin/views/systemreport.php:202
+msgid "Archive reports"
+msgstr "Rapporten archiveren"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:201
+msgid "If reports show no data even though they should, you may try to see if report generation works when manually triggering the report generation."
+msgstr "Als rapporten geen gegevens weergeven, terwijl dat wel zou moeten, kun je proberen te zien of het genereren van rapporten werkt wanneer je het genereren handmatig activeert."
+
+#: classes/WpMatomo/Admin/views/info_help.php:49
+#: classes/WpMatomo/Admin/views/systemreport.php:194
+msgid "Troubleshooting"
+msgstr "Oplossen van problemen"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:101
+msgid "Copy system report"
+msgstr "Kopieer systeemrapport"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:97
+msgid "Copy the below info in case our support team asks you for this information:"
+msgstr "Kopieer de onderstaande informatie voor het geval ons ondersteuningsteam je om deze informatie vraagt:"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:82
+msgid "Only you are seeing this page as you are the super admin"
+msgstr "Alleen je deze pagina ziet omdat je de superbeheerder bent"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:75
+msgid "There are some issues with your system. Matomo will run, but you might experience some minor problems. See below for more information."
+msgstr "Er zijn enkele problemen met je systeem. Matomo zal worden uitgevoerd, maar je kunt enkele kleine problemen ondervinden. Zie hieronder voor meer informatie."
+
+#: classes/WpMatomo/Admin/views/marketplace.php:58
+msgid "Discover new functionality for your Matomo"
+msgstr "Ontdek nieuwe functionaliteit voor je Matomo"
+
+#: classes/WpMatomo/Admin/views/summary.php:170
+msgid "Note: Embedding report data can be tricky if you are using caching plugins that cache the entire HTML of your page or post. In case you are using such a plugin, we recommend you disable the caching for these pages."
+msgstr "Opmerking: het insluiten van rapportgegevens kan lastig zijn als je caching plugins gebruikt die de volledige HTML van je pagina of bericht cachen. Als je een dergelijke plugin gebruikt, raden we je aan de caching voor deze pagina's uit te schakelen."
+
+#: classes/WpMatomo/Admin/views/summary.php:169
+msgid "Only users with view access will be able to view the content of the report."
+msgstr "Alleen gebruikers met weergave rechten kunnen de inhoud van het rapport bekijken."
+
+#: classes/WpMatomo/Admin/views/summary.php:168
+msgid "Did you know? You can embed any report into any page or post using a shortcode. Simply hover the title to find the correct shortcode."
+msgstr "Wist je dat? Je kunt elk rapport in elke pagina of bericht insluiten met behulp van een shortcode. Hover de titel om de juiste shortcode te vinden."
+
+#: classes/WpMatomo/Admin/views/summary.php:90
+msgid "You can embed this report on any page using the shortcode:"
+msgstr "Je kunt dit rapport op elke pagina insluiten met behulp van de shortcode:"
+
+#: classes/WpMatomo/Admin/views/summary.php:95
+msgid "Click to view the report in detail"
+msgstr "Klik om het rapport in detail te bekijken"
+
+#: classes/WpMatomo/Admin/views/summary.php:61
+msgid "Change date:"
+msgstr "Wijzig datum:"
+
+#: classes/WpMatomo/Admin/views/summary.php:59
+msgid "View full reporting"
+msgstr "Bekijk de volledige rapporten"
+
+#: classes/WpMatomo/Admin/views/summary.php:57
+msgid "Looking for all reports and advanced features like segmentation, real time reports, and more?"
+msgstr "Op zoek naar alle rapporten en geavanceerde functies zoals segmentatie, realtime rapporten en meer?"
+
+#: classes/WpMatomo/Admin/views/summary.php:54
+msgid "Reports for today are only refreshed approximately every hour through the WordPress cronjob."
+msgstr "Rapporten voor vandaag worden slechts ongeveer elk uur vernieuwd via de WordPress cron taak."
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:96
+msgid "Example"
+msgstr "Voorbeeld"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:93
+msgid "By default the language is detected automatically based on the user's browser"
+msgstr "Standaard wordt de taal automatisch gedetecteerd op basis van de browser van de gebruiker"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:90
+msgid "You can use these short code options:"
+msgstr "Je kunt deze shortcode opties gebruiken:"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:78
+msgid "Let users opt-out of tracking"
+msgstr "Laat gebruikers zich afmelden voor tracking"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:73
+msgid "GDPR tools"
+msgstr "AVG/GDPR gereedschappen"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:70
+msgid "GDPR overview"
+msgstr "AVG/GDPR overzicht"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:67
+msgid "Asking for consent"
+msgstr "Vragen om toestemming"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:64
+msgid "see below for the shortcode"
+msgstr "zie hieronder voor de shortcode"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:63
+msgid "Matomo has an opt-out mechanism which lets users opt-out of web analytics tracking"
+msgstr "Matomo heeft een opt-out mechanisme waarmee gebruikers zich kunnen afmelden voor het bijhouden van webanalyses"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:60
+msgid "Configure data retention"
+msgstr "Configureer gegevens retentie"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:57
+msgid "Anonymise data and IP addresses"
+msgstr "Anonimiseer gegevens en IP-adressen"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:53
+msgid "Privacy is a fundamental right so by using Matomo you can rest assured you have 100% control over that data and can protect your user's privacy as it's on your own server."
+msgstr "Privacy is een fundamenteel recht, dus door Matomo te gebruiken, kun je er zeker van zijn dat je 100% controle hebt over die gegevens en dat je de privacy van je gebruikers kunt beschermen omdat deze zich op je eigen server bevinden."
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:52
+msgid "Although Matomo Analytics is a web analytics software that has a purpose to track user activity on your website, we take privacy very seriously."
+msgstr "Hoewel Matomo Analytics web analyse software is die tot doel heeft gebruikersactiviteit op je site bij te houden, nemen we privacy zeer serieus."
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:50
+msgid "Ways Matomo protects the privacy of your users and customers"
+msgstr "Manieren waarop Matomo de privacy van je gebruikers en klanten beschermt"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:33
+msgid "The source code of the software is open-source so hundreds of people have reviewed it to ensure it is %1$ssecure%2$s and keeps your data private."
+msgstr "De broncode van de software is open-source, dus honderden mensen hebben deze beoordeeld om er zeker van te zijn dat deze %1$sveilig%2$s is en je gegevens privé houdt."
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:28
+msgid "Matomo Analytics is privacy by design. All data collected is stored only within your own MySQL database, no other business (or Matomo team member) can access any of this information, and logs or report data will never be sent to other servers by Matomo"
+msgstr "Matomo Analytics is privacy-by-design. Alle verzamelde gegevens worden alleen opgeslagen in je eigen MySQL database, geen enkel ander bedrijf (of Matomo teamlid) heeft toegang tot deze informatie, en logboeken of rapportgegevens zullen nooit door Matomo naar andere servers worden verzonden"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:26
+msgid "One of Matomo's guiding principles: respecting privacy"
+msgstr "Een van Matomo's leidende principes: privacy respecteren"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:23
+msgid "Matomo ensures the privacy of your users and analytics data! YOU keep control of your data."
+msgstr "Matomo zorgt voor de privacy van je gebruikers en analytische gegevens! JE houdt de controle over je gegevens."
+
+#: classes/WpMatomo/Admin/views/info.php:97
+msgid "Credits"
+msgstr "Credits"
+
+#: classes/WpMatomo/Admin/views/info.php:93
+msgid "Developers"
+msgstr "Ontwikkelaars"
+
+#: classes/WpMatomo/Admin/views/info.php:91
+msgid "Blog"
+msgstr "Blog"
+
+#: classes/WpMatomo/Admin/views/info.php:70
+#: classes/WpMatomo/Admin/views/info_newsletter.php:32
+msgid "Newsletter"
+msgstr "Nieuwsbrief"
+
+#: classes/WpMatomo/Admin/views/info.php:29
+msgid "High traffic websites"
+msgstr "Sites met veel verkeer"
+
+#: classes/WpMatomo/Admin/views/info.php:39
+msgid "Support the project"
+msgstr "Project ondersteunen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:823
+msgid "<noscript> tracking code"
+msgstr "<noscript> tracering code"
+
+#: classes/WpMatomo/Admin/views/tracking.php:820
+msgid "Want to embed the tracking code manually into your site or using a different plugin? No problem! Simply copy/paste below tracking code. Want to adjust it? %1$sCheck out our developer documentation.%2$s"
+msgstr "Wil je de tracering code handmatig in je site inbedden of een andere plugin gebruiken? Geen probleem! Kopieer/plak simpelweg de onderstaande tracering code. Wil je het aanpassen? %1$sBekijk onze ontwikkelaarsdocumentatie.%2$s"
+
+#: classes/WpMatomo/Admin/views/tracking.php:818
+msgid "JavaScript tracking code"
+msgstr "JavaScript tracking code"
+
+#: classes/WpMatomo/Admin/views/tracking.php:742
+msgid "https (SSL)"
+msgstr "https (SSL)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:741
+msgid "Disabled (default)"
+msgstr "Uitgeschakeld (standaard)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:739
+msgid "Force Matomo to use a specific protocol"
+msgstr "Vereis dat Matomo een specifiek protocol gebruikt."
+
+#: classes/WpMatomo/Admin/views/tracking.php:575
+msgid "Set CSS classes to be treated as outlinks"
+msgstr "Stel CSS klassen in om als outlinks behandeld te worden"
+
+#: classes/WpMatomo/Admin/views/tracking.php:565
+#: classes/WpMatomo/Admin/views/tracking.php:578
+msgid "See %1$sMatomo JavaScript Tracking Client reference%2$s."
+msgstr "Zie %1$sMatomo JavaScript Tracking Client reference%2$s."
+
+#: classes/WpMatomo/Admin/views/tracking.php:562
+msgid "Set CSS classes to be treated as downloads"
+msgstr "Stel CSS klassen in om als downloads te behandelen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:550
+msgid "Replace Matomo's default file extensions for download tracking, divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings (recommended)."
+msgstr "Vervang de standaard bestandsextensies van Matomo voor download volgen, gescheiden door een verticale balk (&#124;). Laat leeg om de standaardinstellingen van Matomo te behouden (aanbevolen)."
+
+#: classes/WpMatomo/Admin/views/tracking.php:549
+msgid "Define all file types for download tracking"
+msgstr "Definieer alle bestandstypen voor het volgen van downloads"
+
+#: classes/WpMatomo/Admin/views/tracking.php:768
+msgid "See %1$sCloudFlare Knowledge Base%2$s."
+msgstr "Zie %1$sCloudFlare Knowledge Base%2$s."
+
+#: classes/WpMatomo/Admin/views/tracking.php:766
+msgid "Adds data-cfasync=false to the script tag, e.g., to ask Rocket Loader to ignore the script."
+msgstr "Voegt data-cfasync=false toe aan de scripttag, bijvoorbeeld om Rocket Loader te vragen het script te negeren."
+
+#: classes/WpMatomo/Admin/views/tracking.php:765
+msgid "Add data-cfasync=false"
+msgstr "Voeg data-cfasync=false toe"
+
+#: classes/WpMatomo/Admin/views/tracking.php:292
+msgid "Display Name (Not Recommended!)"
+msgstr "Weergavenaam (niet aanbevolen!)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:291
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: classes/WpMatomo/Admin/views/tracking.php:290
+msgid "Email Address"
+msgstr "E-mail adres"
+
+#: classes/WpMatomo/Admin/views/tracking.php:289
+msgid "WP User ID"
+msgstr "WP gebruikers ID"
+
+#: classes/WpMatomo/Admin/views/tracking.php:337
+msgid "This will add Matomo campaign parameters to RSS feed links."
+msgstr "Dit zal Matomo campagneparameters toevoegen aan RSS feed links."
+
+#: classes/WpMatomo/Admin/views/tracking.php:336
+msgid "Track RSS feed links as campaign"
+msgstr "Track RSS feed links als campagne"
+
+#: classes/WpMatomo/Admin/views/tracking.php:328
+msgid "Track RSS feeds"
+msgstr "Volg RSS feeds"
+
+#: classes/WpMatomo/Admin/views/tracking.php:523
+msgid "When enabled, it will make sure to use the same visitor ID for the same visitor across several domains. This only works when this feature is enabled because the visitor ID is stored in a cookie and cookies cannot be read when on a different domain. When this feature is enabled, it will append a URL parameter \"pk_vid\" that contains the visitor ID when a user clicks on a URL that belongs to one of your domains. For this feature to work, you also have to configure which domains should be treated as local in your Matomo website settings."
+msgstr "Wanneer ingeschakeld, zorgt het ervoor dat dezelfde bezoeker ID wordt gebruikt voor dezelfde bezoeker op verschillende domeinen. Dit werkt alleen wanneer deze functie is ingeschakeld omdat de bezoeker ID wordt opgeslagen in een cookie en cookies niet kunnen worden gelezen op een ander domein. Wanneer deze functie is ingeschakeld, wordt een URL-parameter \"pk_vid\" toegevoegd die de bezoeker ID bevat wanneer een gebruiker op een URL klikt die bij een van je domeinen hoort. Voor deze functie te laten werken, moet je ook configureren welke domeinen als lokaal moeten worden behandeld in je Matomo site instellingen."
+
+#: classes/WpMatomo/Admin/views/tracking.php:522
+msgid "Enable cross domain linking"
+msgstr "Sta cross domain linking toe"
+
+#: classes/WpMatomo/Admin/views/tracking.php:509
+msgid "Do not count subdomains as outlink"
+msgstr "Tel subdomeinen niet mee als outlink"
+
+#: classes/WpMatomo/Admin/views/tracking.php:496
+msgid "Track subdomains in the same website"
+msgstr "Track subdomeinen in dezelfde site"
+
+#: classes/WpMatomo/Admin/views/tracking.php:276
+msgid "Enable to track users on WordPress admin pages (%1$sremember to configure the tracking filter appropriately%2$s)."
+msgstr "Schakel in om gebruikers op WordPress beheer pagina's te volgen (%1$svergeet niet om het volgen filter correct te configureren%2$s)."
+
+#: classes/WpMatomo/Admin/views/tracking.php:274
+msgid "Track admin pages"
+msgstr "Track beheerder pagina’s"
+
+#: classes/WpMatomo/Admin/views/tracking.php:481
+msgid "Referral timeout (seconds)"
+msgstr "Verwijzing time-out (seconden)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:473
+msgid "Session timeout (seconds)"
+msgstr "Sessie time-out (seconden)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:465
+msgid "Visitor timeout (seconds)"
+msgstr "Bezoeker time-out (seconden)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:455
+msgid "Limit cookie lifetime"
+msgstr "Beperk de levensduur van cookies"
+
+#: classes/WpMatomo/Admin/views/tracking.php:447
+msgid "Disable cookies"
+msgstr "Cookies uitschakelen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:537
+msgid "Add new file types for download tracking"
+msgstr "Voeg nieuwe bestandstypen toe voor het volgen van downloads"
+
+#: classes/WpMatomo/Admin/views/tracking.php:318
+#: classes/WpMatomo/Admin/views/tracking.php:597
+msgid "See %1$sMatomo FAQ%2$s."
+msgstr "Zie %1$sMatomo FAQ%2$s."
+
+#: classes/WpMatomo/Admin/views/tracking.php:316
+msgid "Matomo can automatically add a 404-category to track 404-page-visits."
+msgstr "Matomo kan automatisch een 404 categorie toevoegen om 404 paginabezoeken bij te houden."
+
+#: classes/WpMatomo/Admin/views/tracking.php:315
+msgid "Track 404"
+msgstr "404 volgen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:303
+msgid "Enable Matomo's advanced Site Search Analytics feature."
+msgstr "Schakel Matomo's geavanceerde site zoekanalyse functie in."
+
+#: classes/WpMatomo/Admin/views/tracking.php:302
+msgid "Track search"
+msgstr "Volg zoeken"
+
+#: classes/WpMatomo/Admin/views/tracking.php:234
+msgid "Enable to track Ecommerce orders, abandoned carts and product views for WooCommerce, Easy Digital Downloads, MemberPress, and more. Disabling this feature will stop tracking ecommerce data and remove Ecommerce reports from the Matomo display."
+msgstr "Inschakelen om e-commerce bestellingen, verlaten winkelwagens en productweergaven bij te houden voor WooCommerce, Easy Digital Downloads, MemberPress en meer. Het uitschakelen van deze functie stopt het bijhouden van e-commerce gegevens en verwijdert e-commerce rapporten van de Matomo Toon."
+
+#: classes/WpMatomo/Admin/views/tracking.php:233
+msgid "Enable ecommerce"
+msgstr "eCommerce inschakelen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:305
+#: classes/WpMatomo/Admin/views/tracking.php:337
+#: classes/WpMatomo/Admin/views/tracking.php:367
+#: classes/WpMatomo/Admin/views/tracking.php:499
+#: classes/WpMatomo/Admin/views/tracking.php:512
+#: classes/WpMatomo/Admin/views/tracking.php:552
+#: classes/WpMatomo/Admin/views/tracking.php:611
+msgid "See %1$sMatomo documentation%2$s."
+msgstr "Zie %1$sMatomo documentatie%2$s."
+
+#: classes/WpMatomo/Admin/views/tracking.php:609
+msgid "Track only visible content blocks"
+msgstr "Volg alleen zichtbare inhoud blokken"
+
+#: classes/WpMatomo/Admin/views/tracking.php:608
+msgid "Track all content blocks"
+msgstr "Volg alle inhoud blokken"
+
+#: classes/WpMatomo/Admin/views/tracking.php:605
+msgid "Enable content tracking"
+msgstr "Inhoud tracking inschakelen"
+
+#: classes/WpMatomo/Admin/views/tracking.php:672
+msgid "Through WordPress Rest API (slower)"
+msgstr "Via WordPress REST API (langzamer)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:669
+msgid "Endpoint for JavaScript tracker"
+msgstr "Endpoint voor JavaScript tracker"
+
+#: classes/WpMatomo/Admin/views/tracking.php:659
+msgid "Through WordPress Rest API"
+msgstr "Via WordPress REST API"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:44
+#: classes/WpMatomo/Admin/views/tracking.php:658
+#: classes/WpMatomo/Admin/views/tracking.php:671
+#: classes/WpMatomo/Site/Sync.php:173
+msgid "Default"
+msgstr "Standaard"
+
+#: classes/WpMatomo/Admin/views/tracking.php:656
+msgid "Endpoint for HTTP Tracking API"
+msgstr "Endpoint voor HTTP Tracking API"
+
+#: classes/WpMatomo/Admin/views/tracking.php:714
+msgid "Noscript code"
+msgstr "Noscript code"
+
+#: classes/WpMatomo/Admin/views/tracking.php:757
+msgid "Choose whether the JavaScript code is added to the footer or the header."
+msgstr "Kies of de JavaScript code wordt toegevoegd aan de footer of de header."
+
+#: classes/WpMatomo/Admin/views/tracking.php:755
+msgid "Header"
+msgstr "Header"
+
+#: classes/WpMatomo/Admin/views/tracking.php:754
+msgid "Footer"
+msgstr "Footer"
+
+#: classes/WpMatomo/Admin/views/tracking.php:752
+msgid "JavaScript code position"
+msgstr "JavaScript code positie"
+
+#: classes/WpMatomo/Admin/views/tracking.php:403
+#: classes/WpMatomo/Admin/views/tracking.php:698
+msgid "Tracking code"
+msgstr "Trackingcode"
+
+#: classes/WpMatomo/Admin/views/tracking.php:55
+msgid "You can use these variables: %1$s. %2$sLearn more%3$s"
+msgstr "Je kunt deze variabelen gebruiken: %1$s. %2$sLearn more%3$s"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:293
+msgid "Matomo will not add the tracking code itself. Use this mode if you want to add the tracking code by hand to your template files or you want to use another plugin to add the tracking code."
+msgstr "Matomo zal de volgen code niet zelf toevoegen. Gebruik deze modus als je de volgen code handmatig wil toevoegen aan je template bestanden of als je een andere plugin wil gebruiken om de volgen code toe te voegen."
+
+#: classes/WpMatomo/Admin/views/access.php:95
+msgid ""
+"You can also install a WordPress plugin which lets you manage capabilities for each individual users. These are\n"
+"    the supported capabilities:"
+msgstr ""
+"Je kunt ook een WordPress plugin installeren waarmee je de mogelijkheden voor elke individuele gebruiker kunt beheren. Dit zijn↵\n"
+"     de ondersteunde mogelijkheden:"
+
+#: classes/WpMatomo/Admin/views/access.php:92
+msgid "Capabilities"
+msgstr "Rechten"
+
+#: classes/WpMatomo/Admin/views/access.php:77
+msgid "Roles"
+msgstr "Rollen"
+
+#: classes/WpMatomo/Admin/views/access.php:71
+msgid "Super User"
+msgstr "Super gebruiker"
+
+#: classes/WpMatomo/Admin/views/access.php:69
+msgid "Admin"
+msgstr "Beheer"
+
+#: classes/WpMatomo/Admin/views/access.php:67
+msgid "Write"
+msgstr "Schrijven"
+
+#: classes/WpMatomo/Admin/views/access.php:65
+msgid "View"
+msgstr "Bekijken"
+
+#: classes/WpMatomo/Admin/views/access.php:63
+msgid "Learn about the differences between these Matomo roles:"
+msgstr "Lees meer over de verschillen tussen deze Matomo rollen:"
+
+#: classes/WpMatomo/Admin/views/access.php:32
+msgid "Matomo Role"
+msgstr "Matomo rol"
+
+#: classes/WpMatomo/Admin/views/access.php:31
+msgid "WordPress Role"
+msgstr "WordPress rol"
+
+#: classes/WpMatomo/Admin/views/access.php:23
+msgid "Manage which roles can view and manage your reporting data."
+msgstr "Beheer welke rollen je rapportagegegevens kunnen bekijken en beheren."
+
+#: classes/WpMatomo/Admin/views/settings.php:49
+msgid "Matomo Admin"
+msgstr "Matomo beheer"
+
+#: classes/WpMatomo/Admin/views/get_started.php:91
+#: classes/WpMatomo/Admin/views/import_wp_statistics.php:37
+msgid "Done"
+msgstr "Klaar"
+
+#: classes/WpMatomo/Admin/views/get_started.php:66
+msgid "You may also need to mention that you are using Matomo Analytics on your website."
+msgstr "Mogelijk moet je ook vermelden dat je Matomo Analytics op je site gebruikt."
+
+#: classes/WpMatomo/Admin/views/get_started.php:54
+msgid "Update your privacy page"
+msgstr "Update je privacy pagina"
+
+#: classes/WpMatomo/Admin/views/get_started.php:87
+msgid "Enable tracking now"
+msgstr "Tracking nu inschakelen"
+
+#: classes/WpMatomo/Admin/views/get_started.php:80
+msgid "Enable tracking"
+msgstr "Tracking inschakelen"
+
+#: classes/WpMatomo/Admin/views/get_started.php:73
+msgid "Tracking is enabled"
+msgstr "Tracking is ingeschakeld"
+
+#: classes/WpMatomo/Admin/views/get_started.php:36
+msgid "Start getting a full picture of your visitors"
+msgstr "Start met een volledig beeld krijgen van je bezoekers"
+
+#: classes/WpMatomo/Admin/views/access.php:51
+#: classes/WpMatomo/Admin/views/advanced_settings.php:98
+#: classes/WpMatomo/Admin/views/exclusion_settings.php:159
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:75
+#: classes/WpMatomo/Admin/views/tracking.php:58
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: classes/WpMatomo/Admin/views/exclusion_settings.php:69
+msgid "Choose users by user role you do %1$snot%2$s want to track."
+msgstr "Kies gebruikers op gebruikersrol die %1$sniet%2$s wil volgen."
+
+#: classes/WpMatomo/Admin/views/exclusion_settings.php:57
+msgid "Tracking filter"
+msgstr "Volgfilter"
+
+#: classes/WpMatomo/Admin/views/exclusion_settings.php:52
+msgid "Configure exclusions."
+msgstr "Uitsluitingen configureren."
+
+#: classes/WpMatomo/Admin/views/info_bug_report.php:18
+msgid "Please read the recommendations on writing a good %1$sbug report%2$s or %3$sfeature request%4$s. Then register or login to %5$sour issue tracker%6$s and create a %7$snew issue%8$s."
+msgstr "Lees de aanbevelingen voor het schrijven van een goed %1$sbug rapport%2$s of %3$sfunctieverzoek%4$s. Registreer of log dan in op %5$sour issue tracker%6$s en maak een %7$snieuw issue%8$s aan."
+
+#: classes/WpMatomo/Admin/views/info_bug_report.php:14
+msgid "Do you have a bug to report or a feature request?"
+msgstr "Heb je een bug te melden of een functieaanvraag?"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:29
+msgid "Easy installation and configuration"
+msgstr "Eenvoudige installatie en configuratie"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:28
+msgid "No data limits or sampling whatsoever"
+msgstr "Geen enkele gegevenslimiet of sampling"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:27
+msgid "Superb user privacy protection"
+msgstr "Uitstekende bescherming van de privacy van gebruikers"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:26
+msgid "Powerful web analytics for WordPress"
+msgstr "Krachtige webanalyse voor WordPress"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:25
+msgid "100% data ownership, no one else can see your data"
+msgstr "100% eigendom van gegevens, niemand anders kan je gegevens zien"
+
+#: classes/WpMatomo/Admin/views/info_matomo_desc.php:15
+msgid ""
+"%1$sMatomo Analytics%2$s is the most powerful\n"
+"    analytics platform for WordPress, designed for your success. It is our mission to help you grow\n"
+"    your business while giving you %3$sfull control over your data%4$s. All\n"
+"    data is stored in your WordPress. You own the data, nobody else."
+msgstr ""
+"%1$sMatomo Analytics%2$s is het krachtigste↵\n"
+"     analyseplatform voor WordPress, ontworpen voor je succes. Het is onze missie om je bedrijf te helpen groeien↵\n"
+"     en geeft je %3$s volledige controle over je gegevens%4$s. Alle↵\n"
+"     gegevens worden opgeslagen in je WordPress. Je bent de eigenaar van de gegevens, niemand anders."
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:53
+msgid "We can migrate all your data onto our Cloud for free. 100% data ownership guaranteed."
+msgstr "Wij kunnen al je gegevens gratis migreren naar onze Cloud. 100% eigendom van gegevens gegarandeerd."
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:53
+msgid "Sign up for a free Matomo Cloud trial"
+msgstr "Meld je aan voor een gratis proefversie van Matomo Cloud"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:51
+msgid "Don't want all the hassle of maintaining a Matomo?"
+msgstr "Wil je niet al het gedoe van het onderhouden van Matomo?"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:37
+msgid ""
+"If you are managing quite a few sites or have quite a bit of traffic then we recommend installing %1$sMatomo On-Premise%2$s separately outside WordPress (it's free as well) and use it in combination with the %3$sConnect Matomo%4$s WordPress plugin.\n"
+"        Your Matomo will then run a lot faster, you can put Matomo on a separate server if needed, and it allows you to make use of additional features such as %5$sRoll-Up Reporting%6$s."
+msgstr "Als je een behoorlijk aantal sites beheert of veel verkeer hebt, raden we aan om %1$sMatomo On-Premise%2$s apart buiten WordPress te installeren (het is ook gratis) en het te gebruiken in combinatie met de %3$sConnect Matomo%4$s WordPress plugin. Je Matomo zal dan veel sneller werken, je kunt Matomo op een aparte server plaatsen indien nodig, en het stelt je in staat om gebruik te maken van aanvullende functies zoals %5$sRoll-Up Reporting%6$s."
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:33
+msgid "Managing many sites?"
+msgstr "Meerdere sites beheren?"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:31
+msgid "In this mode, the tracking and access settings are managed by each individual site. They cannot be managed in one central place for all sites. An administrator or any user with the \"Matomo super user\" role can change these settings."
+msgstr "In deze modus worden de tracking- en toegangsinstellingen beheerd door elke afzonderlijke site. Ze kunnen niet voor alle sites op één centrale plek worden beheerd. Een beheerder of een gebruiker met de rol \"Matomo supergebruiker\" kan deze instellingen wijzigen."
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:30
+msgid "Matomo is not network enabled"
+msgstr "Het netwerk voor Matomo is niet ingeschakeld"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:26
+msgid "An administrator of a site cannot view or change these settings."
+msgstr "Een beheerder van een site kan deze instellingen niet bekijken of wijzigen."
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:25
+msgid "In this mode, the tracking and access settings are managed in the network admin in one place and apply to all sites."
+msgstr "In deze modus worden de tracking- en toegangsinstellingen op één plek beheerd in de netwerk beheerder en zijn ze van toepassing op alle sites."
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:24
+msgid "Matomo is network enabled"
+msgstr "Het netwerk voor Matomo is ingeschakeld"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:23
+msgid "You are seeing this page as you are viewing the network admin. Matomo differentiates between two different multi site modes:"
+msgstr "Je ziet deze pagina terwijl je netwerk beheerder bekijkt. Matomo maakt onderscheid tussen twee verschillende multi-site modi:"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:21
+msgid "Matomo Analytics in Multi Site mode"
+msgstr "Matomo Analytics in multi site modus"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:287
+#: classes/WpMatomo/Admin/views/tracking.php:288
+#: classes/WpMatomo/Admin/views/tracking.php:607
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:52
+msgid "Tracking"
+msgstr "Volgen"
+
+#: classes/WpMatomo/Admin/AccessSettings.php:41
+msgid "Access"
+msgstr "Toegang"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1934
+msgid "Not compatible plugins"
+msgstr "Niet compatibele plugins"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1723
+msgid "OK"
+msgstr "OK"
+
+#: classes/WpMatomo/Admin/SystemReport.php:850
+#: classes/WpMatomo/Admin/SystemReport.php:1321
+#: classes/WpMatomo/Admin/SystemReport.php:1717
+#: classes/WpMatomo/Admin/views/access.php:74
+#: classes/WpMatomo/Admin/views/advanced_settings.php:73
+#: classes/WpMatomo/Admin/views/marketplace.php:152
+#: classes/WpMatomo/Admin/views/marketplace.php:154
+#: classes/WpMatomo/Admin/WhatsNewNotifications.php:297
+msgid "Learn more"
+msgstr "Ontdek meer"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1717
+msgid "Please check if any of these MySQL permission (grants) are missing and add them if needed."
+msgstr "Controleer of een van deze MySQL rechten (toekenningen) ontbreken en voeg ze indien nodig toe."
+
+#: classes/WpMatomo/Admin/SystemReport.php:1717
+msgid "Missing permissions"
+msgstr "Ontbrekende rechten"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1716
+msgid "Error"
+msgstr "Fout"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1709
+msgid "Please check your MySQL user has these permissions (grants):"
+msgstr "Controleer of je MySQL gebruiker deze machtigingen heeft (toekenningen):"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1708
+msgid "Failed to detect granted permissions"
+msgstr "Toegekende machtigingen kunnen niet worden gedetecteerd"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1707
+#: classes/WpMatomo/Admin/SystemReport.php:1715
+#: classes/WpMatomo/Admin/SystemReport.php:1722
+msgid "Required permissions"
+msgstr "Vereiste rechten"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1124
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: classes/WpMatomo/Admin/CookieConsent.php:21
+#: classes/WpMatomo/Admin/SystemReport.php:1046
+msgid "None"
+msgstr "Geen"
+
+#: classes/WpMatomo/Admin/SystemReport.php:780
+msgid "Optional checks"
+msgstr "Optionele controles"
+
+#: classes/WpMatomo/Admin/SystemReport.php:774
+msgid "Mandatory checks"
+msgstr "Verplichte controles"
+
+#: classes/WpMatomo/Admin/SystemReport.php:751
+msgid "Below dates are shown in blog timezone"
+msgstr "Onderstaande datums worden weergegeven in de tijdzone van de blog"
+
+#: classes/WpMatomo/Admin/SystemReport.php:749
+msgid "Blog time"
+msgstr "Blog tijd"
+
+#: classes/WpMatomo/Admin/SystemReport.php:743
+msgid "Server time"
+msgstr "Server tijd"
+
+#: classes/WpMatomo/Admin/SystemReport.php:648
+msgid "Matomo Blog idSite"
+msgstr "Matomo blog idSite"
+
+#: classes/WpMatomo/Admin/SystemReport.php:636
+msgid "Matomo System Check"
+msgstr "Matomo systeem controle"
+
+#: classes/WpMatomo/Admin/SystemReport.php:630
+msgid "Matomo Version"
+msgstr "Matomo versie"
+
+#: classes/WpMatomo/Admin/SystemReport.php:597
+msgid "Tmp directory writable"
+msgstr "Tmp folder schrijfbaar"
+
+#: classes/WpMatomo/Admin/SystemReport.php:589
+msgid "Plugin directories"
+msgstr "Plugin folders"
+
+#: classes/WpMatomo/Admin/SystemReport.php:576
+msgid "Matomo Plugin Version"
+msgstr "Matomo plugin versie"
+
+#: classes/WpMatomo/Admin/SystemReport.php:446
+#: classes/WpMatomo/Admin/views/systemreport.php:159
+msgid "No"
+msgstr "Nee"
+
+#: classes/WpMatomo/Admin/SystemReport.php:446
+#: classes/WpMatomo/Admin/views/advanced_settings.php:67
+#: classes/WpMatomo/Admin/views/systemreport.php:157
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/WpMatomo/Admin/SystemReport.php:445
+msgid "%s exists and is writable."
+msgstr "%s bestaat en is schrijfbaar."
+
+#: classes/WpMatomo/Admin/SystemReport.php:441
+msgid "%s is not writable. "
+msgstr "%s is niet schrijfbaar. "
+
+#: classes/WpMatomo/Admin/SystemReport.php:438
+msgid "%s is not readable. "
+msgstr "%s is niet leesbaar. "
+
+#: classes/WpMatomo/Admin/SystemReport.php:435
+msgid "%s does not exist. "
+msgstr "%s bestaat niet. "
+
+#: classes/WpMatomo/Admin/SystemReport.php:160
+msgid "Matomo Archive Error"
+msgstr "Matomo archief fout"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:15
+msgid "About"
+msgstr "Over"
+
+#: classes/WpMatomo/Admin/SafeModeMenu.php:47
+#: classes/WpMatomo/Admin/SafeModeMenu.php:48
+msgid "System Report"
+msgstr "Systeemrapport"
+
+#: classes/WpMatomo/Admin/Menu.php:168 classes/WpMatomo/Admin/Menu.php:169
+#: classes/WpMatomo/Admin/views/info.php:95
+msgid "Marketplace"
+msgstr "Marktplaats"
+
+#: classes/WpMatomo.php:227 classes/WpMatomo/Admin/Menu.php:154
+#: classes/WpMatomo/Admin/Menu.php:155
+#: classes/WpMatomo/Admin/views/settings.php:26
+msgid "Settings"
+msgstr "Instellingen"
+
+#: classes/WpMatomo/Admin/Menu.php:136 classes/WpMatomo/Admin/Menu.php:137
+#: classes/WpMatomo/Admin/Menu.php:232
+#: classes/WpMatomo/Admin/TrackingSettings.php:283
+msgid "Tag Manager"
+msgstr "Tag manager"
+
+#: classes/WpMatomo/Admin/Menu.php:123 classes/WpMatomo/Admin/Menu.php:124
+#: classes/WpMatomo/Admin/Menu.php:231
+msgid "Reporting"
+msgstr "Rapportage"
+
+#: classes/WpMatomo/Admin/Menu.php:110 classes/WpMatomo/Admin/Menu.php:111
+#: classes/WpMatomo/Admin/views/summary.php:51
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: classes/WpMatomo/Admin/Menu.php:98 classes/WpMatomo/Admin/Menu.php:99
+msgid "Multi Site"
+msgstr "Multi site"
+
+#: classes/WpMatomo.php:225 classes/WpMatomo/Admin/Menu.php:83
+#: classes/WpMatomo/Admin/Menu.php:84
+msgid "Get Started"
+msgstr "Ga aan de slag"
+
+#: classes/WpMatomo/Admin/ExclusionSettings.php:36
+msgid "Exclusions"
+msgstr "Uitsluitingen"
+
+#: classes/WpMatomo/Admin/PrivacySettings.php:32
+msgid "Privacy & GDPR"
+msgstr "Privacy & GDPR"
+
+#: classes/WpMatomo/PrivacyBadge.php:38
+msgid "Your privacy protected! This website uses Matomo."
+msgstr "Je privacy is beschermd! Deze site maakt gebruik van Matomo."
+
+#. Author URI of the plugin
+#: matomo.php
+msgid "https://matomo.org"
+msgstr "https://matomo.org"
+
+#. Author of the plugin
+#: matomo.php
+msgid "Matomo"
+msgstr "Matomo"
+
+#. Plugin Name of the plugin
+#: matomo.php
+msgid "Matomo Analytics - Ethical Stats. Powerful Insights."
+msgstr "Matomo Analytics - Ethical Stats. Powerful Insights."

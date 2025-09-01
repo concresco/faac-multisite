@@ -1,0 +1,18 @@
+<div class="list-single-box px-2 py-3">
+    <div class="list-image-wrapper ratio ratio-1x1">
+        <img src="{{ thumbnail }}" alt="{{ title }}" class="">
+    </div>
+    <h5 class="color-grey-dark">{{ title }}</h5>
+    <p class="excerpt">{{ (excerpt | length > 80 ? excerpt|slice(0, 80) ~ '...' : excerpt) }}</p>
+
+    
+    {% if deepen %}
+    <div class="deepen">
+        <a href="{{ deepen.link }}" class="deepen-btn">
+            {{ deepen.text | default('Explore category')}}
+            <i class="icon-right"></i>
+        </a>
+    </div>
+    {% endif %}
+
+</div>

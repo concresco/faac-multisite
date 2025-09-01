@@ -1,0 +1,2090 @@
+# Translation of Plugins - Loco Translate - Stable (latest release) in Hungarian
+# This file is distributed under the same license as the Plugins - Loco Translate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-20 09:09:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: hu\n"
+"Project-Id-Version: Plugins - Loco Translate - Stable (latest release)\n"
+
+#: src/js/Strings.php:197
+msgid "Mismatching placeholder type; check against source text formatting"
+msgstr "Nem egyező helyőrző típus! Ellenőrizze a forrásszöveg formázását"
+
+#: src/js/Strings.php:186
+msgid "Possible syntax error in string formatting"
+msgstr "Lehetséges szintaxis hiba a karakterlánc formázásában"
+
+#. translators: Summary of translations copied from a PO file during Sync
+#. xgettext: javascript-format
+#: src/js/Strings.php:40
+msgid "%s translation copied"
+msgid_plural "%s translations copied"
+msgstr[0] "%s fordítás átmásolva"
+msgstr[1] "%s fordítás átmásolva"
+
+#: src/admin/config/ApisController.php:76
+msgid "API URL"
+msgstr "API hivatkozás"
+
+#: tpl/admin/file/conf.php:57 tpl/admin/file/head.php:34
+msgid "Save"
+msgstr "Mentés"
+
+#: tpl/admin/file/conf.php:48 tpl/admin/init/init-po.php:149
+msgid "Merge strings from related JSON files"
+msgstr "Karakterláncok egyesítése a kapcsolódó JSON-fájlokból"
+
+#. translators: %s is the quantity of files which were successfully moved
+#: src/admin/file/MoveController.php:87
+msgid "%s file moved"
+msgid_plural "%s files moved"
+msgstr[0] "%s fájl áthelyezve"
+msgstr[1] ""
+
+#. translators: Where %s is any number of strings
+#. translators: Shows total string count at top of editor xgettext:
+#. javascript-format
+#: src/gettext/Metadata.php:191 src/js/Strings.php:109
+msgid "%s string"
+msgid_plural "%s strings"
+msgstr[0] "%s karakterlánc"
+msgstr[1] ""
+
+#: tpl/admin/file/info-pot.php:31
+msgid "%s word"
+msgid_plural "%s words"
+msgstr[0] "%s szó"
+msgstr[1] ""
+
+#: tpl/admin/config/settings.php:145 tpl/admin/config/settings.php:151
+msgid "Compiling JSON files"
+msgstr "JSON fájlok fordítása"
+
+#: tpl/admin/config/settings.php:162
+msgid "Delete redundant files"
+msgstr "Delete redundant files"
+
+#. translators: %s refers to a JSON file which could not be compiled due to an
+#. error
+#: src/gettext/Compiler.php:148 src/gettext/Compiler.php:213
+msgid "JSON compilation failed for %s"
+msgstr "A JSON fordítása nem sikerült%s számára"
+
+#: src/gettext/Compiler.php:280
+msgid "PO file saved and MO/JSON files compiled"
+msgstr "PO fájl mentve és MO / JSON fájlok fordítva"
+
+#: tpl/admin/config/settings.php:156
+msgid "Pretty formatting"
+msgstr "Szép formázás"
+
+#: tpl/admin/init/upload.php:45
+msgid "Upload PO file"
+msgstr "PO fájl feltöltése"
+
+#. translators: Where %s is the full version number of WordPress
+#: tpl/admin/config/version.php:68
+msgid "WordPress %s"
+msgstr "WordPress%s"
+
+#: tpl/admin/init/upload.php:50
+msgid "Your file must be named as shown above where %1$s is the language code, e.g. %2$s"
+msgstr "A fájlját a fentiek szerint kell megnevezni, ahol%1$s a nyelvi kód, pl.%2$s"
+
+#. translators: Where %s is the full version number of PHP
+#: tpl/admin/config/version.php:49
+msgid "PHP %s"
+msgstr "PHP %s"
+
+#: tpl/admin/config/version.php:74
+msgid "Update Now"
+msgstr "Frissítés most"
+
+#. translators: Indicates that POT files are optional, which is not recommended
+#: tpl/admin/config/settings.php:107
+msgid "Sync with source when template missing"
+msgstr "Szinkronizálás a forrással, ha hiányzik a sablon"
+
+#: tpl/admin/config/settings.php:99
+msgid "Fuzzy matching tolerance"
+msgstr "Fuzzy megfelelő tolerancia"
+
+#: tpl/admin/config/settings.php:89 tpl/admin/config/settings.php:95
+msgid "Syncing PO files"
+msgstr "PO fájlok szinkronizálása"
+
+#: tpl/admin/help/side-bar.php:15
+msgid "Info and tutorials"
+msgstr "Információk és oktatóanyagok"
+
+#: src/ajax/ApisController.php:30
+msgid "Need a human?"
+msgstr "Szüksége van emberre?"
+
+#: src/admin/init/UploadController.php:29 tpl/admin/init/upload.php:58
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: src/admin/init/UploadController.php:52
+msgid "Upload a translation file"
+msgstr "Töltsön fel egy fordítási fájlt"
+
+#: src/admin/bundle/ViewController.php:107
+msgid "Upload PO"
+msgstr "PO feltöltése"
+
+#: src/ajax/UploadController.php:70
+msgid "Your file is identical to the existing one"
+msgstr "A fájlja megegyezik a meglévő fájljával"
+
+#. Translators: %s will be replaced with the name of a missing POT file
+#: src/ajax/SyncController.php:55
+msgid "Falling back to source extraction because %s is missing"
+msgstr "Visszalépés a forráskivonáshoz, mert%s hiányzik"
+
+#: tpl/admin/bundle/inc-po-table.php:63
+msgid "Move"
+msgstr "Mozog"
+
+#: tpl/admin/config/prefs.php:29 tpl/admin/config/prefs.php:33
+msgid "Restrict locales"
+msgstr "Korlátozza a területi beállításokat"
+
+#. translators: 1: Number of strings; 2: Service provider; e.g. "50 strings
+#. translated via Google Translate" xgettext: javascript-format
+#: src/js/Strings.php:77
+msgid "%1$s string translated via %2$s"
+msgid_plural "%1$s strings translated via %2$s"
+msgstr[0] "%1$s karakterlánc lefordítva%2$s segítségével"
+msgstr[1] ""
+
+#. translators: characters meaning individual unicode characters of source text
+#. xgettext: javascript-format
+#: src/js/Strings.php:65
+msgid "%s characters will be sent for translation."
+msgstr "%s karaktert küldünk fordításra."
+
+#. translators: Summary of existing translations where the source text has
+#. changed slightly xgettext: javascript-format
+#: src/js/Strings.php:36
+msgid "%s string marked Fuzzy"
+msgid_plural "%s strings marked Fuzzy"
+msgstr[0] "%s karakterlánc Fuzzy jelöléssel"
+msgstr[1] ""
+
+#. translators: %s is the quantity of strings modified during a batch process
+#. xgettext: javascript-format
+#: src/js/Strings.php:81
+msgid "%s string updated"
+msgid_plural "%s strings updated"
+msgstr[0] "%s karakterlánc frissítve"
+msgstr[1] ""
+
+#. translators: %s: the number of strings to be sent for translation xgettext:
+#. javascript-format
+#: src/js/Strings.php:61
+msgid "%s unique source strings."
+msgstr "%s egyedi forrás karakterlánc"
+
+#: tpl/ajax/modal-apis-empty.php:11
+msgid "Add automatic translation services in the plugin settings."
+msgstr "Adjon hozzá automatikus fordítási szolgáltatásokat a beépülő modul beállításaihoz."
+
+#: src/admin/config/ApisController.php:75
+msgid "API key"
+msgstr "API kulcs"
+
+#: src/admin/config/ApisController.php:12
+#: src/admin/config/BaseController.php:20
+#: src/admin/config/BaseController.php:40 tpl/admin/help/tab-config-apis.php:2
+msgid "API keys"
+msgstr "API kulcsok"
+
+#: src/admin/config/ApisController.php:77
+msgid "API region"
+msgstr "API régió"
+
+#: tpl/ajax/modal-apis-batch.php:10
+msgid "Auto-translate this file"
+msgstr "Automatikus fordítás a fájlra"
+
+#. Translators: Button that opens window for auto-translating
+#: src/admin/file/EditController.php:222
+msgctxt "Editor"
+msgid "Auto"
+msgstr "Auto"
+
+#: src/js/Strings.php:171
+msgctxt "Editor"
+msgid "Suggest translation"
+msgstr "Javasoljon fordítást"
+
+#: src/js/Strings.php:168
+msgctxt "Editor"
+msgid "Toggle Fuzzy"
+msgstr "Toggle Fuzzy"
+
+#: tpl/admin/config/apis.php:157
+msgid "Important"
+msgstr "Fontos"
+
+#: src/js/Strings.php:102
+msgid "Keep this translation"
+msgstr "Tartsa meg ezt a fordítást"
+
+#: src/js/Strings.php:99
+msgid "Loading suggestions"
+msgstr "Javaslatok betöltése"
+
+#: tpl/ajax/modal-apis-batch.php:29
+msgid "Mark new translations as Fuzzy"
+msgstr "Új fordítások megjelölése Fuzzy-ként"
+
+#: tpl/ajax/modal-apis-empty.php:9
+msgid "No translation APIs configured"
+msgstr "Nincsenek konfigurálva fordítási API-k"
+
+#: src/js/Strings.php:84
+msgid "Nothing needed updating"
+msgstr "Semmit sem kellett frissíteni"
+
+#: tpl/ajax/modal-apis-batch.php:23
+msgid "Overwrite existing translations"
+msgstr "Felülírja a meglévő fordításokat"
+
+#: tpl/admin/config/apis.php:160
+msgid "See full disclaimer"
+msgstr "Lásd a teljes nyilatkozatot"
+
+#. translators: Message appears after sync operation, where %s refers to a POT
+#. file. xgettext: javascript-format
+#: src/js/Strings.php:44
+msgid "Strings up to date with %s"
+msgstr "Karakterláncok naprakészek a következővel:%s"
+
+#: src/js/Strings.php:90
+msgid "Suggested translations"
+msgstr "Javasolt fordítások"
+
+#: tpl/admin/config/apis.php:159
+msgid "Third party services are subject to their own terms of use and may incur costs from the provider"
+msgstr "A harmadik fél szolgáltatásaira saját felhasználási feltételeik vonatkoznak, és költségeket okozhatnak a szolgáltatótól"
+
+#. translators: %s is the quantity of strings left unprocessed after a job was
+#. stopped prematurely xgettext: javascript-format
+#: src/js/Strings.php:73
+msgid "Translation job aborted with %s string remaining"
+msgid_plural "Translation job aborted with %s strings remaining"
+msgstr[0] "A fordítási feladat megszakadt, és%s karakterlánc maradt"
+msgstr[1] ""
+
+#: src/js/Strings.php:87
+msgid "Use this translation"
+msgstr "Használja ezt a fordítást"
+
+#. translators: %s%% is a percentage, e.g. 50% xgettext: javascript-format
+#: src/js/Strings.php:69
+msgid "Translation progress %s%%"
+msgstr "A fordítás előrehaladottsága %s%%"
+
+#: tpl/admin/file/move-po.php:14
+msgid "Choose a new location for these translations"
+msgstr "Válasszon új helyet ezekhez a fordításokhoz"
+
+#: tpl/admin/file/move.php:14
+msgid "Confirm relocation"
+msgstr "Erősítse meg az áthelyezést"
+
+#: tpl/admin/config/settings.php:197
+msgid "Editing of POT (template) files"
+msgstr "POT (sablon) fájlok szerkesztése"
+
+#: tpl/admin/file/move-pot.php:14
+msgid "Enter a new location for this file"
+msgstr "Adjon meg egy új helyet a fájl számára"
+
+#: src/fs/FileWriter.php:324
+msgid "Modification of POT (template) files is disallowed by the plugin settings"
+msgstr "A plugin beállításai nem engedélyezik a POT (sablon) fájlok módosítását"
+
+#: tpl/admin/file/move.php:17
+msgid "The following file will be moved/renamed to the new location:"
+msgid_plural "The following files will be moved/renamed to the new location:"
+msgstr[0] "A következő fájlt áthelyezi / átnevezi az új helyre:"
+msgstr[1] ""
+
+#: src/admin/file/EditController.php:181
+msgid "This is NOT a translation file. Manual editing of source strings is not recommended."
+msgstr "Ez NEM fordítási fájl. A forrás karakterláncok kézi szerkesztése nem ajánlott."
+
+#: tpl/admin/bundle/alias.php:14
+msgid "This plugin doesn't have its own translation files, but can be translated in the default text domain"
+msgstr "Ennek a bővítménynek nincsenek saját fordítófájljai, de lefordítható az alapértelmezett szövegtartományban"
+
+#: tpl/admin/config/settings.php:81
+msgid "Recommended"
+msgstr "Ajánlott"
+
+#: tpl/admin/config/settings.php:81
+msgid "Enable Ajax file uploads"
+msgstr "Engedélyezze az Ajax fájlfeltöltéseket"
+
+#: src/ajax/FsConnectController.php:160
+msgid "This move operation requires permission"
+msgstr "Ehhez az áthelyezési művelethez engedély szükséges"
+
+#: tpl/admin/file/move.php:24
+msgid "Move files"
+msgstr "Fájlok áthelyezése"
+
+#. translators: %s is the quantity of files which failed to be moved
+#: src/admin/file/MoveController.php:92
+msgid "%s file could not be moved"
+msgid_plural "%s files could not be moved"
+msgstr[0] "%s fájlt nem sikerült áthelyezni"
+msgstr[1] ""
+
+#. translators: Page title where %s is the name of a file to be moved
+#: src/admin/file/MoveController.php:111 src/admin/file/MoveController.php:140
+msgid "Move %s"
+msgstr "%s áthelyezése"
+
+#: src/fs/FileWriter.php:249
+msgid "Parent directory isn't writable"
+msgstr "A szülőkönyvtár nem írható"
+
+#: src/admin/file/BaseController.php:121
+msgid "Relocate"
+msgstr "Áthelyezés"
+
+#: src/ajax/FsConnectController.php:127
+msgid "This directory is managed by WordPress. Removed files may be restored during updates"
+msgstr "Ezt a könyvtárat a WordPress kezeli. Az eltávolított fájlokat a frissítések során vissza lehet állítani"
+
+#: tpl/admin/errors/file-sec.php:11
+msgid "File access disallowed"
+msgstr "A fájlhozzáférés nem engedélyezett"
+
+#: tpl/admin/errors/file-sec.php:14
+msgid "Access to this file is blocked for security reasons"
+msgstr "A fájlhoz hozzáférés biztonsági okokból blokkolva van"
+
+#: src/admin/bundle/ViewController.php:116
+msgid "View template"
+msgstr "Sablon megtekintése"
+
+#: tpl/admin/common/inc-fsconn.php:27
+msgid "Read only"
+msgstr "Csak olvasható"
+
+#: tpl/admin/common/inc-fsconn.php:28
+msgid "File is protected by the bundle configuration"
+msgstr "A fájlt a csomag konfigurációja védi"
+
+#: tpl/admin/config/version.php:14
+msgid "A newer version of Loco Translate is available for download"
+msgstr "A Loco translate ujabb verziója letölthető"
+
+#: tpl/admin/config/version.php:18 tpl/admin/config/version.php:75
+msgid "Install manually"
+msgstr "Telepítse manuálisan"
+
+#: tpl/admin/help/side-bar.php:9
+msgid "Official plugin page"
+msgstr "Hivatalos bővítményoldal"
+
+#: src/admin/init/InitPoController.php:293
+msgid "Assign template"
+msgstr "Sablon hozzárendelése"
+
+#: tpl/admin/config/settings.php:43
+msgid "Scan JavaScript files with extensions:"
+msgstr "Vizsgálja meg a JavaScript fájlokat kiterjesztésekkel:"
+
+#: src/js/Strings.php:165
+msgctxt "Editor"
+msgid "Translated"
+msgstr "Lefordított"
+
+#: src/js/Strings.php:162
+msgctxt "Editor"
+msgid "Untranslated"
+msgstr "Fordítás nélkül"
+
+#: src/hooks/AdminHooks.php:89
+msgid "This plugin doesn't collect any data from public website visitors."
+msgstr "Ez a bővítmény nem gyűjt adatokat a nyilvános webhely látogatóitól."
+
+#. translators: %s will be replaced with a URL which may change without
+#. affecting the translation.
+#: src/hooks/AdminHooks.php:92
+msgid "Administrators and auditors may wish to review Loco's <a href=\"%s\">plugin privacy notice</a>."
+msgstr "Az adminisztrátorok és auditorok áttekinthetik a Loco-t <a href=\"%s\">bővítmény adatvédelmi közlemény</a>."
+
+#: tpl/admin/bundle/inc-po-table.php:54 tpl/admin/bundle/locale.php:66
+msgid "View"
+msgstr "Kilátás"
+
+#: tpl/admin/file/diff.php:6
+msgctxt "revision date short format"
+msgid "j M @ H:i"
+msgstr "M j @ H:i"
+
+#: tpl/admin/file/info.php:107
+msgid "WordPress updates"
+msgstr "WordPress frissítések"
+
+#: tpl/admin/errors/no-backups.php:16
+msgid "Backup files will be written when you save translations from Loco Translate editor"
+msgstr "A biztonsági mentési fájlok akkor íródnak, amikor elmenti a fordításokat a Loco Translate szererkesztő"
+
+#: tpl/admin/file/diff.php:17
+msgctxt "Button label for a next revision"
+msgid "Next"
+msgstr " Következő"
+
+#: tpl/admin/file/diff.php:14
+msgctxt "Button label for a previous revision"
+msgid "Previous"
+msgstr " Előző"
+
+#: tpl/admin/errors/no-backups.php:18
+msgid "File backups are disabled in your plugin settings"
+msgstr "A fájlmentés a plugin beállításaiban le van tiltva"
+
+#: tpl/admin/file/info-mo.php:18 tpl/admin/file/info-po.php:24
+#: tpl/admin/file/info-pot.php:21
+msgid "File size"
+msgstr "Fájl méret"
+
+#: tpl/admin/file/info.php:110
+msgid "Files in this location can be modified or deleted by WordPress automatic updates"
+msgstr "Az ezen a helyen található fájlokat a WordPress automatikus frissítései módosíthatják vagy törölhetik"
+
+#: tpl/admin/list/locales.php:16
+msgid "Locale code"
+msgstr "Nyelvkód"
+
+#: tpl/admin/errors/no-locale.php:11
+msgid "No files found for this language"
+msgstr "Nem található fájl ehhez a nyelvhez"
+
+#: tpl/admin/errors/no-backups.php:12
+msgid "No previous file revisions"
+msgstr "Nincsenek korábbi fájljavítások"
+
+#: tpl/admin/list/locales.php:25
+msgid "Site language"
+msgstr "A webhely nyelve"
+
+#. translators: %s will be replaced with the full name of the user profile's
+#. admin language
+#: tpl/admin/root.php:17
+msgid "Your admin language is %s."
+msgstr "A rendszergazda nyelve:%s."
+
+#. translators: %s will be replaced with the full name of the site language
+#: tpl/admin/root.php:14
+msgid "The language of this site is %s."
+msgstr "A webhely nyelve: %s."
+
+#: tpl/admin/list/locales.php:13
+msgid "Locale name"
+msgstr "Nyelv"
+
+#: tpl/admin/list/locales.php:22
+msgid "Files found"
+msgstr "Fájlok"
+
+#: src/mvc/AdminRouter.php:59
+msgid "Languages"
+msgstr "Nyelvek"
+
+#: src/admin/file/BaseController.php:120 tpl/admin/file/diff.php:31
+msgid "Restore"
+msgstr "Visszaállítás"
+
+#: tpl/admin/config/settings.php:181
+msgid "Save credentials in session"
+msgstr "Hitelesítő adatok mentése a munkamenetben"
+
+#: tpl/admin/config/settings.php:170 tpl/admin/config/settings.php:176
+msgid "File system access"
+msgstr "Fájlrendszer hozzáférés"
+
+#: src/admin/config/SettingsController.php:67
+msgid "Allow (with warning)"
+msgstr "Engedélyezés (figyelmeztetéssel)"
+
+#: src/admin/bundle/LocaleController.php:138
+#: src/admin/file/EditController.php:132 src/admin/file/EditController.php:183
+#: tpl/admin/common/inc-fsconn.php:16 tpl/admin/common/inc-fsconn.php:41
+#: tpl/admin/config/apis.php:167 tpl/admin/config/prefs.php:45
+#: tpl/admin/config/settings.php:234 tpl/admin/errors/no-backups.php:22
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: src/admin/config/SettingsController.php:66
+msgid "Allow"
+msgstr "Lehetővé teszi"
+
+#: src/ajax/FsConnectController.php:130
+msgid "Changes to this file may be overwritten or deleted when you update WordPress"
+msgstr "A WordPress frissítésekor a fájl módosításai felülírhatók vagy törölhetők"
+
+#: tpl/admin/common/inc-fsconn.php:56
+msgid "Click \"Connect\" to authenticate with the server"
+msgstr "Kattintson a \"Csatlakozás\" gombra a szerverrel történő hitelesítéshez"
+
+#: src/admin/config/SettingsController.php:68
+msgid "Disallow"
+msgstr "Tiltsa le"
+
+#: src/admin/file/DiffController.php:35
+msgid "File restored"
+msgstr "A fájl visszaállt"
+
+#. translators: Page title for installed languages page
+#: src/mvc/AdminRouter.php:61
+msgid "Languages &lsaquo; Loco"
+msgstr "Nyelvek ‹Loco"
+
+#: tpl/admin/config/settings.php:187
+msgid "Modification of installed files"
+msgstr "A telepített fájlok módosítása"
+
+#: src/fs/FileWriter.php:313
+msgid "Modification of installed files is disallowed by the plugin settings"
+msgstr "A beépített fájlok módosítását a plugin beállításai nem engedélyezik"
+
+#: src/admin/bundle/LocaleController.php:137
+msgid "No core translation files are installed for this language"
+msgstr "Erre a nyelvre nincs telepítve alapvető fordítási fájl"
+
+#. translators: %s is a file name to be rolled back to a previous version.
+#. translators: Page title where %s refers to a file name
+#: src/admin/file/DiffController.php:59 src/admin/file/DiffController.php:78
+msgid "Restore %s"
+msgstr "%s visszaállítása"
+
+#. translators: Where %s is a file name
+#: src/ajax/DiffController.php:47
+msgid "Revisions are identical, you can delete %s"
+msgstr "A verziók megegyeznek, törölheti%s"
+
+#: src/admin/bundle/LocaleController.php:145
+msgid "See all core translations"
+msgstr "Az összes alapvető fordítás megtekintése"
+
+#. translators: Where %s is the name of the invalid POT file
+#: src/admin/file/EditController.php:138 src/ajax/SyncController.php:72
+msgid "Translation template is invalid (%s)"
+msgstr "A fordítási sablon érvénytelen (%s)"
+
+#. Translators: Plural category for zero quantity
+#: src/Locale.php:383
+msgctxt "Plural category"
+msgid "Zero"
+msgstr "Nulla"
+
+#: src/ajax/FsConnectController.php:154
+msgid "Creating this file requires permission"
+msgstr "A fájl létrehozásához engedély szükséges"
+
+#: src/ajax/FsConnectController.php:157
+msgid "Deleting this file requires permission"
+msgstr "A fájl törléséhez engedély szükséges"
+
+#: src/ajax/FsConnectController.php:163
+msgid "Saving this file requires permission"
+msgstr "A fájl mentéséhez engedély szükséges"
+
+#: src/ajax/FsConnectController.php:124
+msgid "This directory is managed by WordPress, be careful what you delete"
+msgstr "Ezt a könyvtárat a WordPress kezeli, legyen óvatos, amit töröl"
+
+#: src/ajax/FsConnectController.php:121
+msgid "This file may be overwritten or deleted when you update WordPress"
+msgstr "Előfordulhat, hogy a WordPress frissítésekor ezt a fájlt felülírják vagy törlik"
+
+#: src/admin/init/InitPoController.php:377 tpl/admin/file/info.php:113
+msgid "What's this?"
+msgstr "Mi ez?"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:387
+msgctxt "Plural category"
+msgid "Two"
+msgstr "Kettő"
+
+#. Translators: Plural category for singular quantity
+#: src/Locale.php:385
+msgctxt "Plural category"
+msgid "One"
+msgstr "Egy"
+
+#. Translators: (1) Number of files (2) Maximum size of file that will be
+#. included (3) Size of the largest encountered
+#: src/ajax/SyncController.php:99
+msgid "%1$s file has been skipped because it's %3$s. (Max is %2$s). Check all strings are present before saving."
+msgid_plural "%1$s files over %2$s have been skipped. (Largest is %3$s). Check all strings are present before saving."
+msgstr[0] "%1$s fájlt kihagytuk, mert%3$s. (Max.%2$s). Mentés előtt ellenőrizze az összes karakterláncot."
+msgstr[1] ""
+
+#: src/admin/bundle/ConfController.php:92
+msgid "Child theme declares the same Text Domain as the parent theme"
+msgstr "A gyermek téma ugyanazt a szövegtartományt deklarálja, mint a szülőtéma"
+
+#. Translators: Where %s is the size of a file
+#: tpl/admin/init/init-pot.php:18
+msgid "largest is %s"
+msgstr "legnagyobb%s"
+
+#: tpl/admin/config/settings.php:68
+msgid "Maximum line length (zero disables wrapping)"
+msgstr "Maximális vonalhossz (nulla letiltja a csomagolást)"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:389
+msgctxt "Plural category"
+msgid "Few"
+msgstr "Kevés"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:391
+msgctxt "Plural category"
+msgid "Many"
+msgstr "Sok"
+
+#. Translators: General plural category not covered by other forms
+#: src/Locale.php:393
+msgctxt "Plural category"
+msgid "Other"
+msgstr " Egyéb"
+
+#: tpl/admin/config/version.php:28
+msgid "You're running a development snapshot of Loco Translate"
+msgstr "A Loco Translate fejlesztési pillanatképét futtatja"
+
+#. Author URI of the plugin
+#: loco.php
+msgid "https://localise.biz/wordpress/plugin"
+msgstr "https://localise.biz/wordpress/plugin"
+
+#: src/admin/bundle/LocaleController.php:155 tpl/admin/root.php:58
+msgid "See all plugins"
+msgstr "Az összes bővítmény megtekintése"
+
+#: tpl/admin/bundle/locale.php:32 tpl/admin/list/inc-table.php:11
+msgid "Bundle name"
+msgstr "Csomag neve"
+
+#: tpl/admin/init/init-po.php:77 tpl/admin/init/upload.php:15
+msgid "Choose a location"
+msgstr "Válasszon helyet"
+
+#: tpl/admin/init/init-po.php:63
+msgid "Custom language"
+msgstr "Egyéni nyelv"
+
+#: tpl/admin/init/init-po.php:51
+msgid "Available languages"
+msgstr "Elérhető nyelvek"
+
+#: src/admin/bundle/LocaleController.php:124
+#: src/admin/list/LocalesController.php:35 tpl/admin/init/init-po.php:45
+msgid "Installed languages"
+msgstr "Telepített nyelvek"
+
+#: tpl/admin/init/init-po.php:32
+msgid "Choose a language"
+msgstr "Válasszon nyelvet"
+
+#: tpl/admin/help/tab-config-apis.php:9 tpl/admin/help/tab-config.php:9
+msgid "Full documentation"
+msgstr "Teljes dokumentáció"
+
+#: tpl/admin/file/info.php:69
+msgid "Directory is writeable"
+msgstr "A könyvtár írható"
+
+#: tpl/admin/file/info.php:14
+msgid "File doesn't exist"
+msgstr "A fájl nem létezik"
+
+#: tpl/admin/file/info-po.php:84
+msgid "Missing template"
+msgstr "Hiányzó sablon"
+
+#: tpl/admin/file/info-mo.php:38
+msgid "PO file missing"
+msgstr "PO fájl hiányzik"
+
+#: tpl/admin/file/info-mo.php:27
+msgid "Compiled translations"
+msgstr "Összeállított fordítások"
+
+#: tpl/admin/file/info-mo.php:24 tpl/admin/file/info-po.php:30
+msgid "Last translation"
+msgstr "Utolsó fordítás"
+
+#: tpl/admin/file/info-mo.php:21 tpl/admin/file/info-po.php:27
+#: tpl/admin/file/info-pot.php:24
+msgid "File modified"
+msgstr "A fájl módosítva"
+
+#: tpl/admin/file/info-mo.php:15
+msgid "compiled"
+msgstr "összeállított"
+
+#: tpl/admin/file/delete.php:30
+msgid "Delete Permanently"
+msgstr "Végleges törlés"
+
+#: tpl/admin/errors/no-tokenizer.php:11
+msgid "About the Tokenizer"
+msgstr "A Tokenizerről"
+
+#: tpl/admin/errors/file-missing.php:11
+msgid "File not found"
+msgstr "Fájl nem található"
+
+#: tpl/admin/errors/file-isdir.php:11
+msgid "File is a directory"
+msgstr "A fájl könyvtár"
+
+#: tpl/admin/config/version.php:38
+msgid "You're running the latest version of Loco Translate"
+msgstr "A Loco Translate legújabb verzióját futtatja"
+
+#: tpl/admin/config/settings.php:75 tpl/admin/config/settings.php:182
+msgid "Not recommended"
+msgstr "Nem ajánlott"
+
+#: tpl/admin/config/settings.php:52 tpl/admin/config/settings.php:58
+msgid "Saving PO/POT files"
+msgstr "PO / POT fájlok mentése"
+
+#: tpl/admin/common/inc-fsconn.php:60
+msgid "Connect"
+msgstr "Csatlakozás"
+
+#. Translators: When a file or folder cannot be modified due to filesystem
+#. permissions
+#: tpl/admin/common/inc-fsconn.php:50 tpl/admin/file/info.php:36
+#: tpl/admin/file/info.php:89
+msgid "Write protected"
+msgstr "Írásvédett"
+
+#: tpl/admin/bundle/setup/saved.php:19
+msgid "Edit config"
+msgstr "Konfiguráció szerkesztése"
+
+#: tpl/admin/bundle/setup/partial.php:11
+msgid "Partially configured bundle"
+msgstr "Részben konfigurált csomag"
+
+#: tpl/admin/bundle/setup/conf.php:46
+msgid "XML setup"
+msgstr "XML beállítás"
+
+#: tpl/admin/bundle/setup/conf.php:56
+msgid "Cancel"
+msgstr "Töröl"
+
+#: tpl/admin/bundle/setup/author.php:11
+msgid "Official configuration"
+msgstr "Hivatalos konfiguráció"
+
+#: tpl/admin/bundle/inc-po-table.php:57 tpl/admin/bundle/locale.php:69
+msgid "Info"
+msgstr "Info"
+
+#: tpl/admin/bundle/inc-po-table.php:51 tpl/admin/bundle/locale.php:63
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: tpl/admin/bundle/inc-po-table.php:31 tpl/admin/bundle/locale.php:49
+msgid "Folder"
+msgstr "Mappa"
+
+#: tpl/admin/bundle/inc-po-table.php:28 tpl/admin/bundle/locale.php:46
+#: tpl/admin/list/inc-table.php:17 tpl/admin/list/locales.php:19
+msgid "Last modified"
+msgstr "Utoljára módosítva"
+
+#: tpl/admin/bundle/inc-po-table.php:13
+msgid "Language"
+msgstr "Nyelv"
+
+#: tpl/admin/bundle/conf.php:159 tpl/admin/bundle/setup/saved.php:18
+msgid "Reset config"
+msgstr "A konfiguráció visszaállítása"
+
+#: tpl/admin/bundle/conf.php:146
+msgid "XML"
+msgstr "XML"
+
+#: tpl/admin/bundle/conf.php:141
+msgid "Save config"
+msgstr "Konfiguráció mentése"
+
+#: tpl/admin/bundle/conf.php:100
+msgid "Source file paths"
+msgstr "Forrás fájl elérési útjai"
+
+#. Translators: Help tip for "File prefix" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:59
+msgid "Usually the same as the text domain, but don't leave blank unless you mean to"
+msgstr "Általában ugyanaz, mint a szöveges tartomány, de ne hagyja üresen, hacsak nem akarja"
+
+#: tpl/admin/bundle/conf.php:53
+msgid "File prefix"
+msgstr "Fájl előtag"
+
+#. Translators: Help tip for "Text domain" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:47
+msgid "The namespace into which WordPress will load translated strings"
+msgstr "A névtér, amelybe a WordPress betölti a lefordított karakterláncokat"
+
+#: tpl/admin/bundle/conf.php:29
+msgid "Project name"
+msgstr "Projekt neve"
+
+#: src/package/Core.php:29
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: src/package/Core.php:28
+msgid "The WordPress Team"
+msgstr "The WordPress Team"
+
+#. translators: %s: Human-readable time difference.
+#: src/mvc/FileParams.php:152
+msgid "%s ago"
+msgstr "%s ezelőtt"
+
+#: src/mvc/FileParams.php:145
+msgid "Y/m/d"
+msgstr "Év/hó/nap"
+
+#: src/mvc/AdminRouter.php:243
+msgid "Page not found"
+msgstr "Az oldal nem található"
+
+#: src/mvc/AdminRouter.php:54
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: Label for the translation editing window when no translation
+#. selected
+#: src/js/Strings.php:180
+msgctxt "Editor"
+msgid "Translation not loaded"
+msgstr "A fordítás nincs betöltve"
+
+#. translators: Label for the window pane for entering translator comments
+#: src/js/Strings.php:159
+msgctxt "Editor"
+msgid "Comments"
+msgstr "Hozzászólások"
+
+#. translators: Where %s is the name of the language, e.g. "French translation"
+#. xgettext: javascript-format
+#: src/js/Strings.php:153
+msgctxt "Editor"
+msgid "%s translation"
+msgstr "%s fordítás"
+
+#. translators: Generic error when external process broke an Ajax request
+#: src/js/Strings.php:136
+msgid "Server returned invalid data"
+msgstr "A szerver érvénytelen adatokat adott vissza"
+
+#: src/fs/FileWriter.php:289
+msgid "Failed to create directory"
+msgstr "Nem sikerült létrehozni a könyvtárat"
+
+#: src/error/XmlParseException.php:8
+msgid "XML parse error"
+msgstr "XML elemzési hiba"
+
+#: src/error/Success.php:19 src/js/Strings.php:133
+msgid "OK"
+msgstr "OK"
+
+#: src/error/Exception.php:163 src/js/Strings.php:124
+msgid "Error"
+msgstr "Hiba"
+
+#: src/config/XMLModel.php:54
+msgid "XML supplied is empty"
+msgstr "A mellékelt XML üres"
+
+#. translators: used when username of web server process is unknown
+#: src/compat/PosixExtension.php:115
+msgid "the web server"
+msgstr "a webszerver"
+
+#: src/ajax/XgettextController.php:67
+msgid "Template file created"
+msgstr "Sablonfájl létrehozva"
+
+#: src/ajax/FsConnectController.php:117
+msgid "Connected to remote file system"
+msgstr "Csatlakoztatva a távoli fájlrendszerhez"
+
+#: src/admin/list/ThemesController.php:14
+msgid "Translate themes"
+msgstr "Témák fordítása"
+
+#: src/admin/list/PluginsController.php:12
+msgid "Translate plugins"
+msgstr "Bővítmények fordítása"
+
+#: src/admin/init/InitPotController.php:104
+msgid "New template file"
+msgstr "Új sablonfájl"
+
+#: src/admin/init/InitPotController.php:56
+msgid "Template file already exists"
+msgstr "Sablonfájl már létezik"
+
+#: src/admin/init/InitPotController.php:16
+msgid "New template"
+msgstr "Új sablon"
+
+#: src/admin/init/InitPoController.php:223
+msgid "Skip template"
+msgstr "Sablon kihagyása"
+
+#: src/admin/file/InfoController.php:169
+msgid "File does not have a valid header"
+msgstr "A fájlnak nincs érvényes fejléce"
+
+#: src/admin/file/InfoController.php:137 src/package/Header.php:86
+msgid "Unknown author"
+msgstr "Ismeretlen szerző"
+
+#. Translators: Button for downloading a PO, MO or POT file
+#: src/admin/file/EditController.php:226
+msgctxt "Editor"
+msgid "Download"
+msgstr "Letöltés"
+
+#. Translators: Button that runs in-editor sync/operation
+#: src/admin/file/EditController.php:218
+msgctxt "Editor"
+msgid "Sync"
+msgstr "Szinkronizál"
+
+#. Translators: Button that saves translations to disk
+#: src/admin/file/EditController.php:216
+msgctxt "Editor"
+msgid "Save"
+msgstr "Mentés"
+
+#: src/admin/file/EditController.php:214 src/ajax/ApisController.php:26
+msgid "Help"
+msgstr "Segítség"
+
+#. Translators: button for removing a string when manually editing a POT file
+#: src/admin/file/EditController.php:213
+msgctxt "Editor"
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#. Translators: button for adding a new string when manually editing a POT file
+#: src/admin/file/EditController.php:211
+msgctxt "Editor"
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: src/admin/file/BaseController.php:118
+msgid "Source"
+msgstr "Forrás"
+
+#: src/admin/file/BaseController.php:117
+msgid "Editor"
+msgstr "Szerkesztő"
+
+#: src/admin/config/SettingsController.php:51
+msgid "Super Admin"
+msgstr "Szuper Admin"
+
+#: src/admin/config/DebugController.php:55
+msgid "System diagnostics"
+msgstr "Rendszerdiagnosztika"
+
+#: src/admin/bundle/ViewController.php:124
+msgid "Edit template"
+msgstr "Sablon szerkesztése"
+
+#: src/admin/bundle/ViewController.php:99 src/admin/file/BaseController.php:141
+#: src/admin/init/InitPoController.php:16
+#: src/admin/init/InitPoController.php:122
+msgid "New language"
+msgstr "Új nyelv"
+
+#: src/admin/bundle/BaseController.php:107
+#: src/admin/config/DebugController.php:12 src/error/Debug.php:19
+#: src/mvc/AdminRouter.php:77
+msgid "Debug"
+msgstr "Hibakeresés"
+
+#: src/admin/bundle/BaseController.php:100
+#: src/admin/bundle/LocaleController.php:34
+#: src/admin/bundle/ViewController.php:25
+#: src/admin/config/BaseController.php:39 src/admin/file/EditController.php:27
+#: src/admin/file/InfoController.php:26 src/admin/file/ViewController.php:26
+#: src/admin/init/InitPoController.php:25
+#: src/admin/init/InitPotController.php:25 src/admin/list/BaseController.php:45
+#: src/admin/list/LocalesController.php:24 src/admin/RootController.php:12
+msgid "Overview"
+msgstr "Áttekintés"
+
+#: src/admin/bundle/LocaleController.php:154 src/admin/Navigation.php:30
+#: src/mvc/AdminRouter.php:49
+msgid "Plugins"
+msgstr "Bővítmények"
+
+#: src/admin/bundle/LocaleController.php:149 src/admin/Navigation.php:27
+#: src/mvc/AdminRouter.php:44
+msgid "Themes"
+msgstr "Témák"
+
+#: src/mvc/Controller.php:49
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nem engedélyezett ennek az oldalnak az elérése."
+
+#: src/admin/bundle/LocaleController.php:144 src/package/Core.php:85
+msgid "WordPress Core"
+msgstr "WordPress Mag"
+
+#: src/package/Core.php:26
+msgid "WordPress core"
+msgstr "WordPress mag"
+
+#: tpl/admin/bundle/alias.php:11
+msgid "\"Hello Dolly\" is part of the WordPress core"
+msgstr "A \"Hello Dolly\" a WordPress mag része"
+
+#. translators: 1: Number of strings; 2: Name of POT file; e.g. "100 strings
+#. found in file.pot"
+#: src/admin/init/InitPoController.php:249
+msgid "%1$s string found in %2$s"
+msgid_plural "%1$s strings found in %2$s"
+msgstr[0] "%1$s karakterlánc található a következőben:%2$s"
+msgstr[1] ""
+
+#. translators: %s refers to the name of a new file to be created, but which
+#. already existed
+#: src/api/WordPressFileSystem.php:87
+msgid "%s already exists in this folder"
+msgstr "%s már létezik ebben a mappában"
+
+#. translators: Warning that deleting a file will also delete others. %s
+#. indicates that quantity.
+#: src/admin/file/DeleteController.php:104
+msgid "%s dependent file will also be deleted"
+msgid_plural "%s dependent files will also be deleted"
+msgstr[0] "%s függő fájl is törlődik"
+msgstr[1] ""
+
+#. translators: %s is a quantity of files which were found, but whose context
+#. is unknown
+#: src/admin/bundle/SetupController.php:115
+msgid "%s file can't be matched to a known set of strings"
+msgid_plural "%s files can't be matched to a known set of strings"
+msgstr[0] "A%s fájl nem illeszthető össze ismert karakterlánc-készlettel"
+msgstr[1] ""
+
+#. Translators: Where %s is the type of file, e.g. "po"
+#: tpl/admin/file/info.php:24
+msgid "%s file is writeable"
+msgstr "%s fájl írható"
+
+#. translators: Error thrown when attempting to parse a file that is not a
+#. supported translation file format
+#: src/gettext/Data.php:25
+msgid "%s is not a Gettext file"
+msgstr "A%s nem Gettext fájl"
+
+#. Translators: Where %s is the size of a file
+#: tpl/admin/init/init-pot.php:16
+msgid "%s on disk"
+msgstr "%s a lemezen"
+
+#. translators: Were %s is number of source files that will be scanned
+#: src/admin/init/InitPoController.php:280
+msgid "%s source file will be scanned for translatable strings"
+msgid_plural "%s source files will be scanned for translatable strings"
+msgstr[0] "A (z)%s forrásfájl lefordítható karakterláncokat keres"
+msgstr[1] ""
+
+#: tpl/admin/init/init-pot.php:42 tpl/admin/init/init-prompt.php:31
+msgid "About templates"
+msgstr "Sablonokról"
+
+#: tpl/admin/root.php:39
+msgid "Active theme:"
+msgstr "Aktív téma"
+
+#: tpl/admin/bundle/conf.php:142
+msgid "Add set"
+msgstr "Készlet hozzáadása"
+
+#: tpl/admin/config/settings.php:75
+msgid "Add UTF-8 byte order mark"
+msgstr "Adja hozzá az UTF-8 bájtos sorrendjelet"
+
+#: tpl/admin/bundle/view.php:29
+msgid "Additional files found"
+msgstr "További fájlok találhatók"
+
+#: src/admin/bundle/ConfController.php:137 tpl/admin/bundle/setup/core.php:17
+#: tpl/admin/bundle/setup/inc-nav.php:19
+msgid "Advanced configuration"
+msgstr "Speciális konfiguráció"
+
+#: src/admin/bundle/ConfController.php:52
+msgid "Advanced tab"
+msgstr "Speciális fül"
+
+#: src/mvc/AjaxRouter.php:175
+msgid "Ajax controller returned empty JSON"
+msgstr "az Ajax útvonal vezérlője üres JSON-t adott vissza"
+
+#. translators: Fatal error where %s represents an unexpected value
+#: src/mvc/AjaxRouter.php:170
+msgid "Ajax route not found: \"%s\""
+msgstr "Az Ajax útvonal nem található \"%s\""
+
+#: tpl/admin/config/settings.php:216
+msgid "Allow full access to these roles"
+msgstr "Engedélyezze a teljes hozzáférést ezekhez a szerepekhez"
+
+#: tpl/admin/file/info-po.php:47
+msgid "Binary file missing"
+msgstr "Bináris fájl hiányzik"
+
+#: tpl/admin/bundle/conf.php:128
+msgid "Blocked paths"
+msgstr "Letiltott utak"
+
+#: tpl/admin/bundle/setup/core.php:10 tpl/admin/bundle/setup/meta.php:11
+msgid "Bundle auto-configured"
+msgstr "A csomag automatikusan konfigurálva"
+
+#: tpl/admin/bundle/setup/saved.php:11
+msgid "Bundle configuration saved"
+msgstr "A csomag konfigurációja mentve"
+
+#: src/admin/bundle/SetupController.php:35
+msgid "Bundle setup"
+msgstr "Csomag beállítása"
+
+#: src/js/Strings.php:139
+msgid "Check console output for debugging information"
+msgstr "Ellenőrizze a konzol kimenetén a hibakeresési információkat"
+
+#: tpl/admin/bundle/view.php:35 tpl/admin/bundle/view.php:57
+msgid "Click the <a href=\"%s\">setup</a> tab to complete the bundle configuration"
+msgstr "A csomag konfigurálásának befejezéséhez kattintson a Beállítás fülre <a href=\"%s\">setup</a>"
+
+#: src/admin/bundle/BaseController.php:54
+msgid "Configuration reset"
+msgstr "Konfiguráció visszaállítása"
+
+#: src/admin/bundle/BaseController.php:40
+msgid "Configuration saved"
+msgstr "Konfiguráció mentve"
+
+#. translators: where %s is a plugin or theme
+#: src/admin/bundle/ConfController.php:16
+msgid "Configure %s"
+msgstr "%s beállítása"
+
+#: tpl/admin/file/delete.php:12
+msgid "Confirm delete"
+msgstr "Törlés jóváhagyása"
+
+#: tpl/admin/bundle/inc-po-table.php:60 tpl/admin/bundle/locale.php:72
+msgid "Copy"
+msgstr "Másolat"
+
+#: tpl/admin/file/conf.php:32 tpl/admin/init/init-po.php:133
+msgid "Copy target translations from \"%s\""
+msgstr "Célfordítások másolása innen: \"%s\""
+
+#. translators: Page title for core WordPress translations
+#: src/mvc/AdminRouter.php:56
+msgid "Core translations &lsaquo; Loco"
+msgstr "Alapfordítások ‹Loco"
+
+#: src/admin/bundle/ViewController.php:133
+#: src/admin/init/InitPoController.php:218 tpl/admin/init/init-pot.php:40
+msgid "Create template"
+msgstr "Hozzon létre sablont"
+
+#: src/admin/init/InitPoController.php:389
+msgid "Create template instead"
+msgstr "Helyette hozzon létre sablont"
+
+#: src/admin/file/BaseController.php:122 tpl/admin/bundle/inc-po-table.php:66
+#: tpl/admin/bundle/locale.php:75 tpl/admin/file/diff.php:32
+msgid "Delete"
+msgstr "Töröl"
+
+#. translators: Page title where %s is the name of a file to be deleted
+#: src/admin/file/DeleteController.php:79
+#: src/admin/file/DeleteController.php:98
+msgid "Delete %s"
+msgstr "%s törlése"
+
+#. Translators: Help tip for "Project name" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:35
+msgid "Descriptive name for this set of translatable strings"
+msgstr "Leíró neve ennek a lefordítható húrkészletnek"
+
+#: tpl/admin/file/info.php:55
+msgid "Directory doesn't exist"
+msgstr "Könyvtár nem létezik"
+
+#: tpl/admin/bundle/conf.php:81
+msgid "Domain path"
+msgstr "Domain elérési útja"
+
+#: src/mvc/AjaxRouter.php:198
+msgid "Download action not found"
+msgstr "A letöltési művelet nem található"
+
+#: src/mvc/AjaxRouter.php:203
+msgid "Download controller returned empty output"
+msgstr "A letöltésvezérlő üres kimenetet adott vissza"
+
+#. translators: %1$s is the file name, %2$s is the bundle name
+#: src/admin/file/EditController.php:18
+msgid "Editing %1$s in %2$s"
+msgstr "%1$s szerkesztése itt:%2$s"
+
+#. translators: Label for the window pane holding message context
+#: src/js/Strings.php:156
+msgctxt "Editor"
+msgid "Context"
+msgstr "Kontextus"
+
+#. translators: Label for the context window when no translation selected
+#: src/js/Strings.php:177
+msgctxt "Editor"
+msgid "Context not loaded"
+msgstr "A kontextus nincs betöltve"
+
+#. translators: Label for the plural form of the original English text
+#: src/js/Strings.php:93 src/Locale.php:375 pub/js/min/editor.js:291
+msgctxt "Editor"
+msgid "Plural"
+msgstr " Többes szám"
+
+#. Translators: Button that reloads current screen
+#: src/admin/file/EditController.php:220
+msgctxt "Editor"
+msgid "Revert"
+msgstr "Visszaszáll"
+
+#. translators: Label for the singular form of the original English text
+#: src/js/Strings.php:96 src/Locale.php:374 pub/js/min/editor.js:291
+msgctxt "Editor"
+msgid "Single"
+msgstr "Egyetlen"
+
+#. translators: Label for the window pane holding the original English text
+#. translators: List heading showing preview of English text for each item
+#: src/js/Strings.php:149 tpl/admin/file/info-pot.php:30
+msgctxt "Editor"
+msgid "Source text"
+msgstr "Forrásszöveg"
+
+#. translators: Label for the source text window when no translation selected
+#: src/js/Strings.php:174
+msgctxt "Editor"
+msgid "Source text not loaded"
+msgstr " A forrásszöveg nincs betöltve"
+
+#. Translators: Button that toggles between "code" and regular text editing
+#. modes
+#: src/admin/file/EditController.php:232
+msgctxt "Editor"
+msgid "Toggle code view"
+msgstr "Váltás a kód nézetre"
+
+#. Translators: Button that toggles invisible characters
+#: src/admin/file/EditController.php:230
+msgctxt "Editor"
+msgid "Toggle invisibles"
+msgstr "Kapcsolja be a láthatatlanokat"
+
+#: tpl/admin/errors/file-missing.php:14
+msgid "Either this file is missing or the server doesn't have permission to access it"
+msgstr "Vagy hiányzik ez a fájl, vagy a szerver nem rendelkezik hozzáféréssel a fájlhoz"
+
+#: tpl/admin/bundle/conf.php:89 tpl/admin/bundle/conf.php:108
+msgid "Exclude"
+msgstr "Kizárás"
+
+#. Translators: (1) Number of files excluded (2) the maximum size of file that
+#. was included
+#: tpl/admin/init/init-pot.php:24
+msgid "Excludes %1$s file over %2$s"
+msgid_plural "Excludes %1$s files over %2$s"
+msgstr[0] "%1$s fájl kizárva%2$s felett"
+msgstr[1] ""
+
+#: tpl/admin/config/settings.php:21 tpl/admin/config/settings.php:27
+msgid "Extracting strings"
+msgstr "Húrok kibontása"
+
+#: src/fs/FileWriter.php:297
+msgid "Failed to build directory path"
+msgstr "Nem sikerült létrehozni a könyvtár elérési útját"
+
+#. translators: %s refers to a file name, for which the chmod operation failed.
+#: src/fs/FileWriter.php:133
+msgid "Failed to chmod %s"
+msgstr "Nem sikerült chmod%s"
+
+#: src/fs/FileWriter.php:52
+msgid "Failed to connect to remote server"
+msgstr "Nem sikerült csatlakozni a távoli szerverhez"
+
+#. translators: %s refers to a directory where a backup file could not be
+#. created due to file permissions
+#: src/fs/Revisions.php:222
+msgid "Failed to create backup file in \"%s\". Check file permissions or disable backups"
+msgstr "Nem sikerült létrehozni a biztonsági mentési fájlt a következőben: \"%s\". Ellenőrizze a fájlengedélyeket, vagy tiltsa le a biztonsági mentést"
+
+#. translators: %s refers to a file name, for which a delete operation failed.
+#: src/fs/FileWriter.php:201
+msgid "Failed to delete %s"
+msgstr "Nem sikerült törölni a következőt:%s"
+
+#: src/fs/FileWriter.php:253
+msgid "Failed to save file"
+msgstr "Nem sikerült menteni a fájlt"
+
+#: tpl/admin/file/view-mo.php:14
+msgid "File is in binary MO format"
+msgstr "A fájl bináris MO formátumban van"
+
+#. Translators: Refers to bundled plugin or theme translation files - i.e.
+#. those supplied by the author
+#: src/fs/LocaleDirectory.php:63
+msgctxt "File location"
+msgid "Author"
+msgstr "Szerző"
+
+#. Translators: Refers to translation files in Loco's custom/protected
+#. directory
+#: src/fs/LocaleDirectory.php:69
+msgctxt "File location"
+msgid "Custom"
+msgstr "Egyedi"
+
+#. Translators: Refers to translation files in an alternative location that
+#. isn't Author, System or Custom.
+#: src/fs/LocaleDirectory.php:72
+msgctxt "File location"
+msgid "Other"
+msgstr "Egyéb"
+
+#. Translators: Refers to system-installed translation files - i.e. those under
+#. WP_LANG_DIR
+#: src/fs/LocaleDirectory.php:66
+msgctxt "File location"
+msgid "System"
+msgstr " Rendszer"
+
+#: src/fs/FileWriter.php:308
+msgid "File modification is disallowed by your WordPress config"
+msgstr "A fájlmódosítást a WordPress konfigurációja tiltja"
+
+#. Translators: Help tip for "Source file paths" field in advanced bundle
+#. config
+#: tpl/admin/bundle/conf.php:113
+msgid "Files and folders within the bundle that contain localized PHP code"
+msgstr "A csomagban található fájlok és mappák, amelyek lokalizált PHP-kódot tartalmaznak"
+
+#. translators: text field placeholder
+#: tpl/admin/common/inc-table-filter.php:6
+msgid "Filter..."
+msgstr "Szűrő..."
+
+#. Translators: Help tip for "Domain path" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:94
+msgid "Folders within the bundle that contain author-supplied translations"
+msgstr "A csomagban lévő mappák, amelyek a szerző által biztosított fordításokat tartalmazzák"
+
+#. Translators: Help tip for "Blocked paths" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:134
+msgid "Folders within the bundle that will never be searched for files"
+msgstr "A csomagban lévő mappák, amelyek soha nem keresnek fájlokat"
+
+#: tpl/admin/bundle/setup/inc-nav.php:25
+msgid "Get help with this"
+msgstr "Kérjen segítséget ebben"
+
+#: tpl/admin/help/tab-support.php:6
+msgid "Getting help with Loco Translate"
+msgstr "Segítség kérése a Loco Translate szolgáltatással kapcsolatban"
+
+#: tpl/admin/bundle/alias.php:17
+msgid "Go to WordPress Core"
+msgstr "Lépjen a WordPress Core oldalra"
+
+#: tpl/admin/config/settings.php:210
+msgid "Grant access to roles"
+msgstr "Hozzáférés biztosítása a szerepekhez"
+
+#: src/mvc/AdminController.php:51
+msgid "Help & support"
+msgstr "Segítség és támogatás"
+
+#: tpl/admin/bundle/setup/conf.php:49
+msgid "If you've been given a configuration file by a developer, paste the XML code here"
+msgstr "Ha egy fejlesztő kapott konfigurációs fájlt, illessze ide az XML kódot"
+
+#: tpl/admin/bundle/setup/inc-nav.php:22
+msgid "Import config from XML"
+msgstr "Konfiguráció importálása XML-ből"
+
+#: tpl/admin/file/info-po.php:60
+msgid "In sync with template"
+msgstr "A sablonnal szinkronban"
+
+#: tpl/admin/bundle/conf.php:85 tpl/admin/bundle/conf.php:104
+msgid "Include"
+msgstr "Tartalmazza"
+
+#. translators: %s refers to the slug/handle of a theme or plugin
+#: src/admin/init/InitPoController.php:115
+msgid "Initializing new translations in \"%s\""
+msgstr "Új fordítások inicializálása itt: \"%s\""
+
+#: src/admin/init/InitPoController.php:119
+msgid "Initializing new translations in unknown set"
+msgstr "Új fordítások inicializálása ismeretlen halmazban"
+
+#: src/Locale.php:306
+msgid "Invalid locale"
+msgstr "Érvénytelen területi beállítás"
+
+#: tpl/admin/bundle/setup/none.php:15
+msgid "It needs configuring before you can do any translations"
+msgstr "A fordítások elvégzése előtt konfigurálnia kell"
+
+#: tpl/admin/file/conf.php:38 tpl/admin/init/init-po.php:139
+msgid "Just copy English source strings"
+msgstr "Csak másolja az angol forrás húrokat"
+
+#. translators: relative time when something happened in the last 30 seconds
+#: src/mvc/FileParams.php:149
+msgid "Just now"
+msgstr "Épp most"
+
+#: tpl/admin/file/info-pot.php:27
+msgid "Last extracted"
+msgstr "Utoljára kivonva"
+
+#: tpl/admin/bundle/setup/conf.php:55
+msgid "Load config"
+msgstr "Konfiguráció betöltése"
+
+#: tpl/admin/bundle/conf.php:71 tpl/admin/common/inc-fsconn.php:12
+msgid "Locked"
+msgstr "Zárt"
+
+#. translators: home screen title where %s is the version number
+#: src/admin/RootController.php:23
+msgid "Loco Translate %s"
+msgstr "Loco Translate%s"
+
+#: src/mvc/AdminController.php:114
+msgid "Loco Translate is powered by"
+msgstr "A Loco Translate szolgáltatója"
+
+#. translators: %s refers to the name of a missing PHP extension, for example
+#. "mbstring".
+#: loco.php:131
+msgid "Loco Translate requires the \"%s\" PHP extension. Ask your hosting provider to install it"
+msgstr "A Loco Translate programhoz a (z) \"%s\" PHP kiterjesztés szükséges. Kérje meg a tárhely szolgáltatóját, hogy telepítse"
+
+#: src/ajax/MsginitController.php:63
+msgid "MO file exists for this language already. Delete it first"
+msgstr "A MO fájl már létezik ehhez a nyelvhez. Először törölje"
+
+#. translators: %s refers to the name of a translation set (theme, plugin or
+#. core component)
+#: src/admin/init/InitPotController.php:106
+msgid "New translations template for \"%s\""
+msgstr "Új fordítási sablon a következőhöz: \"%s\""
+
+#: tpl/admin/init/init-po.php:44
+msgid "No language selected"
+msgstr "Nincs kiválasztott nyelv"
+
+#: tpl/admin/bundle/inc-po-table.php:124
+msgid "No translations found for \"%s\""
+msgstr "Nem található fordítás a következőre: \"%s\""
+
+#. Translators: Help tip for "Domain path" field in advanced bundle config
+#. Translators: Help tip for "Source file paths" field in advanced bundle
+#. config
+#. Translators: Help tip for "Blocked paths" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:94 tpl/admin/bundle/conf.php:113
+#: tpl/admin/bundle/conf.php:134
+msgid "no wildcards"
+msgstr "nincs helyettesítő karakter"
+
+#: tpl/admin/file/info.php:81
+msgid "Note that the file may not be deletable due to additional ownership permissions"
+msgstr "Ne feledje, hogy a fájl nem törölhető további tulajdonosi engedélyek miatt"
+
+#. translators: When text filtering reduces to an empty view
+#: src/js/Strings.php:14
+msgid "Nothing matches the text filter"
+msgstr "Semmi nem felel meg a szövegszűrőnek"
+
+#: src/error/Notice.php:20 src/js/Strings.php:130
+#: tpl/admin/common/inc-fsconn.php:37
+msgid "Notice"
+msgstr "Értesítés"
+
+#: tpl/admin/file/info-po.php:71
+msgid "Out of sync with template"
+msgstr "Nincs szinkronban a sablonnal"
+
+#: tpl/admin/bundle/conf.php:144
+msgid "Parent theme"
+msgstr "Szülő téma"
+
+#: tpl/admin/bundle/inc-po-table.php:22 tpl/admin/bundle/locale.php:39
+msgid "Pending"
+msgstr "Függőben levő"
+
+#: src/fs/FileWriter.php:243
+msgid "Permission denied to update file"
+msgstr "A fájl frissítéséhez megtagadták az engedélyt"
+
+#. translators: %s refers to the handle of a plugin, e.g.
+#. "loco-translate/loco.php"
+#: src/package/Plugin.php:225
+msgid "Plugin not found: %s"
+msgstr "A beépülő modul nem található:%s"
+
+#: src/admin/config/ApisController.php:69
+#: src/admin/config/PrefsController.php:42
+#: src/admin/config/SettingsController.php:79
+#: src/admin/config/VersionController.php:22 src/mvc/AdminRouter.php:66
+#: tpl/admin/help/tab-config.php:2
+msgid "Plugin settings"
+msgstr "A beépülő modul beállításai"
+
+#. translators: Page title for plugin translations
+#: src/mvc/AdminRouter.php:51
+msgid "Plugin translations &lsaquo; Loco"
+msgstr "Plugin fordítások ‹Loco"
+
+#. Translators: Where %s is the name of a template file
+#: tpl/admin/file/info-po.php:75
+msgid "PO file has different source strings to \"%s\". Try running Sync before making any changes."
+msgstr "A PO fájl forrássztringjei eltérnek a (z) \"%s\" értéktől. Bármilyen változtatás végrehajtása előtt futtassa a Sync alkalmazást."
+
+#. Translators: Where %s is the name of a template file
+#: tpl/admin/file/info-po.php:64
+msgid "PO file has the same source strings as \"%s\""
+msgstr "A PO fájl ugyanazokkal a forrás karakterláncokkal rendelkezik, mint a \"%s\""
+
+#: src/gettext/Compiler.php:283
+msgid "PO file saved and MO file compiled"
+msgstr "PO fájl mentve és MO fájl fordítva"
+
+#: src/gettext/Compiler.php:94
+msgid "PO file saved, but MO file compilation failed"
+msgstr "PO fájl mentve, de a MO fájl összeállítása nem sikerült"
+
+#: src/js/Strings.php:142
+msgid "Provide the following text when reporting a problem"
+msgstr "A probléma jelentésekor adja meg a következő szöveget"
+
+#: tpl/admin/root.php:27
+msgid "Recently updated:"
+msgstr "Mostanában frissítve:"
+
+#: src/fs/FileWriter.php:151
+msgid "Refusing to copy over an existing file"
+msgstr "Meglévő fájl átmásolásának megtagadása"
+
+#. Translators: Help tip for "Template file" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:75
+msgid "Relative path from bundle root to the official POT file"
+msgstr "Relatív elérési út a csomag gyökerétől a hivatalos POT fájlig"
+
+#: tpl/admin/config/settings.php:37
+msgid "Scan PHP files with extensions:"
+msgstr "PHP fájlok beolvasása kiterjesztésekkel:"
+
+#: src/admin/bundle/LocaleController.php:150 tpl/admin/root.php:43
+msgid "See all themes"
+msgstr "Az összes téma megtekintése"
+
+#. translators: where %s is a plugin or theme
+#: src/admin/bundle/SetupController.php:15
+msgid "Set up %s"
+msgstr "%s beállítása"
+
+#: tpl/admin/list/inc-table.php:20
+msgid "Sets"
+msgstr "Készletek"
+
+#: src/admin/bundle/SetupController.php:25
+msgid "Setup tab"
+msgstr "Beállítás fülre"
+
+#: src/admin/config/BaseController.php:18
+msgid "Site options"
+msgstr "Webhelyopciók"
+
+#: tpl/admin/help/tab-config.php:5
+msgid "Site options apply to all users of Loco Translate across the current site"
+msgstr "A webhelyopciók a Loco Translate összes felhasználójára érvényesek az aktuális webhelyen"
+
+#: tpl/admin/config/settings.php:31
+msgid "Skip PHP files larger than:"
+msgstr "A következőnél nagyobb PHP fájlok kihagyása:"
+
+#: tpl/admin/init/init-pot.php:12
+msgid "Source files to scan:"
+msgstr "Szkennelhető forrásfájlok:"
+
+#: tpl/admin/init/init-po.php:169
+msgid "Start translating"
+msgstr "Kezdje el lefordítani"
+
+#: tpl/admin/init/init-pot.php:30
+msgid "Strings will be extracted to:"
+msgstr "A karakterláncok kibontásra kerülnek:"
+
+#: tpl/admin/help/side-bar.php:12
+msgid "Support forum"
+msgstr "Támogatói fórum"
+
+#: tpl/admin/init/init-copy.php:15 tpl/admin/init/init-prompt.php:15
+msgid "Template missing"
+msgstr "Hiányzik a sablon"
+
+#: tpl/admin/file/conf.php:12 tpl/admin/init/init-po.php:122
+msgid "Template options"
+msgstr "Sablonopciók"
+
+#: tpl/admin/bundle/conf.php:41 tpl/admin/list/inc-table.php:14
+msgid "Text domain"
+msgstr "Szöveges tartomány"
+
+#: src/config/FormModel.php:147
+msgid "Text Domain cannot be empty"
+msgstr "A Szövegtartomány nem lehet üres"
+
+#. Translators: "either" meaning that the file itself can't exist without a
+#. containing directory
+#: tpl/admin/file/info.php:59
+msgid "The containing directory for this file doesn't exist either"
+msgstr "A fájl tartalmazó könyvtár sem létezik"
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:73
+msgid "The containing directory is writeable by %s, so you can add new files in the same location"
+msgstr "A tartalmazó könyvtárat%s írja, így új fájlokat adhat hozzá ugyanazon a helyen"
+
+#. translators: Page title for theme translations
+#: src/mvc/AdminRouter.php:46
+msgid "Theme translations &lsaquo; Loco"
+msgstr "Téma fordítások ‹Loco"
+
+#: tpl/admin/root.php:54
+msgid "These plugins have recently loaded translation files into the admin area"
+msgstr "Ezek a bővítmények nemrég töltötték be a fordítási fájlokat az adminisztrációs területre"
+
+#: tpl/admin/file/info-po.php:88
+msgid "These translations are not linked to a POT file. Sync operations will extract strings directly from source code."
+msgstr "Ezek a fordítások nem kapcsolódnak POT fájlhoz. A szinkronizálási műveletek közvetlenül a forráskódból vonják ki a karakterláncokat."
+
+#: tpl/admin/init/init-prompt.php:23
+msgid "This bundle doesn't define a translations template file"
+msgstr "Ez a csomag nem határoz meg fordítási sablonfájlt"
+
+#: tpl/admin/bundle/view.php:55
+msgid "This bundle isn't automatically compatible and requires configuring before you can use all the functions of Loco Translate"
+msgstr "Ez a csomag nem kompatibilis automatikusan, és konfigurálást igényel, mielőtt használhatja a Loco Translate összes funkcióját"
+
+#: tpl/admin/bundle/view.php:32
+msgid "This bundle isn't fully configured, so we don't know what the following files are for"
+msgstr "Ez a csomag nincs teljesen konfigurálva, ezért nem tudjuk, hogy mire szolgálnak a következő fájlok"
+
+#: tpl/admin/bundle/setup/none.php:14
+msgid "This bundle isn't set up for translation in a way we understand"
+msgstr "Ezt a csomagot nem úgy állítottuk be, hogy az általunk értett módon lefordítsuk"
+
+#: tpl/admin/bundle/setup/meta.php:14
+msgid "This bundle's configuration has been automatically detected and seems to be fully compatible"
+msgstr "A csomag konfigurációját automatikusan észlelték, és úgy tűnik, hogy teljesen kompatibilis"
+
+#: tpl/admin/bundle/setup/partial.php:14
+msgid "This bundle's configuration has been automatically detected, but isn't fully complete"
+msgstr "A csomag konfigurációját automatikusan észleltük, de nem teljesen fejeződött be"
+
+#: tpl/admin/bundle/setup/author.php:14
+msgid "This bundle's configuration is provided by the author"
+msgstr "A csomag konfigurációját a szerző biztosítja"
+
+#: tpl/admin/bundle/setup/saved.php:14
+msgid "This bundle's configuration is saved in the WordPress database"
+msgstr "Ez a csomag konfigurációja a WordPress adatbázisba kerül"
+
+#: tpl/admin/init/init-prompt.php:19
+msgid "This bundle's template file doesn't exist yet. We recommend you create it before adding languages"
+msgstr "Ez a csomag sablonfájlja még nem létezik. Javasoljuk, hogy a nyelvek hozzáadása előtt hozza létre"
+
+#: tpl/admin/file/info.php:92
+msgid "This directory can't be written to directly by the web server"
+msgstr "A webszerver nem írhatja közvetlenül ezt a könyvtárat"
+
+#: tpl/admin/file/info.php:39
+msgid "This file can't be updated directly by the web server"
+msgstr "Ezt a fájlt a webszerver nem tudja közvetlenül frissíteni"
+
+#: tpl/admin/errors/file-isdir.php:14
+msgid "This page was expecting a file, but the path is actually a directory"
+msgstr "Ez az oldal fájlra számított, de az elérési út valójában könyvtár"
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:96
+msgid "To create new files here you'll have to connect to the remote file system, or make the directory writeable by %s"
+msgstr "Új fájlok létrehozásához itt csatlakoznia kell a távoli fájlrendszerhez, vagy a könyvtárat%s írhatóvá kell tennie"
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:43
+msgid "To make changes you'll have to connect to the remote file system, or make the file writeable by %s"
+msgstr "A módosításokhoz csatlakoznia kell a távoli fájlrendszerhez, vagy a fájlt%s írhatóvá kell tennie"
+
+#. Description of the plugin
+#: loco.php
+msgid "Translate themes and plugins directly in WordPress"
+msgstr "Témákat és beépülő modulokat fordíthat közvetlenül a WordPress programba"
+
+#. translators: %s refers to the name of a POT file
+#: src/admin/file/EditController.php:131
+msgid "Translations don't match template. Run sync to update from %s"
+msgstr "A fordítások nem egyeznek a sablonnal. Futtassa a szinkronizálást a frissítéshez%s-tól"
+
+#: tpl/admin/root.php:30
+msgid "Translations have been recently modified in the following bundles"
+msgstr "A fordításokat a közelmúltban módosították az alábbi csomagokban"
+
+#: tpl/admin/bundle/view.php:52
+msgid "unconfigured"
+msgstr "konfigurálatlan"
+
+#: tpl/admin/bundle/setup/none.php:11
+msgid "Unconfigured bundle"
+msgstr "Konfigurálatlan csomag"
+
+#: tpl/admin/file/info-other.php:11
+msgid "Unexpected file type"
+msgstr "Váratlan fájltípus"
+
+#: tpl/admin/config/version.php:17
+msgid "Upgrade to %s"
+msgstr "Frissítsen erre:%s"
+
+#: tpl/admin/init/init-po.php:159
+msgid "Use this file as template when running Sync"
+msgstr "Használja ezt a fájlt sablonként a Sync futtatásakor"
+
+#: src/admin/config/BaseController.php:19
+#: src/admin/config/PrefsController.php:13 src/mvc/AdminRouter.php:71
+msgid "User options"
+msgstr "Felhasználói opciók"
+
+#: tpl/admin/help/tab-config.php:6
+msgid "User options apply to your WordPress login, across all sites"
+msgstr "A felhasználói beállítások az összes webhelyen érvényesek a WordPress bejelentkezéshez"
+
+#: src/admin/config/BaseController.php:21
+#: src/admin/config/VersionController.php:13
+msgid "Version"
+msgstr "Változat"
+
+#: tpl/admin/config/version.php:11 tpl/admin/config/version.php:25
+#: tpl/admin/config/version.php:35
+msgid "Version %s"
+msgstr "%s verzió"
+
+#: src/package/Header.php:93
+msgid "Visit official site"
+msgstr "Látogasson el a hivatalos webhelyre"
+
+#: src/error/Warning.php:19 src/js/Strings.php:127
+msgid "Warning"
+msgstr "Figyelem"
+
+#: tpl/admin/file/info-po.php:50
+msgid "We can't find the binary MO file that belongs with these translations"
+msgstr "Nem találjuk a bináris MO fájlt, amely ezekhez a fordításokhoz tartozik"
+
+#: tpl/admin/file/info-mo.php:41
+msgid "We can't find the original PO file from which this was compiled"
+msgstr "Nem található az eredeti PO fájl, amelyből ezt összeállították"
+
+#: src/admin/RootController.php:84
+msgid "Welcome to Loco Translate"
+msgstr "Üdvözöljük a Loco Translate oldalán"
+
+#: tpl/admin/init/init-po.php:39
+msgid "WordPress language"
+msgstr "WordPress nyelv"
+
+#: tpl/admin/bundle/setup/author.php:15 tpl/admin/bundle/setup/core.php:14
+#: tpl/admin/bundle/setup/meta.php:15
+msgid "You can make changes in the Advanced tab if you need to override the current settings"
+msgstr "A Speciális fülön változtatásokat hajthat végre, ha felül kell írnia a jelenlegi beállításokat"
+
+#: tpl/admin/file/info.php:27
+msgid "You can update these translations directly from the editor to the file system"
+msgstr "Ezeket a fordításokat közvetlenül a szerkesztőből frissítheti a fájlrendszerre"
+
+#: src/admin/init/InitPoController.php:392
+msgid "You're creating translations directly from source code"
+msgstr "Fordításokat közvetlenül a forráskódból hoz létre"
+
+#. Translators: %s is a URL. Keep the <a> tag intact
+#: tpl/admin/errors/no-tokenizer.php:25
+msgid "You can still translate any bundle that has a <a href=\"%s\" target=\"_blank\">template</a>"
+msgstr "Továbbra is lefordíthat minden olyan csomagot, melynek van <a href=\"%s\" target=\"_blank\">sablonja</a>"
+
+#. translators: %s refers to a directory name which was expected to be an
+#. ordinary file
+#: src/fs/FileWriter.php:218
+msgid "\"%s\" is a directory, not a file"
+msgstr "\"%s\" egy könyvtár, és nem fájl"
+
+#: tpl/admin/file/delete.php:16
+msgid "Are you sure you want to <strong>permanently</strong> delete the following file?"
+msgstr "Biztos benne, hogy <strong>véglegesen</strong> törölni akarja a következő fájlt?"
+
+#. Translators: change "en" in the URL to your language if it's available at
+#. https://www.php.net/docs.php
+#: tpl/admin/errors/no-tokenizer.php:17
+msgid "Loco requires the <a href=\"http://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">Tokenizer extension</a> to scan PHP source code for translatable strings"
+msgstr "A Loco megköveteli a <a href=\"http://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">Tokenizer kiterjesztést</a> lefordítható karakterláncok keresésére a PHP forráskódot"
+
+#: src/admin/file/DiffController.php:45
+msgid "File deleted"
+msgstr "A fájl törölve"
+
+#: src/mvc/AdminRouter.php:42
+msgid "Home"
+msgstr "Kezdőlap"
+
+#: tpl/admin/root.php:51
+msgid "Running plugins:"
+msgstr "Aktív bővítmények:"
+
+#: tpl/admin/bundle/inc-po-table.php:16 tpl/admin/bundle/locale.php:36
+#: tpl/admin/file/info-po.php:33
+msgid "Translation progress"
+msgstr "A fordítás előrehaladottsága"
+
+#: src/admin/file/BaseController.php:119 tpl/admin/bundle/inc-po-table.php:25
+#: tpl/admin/bundle/locale.php:43
+msgid "File info"
+msgstr "Fájl"
+
+#: src/admin/bundle/BaseController.php:101
+msgid "Setup"
+msgstr "Konfiguráció"
+
+#: tpl/admin/bundle/setup.php:36
+msgid "Author details"
+msgstr "Szerző adatai"
+
+#: tpl/admin/bundle/setup.php:39
+msgid "If you have trouble translating this bundle, consider asking the author for help"
+msgstr "Ha gondjai vannak a csomag lefordításásval, kérjen segítséget a szerzőtől"
+
+#: src/admin/bundle/BaseController.php:102 tpl/admin/file/conf.php:58
+#: tpl/admin/file/move.php:26
+msgid "Advanced"
+msgstr "Speciális"
+
+#: src/data/Permissions.php:155
+msgctxt "User role"
+msgid "Translator"
+msgstr "Fordító"
+
+#: src/hooks/AdminHooks.php:129 tpl/ajax/modal-apis-batch.php:37
+msgid "Translate"
+msgstr "Fordítás"
+
+#. translators: List heading showing preview of translated text for each item
+#: src/js/Strings.php:183
+msgctxt "Editor"
+msgid "Translation"
+msgstr "Fordítás"
+
+#. Author of the plugin
+#: loco.php
+msgid "Tim Whitlock"
+msgstr "Tim Whitlock"
+
+#. Plugin URI of the plugin
+#: loco.php
+msgid "https://wordpress.org/plugins/loco-translate/"
+msgstr "https://wordpress.org/plugins/loco-translate/"
+
+#: tpl/admin/bundle/conf.php:65 tpl/admin/bundle/inc-po-table.php:45
+#: tpl/admin/file/edit-pot.php:20 tpl/admin/file/info-pot.php:18
+#: tpl/admin/file/view-pot.php:9
+msgid "Template file"
+msgstr "Sablonfájl"
+
+#: tpl/admin/config/settings.php:120 tpl/admin/config/settings.php:126
+msgid "Compiling MO files"
+msgstr "MO fájlok összeállítása"
+
+#. translators: Success notice where %s is a file extension, e.g. "PO"
+#: src/admin/file/HeadController.php:81 src/gettext/Compiler.php:287
+msgid "%s file saved"
+msgstr "%s fájl mentve"
+
+#. translators: Summary of new strings after running in-editor Sync xgettext:
+#. javascript-format
+#: src/js/Strings.php:28
+msgid "%s new string added"
+msgid_plural "%s new strings added"
+msgstr[0] "%s új karakterlánc hozzáadva"
+msgstr[1] ""
+
+#. translators: Summary of existing strings that no longer exist after running
+#. in-editor Sync xgettext: javascript-format
+#: src/js/Strings.php:32
+msgid "%s obsolete string removed"
+msgid_plural "%s obsolete strings removed"
+msgstr[0] "%s elavult karakterlánc eltávolítva"
+msgstr[1] ""
+
+#. Translators: Placeholder text for text filter above editor
+#: src/admin/file/EditController.php:228
+msgid "Filter translations"
+msgstr "A fordítások szűrése"
+
+#: tpl/admin/config/settings.php:131
+msgid "Generate hash tables"
+msgstr "Kivonat táblák generálása"
+
+#: tpl/admin/config/settings.php:137
+msgid "Include Fuzzy strings"
+msgstr "Tartalmazza a Fuzzy karakterláncokat"
+
+#. translators: Where %s is the name of the POT template file. Message appears
+#. after sync xgettext: javascript-format
+#: src/js/Strings.php:21
+msgid "Merged from %s"
+msgstr "Összeolvadt innen:%s"
+
+#. translators: Message appears after sync operation
+#: src/js/Strings.php:24
+msgid "Merged from source code"
+msgstr "Összeolvadt a forráskódból"
+
+#: tpl/admin/bundle/locale.php:14 tpl/admin/common/inc-po-header.php:8
+#: tpl/admin/file/edit-pot.php:22 tpl/admin/file/view-pot.php:11
+msgctxt "Modified time"
+msgid "Updated"
+msgstr " Frissítve"
+
+#: tpl/admin/config/settings.php:62
+msgid "Number of backups to keep of each file:"
+msgstr "Az egyes fájlokból megtartandó biztonsági másolatok száma:"
+
+#: tpl/admin/config/apis.php:166 tpl/admin/config/prefs.php:44
+#: tpl/admin/config/settings.php:233
+msgid "Save settings"
+msgstr "Beállítások mentése"
+
+#. translators: Message appears after sync operation.
+#: src/js/Strings.php:47
+msgid "Strings up to date with source code"
+msgstr "Karakterláncok naprakészek a forráskóddal"
+
+#. translators: Warning appears when user tries to refresh or navigate away
+#. when editor work is unsaved
+#: src/js/Strings.php:105
+msgid "Your changes will be lost if you continue without saving"
+msgstr "A módosítások elvesznek, ha mentés nélkül folytatja"
+
+#: src/admin/file/EditController.php:182 src/mvc/AdminRouter.php:67
+#: src/mvc/AdminRouter.php:72 tpl/admin/common/inc-fsconn.php:18
+#: tpl/admin/common/inc-fsconn.php:43 tpl/admin/errors/no-backups.php:24
+#: tpl/ajax/modal-apis-empty.php:15
+msgid "Settings"
+msgstr "Beállítások"
+
+#: src/js/Strings.php:145
+msgid "Unknown error"
+msgstr "Ismeretlen hiba"
+
+#. Plugin Name of the plugin
+#: loco.php src/hooks/AdminHooks.php:88 src/mvc/AdminRouter.php:37
+msgid "Loco Translate"
+msgstr "Loco Translate"
+
+#. translators: Shows percentage translated at top of editor
+#. translators: Shows percentage translated at top of editor xgettext:
+#. javascript-format
+#: src/gettext/Metadata.php:202 src/js/Strings.php:113
+msgid "%s%% translated"
+msgstr "%s%% lefordítva"
+
+#: src/error/WriteException.php:13
+msgid "Permission denied"
+msgstr "Hozzáférés megtagadva"
+
+#. translators: Shows number of fuzzy strings at top of editor
+#. translators: Shows number of fuzzy strings at top of editor xgettext:
+#. javascript-format
+#: src/gettext/Metadata.php:205 src/js/Strings.php:117
+msgid "%s fuzzy"
+msgstr "%s homályos"
+
+#. translators: Shows number of untranslated strings at top of editor
+#. translators: Shows number of untranslated strings at top of editor xgettext:
+#. javascript-format
+#: src/gettext/Metadata.php:209 src/js/Strings.php:121
+msgid "%s untranslated"
+msgstr "%s nem fordított"
+
+#. translators: Page title for plugin home screen
+#: src/mvc/AdminRouter.php:39
+msgid "Loco, Translation Management"
+msgstr "Loco, Fordításmenedzsment"
+
+#: src/admin/config/ApisController.php:53
+#: src/admin/config/PrefsController.php:26
+#: src/admin/config/SettingsController.php:31
+msgid "Settings saved"
+msgstr "Beállítások elmentve"

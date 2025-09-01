@@ -1,0 +1,41 @@
+{
+    "FilterLabel": "Filters",
+    "filtersSelected":[
+        {
+            "filter": "Retail",
+            "url": "#"
+        },
+        {
+            "filter": "Public administration",
+            "url": "#"
+        },
+        {
+            "filter": "Hospitality",
+            "url": "#"
+        },
+        {
+            "filter": "Retail",
+            "url": "#"
+        },
+        {
+            "filter": "Public administration",
+            "url": "#"
+        },
+        {
+            "filter": "Hospitality",
+            "url": "#"
+        },
+        {
+            "filter": "Retail",
+            "url": "#"
+        },
+        {
+            "filter": "Public administration",
+            "url": "#"
+        },
+        {
+            "filter": "Hospitality",
+            "url": "#"
+        }
+    ]
+}

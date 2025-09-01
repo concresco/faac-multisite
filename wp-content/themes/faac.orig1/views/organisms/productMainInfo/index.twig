@@ -1,0 +1,117 @@
+<section class="product-main-info overflow-hidden">
+    <div class="row">
+        {# PRODUCT INFO COLUMN #}
+        <div class="col-12 col-lg-6 position-relative order-1 order-lg-0">
+            <div class="left-half-container lg-none ps-3 pe-3 ps-xl-2 pe-xl-3 pt-4 pb-3">
+                <div class="row">
+                    <div class="col-12">
+                        {% if breadcrumbs %}
+                            <div class="breadcrumbs mb-3">
+                                <h6 class="color-blue small">
+                                    {% set breadurl = '' %}
+                                    {% for item in breadcrumbs %}
+                                        {# {% set breadurl = breadurl ~ '/' ~ item.text|lower|replace({' ':'-'})  ~ '/' %} #}
+                                        {% set breadurl = breadurl ~ '/' ~ item.slug  ~ '/' %}
+                                        {% if item.text %}
+                                        {# <a href="{{ item.url }}"> #}
+                                        <a href="{{ breadurl|replace({'//': '/'}) }}">
+                                        {# {% endif %} #}
+                                            <span class="color-blue">{{ item.text }}{{ loop.last ? "" : " \\ "}}</span>
+                                        {# {% if item.url %} #}
+                                        </a>
+                                        {% endif %}
+                                    {% endfor %}
+                                </h6>
+                            </div>
+                        {% endif %}
+                    </div>
+                    {% if bimSection or dataSection or relatedProductsSection %}
+                        <div class="col-12">
+                            <div class="quick-links">
+                                <ul>
+                                    {% if bimSection.title %}
+                                        <li class="quick-link-item">
+                                            <a href="#bim_section" class="quick-link-btn linear-out grey-cool">{{ bimSection.title }}</a>
+                                        </li>
+                                    {% endif %}
+                                    {% for item in dataSection.accordion %}
+                                        {% if item.ID == "tech_data_section" and item.accordionBody is not null %}
+                                            <li class="quick-link-item">
+                                                <a href="#tech_data_section" class="quick-link-btn linear-out grey-cool">{{ item.accordionTitle }}</a>
+                                            </li>
+                                        {% endif %}
+                                        {% if item.ID == "downloads_section" and item.accordionBody is not null %}
+                                            <li class="quick-link-item">
+                                                <a href="#downloads_section" class="quick-link-btn linear-out grey-cool">{{ item.accordionTitle }}</a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                    {% for item in relatedProductsSection.accordion %}
+                                        {% if (item.ID == "accessories") or (item.ID == "similar") %}
+                                            <li class="quick-link-item">
+                                                <a href="#{{ item.ID }}" class="quick-link-btn linear-out grey-cool">{{ item.accordionTitle }}</a>
+                                            </li>
+                                        {% endif %}                                        
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        {% endif %}
+                        <div class="col-12">
+                        <div class="product-title pt-2">
+                            <h1 class="h2">{{ title }}</h1>
+                            {% if subtitle %}
+                                <h5 class="color-grey line-height-normal pt-2">{{ subtitle }}</h5>
+                            {% endif %}
+                            {% if content %}
+                                <div class="product-content add-read-more show-less-content pb-4">
+                                    {{ content | wpautop }}
+                                </div>
+                            {% endif %}
+                        </div>
+                        {% if productExtraBtn %}
+                            <div class="extra-btn">
+                                {% for btn in productExtraBtn %}
+                                    <a class="btn btn-black linear-out mb-2" href="{{ btn.url }}">{{ btn.textBtn }}</a>                            
+                                {% endfor %}
+                            </div>
+                        {% endif %}                    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        
+        {# GALLERY COLUMN #}
+        <div class="col-12 col-lg-6 px-0 order-0 order-lg-1">
+            <div id="product_gallery" class="swiper">
+                <div class="swiper-wrapper">
+                    {% for slide in gallery %}
+                    <div class="swiper-slide">
+                        <div class="position-relative">
+                            <div class="img-news ratio ratio-1x1">
+                                <div class="gradient"></div>
+                                {% if gallery|length == 1 %}
+                                    <img class="" style="object-fit: contain;" src="{{ slide.img }}" alt="{{ slide.caption }}" style="{{ slide.style }}">
+                                {% else %}
+                                    <img class="" src="{{ slide.img }}" alt="{{ slide.caption }}" style="{{ slide.style }}">
+                                {% endif %}                                
+                            </div>
+                            {% if slide.caption %}
+                            <div class="caption small m-0">
+                                {{ slide.caption | raw }}
+                            </div>
+                            {% endif %}
+                        </div>                
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="navigation with-arrow me-lg-2">
+                    <div class="slider-prev white"></div>
+                    <div class="slider-next white"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

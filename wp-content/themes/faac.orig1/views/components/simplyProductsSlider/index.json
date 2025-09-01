@@ -1,0 +1,15 @@
+{
+    "sliderTitle": "References",
+    "productsSlider":[
+        {
+            "image" : "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "description" : "FAAC Automatic Doors BV supplies access solutions for retail and wholesale, catering, banks, ships, housing associations, hospitals and healthcare institutions, etc. Our clientele includes Schiphol Airport and various large retail chains",
+            "url": "#"
+        },
+        {
+            "image" : "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "description" : "Our clientele includes Schiphol Airport and various large retail chains",
+            "url": "#"
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{% if tags %}
+    <form action="" method="get" id="filterpost">
+        <div class="row" id="accordion_information">
+            <div class="col-sm-6 col-xs-12 accordion-item">
+                <h3 class="color-blue d-none d-md-block">{{ tags.titleindustry }}</h3>
+                <h4 class="color-blue accordion-header d-sm-block d-md-none" id="heading_data_industry">
+                    <button class="h4 m-0 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIndustry" aria-expanded="true" aria-controls="collapseInfo_1_tech_data_section">
+                        {{ tags.titleindustry }}
+                    </button>
+                </h4>
+                <div id="collapseIndustry" class="accordion-collapse collapse show" aria-labelledby="heading_data_industry">
+                    {% for tag in tags.industry %}
+                        {# <p><a href="?ind={{ tag.slug }}">{{ tag.name }}</a></p> #}
+                        <label class="label"> 
+                            <input type="checkbox" name="ind[]" value="{{ tag.slug }}" {{ tag.checked == true ? "Checked" }}> {{ tag.name }}
+                        </label>            
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 accordion-item">
+                <h3 class="color-blue d-none d-md-block">{{ tags.titleproducttype }}</h3>
+                <h4 class="color-blue accordion-header d-sm-block d-md-none" id="heading_data_producttype">
+                    <button class="h4 m-0 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductType" aria-expanded="true" aria-controls="collapseInfo_1_tech_data_section">
+                        {{ tags.titleproducttype }}
+                    </button>
+                </h4>
+                 <div id="collapseProductType" class="accordion-collapse collapse show" aria-labelledby="heading_data_producttype">
+                    {% for tag in tags.producttype %}
+                        {# <p><a href="?pt={{ tag.slug }}">{{ tag.name }}</a></p> #}
+                        <label class="label"> 
+                            <input type="checkbox" name="pt[]" value="{{ tag.slug }}" {{ tag.checked == true ? "Checked" }}> {{ tag.name }}
+                        </label>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="submit-area py-3">
+                    <div class="adaptive-wrapper pl-common pr-common">
+                        <div class="mb-3 text-center">
+                            <button type="submit" class="submit-form-btn color-blue" id="">
+                                <span class="position-relative">{{ tags.copyButton }}</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <style>
+    #filterpost .label {
+        padding: 5px 15px;
+        display: inline-block;
+        margin: 5px 15px;
+        cursor: pointer;
+        width: 45%;
+    }
+    #accordion_information .accordion-item{
+        border: none;
+    }
+    #accordion_information .accordion-item .accordion-collapse.show {
+        background-color: transparent;
+    }
+    .ratio::before {
+        padding-top: 5%;
+    }
+    .ratio img {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 50%;
+        height: auto;
+    }
+    body.faac .news-preview .title-news {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 50%;
+    }
+    @media only screen and (max-width: 768px) {
+        #filterpost .label {
+            width: 100%;
+        }
+        body.faac .news-preview .title-news {
+            top: 20%;
+        }
+    }
+    </style>
+
+    <div class="row">
+        {% for post in postList %}
+
+            {# <div class="col-12 col-lg-6"> #}
+            <div class="col-12" style="border-bottom: 1px solid #9BAAAF;">
+
+                {% set size = "small" %}
+                <div class="col-12">
+                    {% include "components/newsFilterPreview/index.twig" with post %}
+                </div>
+
+             </div>
+
+        {% endfor %}
+    </div>
+    
+{% else %}
+
+    <div class="row">
+        {% for post in postList %}
+
+            {% if loop.index % 8 == 1 %}
+
+                {% set size = "medium" %}
+                <div class="col-12 col-lg-8">
+                    {% include "components/newsPreview/index.twig" with post %}
+                </div>
+            {% elseif loop.index % 8 == 2 or loop.index % 8 == 3 %}
+
+                {% if loop.index % 8 == 2 %}
+                <div class="col-12 col-lg-4">
+                {% endif %}
+                
+                {% set size = "small" %}
+                <div class="col-12">
+                    {% include "components/newsPreview/index.twig" with post %}
+                </div>
+
+                {% if loop.index % 8 == 3  or loop.last %}
+                </div>
+                {% endif %}
+
+            {% elseif loop.index % 4 == 0 %}
+
+                {% set size = "big" %}
+                <div class="col-12">
+                    {% include "components/newsPreview/index.twig" with post %}
+                </div>
+
+            {% elseif loop.index % 8 == 5 or loop.index % 8 == 6 %}
+
+                {% if loop.index % 8 == 5 %}
+                <div class="col-12 col-lg-4">
+                {% endif %}
+                
+                    {% set size = "small" %}
+                    <div class="col-12">
+                        {% include "components/newsPreview/index.twig" with post %}
+                    </div>
+                
+                {% if loop.index % 8 == 6 or loop.last %}
+                </div>
+                {% endif %}
+
+            {% elseif loop.index % 8 == 7 %}
+                {% set size = "medium" %}
+                <div class="col-12 col-lg-8">
+                    {% include "components/newsPreview/index.twig" with post %}
+                </div>
+
+            {% endif %}
+
+        {% endfor %}
+    </div>
+{% endif %}
+<div class="row">
+    <div class="ht-20"></div>
+    {% if pagination %}
+        <div class="col-12 my-4">
+            {% include "components/pagination/index.twig" with pagination %}
+        </div>
+    {% endif %}
+</div>
+    <div class="ht-200 adaptive"></div>
+</div>

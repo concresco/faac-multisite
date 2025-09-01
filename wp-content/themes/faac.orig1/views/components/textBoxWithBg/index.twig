@@ -1,0 +1,17 @@
+<section class="textbox-with-bg" 
+        style="background-image: url({{ bg_image }});">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                <div class="textbox-content {{ bg_color | default('bg-color-blue') }}">
+                    {% if title %}
+                        <h3 class="h2">{{ title }}</h3>
+                    {% endif %}
+                    {% if  content %}
+                        <p class="color-white">{{ content | raw }}</p>
+                    {% endif %}                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

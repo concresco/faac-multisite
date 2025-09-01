@@ -1,0 +1,1132 @@
+# Translation of Plugins - iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-05 15:35:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more - Stable (latest release)\n"
+
+#: views/pp-configuration.php:41
+msgid "Paste your Privacy Policy embed code here"
+msgstr "Plak hier je code om privacybeleid in te sluiten"
+
+#: views/pp-configuration.php:35
+msgid "Configure Privacy Policy by"
+msgstr "Privacybeleid configureren door"
+
+#: views/partials/cs-general-settings.php:343
+msgid "Integrate with WP Consent API (recommended)"
+msgstr "Integreer met WP Consent API (aanbevolen)"
+
+#. translators: 1:frontend_auto_blocking URL.
+#: views/partials/auto-block-section.php:30
+msgid "<a class=\"link-underline\" target=\"_blank\" href=\"%s\">Learn more</a> about our automatic blocking."
+msgstr "<a class=\"link-underline\" target=\"_blank\" href=\"%s\">Lees meer</a> over onze automatische blokkering."
+
+#. translators: 1:frontend_auto_blocking URL.
+#: views/partials/auto-block-section.php:22
+msgid "To enable Automatic Blocking, please <a class=\"link-underline\" target=\"_blank\" href=\"%s\">visit the guide</a> to make configuration changes."
+msgstr "Om automatische blokkering in te schakelen, bezoek je <a class=\"link-underline\" target=\"_blank\" href=\"%s\"> de gids</a> om configuratie wijzigingen door te voeren."
+
+#: views/partials/auto-block-section.php:15
+msgid "iubenda Automatic Script Blocking"
+msgstr "iubenda automatische scriptblokkering"
+
+#: views/integrate-setup.php:118 views/partials/cs-general-settings.php:327
+msgid "Most legislation explicitly require prior consent in order to process user’s data. By disabling these blocking options you may be in breach of such requirements"
+msgstr "De meeste wetgevingen vereisen expliciet voorafgaande toestemming om gegevens van gebruikers te verwerken. Als je deze blokkeer opties uitschakelt, kun je in strijd met deze vereisten handelen"
+
+#: views/integrate-setup.php:113 views/partials/cs-general-settings.php:181
+msgid "Native Blocking"
+msgstr "Native blokkering"
+
+#: includes/class-radar-dashboard-widget.php:198
+msgid "View configuration"
+msgstr "Bekijk configuratie"
+
+#: includes/class-radar-dashboard-widget.php:193
+msgid "Congratulations on achieving full score."
+msgstr "Gefeliciteerd met het behalen van de volledige score."
+
+#: includes/class-radar-dashboard-widget.php:183
+msgid "Fix my rating"
+msgstr "Los mijn waardering op"
+
+#: includes/class-radar-dashboard-widget.php:179
+msgid "Our plugin can quickly help you achieve full rating and avoid compliance breach."
+msgstr "Onze plugin kan je snel helpen om een volledige waardering te behalen en overtreding van de regels te voorkomen."
+
+#: includes/class-radar-dashboard-widget.php:169
+msgid "Configure now"
+msgstr "Configureer nu"
+
+#: includes/class-radar-dashboard-widget.php:165
+msgid "You have missing configurations to complete in order to setup our products."
+msgstr "Je hebt ontbrekende configuraties die je moet invullen om onze producten in te stellen."
+
+#: includes/class-radar-dashboard-widget.php:151
+msgid "We have analyzed your website and this is the result."
+msgstr "We hebben je site geanalyseerd en dit is het resultaat."
+
+#: includes/class-radar-dashboard-widget.php:142
+#: includes/class-radar-dashboard-widget.php:155
+msgid "Help me get compliant"
+msgstr "Help me te voldoen aan de naleving"
+
+#: includes/class-radar-dashboard-widget.php:139
+msgid "Analyzing compliance status…"
+msgstr "Analyseren van nalevingsstatus..."
+
+#: includes/class-radar-dashboard-widget.php:138
+msgid "We are scanning your website and shortly will show you the results."
+msgstr "We scannen je site en zullen binnenkort de resultaten laten zien."
+
+#: includes/class-radar-dashboard-widget.php:97
+msgid "Your compliance status requires attention!"
+msgstr "Je nalevingsstatus vereist aandacht!"
+
+#: views/partials/button-position.php:40
+#: views/partials/modals/modal-almost-there.php:104
+#: views/tc-configuration.php:104
+msgid "It seems you are using elementor plugin, please use elementor theme builder to add the iubenda legal widget manually to the footer."
+msgstr "Het lijkt erop dat je Elementor plugin gebruikt, gebruik Elementor thema bouwer om de iubenda legal widget handmatig toe te voegen aan de footer."
+
+#: includes/class-iubenda-forms.php:1105
+msgid "No label"
+msgstr "Geen label"
+
+#: includes/services/class-iubenda-cs-product-service.php:87
+msgid "You must select at least one legislation."
+msgstr "Je moet ten minste één wetgeving selecteren."
+
+#: views/partials/cs-general-settings.php:333
+msgid "Do not show Cookie Banner for admin users (recommended)"
+msgstr "Cookie banner niet tonen voor beheer gebruikers (aanbevolen)"
+
+#. translators: %s: Google tag manager blocking documentation URL.
+#: views/integrate-setup.php:161 views/partials/cs-general-settings.php:238
+msgid "Enable this option to prevent Google Tag Manager from running. If, on the contrary, you would like to learn how to use Google Tag Manager to simplify the blocking of cookies, <a class=\"link-underline\" target=\"_blank\" href=\"%s\">read our dedicated guide</a>"
+msgstr "Schakel deze optie in om te voorkomen dat Google Tag Manager wordt uitgevoerd. als je daarentegen wil leren hoe je Google Tag Manager kunt gebruiken om het blokkeren van cookies te vereenvoudigen, <a class=\"link-underline\" target=\"_blank\" href=\"%s\">lees dan onze speciale gids</a>"
+
+#: views/integrate-setup.php:156 views/partials/cs-general-settings.php:233
+msgid "Block Google Tag Manager"
+msgstr "Google Tag Manager blokkeren"
+
+#: views/integrate-setup.php:135 views/partials/cs-general-settings.php:210
+msgid "You won't be able to use the Primary engine since you don't have the <span class='text-bold'>PHP XML</span> extension"
+msgstr "Je kunt de Primary engine niet gebruiken omdat je de <span class='text-bold'>PHP XML extensie</span> niet hebt"
+
+#: views/pp-configuration.php:32
+msgid "Configure your Privacy Policy on our website and paste here the embed code to integrate the button on your website."
+msgstr "Configureer je privacybeleid op onze site en plak hier de insluitcode om de knop op je site te integreren."
+
+#: iubenda_cookie_solution.php:1520
+msgid "Sorry, only iubenda options allowed to update with the plugin."
+msgstr "Alleen iubenda opties mogen updaten met de plugin."
+
+#: includes/services/class-iubenda-cs-product-service.php:178
+msgid "( Iubenda cookie law solution ) At least one code must be valid."
+msgstr "( Iubenda cookie wet oplossing ) Ten minste één code moet geldig zijn."
+
+#: includes/class-quick-generator-service.php:361
+msgid "invalid public API key"
+msgstr "ongeldige publieke API-sleutel"
+
+#: views/partials/modals/modal-almost-there.php:72
+msgid "Consent Database API key"
+msgstr "Toestemming database API sleutel"
+
+#: views/partials/cs-simplified-configuration.php:43
+msgid "LGPD"
+msgstr "LGPD"
+
+#: views/partials/cs-simplified-configuration.php:39
+msgid "US State Laws"
+msgstr "Amerikaanse staatswetten"
+
+#: views/partials/cs-simplified-configuration.php:35
+msgid "GDPR"
+msgstr "GDPR"
+
+#: views/partials/cs-manual-configuration.php:23
+msgid "Paste your privacy controls and cookie solution embed code here"
+msgstr "Plak je privacy controles en cookie oplossing insluit code hier"
+
+#. translators: %s: cs-configuration url.
+#: includes/class-iubenda-notice.php:116
+msgid "Our plugin now offers support for the new US privacy regulations.</br>We highly recommend that you update your configuration: within the legislation section of the Privacy Controls and Cookie Solution, the <span class=\"text-bold\">CCPA</span> option has been replaced with <span class=\"text-bold\">US State Laws</span>. Revise your setup, save your settings, and you’re done! <a href=\"%s\" class=\"link-underline\">Check it out now</a>"
+msgstr "Onze plugin biedt nu ondersteuning voor de nieuwe US Privacy Regulations.</br>We raden je ten zeerste aan om je configuratie te updaten: in de wetgeving sectie van de Privacy Controls en Cookie Solution is de <span class=\"text-bold\">CCPA</span> optie vervangen door <span class=\"text-bold\">US State Laws</span>. Pas je instelling aan, sla je instellingen op en je bent klaar! <a href=\"%s\" class=\"link-underline\">Bekijk het nu</a>"
+
+#: includes/class-iubenda-settings.php:148
+#: includes/class-iubenda-settings.php:549
+#: includes/class-iubenda-settings.php:561
+#: includes/class-iubenda-settings.php:1107
+msgid "Consent Database"
+msgstr "Toestemming Database"
+
+#: includes/class-iubenda-settings.php:142
+#: includes/class-iubenda-settings.php:543
+#: includes/class-iubenda-settings.php:1078
+msgid "Privacy Controls and Cookie Solution"
+msgstr "Privacy Controls and Cookie Solution"
+
+#: includes/class-service-rating.php:176
+msgid "Set up a Consent Banner"
+msgstr "Een toestemming banner instellen"
+
+#. Plugin Name of the plugin
+#: iubenda_cookie_solution.php
+msgid "iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more"
+msgstr "iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more"
+
+#: includes/functions.php:110 includes/functions.php:140
+#: includes/functions.php:161
+msgid "Sorry, you are not authorized to perform this action."
+msgstr "Je hebt geen toestemming deze actie uit te voeren."
+
+#: views/partials/modals/modal-select-language.php:41
+msgid "In cases where the language(s) available on your site is not one of the languages currently supported by iubenda, your policy documents will be displayed in English by default."
+msgstr "In gevallen waarin de taal of talen beschikbaar zijn op je site en niet een van de talen is of zijn die nu door iubenda worden ondersteund, worden je beleidsdocumenten standaard in het Engels weergegeven."
+
+#: views/partials/button-position.php:77 views/tc-configuration.php:141
+msgid "A shortcode is a tiny bit of code that allows embedding interactive elements or creating complex page layouts with a minimal effort."
+msgstr "Een shortcode is een klein stukje code waarmee interactieve elementen kunnen worden ingesloten of complexe pagina lay-outs kunnen worden gemaakt met een minimale inspanning."
+
+#: views/partials/button-position.php:73 views/tc-configuration.php:137
+msgid "WP shortcode (recommended)"
+msgstr "WP shortcode (aanbevolen)"
+
+#: views/partials/button-position.php:69 views/tc-configuration.php:133
+msgid "Just copy and paste the embed code (WP shortcode or HTML) where you want the button to appear."
+msgstr "Kopieer en plak de insluit code (WP shortcode of HTML) waar je wil dat de knop verschijnt."
+
+#. Description of the plugin
+#: iubenda_cookie_solution.php
+msgid "The iubenda plugin is an <strong>all-in-one</strong>, extremely easy to use 360° compliance solution, with text crafted by actual lawyers, that quickly <strong>scans your site and auto-configures to match your specific setup</strong>.  It supports the GDPR (DSGVO, RGPD), UK-GDPR, ePrivacy, LGPD, USPR, CalOPPA, PECR and more."
+msgstr "De iubenda plugin is een <strong>alles-in-één</strong>, uiterst eenvoudig te gebruiken 360° compliance oplossing, met tekst gemaakt door echte advocaten, die snel <strong>je site scant en automatisch configureert naar je specifieke instelling</strong>. Het ondersteunt de AVG/GDPR (DSGVO, RGPD), UK-GDPR, ePrivacy, LGPD, USPR, calOPPA, PECR en meer."
+
+#: views/partials/product-card.php:73
+msgid "Service on"
+msgstr "Service aan"
+
+#: views/partials/product-card.php:73
+msgid "Service off"
+msgstr "Service uit"
+
+#: views/partials/cs-general-settings.php:289
+#: views/partials/cs-general-settings.php:305
+msgid "Enter custom iframe"
+msgstr "Aangepaste iframe invoeren"
+
+#: views/partials/cs-general-settings.php:254
+#: views/partials/cs-general-settings.php:270
+msgid "Enter custom script"
+msgstr "Voer aangepast script in"
+
+#. translators: 1: AMP file path, 2: Iubenda AMP permission support link.
+#: includes/class-iubenda-notice.php:108
+msgid "Currently, you do not have write permission for <i class=\"text-bold\">%1$s</i>. For instructions on how to fix this, please read <a class=\"link-underline\" target=\"_blank\" href=\"%2$s\">our guide</a>."
+msgstr "Nu heb je geen schrijfrechten voor <i class=\"text-bold\">%1$s</i>. Voor instructies over hoe dit op te lossen, lees <a class=\"link-underline\" target=\"_blank\" href=\"%2$s\">onze gids</a>."
+
+#: views/partials/cs-general-settings.php:246
+msgid "Blocked domains"
+msgstr "Geblokkeerde domeinen"
+
+#: views/partials/site-info.php:33
+msgid "How is it calculated?"
+msgstr "Hoe wordt het berekend?"
+
+#: views/partials/modals/modal-rating.php:19
+msgid "Here’s how we calculate your rating."
+msgstr "Dit is hoe we je waardering berekenen."
+
+#. translators: 1: AMP file path, 2: Iubenda AMP permission support link.
+#: includes/class-iubenda-notice.php:88
+msgid "To ensure regular scans and full support, <span class=\"text-bold\">verify your account</span>. Check your mailbox now and validate your email address, or check <a href=\"%s\" target=\"_blank\" class=\"link-underline\">your account</a> on iubenda.com. If you already did that, you can safely <a href=\"#\" class=\"notice-dismiss-by-text dismiss-notification-alert link-underline\" data-dismiss-key=\"iub_user_needs_to_verify_his_account\">dismiss this reminder</a>."
+msgstr "Om regelmatige scans en volledige ondersteuning te garanderen, <span class=\"text-bold\">verifieer je account</span>. controleer nu je mailbox en valideer je e-mailadres, of controleer <a href=\"%s\" target=\"_blank\" class=\"link-underline\">je account</a> op iubenda.com. als je dat al gedaan hebt, kun je <a href=\"#\" class=\"notice-dismiss-by-text dismiss-notification-alert link-underline\" data-dismiss-key=\"iub_user_needs_to_verify_his_account\">deze herinnering</a>."
+
+#: includes/class-service-rating.php:192
+msgid "This accounts for 25&#37; of your score. Terms and conditions help to protect you, the website owner, from potential liabilities and more. Furthermore, if you run an e-commerce site or app, having this document may be legally required as Terms typically contain legally mandatory disclosures. Terms are legally binding documents, and therefore it’s important to ensure that they actually fit your specific scenario."
+msgstr "Dit is goed voor 25&#37; van je score. Algemene voorwaarden helpen je, de eigenaar van de site, te beschermen tegen mogelijke aansprakelijkheden en meer. Bovendien, als je een eCommerce site of app uitvoert, kan het hebben van dit document wettelijk vereist zijn, omdat voorwaarden meestal wettelijk verplichte openbaarmakingen bevatten. Voorwaarden zijn juridisch bindende documenten, en daarom is het belangrijk om ervoor te zorgen dat ze daadwerkelijk passen bij je specifieke scenario."
+
+#: includes/class-service-rating.php:187
+msgid "This accounts for 25&#37; of your score. A privacy policy is a requirement under most privacy laws around the world. This document typically includes legally required disclosures about the type of personal data you process, why you need to process it, how the processing is done and the user’s rights under applicable law."
+msgstr "Dit is goed voor 25&#37; van je score. Een privacybeleid is een vereiste volgens de meeste privacywetten in de wereld. Dit document bevat doorgaans de wettelijk verplichte informatie over het soort persoonsgegevens dat je verwerkt, waarom je die moet verwerken, hoe de verwerking gebeurt en de rechten van de gebruiker volgens de toepasselijke wetgeving."
+
+#: includes/class-service-rating.php:182
+msgid "This accounts for 25&#37; of your score. If you’re based in Europe or have Europe-based users, you likely need to block cookies from running until you receive user consent. To do this, select “Native Blocking”."
+msgstr "Dit is goed voor 25&#37; van je score. Als je in Europa bent gevestigd of in Europa gevestigde gebruikers hebt, moet je waarschijnlijk blokkeren dat cookies worden uitgevoerd totdat je toestemming van de gebruiker hebt ontvangen. Selecteer hiervoor \"Native blokkering\"."
+
+#: includes/class-service-rating.php:177
+msgid "This accounts for 25&#37; of your score. Your Consent Banner should inform your users about your use of cookies and similar tracking technologies, and their rights in this regard. You may need a banner if either the GDPR, USPR or ePrivacy apply to you."
+msgstr "Dit is goed voor 25&#37; van je score. Je toestemming banner moet je gebruikers informeren over je gebruik van cookies en soortgelijke tracking technologieën, en over hun rechten in dit verband. Je hebt mogelijk een banner nodig als de AVG/GDPR, USPR of ePrivacy op je van toepassing zijn."
+
+#: views/tc-configuration.php:39
+msgid "Paste your terms and conditions embed code here"
+msgstr "Plak hier je voorwaarden en condities insluit code"
+
+#: views/tc-configuration.php:33
+msgid "Configure terms and conditions by"
+msgstr "Configureer de voorwaarden door"
+
+#: views/tc-configuration.php:30
+msgid "Configure your terms and conditions on our website and paste here the embed code to integrate the button on your website."
+msgstr "Configureer je voorwaarden op onze site en plak hier de insluit code om de knop op je site te integreren."
+
+#: views/products-page.php:34
+msgid "It seems that you have not activated any of our services, we recommend you to activate them and increase your level of compliance and avoid risking fines."
+msgstr "Het lijkt erop dat je geen van onze diensten hebt geactiveerd, we raden je aan deze te activeren en je niveau van compliance te verhogen en boetes te voorkomen."
+
+#: views/pp-configuration.php:53 views/tc-configuration.php:51
+msgid "Integration"
+msgstr "Integratie"
+
+#: views/partials/welcome-screen-header.php:15
+msgid "Our plugin will help you to make your website compliant in minutes."
+msgstr "Onze plugin zal je helpen om je site in enkele minuten in orde te maken."
+
+#: views/partials/welcome-screen-header.php:14
+msgid "Welcome to iubenda!"
+msgstr "Welkom bij iubenda!"
+
+#: views/partials/product-card.php:75
+msgid "Configure"
+msgstr "Configureer"
+
+#: views/partials/modals/modal-sync.php:19
+msgid "or"
+msgstr "of"
+
+#: views/partials/modals/modal-sync.php:18
+msgid "I’ve already made the set up on iubenda.com"
+msgstr "Ik heb de instelling al gemaakt op iubenda.com"
+
+#: views/partials/modals/modal-sync.php:16
+msgid "First of all, tell us if you already use our products for this website or if you want to start from scratch"
+msgstr "Vertel ons eerst of je onze producten al gebruikt voor deze site of dat je vanaf nul wil beginnen"
+
+#: views/partials/modals/modal-select-language.php:68
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: views/partials/modals/modal-select-language.php:16
+msgid "Now, select your website language"
+msgstr "Selecteer nu je site taal"
+
+#: views/partials/modals/modal-pp-created.php:21
+msgid "Got it"
+msgstr "Hebbes"
+
+#: views/partials/modals/modal-pp-created.php:19
+msgid "From here you can customize your privacy policy by adding the services you use within your website or you can customize the style of the button that displays your privacy policy."
+msgstr "Van hieruit kun je je privacybeleid aanpassen door de diensten toe te voegen die je binnen je site gebruikt of je kunt de stijl aanpassen van de knop die je privacybeleid weergeeft."
+
+#: views/partials/modals/modal-pp-created.php:17
+msgid "Your privacy policy has been created!"
+msgstr "Je privacybeleid is gemaakt!"
+
+#: views/partials/modals/modal-ops-embed-invalid.php:20
+msgid "It seems that it is not possible to access your data with the code you pasted, do you want to try again."
+msgstr "Het lijkt erop dat het niet mogelijk is je gegevens te benaderen met de code die je geplakt hebt, wil je het nog eens proberen."
+
+#: views/partials/modals/modal-no-website-found.php:23
+#: views/partials/modals/modal-sync.php:20
+msgid "I want to start from scratch"
+msgstr "Ik wil opnieuw beginnen"
+
+#: views/partials/modals/modal-no-website-found.php:22
+#: views/partials/modals/modal-ops-embed-invalid.php:22
+msgid "Try again"
+msgstr "Probeer het nog eens"
+
+#: views/partials/modals/modal-no-website-found.php:20
+msgid "It seems that it is not possible to access your data with the code you pasted, do you want to try again or do you prefer to start configuring your website from scratch?"
+msgstr "Het lijkt erop dat het niet mogelijk is je gegevens te benaderen met de code die je hebt geplakt, wil je het opnieuw proberen of wil je liever je site helemaal opnieuw configureren?"
+
+#: views/partials/modals/modal-no-website-found.php:18
+#: views/partials/modals/modal-ops-embed-invalid.php:18
+msgid "Ooops! <br> No website found with this embed code."
+msgstr "<br> geen site gevonden met deze insluit code."
+
+#: views/partials/modals/modal-almost-there.php:134
+msgid "Synchronize products"
+msgstr "Producten synchroniseren"
+
+#: views/partials/modals/modal-almost-there.php:74
+msgid "Paste your API key here"
+msgstr "Plak je API-sleutel hier"
+
+#: views/partials/modals/modal-almost-there.php:53
+msgid "(required)"
+msgstr "(vereist)"
+
+#: views/partials/modals/modal-almost-there.php:26
+msgid "Select products you have already activated"
+msgstr "Selecteer producten die je al hebt geactiveerd"
+
+#: views/partials/modals/modal-almost-there.php:18
+msgid "Since you already activated some products for this website, we just ask you to copy and paste the embedding code of the product you already have to syncronize your iubenda acount with WP plugin."
+msgstr "Aangezien je al enkele producten voor deze site hebt geactiveerd, vragen we je om de insluitingscode van het product dat je al hebt te kopiëren en te plakken om je iubenda account te synchroniseren met WP plugin."
+
+#: views/partials/modals/modal-almost-there.php:17
+msgid "Nice! We are almost there."
+msgstr "Leuk! We zijn er bijna."
+
+#: views/partials/languages-tabs.php:53
+msgid "Paste your embed code here"
+msgstr "Plak je insluit code hier"
+
+#: views/partials/integrate-footer.php:17
+msgid "Integrate"
+msgstr "Integreer"
+
+#: views/partials/integrate-footer.php:16
+msgid "Reset settings"
+msgstr "Instellingen resetten"
+
+#: views/partials/header-scanned.php:16
+msgid "We have analyzed your website in background and this is the result."
+msgstr "We hebben je site op de achtergrond geanalyseerd en dit is het resultaat."
+
+#: includes/class-radar-dashboard-widget.php:152
+#: includes/class-radar-dashboard-widget.php:166
+#: includes/class-radar-dashboard-widget.php:180
+#: includes/class-radar-dashboard-widget.php:194
+#: views/partials/header-scanned.php:15
+#: views/partials/modals/modal-rating.php:16 views/partials/site-info.php:32
+msgid "Your rating"
+msgstr "Je waardering"
+
+#: views/partials/frontpage-main-box.php:41
+msgid "This is what you may need to be compliant"
+msgstr "Dit is wat je nodig hebt om aan de eisen te voldoen"
+
+#: views/partials/frontpage-main-box.php:37
+msgid "Analyzing your website"
+msgstr "Je site analyseren"
+
+#: includes/class-service-rating.php:191
+msgid "Set up terms and conditions"
+msgstr "Voorwaarden en condities opstellen"
+
+#: includes/class-service-rating.php:186
+msgid "Set up a privacy policy"
+msgstr "Een privacybeleid opstellen"
+
+#: includes/class-service-rating.php:181
+msgid "Only track users that give consent"
+msgstr "Volg alleen gebruikers die toestemming geven"
+
+#: views/partials/footer.php:17
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: views/partials/cs-simplified-configuration.php:110
+msgid "You should activate this feature if you show ads on your website"
+msgstr "Je moet deze functie activeren als je advertenties op je site laat zien"
+
+#: views/partials/cs-simplified-configuration.php:106
+#: views/partials/modals/modal-rating.php:38
+msgid "Learn More"
+msgstr "Lees verder"
+
+#: views/partials/cs-simplified-configuration.php:106
+msgid "Enable IAB Transparency and Consent Framework"
+msgstr "Het IAB framework voor transparantie en toestemming inschakelen"
+
+#: views/partials/cs-simplified-configuration.php:101
+msgid "Other options"
+msgstr "Andere opties"
+
+#: views/partials/cs-simplified-configuration.php:95
+msgid "Explicit Reject button"
+msgstr "Expliciete afwijzingsknop"
+
+#: views/partials/cs-simplified-configuration.php:90
+msgid "Explicit Accept and Customize buttons"
+msgstr "Expliciete aanvaardings- en aanpassingsknoppen"
+
+#: views/partials/cs-simplified-configuration.php:76
+msgid "Banner buttons"
+msgstr "Banner knoppen"
+
+#: views/partials/cs-simplified-configuration.php:67
+msgid "Worldwide"
+msgstr "Wereldwijd"
+
+#: views/partials/cs-simplified-configuration.php:53
+msgid "Require consent from"
+msgstr "Toestemming vereisen van"
+
+#: views/partials/cs-simplified-configuration.php:30
+msgid "Legislation"
+msgstr "Wetgeving"
+
+#: views/partials/cs-general-settings.php:320
+msgid "Add New iframe"
+msgstr "Nieuw iframe toevoegen"
+
+#: views/partials/cs-general-settings.php:319
+msgid "Provide a list of domains for any custom iframes you'd like to block, and assign their purposes. To make sure they are blocked correctly, please add domains in the same format as 'example.com', without any protocols e.g. 'http://' or 'https://'. You may also use wildcards (*) to include parent domains or subdomains."
+msgstr "Geef een lijst met domeinen voor alle aangepaste iframes die je wil blokkeren, en wijs hun doel toe. Om ervoor te zorgen dat ze correct worden geblokkeerd, voeg je domeinen toe in hetzelfde format als 'example.com', zonder protocollen, bijvoorbeeld 'http://' of 'https://'. Je kunt ook jokertekens (*) gebruiken om hoofd domeinen of subdomeinen op te nemen."
+
+#: views/partials/cs-general-settings.php:285
+msgid "Add New Script"
+msgstr "Nieuw script toevoegen"
+
+#: views/partials/cs-general-settings.php:284
+msgid "Provide a list of domains for any custom scripts you'd like to block, and assign their purposes. To make sure they are blocked correctly, please add domains in the same format as 'example.com', without any protocols e.g. 'http://' or 'https://'. You may also use wildcards (*) to include parent domains or subdomains."
+msgstr "Geef een lijst met domeinen voor aangepaste scripts die je wil blokkeren, en wijs hun doel toe. Om ervoor te zorgen dat ze correct worden geblokkeerd, voeg je domeinen toe in hetzelfde format als 'example.com', zonder protocollen, bijvoorbeeld 'http://' of 'https://'. Je kunt ook jokertekens (*) gebruiken om hoofd domeinen of subdomeinen op te nemen."
+
+#: views/partials/cs-general-settings.php:261
+#: views/partials/cs-general-settings.php:277
+#: views/partials/cs-general-settings.php:296
+#: views/partials/cs-general-settings.php:312
+msgid "Targeting &amp; Advertising"
+msgstr "Targeting & reclame"
+
+#: views/partials/cs-general-settings.php:258
+#: views/partials/cs-general-settings.php:274
+#: views/partials/cs-general-settings.php:293
+#: views/partials/cs-general-settings.php:309
+msgid "Basic interactions &amp; functionalities"
+msgstr "Basisinteracties & functionaliteiten"
+
+#: views/partials/cs-general-settings.php:250
+msgid "Custom iframes"
+msgstr "Aangepaste iframes"
+
+#: views/plugin-settings.php:38
+msgid "Do not run the plugin on POST requests (recommended)"
+msgstr "Voer de plugin niet uit op BERICHT aanvragen (aanbevolen)"
+
+#: views/partials/cs-manual-configuration.php:17
+msgid "Configure cookie banner by"
+msgstr "Cookie banner configureren door"
+
+#: views/partials/cs-manual-configuration.php:14
+msgid "Configure your cookie banner on our website and paste here the embed code to integrate it to your website."
+msgstr "Configureer je cookie banner op onze site en plak hier de insluit code om het te integreren in je site."
+
+#: views/partials/cs-general-settings.php:60
+#: views/partials/cs-general-settings.php:67
+msgid "Manual embed"
+msgstr "Handmatig insluiten"
+
+#: views/partials/cs-general-settings.php:34
+#: views/partials/cs-general-settings.php:43
+msgid "Simplified"
+msgstr "Vereenvoudigd"
+
+#: views/partials/cs-general-settings.php:18
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: views/partials/button-style.php:14 views/tc-configuration.php:53
+msgid "Button style"
+msgstr "Knopstijl"
+
+#: views/partials/button-position.php:81 views/tc-configuration.php:144
+msgid "HTML"
+msgstr "HTML"
+
+#. translators: 1: Admin url or javascript:void(0), 2: Target type
+#: views/partials/button-position.php:31
+#: views/partials/modals/modal-almost-there.php:95
+#: views/tc-configuration.php:95
+msgid "We were not able to add a \"Legal\" widget/block to the footer as your theme is not compatible, you can position the \"Legal\" widget/block manually from <a href=\"%1$s\" target=\"%2$s\">here</a>."
+msgstr "We konden geen \"Legaal\" widget/blok toevoegen aan de footer omdat je thema niet compatibel is, je kunt de \"Legaal\" widget/blok handmatig plaatsen vanaf <a href=\"%1$s\" target=\"%2$s\">hier</a>."
+
+#: views/partials/button-position.php:22 views/tc-configuration.php:86
+msgid "Integrate manually"
+msgstr "Handmatig integreren"
+
+#: views/partials/button-position.php:17 views/tc-configuration.php:82
+msgid "Add to the footer automatically"
+msgstr "Automatisch toevoegen aan de footer"
+
+#: views/partials/button-position.php:13 views/tc-configuration.php:78
+msgid "Button position"
+msgstr "Knoppositie"
+
+#: views/partials/breadcrumb.php:16
+msgid "Products"
+msgstr "Producten"
+
+#: views/partials/banner-style.php:27 views/partials/button-style.php:23
+#: views/tc-configuration.php:62
+msgid "Light"
+msgstr "Licht"
+
+#: views/partials/banner-style.php:21 views/partials/button-style.php:32
+#: views/tc-configuration.php:71
+msgid "Dark"
+msgstr "Donker"
+
+#: views/partials/banner-style.php:14
+msgid "Theme"
+msgstr "Thema"
+
+#: views/partials/banner-position.php:50
+msgid "Background-overlay"
+msgstr "Achtergrond overlay"
+
+#: views/partials/auto-detect-forms.php:36
+msgid "This section lists the forms available for field mapping. The plugin currently supports & detects: WordPress Comment, Contact Form 7, WooCommerce Checkout and WP Forms."
+msgstr "Deze sectie geeft een overzicht van de formulieren die beschikbaar zijn voor veld mapping. De plugin ondersteunt nu & detecteert: WordPress Reactie, Contact Form 7, WooCommerce Checkout en WP Forms."
+
+#: views/integrate-setup.php:178
+msgid "Add the privacy policy button"
+msgstr "De knop privacybeleid toevoegen"
+
+#: views/integrate-setup.php:146 views/partials/cs-general-settings.php:222
+msgid "Enable this option to improve performance <strong>only</strong> if your site does <strong>not</strong> use a cache system or a cache plugin and if you're <strong>not</strong> collecting per-category consent. If you're in doubt, keep this setting disabled"
+msgstr "Schakel deze optie <strong>alleen</strong> in om de prestaties te verbeteren als je site <strong>geen</strong> cache systeem of cache plugin gebruikt en als je <strong>geen</strong> toestemming per categorie verzamelt. Als je twijfelt, houd deze instelling dan uitgeschakeld"
+
+#: views/integrate-setup.php:83 views/partials/cs-general-settings.php:150
+msgid "Learn how to fix it"
+msgstr "Leer hoe je het oplost"
+
+#: views/integrate-setup.php:83 views/partials/cs-general-settings.php:150
+msgid "Seeing the AMP cookie notice when testing from Google but not when visiting your AMP pages directly?"
+msgstr "Zie je de AMP cookie bericht bij het testen vanuit Google, maar niet bij het rechtstreeks bezoeken van je AMP pagina's?"
+
+#: views/integrate-setup.php:90 views/partials/amp-template-links.php:37
+msgid "Default language"
+msgstr "Standaard taal"
+
+#: views/partials/amp-template-links.php:12
+msgid "No file available. Save changes to generate iubenda AMP configuration file."
+msgstr "Geen bestand beschikbaar. Wijzigingen opslaan om iubenda AMP configuratie bestand te genereren."
+
+#: views/integrate-setup.php:71 views/partials/cs-general-settings.php:132
+msgid "Custom configuration file"
+msgstr "Aangepast configuratiebestand"
+
+#: views/integrate-setup.php:67 views/partials/cs-general-settings.php:128
+msgid "Auto-generated configuration file"
+msgstr "Automatisch gegenereerd configuratiebestand"
+
+#: views/integrate-setup.php:63 views/partials/cs-general-settings.php:124
+msgid "Select the iubenda AMP configuration file location."
+msgstr "Selecteer de locatie van het iubenda AMP configuratie bestand."
+
+#: views/integrate-setup.php:60 views/partials/cs-general-settings.php:114
+msgid "Enable Google AMP support"
+msgstr "Schakel Google AMP ondersteuning in"
+
+#: views/integrate-setup.php:38
+msgid "Add a cookie banner"
+msgstr "Voeg een cookie banner toe"
+
+#: views/frontpage.php:25
+msgid "Help me get compliant!"
+msgstr "Help me om me aan te passen!"
+
+#: views/frontpage.php:24
+msgid "Let's configure your website for compliance."
+msgstr "Laten we je site configureren voor naleving."
+
+#: includes/class-iubenda-settings.php:521 views/partials/site-info.php:26
+msgid "Plugin settings"
+msgstr "Plugin instellingen"
+
+#: views/cons-single-form.php:335
+msgid "Add New Document"
+msgstr "Nieuw document toevoegen"
+
+#: views/cons-single-form.php:307
+msgid "Alternatively, you may add your own custom document identifiers."
+msgstr "Je kunt ook je eigen aangepaste document identifiers toevoegen."
+
+#: views/cons-single-form.php:276
+msgid "Please select each legal document available on your site."
+msgstr "Selecteer elk juridisch document dat op je site beschikbaar is."
+
+#: views/cons-single-form.php:264
+msgid "Identifier"
+msgstr "Identifier"
+
+#: views/cons-single-form.php:261
+msgid "In general, it's important that you declare which legal documents are being agreed upon when each consent is collected. However, if you use iubenda for your legal documents, it is *required*  that you identify the documents by selecting them here."
+msgstr "In het algemeen is het belangrijk dat je bij elke toestemming aangeeft over welke juridische documenten het gaat. Als je echter iubenda gebruikt voor je juridische documenten, is het *verplicht* dat je de documenten identificeert door ze hier te selecteren."
+
+#: views/cons-single-form.php:260
+msgid "Legal documents"
+msgstr "Juridische documenten"
+
+#: views/cons-single-form.php:254
+msgid "Add New Exclude"
+msgstr "Nieuwe uitsluiting toevoegen"
+
+#: views/cons-single-form.php:204
+msgid "Exclude field"
+msgstr "Veld uitsluiten"
+
+#: views/cons-single-form.php:200
+msgid "Exclude fields allow you to create a list of fields that you would like to exclude from your Consent Database recorded proofs (for e.g. password or other fields not related to the consent)."
+msgstr "Met uitsluiting velden kun je een lijst maken van velden die je wil uitsluiten van je toestemming database geregistreerde bewijzen (bijvoorbeeld een wachtwoord of andere velden die geen verband houden met de toestemming)."
+
+#: views/cons-single-form.php:198
+msgid "Exclude fields"
+msgstr "Velden uitsluiten"
+
+#: views/cons-single-form.php:193
+msgid "Add New Preference"
+msgstr "Nieuwe voorkeur toevoegen"
+
+#: views/cons-single-form.php:164 views/cons-single-form.php:184
+#: views/cons-single-form.php:225 views/cons-single-form.php:244
+#: views/cons-single-form.php:300 views/cons-single-form.php:323
+msgid "Remove"
+msgstr "Verwijder"
+
+#: views/cons-single-form.php:147 views/cons-single-form.php:175
+#: views/cons-single-form.php:285 views/cons-single-form.php:298
+#: views/cons-single-form.php:322
+msgid "Enter field name"
+msgstr "Vul veldnaam in"
+
+#: views/cons-single-form.php:142
+msgid "Preferences field"
+msgstr "Voorkeuren veld"
+
+#: views/cons-single-form.php:139
+msgid "Preferences fields allow you to store a record of the various opt-ins points at which the user has agreed or given consent, such as fields for agreeing to terms and conditions, newsletter, profiling, etc."
+msgstr "Voorkeursvelden stellen je in staat een registratie bij te houden van de verschillende opt-ins punten waarop de gebruiker heeft ingestemd of toestemming heeft gegeven, zoals velden voor het instemmen met algemene voorwaarden, nieuwsbrief, profilering, enz."
+
+#: views/cons-single-form.php:138
+msgid "Preferences fields"
+msgstr "Voorkeuren velden"
+
+#: views/cons-single-form.php:116
+msgid "None"
+msgstr "Geen"
+
+#: views/cons-single-form.php:116
+msgid "Autogenerated"
+msgstr "Automatisch gegenereerd"
+
+#: views/cons-single-form.php:110 views/cons-single-form.php:143
+msgid "Form field"
+msgstr "Formulier veld"
+
+#: views/cons-single-form.php:109
+msgid "Subject field"
+msgstr "Onderwerp"
+
+#: views/cons-single-form.php:106
+msgid "Subject fields allow you to store a series of identifying values about your individual subjects/users. Please map the subject  field with the corresponding form fields where applicable."
+msgstr "Met onderwerp velden kun je een string identificerende waarden over je individuele subjecten/gebruikers opslaan. Breng het onderwerpveld in verband met de overeenkomstige formuliervelden, indien van toepassing."
+
+#: views/cons-single-form.php:105
+msgid "Subject fields"
+msgstr "Onderwerp velden"
+
+#: views/cons-single-form.php:93
+msgid "Status"
+msgstr "Status"
+
+#: views/cons-single-form.php:89
+msgid "Map fields"
+msgstr "Kaart velden"
+
+#: views/cons-single-form.php:53
+msgid "Field Mapping"
+msgstr "Veldtoewijzing"
+
+#: views/cons-configuration.php:100 views/cons-single-form.php:348
+#: views/cs-configuration.php:39 views/plugin-settings.php:63
+#: views/pp-configuration.php:67 views/tc-configuration.php:175
+msgid "Save settings"
+msgstr "Instellingen opslaan"
+
+#: views/cons-configuration.php:98 views/cons-single-form.php:345
+#: views/cs-configuration.php:37 views/plugin-settings.php:61
+#: views/pp-configuration.php:65 views/tc-configuration.php:173
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: views/cons-configuration.php:91
+msgid "Auto-detect forms"
+msgstr "Automatische detectie van formulieren"
+
+#: views/cons-configuration.php:67
+msgid "Add forms"
+msgstr "Formulieren toevoegen"
+
+#: views/cons-configuration.php:54 views/partials/languages-tabs.php:63
+#: views/partials/modals/modal-almost-there.php:77
+msgid "Where can I find this code?"
+msgstr "Waar kan ik deze code vinden?"
+
+#: views/cons-configuration.php:48
+msgid "Confirm API"
+msgstr "Bevestig API"
+
+#: views/cons-configuration.php:46
+msgid "Your iubenda Javascript library public API key"
+msgstr "Je iubenda JavaScript bibliotheek publieke API-sleutel"
+
+#: views/cons-configuration.php:40
+msgid "Paste your public API key here"
+msgstr "Plak hier je publieke API-sleutel"
+
+#: views/cons-configuration.php:35
+#: views/partials/cs-manual-configuration.php:18 views/pp-configuration.php:36
+#: views/tc-configuration.php:34
+msgid "clicking here"
+msgstr "klik hier"
+
+#: views/cons-configuration.php:34
+msgid "Activate & Configure Consent Database by"
+msgstr "Activeer & configureer toestemmingsdatabase door"
+
+#: views/cons-configuration.php:31
+msgid "Activate <strong>Consent Database</strong> on our website in your iubenda dashboard and paste the <strong>API key</strong> here to integrate it in your website."
+msgstr "Activeer <strong>Consent database</strong> op onze site in je iubenda dashboard en plak hier de <strong>API-sleutel</strong> om deze te integreren in je site."
+
+#: iubenda_cookie_solution.php:1573
+msgid "Rate"
+msgstr "Tarief"
+
+#: iubenda_cookie_solution.php:526
+msgid "Settings"
+msgstr "﻿Instellingen"
+
+#: includes/widget/class-iubenda-legal-widget.php:209
+#: includes/widget/elementor/class-iubenda-elementor-legal-widget.php:103
+#: includes/widget/elementor/class-iubenda-elementor-legal-widget.php:113
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/block/class-iubenda-legal-block.php:97
+#: includes/block/class-iubenda-legal-block.php:463
+#: includes/block/class-iubenda-legal-block.php:506
+#: includes/widget/class-iubenda-legal-widget.php:38
+#: includes/widget/class-iubenda-legal-widget.php:200
+msgid "Legal"
+msgstr "Juridisch"
+
+#: includes/widget/class-iubenda-legal-widget.php:45
+msgid "Iubenda legal widget for Privacy Policy and Terms & Conditions"
+msgstr "Iubenda juridische widget voor privacybeleid en voorwaarden"
+
+#: includes/widget/class-iubenda-legal-widget.php:43
+#: includes/widget/elementor/class-iubenda-elementor-legal-widget.php:49
+msgid "Iubenda legal"
+msgstr "Iubenda legal"
+
+#: includes/class-iubenda-settings.php:1086
+msgid "Terms and Conditions"
+msgstr "Voorwaarden en condities"
+
+#: includes/class-iubenda-settings.php:1062
+#: includes/class-iubenda-settings.php:1091
+msgid "Version"
+msgstr "Versie"
+
+#: includes/class-iubenda-settings.php:1021
+#: includes/class-iubenda-settings.php:1044
+msgid "legislation"
+msgstr "wetgeving"
+
+#: includes/class-iubenda-settings.php:1017
+#: includes/class-iubenda-settings.php:1040
+#: includes/class-iubenda-settings.php:1070
+#: includes/class-iubenda-settings.php:1099
+#: views/partials/banner-position.php:27
+msgid "Position"
+msgstr "Positie"
+
+#: includes/class-iubenda-settings.php:1013
+#: includes/class-iubenda-settings.php:1036
+#: includes/class-iubenda-settings.php:1066
+#: includes/class-iubenda-settings.php:1095
+msgid "Style"
+msgstr "Stijl"
+
+#: includes/class-iubenda-notice.php:474
+msgid "Ok sure!"
+msgstr "Ok zeker!"
+
+#: includes/class-iubenda-notice.php:472
+msgid "We're sorry to hear that. Would you mind giving us some feedback?"
+msgstr "Het spijt ons dat te horen. Zou je het erg vinden om ons wat feedback te geven?"
+
+#: includes/class-iubenda-notice.php:468 includes/class-iubenda-notice.php:475
+msgid "No thanks"
+msgstr "Geen dank"
+
+#: includes/class-iubenda-notice.php:467
+msgid "Sure!"
+msgstr "Tuurlijk!"
+
+#: includes/class-iubenda-notice.php:465
+msgid "Whew, what a relief!? We've worked countless hours to make this plugin as useful as possible - so we're pretty happy that you're enjoying it. While you here, would you mind leaving us a 5 star rating? It would really help us out."
+msgstr "Wat een opluchting!? We hebben ontelbare uren gewerkt om deze plugin zo nuttig mogelijk te maken – dus we zijn blij dat je het leuk vindt. Terwijl je hier bent, zou je het erg vinden om een 5 sterren waardering achter te laten? Het zou ons echt helpen."
+
+#: includes/class-iubenda-notice.php:461
+msgid "No"
+msgstr "Nee"
+
+#: includes/class-iubenda-notice.php:460
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-iubenda-notice.php:458
+msgid "Enjoying the iubenda Cookie & Consent Database Plugin?"
+msgstr "Genieten van de iubenda Cookie & Consent database plugin?"
+
+#: includes/class-iubenda-notice.php:122
+msgid "Form saving failed. Please fill the Subject fields."
+msgstr "Formulier opslaan mislukt. Vul de onderwerp velden in."
+
+#. translators: %s: Options-discussion URL.
+#: includes/class-iubenda-notice.php:101
+msgid "Please enable comments cookies opt-in checkbox in the <a href=\"%s\" target=\"_blank\">Discussion settings</a>."
+msgstr "Schakel het selectievakje \"reacties cookies opt-in\" in bij de <a href=\"%s\" target=\"_blank\">Discussie instellingen</a>."
+
+#: includes/class-iubenda-settings.php:531
+msgid "Terms and condition"
+msgstr "Voorwaarden en condities"
+
+#: includes/class-iubenda-settings.php:161
+msgid "Targeting & Advertising"
+msgstr "Targeting & reclame"
+
+#: includes/class-iubenda-settings.php:160
+#: views/partials/cs-general-settings.php:260
+#: views/partials/cs-general-settings.php:276
+#: views/partials/cs-general-settings.php:295
+#: views/partials/cs-general-settings.php:311
+msgid "Analytics"
+msgstr "Analytics"
+
+#: includes/class-iubenda-settings.php:159
+#: views/partials/cs-general-settings.php:259
+#: views/partials/cs-general-settings.php:275
+#: views/partials/cs-general-settings.php:294
+#: views/partials/cs-general-settings.php:310
+msgid "Experience enhancement"
+msgstr "Verbetering van de ervaring"
+
+#: includes/class-iubenda-settings.php:158
+msgid "Basic interactions & functionalities"
+msgstr "Basisinteracties & functionaliteiten"
+
+#: includes/class-iubenda-settings.php:157
+#: views/partials/cs-general-settings.php:257
+#: views/partials/cs-general-settings.php:273
+#: views/partials/cs-general-settings.php:292
+#: views/partials/cs-general-settings.php:308
+msgid "Strictly necessary"
+msgstr "Strikt noodzakelijk"
+
+#: includes/class-iubenda-settings.php:156
+#: views/partials/cs-general-settings.php:256
+#: views/partials/cs-general-settings.php:272
+#: views/partials/cs-general-settings.php:291
+#: views/partials/cs-general-settings.php:307
+msgid "Not set"
+msgstr "Niet ingesteld"
+
+#: includes/class-iubenda-settings.php:127
+#: includes/class-iubenda-settings.php:128
+#: includes/class-iubenda-settings.php:129
+#: includes/class-iubenda-settings.php:130
+#: includes/class-iubenda-settings.php:131
+msgid "string"
+msgstr "string"
+
+#: includes/class-iubenda-notice.php:94
+msgid "Our products has been integrated successfully, now customize all products to increase the compliance rating and make your website fully compliant."
+msgstr "Onze producten zijn succesvol geïntegreerd, pas nu alle producten aan om de compliance waardering te verhogen en je site volledig compliant te maken."
+
+#: includes/class-iubenda-notice.php:81
+msgid "Your website has been created and your legal documents have been generated. Setup your cookie banner and privacy policy button to complete the integration."
+msgstr "Je site is gemaakt en je juridische documenten zijn gegenereerd. Stel je cookie banner en privacy policy knop in om de integratie te voltooien."
+
+#: includes/class-iubenda-settings.php:537
+#: includes/class-iubenda-settings.php:1057
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: includes/class-iubenda-forms.php:657
+msgid "Middle name"
+msgstr "Middelnaam"
+
+#: includes/class-iubenda-forms.php:643 includes/class-iubenda-forms.php:663
+msgid "Last name"
+msgstr "Achternaam"
+
+#: includes/class-iubenda-forms.php:637 includes/class-iubenda-forms.php:651
+msgid "First name"
+msgstr "Voornaam"
+
+#: includes/class-iubenda-forms.php:192
+msgid "Form"
+msgstr "Formulier"
+
+#: includes/class-iubenda-forms.php:191
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/class-iubenda-forms.php:150
+msgctxt "post status"
+msgid "Needs Update"
+msgstr "Heeft update nodig"
+
+#: includes/class-iubenda-forms.php:149
+msgctxt "post status"
+msgid "Mapped"
+msgstr "In kaart gebracht"
+
+#: includes/class-iubenda-forms.php:148
+msgctxt "post status"
+msgid "To Map"
+msgstr "Naar kaart"
+
+#: includes/class-iubenda-list-table-forms.php:432
+msgid "Select All"
+msgstr "Selecteer alles"
+
+#: includes/class-iubenda-list-table-forms.php:409
+msgid "No forms found."
+msgstr "Geen formulieren gevonden."
+
+#. translators: 1:view, 2:count.
+#: includes/class-iubenda-list-table-forms.php:398
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgid_plural "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr[0] "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr[1] "%1$s <span class=\"count\">(%2$s)</span>"
+
+#: includes/class-iubenda-list-table-forms.php:388
+#: views/partials/cs-simplified-configuration.php:47
+msgid "All"
+msgstr "Alle"
+
+#: includes/class-iubenda-list-table-forms.php:336
+msgid "All form sources"
+msgstr "Alle formulierbronnen"
+
+#: includes/class-iubenda-list-table-forms.php:334
+msgid "Filter by source"
+msgstr "Filter op bron"
+
+#: includes/class-iubenda-list-table-forms.php:312
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/class-iubenda-list-table-forms.php:198
+msgid "Delete"
+msgstr "Verwijder"
+
+#: includes/class-iubenda-list-table-forms.php:198
+msgid "Delete this form"
+msgstr "Verwijder dit formulier"
+
+#: includes/class-iubenda-list-table-forms.php:197
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/class-iubenda-list-table-forms.php:197
+msgid "Edit this form"
+msgstr "Dit formulier bewerken"
+
+#: includes/class-iubenda-list-table-forms.php:121
+msgid "Date"
+msgstr "Datum"
+
+#: includes/class-iubenda-list-table-forms.php:120
+msgid "Fields"
+msgstr "Velden"
+
+#: includes/class-iubenda-list-table-forms.php:119
+msgid "Form Source"
+msgstr "Formulierbron"
+
+#: includes/class-iubenda-list-table-forms.php:118
+msgid "Form ID"
+msgstr "Formulier ID"
+
+#: includes/class-iubenda-list-table-forms.php:117
+msgid "Form Title"
+msgstr "Formuliertitel"
+
+#: includes/class-iubenda-amp.php:331
+msgid "AMP Cookie Consent"
+msgstr "AMP cookie toestemming"
+
+#: views/partials/cs-general-settings.php:249
+msgid "Custom scripts"
+msgstr "Aangepaste scripts"
+
+#: views/integrate-setup.php:130 views/partials/cs-general-settings.php:205
+msgid "Secondary"
+msgstr "Secundair"
+
+#: views/integrate-setup.php:126 views/partials/cs-general-settings.php:201
+msgid "Primary"
+msgstr "Primair"
+
+#: views/plugin-settings.php:56
+msgid "Select whether to display iubenda in a top admin menu or the Settings submenu."
+msgstr "Selecteer of je iubenda wilt weergeven in een beheerdersmenu bovenaan of in het submenu Instellingen."
+
+#: views/plugin-settings.php:53
+msgid "Submenu"
+msgstr "Submenu"
+
+#: views/plugin-settings.php:49
+msgid "Top menu"
+msgstr "Topmenu"
+
+#: views/plugin-settings.php:45
+msgid "Menu position"
+msgstr "Menupositie"
+
+#: views/plugin-settings.php:42
+msgid "Delete all plugin data upon deactivation"
+msgstr "Verwijder alle plugin gegevens bij deactivatie"
+
+#. Author of the plugin
+#: iubenda_cookie_solution.php
+msgid "iubenda"
+msgstr "iubenda"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: iubenda_cookie_solution.php
+msgid "https://www.iubenda.com"
+msgstr "https://www.iubenda.com"
+
+#: includes/class-iubenda-settings.php:507
+msgid "You don't have permission to access this page."
+msgstr "Je hebt geen toestemming om deze pagina te openen."
+
+#: includes/class-iubenda-notice.php:128
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: views/plugin-settings.php:34
+msgid "Do not run the plugin inside the RSS feed (recommended)"
+msgstr "Voer de plugin niet uit in de RSS feed (aanbevolen)"
+
+#: views/plugin-settings.php:30
+msgid "Restrict the plugin to run only for requests that have \"Content-type: text / html\" (recommended)"
+msgstr "Beperk de uitvoering van de plugin alleen voor aanvragen met \"Inhoud type: text/HTML\" (aanbevolen)"
+
+#: views/integrate-setup.php:143 views/partials/cs-general-settings.php:219
+msgid "Leave scripts untouched on the page if the user has already given consent"
+msgstr "Laat scripts onaangeroerd op de pagina als de gebruiker al toestemming heeft gegeven"
+
+#: views/integrate-setup.php:122 views/partials/cs-general-settings.php:197
+msgid "Select Parsing Engine"
+msgstr "Selecteer parser engine"

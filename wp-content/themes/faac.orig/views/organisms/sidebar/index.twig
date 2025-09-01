@@ -1,0 +1,108 @@
+<div class="sidebar">
+    <ul class="list-unstyled ps-0">
+        <li>
+            {% if type == "list" %}
+                <a class="cat-link h5 archive-first-element btn-toggle align-items-center collapse"
+                    data-bs-toggle="collapse"
+                    href="#{{ archiveFilterElement  | lower | replace({' ':'-'}) }}" 
+                    role="button" aria-expanded="true"
+                    aria-controls="{{ archiveFilterElement  | lower | replace({' ':'-'}) }}">
+                    {{ archiveFilterElement }}
+                </a>
+                {% if category %}
+                <div class="collapse show" 
+                id="{{ archiveFilterElement | lower | replace({' ':'-'}) }}" 
+                style="">
+                    <ul class="btn-toggle-nav list-unstyled pb-1 first-ul">
+                        {% for item in category %}
+                            <li class="mb-1 position-relative">
+                                {% if item.subCategory %}
+                                    <div class="cat-btn-wrapper position-relative d-flex justify-content-between align-items-center">
+                                        <a class="cat-link align-items-center" 
+                                        href="/products{{ item.url }}" 
+                                        >
+                                            {{ item.mainTitle }}
+                                        </a>
+                                        <button class="btn-filter-toggle btn btn-toggle collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#{{ item.mainTitle | lower | replace({' ':'-'}) }}"
+                                            aria-expanded="false">
+                                        </button>
+                                    </div>
+                                    <div class="first-lev collapse" id="{{ item.mainTitle | lower | replace({' ':'-'}) }}" style="">
+                                        <ul class="btn-toggle-nav list-unstyled pb-1">
+
+                                            {% set parentCat = item.url %}
+
+                                            {% for item in item.subCategory %}
+                                                <li>
+                                                    {% if item.subCategory %}
+                                                        <div class="cat-btn-wrapper position-relative d-flex justify-content-between align-items-center">
+                                                            <a class="cat-link align-items-center" href="/products{{ parentCat }}{{ item.url }}">
+                                                                {{ item.mainTitle }}
+                                                            </a>
+                                                            <button class="btn-filter-toggle btn btn-toggle collapsed" data-bs-toggle="collapse"
+                                                                data-bs-target="#{{ item.mainTitle | lower | replace({' ':'-'}) }}"
+                                                                aria-expanded="false">
+                                                            </button>
+                                                        </div>
+                                                        <div class="second-lev collapse" id="{{ item.mainTitle | lower | replace({' ':'-'}) }}" style="">
+                                                            <ul class="btn-toggle-nav list-unstyled pb-1 small">
+
+                                                                {% set parentCat = parentCat ~ item.url %}
+
+                                                                {% for item in item.subCategory %}
+                                                                    <li>
+                                                                        <a href="/products{{ parentCat }}{{ item.url }}" class="cat-link">
+                                                                            {{ item.mainTitle }}
+                                                                        </a>
+                                                                    </li>
+                                                                {% endfor %}
+                                                            </ul>
+                                                        </div>
+                                                    {% else %}
+                                                        <a href="/products{{ parentCat }}{{ item.url }}" class="cat-link">
+                                                            {{ item.mainTitle }}
+                                                        </a>
+                                                    {% endif %}
+                                                </li>                            
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                {% else %}
+                                    <a href="/products{{ parentCat }}{{ item.url }}" class="cat-link">
+                                        {{ item.mainTitle }}
+                                    </a>
+                                {% endif %}
+                            </li>        
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+            {% endif %}
+            {% if type == "cecklist" %}
+                <a class="cecklist cat-link h5 archive-first-element btn-plus align-items-center collapse" 
+                    data-bs-toggle="collapse"
+                    href="#{{ archiveFilterElement | replace({' ':'-'}) }}" 
+                    role="button" aria-expanded="false"
+                    aria-controls="{{ archiveFilterElement | replace({' ':'-'}) }}">
+                    {{ archiveFilterElement }}
+                    <div class="plus"></div>
+                </a>
+                <div class="sidebar-checklist collapse" id="{{ archiveFilterElement | replace({' ':'-'}) }}" style="">
+                    <div class="list-group">
+                        {% for item in category %}
+                            <label class="list-group-item">
+                                <input id="{{ item.mainTitle | lower | replace({' ':'-'}) }}"
+                                class="form-check-input me-1" type="checkbox" 
+                                value="{{item.mainTitle}}"
+                            >
+                                {{item.mainTitle}}
+                            </label>                        
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+            
+        </li>
+    </ul>
+</div>

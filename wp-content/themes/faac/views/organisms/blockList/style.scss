@@ -1,0 +1,32 @@
+#{$sitename-selector} {
+    .block-list {
+        .single-list {
+            position: relative;
+            border-bottom: 1px solid $color-grey-cool;
+            &:first-child{
+                border-left: 1px solid $color-grey-cool;
+            }
+            &:last-child{
+                border-right: 1px solid $color-grey-cool;
+            }
+            border-right: 1px solid $color-grey-cool;
+            @include media-breakpoint-up(xl){
+                &:nth-child(4n + 1){
+                    border-left: 1px solid $color-grey-cool;
+                }
+            }
+            @include media-breakpoint-between(md, xl) {
+                &:nth-child(3n + 1){
+                    border-left: 1px solid $color-grey-cool;
+                }
+            }
+            @include media-breakpoint-up(md){
+                min-height: 500px;                
+            }
+            @include media-breakpoint-between(xs, md){
+                border-left: 1px solid $color-grey-cool;
+                border-right: 1px solid $color-grey-cool;
+            }
+        }
+    }
+}

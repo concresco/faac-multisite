@@ -1,0 +1,74 @@
+{% extends "templates/base/index.twig" %}
+
+{% block content %}
+
+{% if swiperheader.isHome %}
+    {% include "components/homeSlider/index.twig" with swiperheader %}
+{% endif %}
+
+{# SECTION WITH PRODUCT CATEGORY #}
+<section class="product-lines-section {{ productLinesSection.styleSection }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% if productLinesSection %}
+          {% set productLinesSection = productLinesSection | merge ({"baseUrl": baseUrl}) %}
+          {% include "organisms/productLines/index.twig" with productLinesSection %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# NEWS SLIDER #}
+<section>
+  {# <div class="container-fluid my-3 line-down"> #}
+  <div class="container-fluid mt-3 line-down">
+    <div class="row">
+      <div class="col-12">
+        {% if sliderNews %}
+            {% include "organisms/sliderNews/index.twig" with {"sliderNews" : sliderNews} %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# BLOCK WITH 3 CARDS #}
+<section class="cards-section">
+  <div class="container">
+    {% if cardsSection.sectionTitle %}
+    <div class="ht-100 adaptive"></div>
+    {% include "sections/cardsSection/index.twig" with cardsSection %}
+    <div class="ht-100 adaptive"></div>
+    {% endif %}
+  </div>
+  {% if activitiesSection %}
+    {% include "sections/activitiesSliderHome/index.twig" with activitiesSection %}
+  {% endif %}
+</section>
+
+{# NEWS SECTION #}
+{% if news.postList %}
+  <section class="news">
+    <div class="container">
+      {% include "organisms/newsHomeBlock/index.twig" with news %}
+    </div>
+  </section>
+{% endif %}
+
+<section>
+    <div class="container-fluid line-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {% if infoboxes %}
+              {% include "organisms/infoBoxes/index.twig" with infoboxes %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+{% endblock %}

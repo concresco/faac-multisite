@@ -1,0 +1,103 @@
+#{$sitename-selector} {
+    footer{
+
+        a {
+            text-decoration: none;
+            font-weight: normal;
+        }
+        .social-footer{
+            padding-top: 80px;
+            padding-bottom: 50px;
+            > div{
+                display: flex;
+                align-items: flex-end;
+            }
+            .slogan{
+                h4{
+                    margin-bottom: 0;
+                    line-height: 1;
+                }
+                @include media-breakpoint-down(md) {
+                    padding: 0 12px;
+                }
+            }
+            .social-links{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                @include media-breakpoint-down(lg){
+                    justify-content: space-between;
+                    margin-top: 30px;
+                }
+                a{
+                    font-size: 3.428rem; // 72px
+                    line-height: 1.111;
+                    color: $color-blue;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover{
+                        color: $color-grey;
+                        text-shadow: 0px 0px 6px rgba(22, 25, 26, 0.3);
+                    }
+                }
+            }
+        }
+        .footermenu{
+            margin-bottom: 100px;
+            font-size: 16px;
+            font-weight: 300;
+
+            .dropdown-item{
+                &.active{
+                    background-color: transparent;
+                }
+            }
+            
+            @include media-breakpoint-up(lg){
+                .dropdown-menu{
+                    position: relative;
+                    display: block;
+                }
+            }
+            @include media-breakpoint-down(lg){
+                flex-direction: column;
+            }
+            ul,
+            .dropdown-menu{
+                background-color: transparent;
+                border: 0;
+                padding: 0;
+                li a{
+                    font-size: 16px;
+                    font-weight: 300;
+                    padding: 10px 0;
+                    &:hover{
+                        background-color: transparent;
+                        padding-left: 3px;
+                    }
+                }
+                @include media-breakpoint-down(lg) {
+                    
+                    transition: all 0.3s ease-in-out;
+                    &.show{
+                        display: contents;
+                    }
+                }
+            }
+            .dropdown{
+                .nav-link{
+                    padding: 10px 0;
+                    @include media-breakpoint-up(lg) {
+                        pointer-events: none;
+                        &::after{
+                            display: none;
+                        }       
+                    }
+                }
+            }
+        }
+        .legals p{
+            font-size: 14px;
+        }
+    }
+}

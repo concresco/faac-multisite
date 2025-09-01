@@ -1,0 +1,211 @@
+[
+    {
+        "key": "group_628618ca87361",
+        "title": "Sezione Dal Blog",
+        "fields": [
+            {
+                "key": "field_6286409b64063",
+                "label": "Gruppo campi",
+                "name": "blogExcerpts",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_62861930e31d1",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "From our Blog",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": 80
+                    },
+                    {
+                        "key": "field_6286198be31d2",
+                        "label": "Subtitle",
+                        "name": "subtitle",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "text",
+                        "media_upload": 0,
+                        "toolbar": "full",
+                        "delay": 0
+                    },
+                    {
+                        "key": "field_62861a6de31d4",
+                        "label": "Method choice of posts",
+                        "name": "postSelectionMethod",
+                        "type": "radio",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "last": "Automatically upload the last three articles (the last for each of three categories)",
+                            "manual": "Manual selection"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": "",
+                        "layout": "vertical",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_62861a23e31d3",
+                        "label": "Selection of previews posts",
+                        "name": "blogPosts",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_62861a6de31d4",
+                                    "operator": "==",
+                                    "value": "manual"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "",
+                        "min": 3,
+                        "max": 3,
+                        "layout": "row",
+                        "button_label": "",
+                        "sub_fields": [
+                            {
+                                "key": "field_62861b92e31d5",
+                                "label": "Post",
+                                "name": "selectedPost",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": "",
+                                "taxonomy": "",
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "return_format": "id",
+                                "ui": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_62861d22e31d6",
+                        "label": "Call To Action Text",
+                        "name": "callToAction",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Do you want to receive updates <span class=\"color-red\">on the Insurance Sector?<\/span>",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62861d73e31d7",
+                        "label": "Button: text",
+                        "name": "buttonText",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Subscribe to the newsletter",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62861db9e31d8",
+                        "label": "Button: action",
+                        "name": "buttonLink",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "mysite.com\/newsletter",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-general-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": false,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

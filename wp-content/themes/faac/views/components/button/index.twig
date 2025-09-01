@@ -1,0 +1,20 @@
+{# {% set url = url | default('#') %} #}
+{% set style = style | default('btn read-more linear-in') %}
+{% set spanText = spanText | default(true) %}
+{# {% set text = text | default('Discover More') %} #}
+
+<a
+    href="{{ url }}"
+    class="{{ style }}"
+>
+    {% if spanText %}
+        <span class="btn-text">    
+    {% endif %}
+    
+        {{ text }}
+    
+    {% if spanText %}
+        </span>
+    {% endif %}
+    
+</a>

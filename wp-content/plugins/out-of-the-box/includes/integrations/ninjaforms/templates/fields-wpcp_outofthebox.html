@@ -1,0 +1,58 @@
+<script id="tmpl-nf-field-wpcp_outofthebox" type="text/template">
+
+    <# if (typeof data.wpcp_outofthebox_shortcode !== 'undefined' ) { #>
+        <div id="OutoftheBox" class="light upload">
+            <div class="OutoftheBox upload" style="width: 100%;">
+                <div class="fileupload-box -is-formfield -is-required -has-files" style="width:100%;max-width:100%;height:unset;">
+                    <!-- FORM ELEMENTS -->
+                    <div class=" fileupload-form">
+                    <!-- END FORM ELEMENTS -->
+
+                        <!-- UPLOAD BOX HEADER -->
+                        <div class="fileupload-header">
+                            <div class="fileupload-header-title">
+                                <div class="fileupload-empty">
+                                    <div class="fileupload-header-text-title upload-add-file"><?php esc_html_e('Add your file', 'wpcloudplugins'); ?></div>
+                                    <div class="fileupload-header-text-subtitle upload-add-folder"><a><?php esc_html_e('Or select a folder', 'wpcloudplugins'); ?></a></div>
+                                </div>
+                            </div>
+                            <div class="fileupload-header-button">
+                                <button class="fileupload-add-button button button-round-icon" type="button" title="<?php esc_html_e('Add your files', 'wpcloudplugins'); ?>" aria-expanded="false"><i class="eva eva-plus-outline eva-lg"></i></button>
+                            </div>
+                        </div>
+                        <!-- END UPLOAD BOX HEADER -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    <# } #>
+
+    <input
+            id="nf-field-{{{ data.id }}}"
+            name="nf-field-{{{ data.id }}}"
+            aria-describedby="nf-error-{{{ data.id }}}"
+            class="{{{ data.renderClasses() }}} nf-element fileupload-filelist fileupload-input-filelist"
+            type="hidden"
+            value="{{{ data.value }}}"
+            aria-labelledby="nf-label-field-{{{ data.id }}}"
+            data-field-id="{{{ data.id }}}"
+            data-container="wpcp-shortcode-nf-container-{{{ data.id }}}"
+            {{{ data.maybeRequired() }}}
+    >
+
+    <# setTimeout(function () {
+        document.querySelectorAll('.fileupload-input-filelist').forEach(function(element) {
+            const containerId = element.getAttribute('data-container');
+            const containerElement = document.getElementById(containerId);
+
+            if (containerElement) {
+                const pluginContainer = containerElement.querySelector('.wpcp-container');
+                
+                if (pluginContainer){
+                    element.parentNode.insertBefore(pluginContainer, element);
+                }
+            }
+        });
+    }); #>
+
+</script>

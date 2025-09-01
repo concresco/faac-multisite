@@ -1,0 +1,164 @@
+name: Deploy FAAC Multisite
+
+on:
+  push:
+    branches: [ main, staging ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    services:
+      mysql:
+        image: mariadb:10.8
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: faac_test
+          MYSQL_USER: faac
+          MYSQL_PASSWORD: faac
+        ports:
+          - 3306:3306
+        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: 8.1
+        extensions: mysqli, gd, curl, zip, mbstring
+        ini-values: post_max_size=256M, upload_max_filesize=256M
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'yarn'
+        cache-dependency-path: wp-content/themes/faac/yarn.lock
+
+    - name: Install WP-CLI
+      run: |
+        curl -O https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/wp-cli.phar
+        chmod +x wp-cli.phar
+        sudo mv wp-cli.phar /usr/local/bin/wp
+
+    - name: Install PHP dependencies
+      run: |
+        cd wp-content/themes/faac
+        composer install --no-dev --optimize-autoloader
+
+    - name: Install and build theme assets
+      run: |
+        cd wp-content/themes/faac
+        yarn install --frozen-lockfile
+        yarn build
+
+    - name: Setup WordPress test environment
+      run: |
+        cp wp-config-template.php wp-config.php
+        sed -i "s/your_database_name/faac_test/g" wp-config.php
+        sed -i "s/your_database_user/faac/g" wp-config.php
+        sed -i "s/your_database_password/faac/g" wp-config.php
+        sed -i "s/127.0.0.1/localhost/g" wp-config.php
+        
+    - name: Run PHP Lint
+      run: find . -name "*.php" -not -path "./vendor/*" -not -path "./wp-admin/*" -not -path "./wp-includes/*" -exec php -l {} \;
+
+    - name: Security Check
+      run: |
+        # Check for sensitive data exposure
+        if grep -r "kt070mn8N0ZA9GUf\|c5b1f92f9deb2718cd40ca7304ac4f38" . --exclude-dir=.git; then
+          echo "ERROR: Sensitive data found in repository!"
+          exit 1
+        fi
+
+  deploy-staging:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/staging'
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Deploy to Staging
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.STAGING_HOST }}
+        username: ${{ secrets.STAGING_USER }}
+        key: ${{ secrets.STAGING_SSH_KEY }}
+        script: |
+          cd /path/to/staging
+          git pull origin staging
+          cd wp-content/themes/faac
+          composer install --no-dev
+          yarn install --production
+          yarn build
+          sudo systemctl reload litespeed
+
+  deploy-production:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    environment: production
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Create deployment backup
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.PROD_HOST }}
+        username: ${{ secrets.PROD_USER }}
+        key: ${{ secrets.PROD_SSH_KEY }}
+        script: |
+          cd /home/runcloud/webapps/FAAC
+          wp db export "memory-bank/backup_deploy_$(date +%Y%m%d_%H%M%S).sql"
+          
+    - name: Deploy to Production
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.PROD_HOST }}
+        username: ${{ secrets.PROD_USER }}
+        key: ${{ secrets.PROD_SSH_KEY }}
+        script: |
+          cd /home/runcloud/webapps/FAAC
+          git pull origin main
+          cd wp-content/themes/faac
+          composer install --no-dev --optimize-autoloader
+          yarn install --production --frozen-lockfile
+          yarn build
+          cd ../../..
+          wp cache flush
+          sudo systemctl reload litespeed
+          
+    - name: Health Check
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.PROD_HOST }}
+        username: ${{ secrets.PROD_USER }}
+        key: ${{ secrets.PROD_SSH_KEY }}
+        script: |
+          # Wait for services to restart
+          sleep 10
+          # Check if sites are responding
+          curl -f https://www.faacentrancesolutions.co.uk/ || exit 1
+          echo "Deployment successful!"
+
+  notify:
+    needs: [deploy-staging, deploy-production]
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+    - name: Notify deployment status
+      if: github.ref == 'refs/heads/main'
+      run: |
+        if [ "${{ needs.deploy-production.result }}" == "success" ]; then
+          echo "Production deployment successful"
+        else
+          echo "Production deployment failed"
+          exit 1
+        fi

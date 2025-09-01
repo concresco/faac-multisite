@@ -1,0 +1,27 @@
+#{$sitename-selector} {
+    @include media-breakpoint-down(lg) {
+        .topbar.dropdown {
+            position: relative;
+            right: 12px;
+        }
+        button#topbar_btn {
+            height: 40px;
+            margin-right: 6px;
+        }
+        .topbar .topbar-list.show {
+            display: block !important;
+            flex-direction: column;
+            transition: height 1s ease-in-out;
+            text-align: right;
+            width: 250px;
+            background-color: $color-grey-dark;
+            padding: 20px 20px 14px 20px;
+            right: 0;
+            top: 45px;
+            left: auto;
+            .nav-item a {
+                margin-bottom: 6px;
+            }
+        }
+    }    
+} 

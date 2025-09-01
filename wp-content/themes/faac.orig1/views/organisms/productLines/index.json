@@ -1,0 +1,71 @@
+{
+    "sectionTitle": "Our product line",
+    "styleSection": "bg-color-milk",
+    "productLines":{
+        "firstRow":[
+            {
+                "lineTitle": "Automatic Doors",
+                "img": "assets/images/product-lines/faac-product-line-01.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "Industrial Doors",
+                "img": "assets/images/product-lines/faac-product-line-02.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "Roller Shutters",
+                "img": "assets/images/product-lines/faac-product-line-03.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "Loading Bay equipment",
+                "img": "assets/images/product-lines/faac-product-line-04.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "High Speed Doors",
+                "img": "assets/images/product-lines/faac-product-line-05.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "Megadoors",
+                "img": "assets/images/product-lines/faac-product-line-06.png",
+                "url": "#"
+            }
+        ],
+        "buttonSecondRow": "Load more products",
+        "secondRow":[
+            {
+                "lineTitle": "Automatic Doors",
+                "img": "assets/images/product-lines/faac-product-line-01.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "Industrial Doors",
+                "img": "assets/images/product-lines/faac-product-line-02.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "Roller Shutters",
+                "img": "assets/images/product-lines/faac-product-line-03.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "Loading Bay equipment",
+                "img": "assets/images/product-lines/faac-product-line-04.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "High Speed Doors",
+                "img": "assets/images/product-lines/faac-product-line-05.png",
+                "url": "#"
+            },
+            {
+                "lineTitle": "Megadoors",
+                "img": "assets/images/product-lines/faac-product-line-06.png",
+                "url": "#"
+            }
+        ]
+    }
+}

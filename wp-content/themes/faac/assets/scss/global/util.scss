@@ -1,0 +1,386 @@
+.ht {
+	&-0 {
+		height: 0;
+	}
+	&-10 {
+		height: 10px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 5px;
+			}
+		}
+	}
+	&-15 {
+		height: 15px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 8px;
+			}
+		}
+	}
+	&-20 {
+		height: 20px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 10px;
+			}
+		}
+	}
+	&-30 {
+		height: 30px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 15px;
+			}
+		}
+	}
+	&-35 {
+		height: 35px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 25px;
+			}
+		}
+	}
+	&-40 {
+		height: 40px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 20px;
+			}
+		}
+	}
+	&-50 {
+		height: 50px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 25px;
+			}
+		}
+	}
+	&-60 {
+		height: 60px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 30px;
+			}
+		}
+	}
+	&-70 {
+		height: 70px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 35px;
+			}
+		}
+	}
+	&-80 {
+		height: 80px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 40px;
+			}
+		}
+	}
+	&-90 {
+		height: 90px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 45px;
+			}
+		}
+	}
+	&-100 {
+		height: 100px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 50px;
+			}
+		}
+	}
+	&-115 {
+		height: 115px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 57px;
+			}
+		}
+	}
+	&-125 {
+		height: 125px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 62px;
+			}
+		}
+	}
+	&-150 {
+		height: 150px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 75px;
+			}
+		}
+	}
+	&-180 {
+		height: 180px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 90px;
+			}
+		}
+	}
+	&-200 {
+		height: 200px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 100px;
+			}
+		}
+	}
+	&-220 {
+		height: 220px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 110px;
+			}
+		}
+	}
+	&-250 {
+		height: 250px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 125px;
+			}
+		}
+	}
+	&-280 {
+		height: 280px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 140px;
+			}
+		}
+	}
+	&-350 {
+		height: 350px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 175px;
+			}
+		}
+	}
+	&-550 {
+		height: 550px;
+		&.adaptive {
+			@include media-breakpoint-down(lg) {
+				height: 275px;
+			}
+		}
+	}
+}
+.release-mobile {
+	&[class*="ht"] {
+		@include media-breakpoint-down(md) {
+			height: auto !important;
+		}
+	}
+}
+.release-tablet {
+	&[class*="ht"] {
+		@include media-breakpoint-down(md) {
+			height: auto !important;
+		}
+	}
+}
+.release-landscape {
+	&[class*="ht"] {
+		@include media-breakpoint-down(lg) {
+			height: auto !important;
+		}
+	}
+}
+
+.full-width {
+	width: 100%;
+
+	&-on-mobile {
+		@include media-breakpoint-down(lg) {
+			width: 100% !important;
+		}
+	}
+}
+
+.full-height {
+	height: 100% !important;
+
+	&-on-mobile {
+		@include media-breakpoint-down(lg) {
+			height: 100% !important;
+		}
+	}
+}
+
+.full-size {
+	width: 100%;
+	height: 100% !important;
+
+	&-on-mobile {
+		@include media-breakpoint-down(lg) {
+			width: 100%;
+			height: 100% !important;
+		}
+	}
+}
+
+.content{
+	p{
+		img.aligncenter{
+			display: block;
+			margin: 10px auto;
+		}
+	}
+}
+
+.z-index {
+	&-10 { z-index: 10 }
+	&-20 { z-index: 20 }
+	&-30 { z-index: 30 }
+	&-40 { z-index: 40 }
+	&-50 { z-index: 50 }
+}
+
+.line-height{
+	&-base  {
+		line-height: $line-height-base !important;
+	}
+	&-reduce{
+		line-height: $line-height-reduced !important;
+	}
+	&-normal{
+		line-height: $line-height-normal !important;
+	}
+	&-expand{
+		line-height: $line-height-expand !important;
+	}
+}
+
+/*	
+*	RULES FOR SETTING A HALF WIDTH CONTAINER
+*/
+    $half-container-fhd: map-get($container-max-widths, fhd) / 2;
+    $half-container-xxl: map-get($container-max-widths, xxl) / 2;
+    $half-container-xl:  map-get($container-max-widths, xl) / 2;
+    $half-container-lg:  map-get($container-max-widths, lg) / 2;
+    $half-container-md:  map-get($container-max-widths, md) / 2;
+    $half-container-sm:  map-get($container-max-widths, sm) / 2;
+
+    .left-half-container{
+        @include media-breakpoint-up(xs){ 
+			max-width: 100%; 
+			position: relative;}
+        
+        @include media-breakpoint-up(sm){ 
+			max-width: $half-container-sm; 
+            float: right; 
+            right: $grid-gutter-width /2;
+            padding-left: $grid-gutter-width * 1.5;
+        }
+        @include media-breakpoint-up(md){ max-width: $half-container-md;}
+        @include media-breakpoint-up(lg){ max-width: $half-container-lg;}
+        @include media-breakpoint-up(xl){ max-width: $half-container-xl;}
+        @include media-breakpoint-up(xxl){ max-width: $half-container-xxl;}
+        @include media-breakpoint-up(fhd){ max-width: $half-container-fhd;}
+		&.sm-none{
+			@include media-breakpoint-down(sm){
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+		&.md-none{
+			@include media-breakpoint-down(md){
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+		&.lg-none{
+			@include media-breakpoint-down(lg){
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+    }
+    .right-half-container{
+        @include media-breakpoint-up(xs){ 
+			max-width: 100%; 
+			position: relative;}
+        
+        @include media-breakpoint-up(sm){ 
+			max-width: $half-container-sm; 
+            float: left;
+            left: $grid-gutter-width /2;
+            padding-right: $grid-gutter-width * 1.5;
+        }
+        @include media-breakpoint-up(md){ max-width: $half-container-md;}
+        @include media-breakpoint-up(lg){ max-width: $half-container-lg;}
+        @include media-breakpoint-up(xl){ max-width: $half-container-xl;}
+        @include media-breakpoint-up(xxl){ max-width: $half-container-xxl;}
+        @include media-breakpoint-up(fhd){ max-width: $half-container-fhd;}
+    }
+    .left-half{
+        left: 0;
+        right: 50%;
+    }
+    .right-half{
+        right: 0;
+        left: 50%;
+    }
+
+/*
+* END A HALF WIDTH CONTAINER RULES
+*/
+
+// PLACEHOLDER DIV
+.logo-placeholder{
+	background-image: url(./../../images/logo-faac-white.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-blend-mode: soft-light;
+	// ADD OPACITY
+	&.op-03{
+		opacity: 0.3;
+	}
+}
+
+// LOGIN - REGISTRATION FORM WITH PROFILE PRESS
+
+#login-form-section,
+.login-form-section{
+	form{
+		border: none !important;
+
+		label,
+		input,
+		p,
+		.ppbs-headline {
+			font-family: $font-family-primary !important;
+		}
+
+		.pp-checkbox-wrap{
+			input[type=checkbox] {
+				//width: 21px;
+				//height: 21px;
+				border: 1px solid $color-grey-cool !important;
+				border-radius: 0 !important;
+			}
+			label{
+				font-size: 15px;
+				line-height: 1;
+				color: $color-grey;
+				margin-top: 3px;
+				font-weight: 400;
+			}
+		}
+	}
+}

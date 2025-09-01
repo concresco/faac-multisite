@@ -1,0 +1,12 @@
+.button.wpcp-insert-dropbox-content,
+.button.wpcp-insert-dropbox-content:hover,
+.button.wpcp-insert-dropbox-content:active,
+.button.wpcp-insert-dropbox-content:focus {
+    float: right;
+    margin-right: 7px;
+    background-image: url("../../../css/images/dropbox_logo.svg");
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    padding-left: 25px;
+    background-size: 1em;
+}

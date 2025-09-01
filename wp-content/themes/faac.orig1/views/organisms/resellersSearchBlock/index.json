@@ -1,0 +1,33 @@
+{
+    "sectionTitle": "Find Resellers",
+    "titleClass": "mb-0",
+    "paragraph": "look for our dealer closest to you, just enter your zip code!",
+    "search_form":{
+        "formId": "resellers_search-cazzi",
+        "formMethod": "POST",
+        "formAction": "",
+        "formClass": "needs-validation border-0",
+        "rows": [
+            {
+                "title": false,
+                "class": "d-flex",
+                "field": {
+                    "type": "text",
+                    "mandatory": true,
+                    "name": "cap",
+                    "placeholder": "insert CAP here",
+                    "label": "insert CAP here"
+                }
+            }
+        ],
+        "submit_Area_Fields": [
+            {
+                "style": "text-center",
+                "type": "submit",
+                "text": "Invia ricerca",
+                "innerStyle": "btn btn-lg btn-primary"
+            }
+        ],
+        "additionalContent": false
+    }
+}

@@ -1,0 +1,92 @@
+{# this data is insert in the flexible content
+	<div class="mb-3">
+	{% if title %}
+		<h2 class="">{{ title }}</h2>
+	{% endif %}
+	{% if preText %}
+		<p class="">{{ preText | raw }}</p>
+	{% endif %}
+</div> #}
+
+<form action="#" {% if formId %} id="{{ formId }}" {% endif %}
+    method="{{ formMethod | default('post') }}"
+    {# {% if submitRecaptcha == 1 %} onsubmit="return submitRecaptcha();" {% endif %} #}
+    {% if upload %} enctype="multipart/form-data" {% endif %}
+    {% if CustomValidationMessages %} novalidate {% endif %}
+    class="{{ formClass }}" data-status="init"
+>
+
+	{% if subjectEmail %}
+		<input type="hidden" name="subjectEmail" id="subjectEmail" value="{{ subjectEmail }}" required>
+	{% endif %}
+
+	{% if sendTo %}
+		<input type="hidden" name="sendTo" id="sendTo" value="{{ sendTo }}" required>
+	{% endif %}
+
+	<div class="ht-30 full-width"></div>
+	{% for row in rows %}
+		{# <fieldset {{ row.disabled ? 'disabled' : '' }}
+		      {{ row.id ? 'id="'~ row.id ~'"' : '' }}
+		    > #}
+		{% if row.title %}
+			<h4 class="">{{ row.title }}</h4>
+		{% endif %}
+		<div class="row {{ row.class }}">
+			{% if row.html %}
+				<div class="{{ row.htmlClass }}">{{ row.html | raw }}</div>
+			{% endif %}
+			{% if row.field %}
+				{% include "components/formField/index.twig" with row.field %}
+			{% elseif row.fields %}
+				{% for field in row.fields %}
+					{% include "components/formField/index.twig" with field %}
+				{% endfor %}
+			{% endif %}
+		</div>
+		{# </div> #}
+		{# </fieldset> #}
+	{% endfor %}
+	{# {% if submitRecaptcha == 1 %}
+	  <div class="ht-20"></div>
+	  <div id="gContainer">
+	    <div class="g-recaptcha" data-sitekey="6LegpDEaAAAAAEbtaNaszukmuCw6AqaWAOgS9uM-"></div>
+	  </div>
+	  {% endif %} #}
+	{% if submit_Area_Fields %}
+
+		<div class="submit-area py-3">
+			<div class="adaptive-wrapper pl-common pr-common">
+				{% for field in submit_Area_Fields %}
+
+					{% include "components/formField/index.twig" with field %}
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+
+	<div class="ty-message text-center alert-success py-3" id="alert-success">
+		<p class="h6 font-bold">{{ thankyou_message | raw }}</p>
+	</div>
+
+</form>
+
+<script>
+jQuery(document).ready(function($) {
+  // $('form#{{ formId }} input[type="submit"]').click(function(){
+	$('#alert-success').hide();
+  $('form#{{ formId }}').submit(function (event) {
+      event.preventDefault();
+      var data = { action:'sendFormMessage', formdata: $('form#{{ formId }}').serialize() };
+      $.post(ajaxPostsUrl, data, function(response) {
+          var return_resp = response.split(" - ");
+          console.log(return_resp[1]);
+		  console.log(response);
+					if(return_resp[0] == 'mail_sent'){
+						$('#alert-success').show();
+						$(this).find("textarea,input,select").val("");
+					}
+      });
+  });
+});
+</script>

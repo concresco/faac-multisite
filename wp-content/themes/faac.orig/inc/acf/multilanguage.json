@@ -1,0 +1,54 @@
+[
+    {
+        "key": "group_629f587b7e226",
+        "title": "Multilanguage",
+        "fields": [
+            {
+                "key": "field_629f629b20e9e",
+                "label": "Language",
+                "name": "language",
+                "type": "checkbox",
+                "instructions": "select all the languages you want to view for site translations",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "UK": "England",
+                    "FR": "France",
+                    "AT": "Austria",
+                    "SI": "Slovenia",
+                    "HU": "Hungary",
+                    "NL": "Holland"
+                },
+                "allow_custom": 0,
+                "default_value": [],
+                "layout": "horizontal",
+                "toggle": 0,
+                "return_format": "array",
+                "save_custom": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-general-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

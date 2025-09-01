@@ -1,0 +1,14 @@
+{
+  "name": "faac-assets",
+  "version": "1.0.0",
+  "description": "Vendor yarn installs",
+  "main": "index.js",
+  "author": "enricocalo <enrico.calo@iaki.it>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "swiper": "^8.1.4"
+  }
+}

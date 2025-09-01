@@ -1,0 +1,63 @@
+{# {% set category = category | default('Lorem Ipsum') %} #}
+{# {% set title = title | default('Lorem Ipsum') %}
+{% set excerpt = excerpt | default('Some quick example text to build on the card title and make up the bulk of the card\'s content') %}
+{% set mediaBreakpoint1 = "(min-width: 768px)" %}
+{% set thumbnail = thumbnail | default({ 'link':true, 'linkEffect':'linear-in alpha', 'src': 'https://picsum.photos/1024/600' }) %}
+{% set readMoreBtn = ({"href":"#", "style":"btn read-more linear-out", "text":"Discover more"}) %} #}
+
+{% set postlink = readMoreBtn.href %}
+{# {% if readMoreBtn.url %}
+  {% set postlink = readMoreBtn.href %}
+{% else %}
+  {% set postLink = postLink %}
+{% endif %} #}
+
+
+{% if thumbnail %}
+  {% if thumbnail.link %}
+  <a href="{{ postlink | default('#') }}"
+      class="{{ thumbnail.linkEffect}} text-decoration-none"
+  >
+  {% endif %}
+
+    <picture class="card-img-top ratio ratio-16x9">
+      <source media="{{ mediaBreakpoint1 }}" srcset="{{ thumbnail.src | resize(480) }}">
+      <img class="" src="{{ thumbnail.src | resize(640) }}" alt="">
+    </picture>
+
+  {% if thumbnail.link %}
+  </a>
+  {% endif %}
+{% endif %}
+<div class="card-body {% if readMoreBtn %}padding-with-btn{% endif %}">
+
+  {% if postlink %}
+  <a href="{{ postlink | default('#') }}" class="text-decoration-none">
+  {% endif %}
+    {% if category %}
+      <p class="category font-primary font-light color-grey">
+        <span class="color-grey-dark">/&nbsp;</span>{{ category }}
+      </p>
+    {% endif %}
+    {% if title %}
+      <h3 class="card-title {{ titleColor | default('color-grey-dark')}} {{ titleClass }} font-primary">{{ title }}</h3>
+    {% endif %}
+    {% if excerpt %}
+      <p class="small card-text">{{ excerpt }}</p>
+    {% endif %}
+    {% if readMoreBtn.text %}
+      {# {% include "components/button/index.twig" with readMoreBtn %} #}
+      <a href="{{ readMoreBtn.href }}" class="{{ readMoreBtn.style }}">
+        {% if readMoreBtn.spanText %}
+        <span class="btn-text">
+        {% endif %}
+          {{ readMoreBtn.text }}      
+          {% if readMoreBtn.spanText %}
+        </span>
+        {% endif %}      
+      </a>
+    {% endif %}
+  {% if postlink %}
+  </a>
+  {% endif %}
+</div>

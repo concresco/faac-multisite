@@ -1,0 +1,8 @@
+{
+	"background": "color-milk",
+	"backgroundImage": "",
+	"kicker": "Lorem ipsum",
+	"kickerStyle": "color-blue text-center",
+	"title": "Lorem ipsum dolor sit amet, <mark>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mark> Ut enim ad minim veniam, quis nostrud exercitation.",
+	"titleColor": "color-blue"
+}

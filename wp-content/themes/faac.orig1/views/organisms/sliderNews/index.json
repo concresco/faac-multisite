@@ -1,0 +1,36 @@
+{
+    "sliderNews":[
+        {
+            "subtitle": "What's news?",
+            "title": "The ultimate hugh speed door",
+            "description": "FAAC RR5000 offers the ultimate in speed, insulation and efficiency. It’s an entrance solution that combines the fast speeds of a high-performance door with the superior thermal performance of a sectional door. So you’ll never have to compromise.",
+            "img": "https: //picsum.photos/1024/600",
+            "buttons":[
+                {
+                    "url": "#",
+                    "text": "Discover more"
+                },
+                {
+                    "url": "#",
+                    "text": "Watch the movie"
+                }
+            ]
+        },
+        {
+            "subtitle": "What's news?",
+            "title": "This is the new speed door",
+            "description": "FAAC RR5000, insulation and efficiency. It’s an entrance solution that combines the fast speeds of a high-performance door with the superior thermal performance of a sectional door. So you’ll never have to compromise.",
+            "img": "https: //picsum.photos/1024/600",
+            "buttons":[
+                {
+                    "url": "#",
+                    "text": "Discover more"
+                },
+                {
+                    "url": "#",
+                    "text": "Watch the movie"
+                }
+            ]
+        }
+    ]
+}

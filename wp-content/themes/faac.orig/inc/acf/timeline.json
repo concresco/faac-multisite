@@ -1,0 +1,223 @@
+[
+    {
+        "key": "group_62b0765d0287e",
+        "title": "Timeline",
+        "fields": [
+            {
+                "key": "field_62b076671f4da",
+                "label": "Timeline",
+                "name": "timeline",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_62b076761f4db",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Timeline \/ Story",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62b076861f4dc",
+                        "label": "Subtitle",
+                        "name": "subtitle",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62b078151f4e2",
+                        "label": "Styles",
+                        "name": "styles",
+                        "type": "text",
+                        "instructions": "Expert users only - CSS classes to modify display",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62b0792a6dde5",
+                        "label": "Selection years text",
+                        "name": "selectText",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "es. Select year",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": 40
+                    },
+                    {
+                        "key": "field_62b076971f4dd",
+                        "label": "Slides",
+                        "name": "slides",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "field_62b076bd1f4de",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "block",
+                        "button_label": "Add Slide",
+                        "sub_fields": [
+                            {
+                                "key": "field_62b076bd1f4de",
+                                "label": "Year",
+                                "name": "year",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 1970,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "min": 1900,
+                                "max": "",
+                                "step": ""
+                            },
+                            {
+                                "key": "field_62b076f61f4df",
+                                "label": "Mini title",
+                                "name": "title",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_62b0770a1f4e0",
+                                "label": "Image",
+                                "name": "img",
+                                "type": "image",
+                                "instructions": "Note: all images chosen for the slider must have the same aspect ratio (recommended: 16\/9)",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "url",
+                                "preview_size": "thumbnail",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": ""
+                            },
+                            {
+                                "key": "field_62b0774a1f4e1",
+                                "label": "Paragraph",
+                                "name": "content",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "35",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "text",
+                                "media_upload": 0,
+                                "toolbar": "full",
+                                "delay": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": false,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

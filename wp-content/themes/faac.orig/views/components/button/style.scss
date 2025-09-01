@@ -1,0 +1,109 @@
+#{$sitename-selector} {
+    /* PERSONAL BUTTONS CLASSES */
+
+    .btn {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+    }
+    /* TRANSITION EFFECT */
+    .linear-out {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: color 150ms ease-in-out;
+
+        &:after {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 100%;
+            background: $color-blue;
+            z-index: -1;
+            transition: width 150ms ease-in-out;
+        }
+
+        &:hover {
+            color: $color-white;
+            &:after {
+                width: 110%;
+            }
+        }
+    }
+    .linear-in {
+        position: relative;
+    
+        &::before, &::after {
+            transition: all 0.15s ease-in;
+            content: '';
+            width: 0%;
+            height: 100%;
+            background: $color-blue;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+        &::before {
+            left: 0;
+        }
+        &::after {
+            right: 0;
+        }
+    
+        .btn-text {
+            position: relative;
+            z-index: 5;
+            color: white;
+        }
+    
+        &:hover {
+            &::before, &::after {
+                background: $color-blue;
+                width: 50%;
+            }
+        }
+        &.alpha{
+            &::before, &::after {
+                opacity: 0.5;
+            }
+        }
+    }
+    .read-more {
+        color: $color-white;
+        background-color: $color-grey-dark;
+        height: 60px;
+        border: none;
+        border-radius: 0;
+        padding: 18px 29px;
+        font-weight: 300;
+        text-decoration: none;
+        display: inline-block;
+
+        //@extend .linear-out;
+        &.large{
+            width: 300px;
+            @include media-breakpoint-down(xl){
+                width: 200px;
+            }
+            @include media-breakpoint-down(md){
+                width: 49%;
+                margin: 0 0.5%;
+            }
+            padding: 18px 10px;
+        }
+    }
+    .btn-white{
+        @extend .read-more;
+        color: $color-grey-dark;
+        background-color: $color-white;
+    }
+    .btn-black, .btn-dark{
+        @extend .read-more;
+        color: $color-white;
+        background-color: $color-grey-dark;
+    }
+}

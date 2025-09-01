@@ -1,0 +1,64 @@
+#{$sitename-selector} {
+	form {
+		padding: $grid-gutter-width;
+		border-left: 1px solid $color-grey-cool;
+		border-right: 1px solid $color-grey-cool;
+		border-top: none;
+		border-bottom: none;
+		border-radius: 0;
+
+		.form-floating {
+			input, select, textarea,
+			.form-control,
+			.form-select {
+				border-radius: 1px;
+				height: calc(2.8rem + 2px);
+				line-height: 1;
+				padding-top: 25px;
+				box-shadow: none;
+				outline: 0;
+				color: $color-grey-cool;
+			}
+			textarea.form-control {
+				height: auto;
+			}
+			label,
+			.form-label{
+				font-size: 0.85rem;
+				color: $color-grey-cool;
+				padding: 16px 25px;
+			}
+		}
+
+		.submit-area{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.form-check{
+				.form-check-input[type=checkbox]{
+					width: 21px;
+					height: 21px;
+					border: 1px solid $color-grey-cool;
+					border-radius: 0;
+				}
+				.form-check-label{
+					font-size: 15px;
+					line-height: 1;
+					color: $color-grey;
+					margin-top: 5px;
+				}
+			}
+		}
+		.submit-form-btn{
+			color: $color-white;
+			background-color: $color-grey-dark;
+			border-radius: 0;
+			border: 0;
+			padding: 17px 70px !important;
+			display: inline-block;
+			font-weight: 300;
+			@extend .linear-out;
+		}
+	}
+}

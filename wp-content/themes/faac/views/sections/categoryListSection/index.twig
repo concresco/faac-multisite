@@ -1,0 +1,28 @@
+<section>
+    <div class="line-section">
+        {# /** remove temporary filter section - 09052023 */ 
+        <div class="container">
+            {% include "components/filtersResult/index.twig" with activeFilter %}
+        </div> 
+        #}
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3 line-down line-left line-sm-right bg-color-milk">
+                {# SIDEBAR WITH FILTER #}
+                {% for el in archiveFilter %}
+                <div class="divider-el {% if not loop.last %}line-down{% endif %} pt-2 pb-4">
+                    {% include "organisms/sidebar/index.twig" with el %}
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col-12 col-md-8 col-lg-9 line-left line-right">
+                {# ARCHIVE LIST #}
+                {% if archiveElement %}
+                    {% include "organisms/categoryList/index.twig" with archiveElement %}
+                {% endif %}
+                
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,88 @@
+<div class="mb-3 {{ style | default('col form-floating') }}">
+{% if type != "textarea" and type != 'checkbox' %}
+  {# TEXT INPUTS #}
+  {% if type == 'text' or type == 'email' or type == 'date' or type == 'password' %}
+    <input type="{{ type }}" name="{{ name }}" id="{{ name }}" class="form-control"
+      {% if helpBlock %}aria-describedby="{{ name }}HelpBlock"{% endif %}
+      placeholder="{{ placeholder | default(' ') }}"
+      {{ mandatory ? "aria-required='true' required" }}
+      {% if value %}value="{{ value }}"{% endif %}
+      {% for attr in attributes %}
+        {{ attr.name ~ "=\"" ~ attr.value ~ "\""  }}
+      {% endfor %}
+    >
+    <label for="{{ name }}" class="form-label {{ innerStyle }}">{{ label }}{{ mandatory ? '*' : '' }}</label>
+    {% if helpBlock %}
+    <div id="{{ name }}HelpBlock" class="form-text">
+      {{ helpBlock.html | raw }}
+    </div>
+    {% endif %}
+  {% elseif type == 'hidden' %}
+    <input type="hidden" name="{{ name }}" id="{{ name }}" value="{{ value }}" {% if mandatory %}required{% endif %}>
+  {# SELECT #}
+  {% elseif type == 'select' %}
+    <select class="form-select {{ innerStyle }}" name="{{ name }}" id="{{ name }}"
+      aria-label="{{ placeholder | default(' ') }}"
+      {{ mandatory ? "aria-required='true' required" }} {# fixme: needs improvement #}
+      {% for attr in attributes %}
+        {{ attr.name ~ "=\"" ~ attr.value ~ "\""  }}
+      {% endfor %}
+    >
+      <option value="">Select</option>
+      {% for o in options %}
+        <option {{ o.selected ? "selected=\"selected\"" : "" }} value="{{ o.value }}">{{ o.text }}</option>
+      {% endfor %}
+    </select>
+    <label for="{{ name }}">{{ label }}{{ mandatory ? '*' : '' }}</label>
+    {% if helpBlock %}
+    <div id="{{ name }}HelpBlock" class="form-text">
+      {{ helpBlock.html | raw }}
+    </div>
+    {% endif %}
+  {# FILE INPUT #}
+  {% elseif type == 'file' %}
+    <label class="form-label" for="{{ name }}">{{ placeholder }}{{ mandatory ? '*' : '' }}</span>
+    </label>
+    <input type="file" class="form-control {{ innerStyle }}" name="{{ name }}" id="{{ name }}"
+      {{ mandatory ? "aria-required='true' required" }} {# fixme: needs improvement #}
+      {% for attr in attributes %}
+        {{ attr.name ~ "=\"" ~ attr.value ~ "\""  }}
+      {% endfor %}
+    />
+    {% if descriptionField %}
+      <p class="{{ descriptionFieldClass | default('text-center text-uppercase smaller mt-2') }}">{{ descriptionField | raw }}</p>
+    {% endif %}
+    {# <span class="filename color-grey h6">&nbsp;{{ filename | default("Nessun file selezionato") }}</span> #}
+  {# Submit Button #}
+  {% elseif type == 'submit' %}
+    <button type="submit" class="submit-form-btn {{ innerStyle }}" id="{{ id }}">
+      <span class="position-relative">{{ text }}</span>
+    </button>
+  {% endif %}
+  {# TEXTAREA #}
+{% elseif type == 'textarea' %}
+  <textarea name="{{ name }}" id="{{ name }}" placeholder="{{ placeholder }}"
+    class="form-control"
+    {% for attr in attributes %}
+      {{ attr.name ~ "=\"" ~ attr.value ~ "\""  }}
+    {% endfor %}
+  ></textarea>
+  <label for="{{ name }}" class="form-label">{{ label }}{{ mandatory ? '*' : '' }}</label>
+  {# CHECKBOX #}
+{% elseif type == 'checkbox' %}
+  <div class="form-check d-lg-flex justify-content-start">
+    <input class="form-check-input {{ innerStyle }} d-inline-block ps-2" type="checkbox" id="{{ id ? id:name }}"
+      {% if name %}name="{{ name }}"{% endif %} {{ mandatory ? "aria-required='true' required" }}
+      {% if checked %}checked=""{% endif %} {% if value %}value="{{ value }}"{% endif %}
+    >
+    <label class="form-check-label d-inline-block ps-2" for="{{ name }}" style="text-align: start; width: 99%">
+      {{ label | raw }}
+    </label>
+  </div>
+  {# HTML #}
+{% elseif type == 'raw' %}
+  <div class="{{ style }}">
+    {{ value | raw }}
+  </div>
+{% endif %}
+</div>

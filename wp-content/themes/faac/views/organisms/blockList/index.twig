@@ -1,0 +1,13 @@
+{#
+# CLONE COMPONENTS FROM categoryList 
+#}
+
+<section class="block-list">
+    <div class="row">
+        {% for item in list %}
+            <div class="single-list col-12 col-sm-6 col-md-4 col-xl-3">
+                {% include "components/archiveBox/index.twig" with item %}
+            </div>
+        {% endfor %}
+    </div>
+</section>

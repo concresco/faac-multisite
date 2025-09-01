@@ -1,0 +1,33 @@
+{% set alignmentClass = alignmentClass | default('text-start') %}
+
+{% set titleClass = titleClass %}
+
+
+<div class="titling {{ alignmentClass }}">
+    {% if breadcrumbs %}
+        <div class="breadcrumbs mb-3">
+            <h6 class="color-blue">
+                {% for item in breadcrumbs %}
+                    {% if item.url %}
+                        <a href="{{ item.url }}">
+                        {% endif %}
+                        <span class="color-blue">{{ item.text }}{{ loop.last ? "" : " \\ "}}</span>
+                        {% if item.url %}
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </h6>
+        </div>
+    {% endif %}
+
+    {% if pageTitle %}
+        <h1 class="page-title {{ titleClass }}">{{ pageTitle }}</h1>
+    {% elseif title %}
+        <h2 class="h1 {{ titleClass }}">{{ title }}</h1>        
+    {% endif %}
+    {% if paragraph %}
+        <div class="{{ paragraphClass }}">
+            {{ paragraph }}
+        </div>
+    {% endif %}
+</div>

@@ -1,0 +1,11 @@
+<section class="emphasized bg-{{ background | default('color-white') }} {{ backgroundImage | default('') }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1 p-3 p-xl-4">
+        <h5 class="section-kicker {{ kickerStyle | default('text-center') }}">{{ kicker }}</h5>
+        <div class="ht-50 adaptive"></div>
+        <h2 class="alt-title {{ titleColor | default('color-gray') }} {{ titleStyle | default('text-center') }}">{{ title | raw }}</h2>
+      </div>
+    </div>
+  </div>
+</section>

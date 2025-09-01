@@ -1,0 +1,113 @@
+
+.line{
+    &-up{
+        border-top: 1px solid $color-grey-cool;
+    }
+    &-down{
+        border-bottom: 1px solid $color-grey-cool;
+    }
+    &-section{
+        border-bottom: 1px solid $color-grey-cool;
+        border-top: 1px solid $color-grey-cool;
+    }
+    &-left{
+        border-left: 1px solid $color-grey-cool;
+    }
+    &-right{
+        border-right: 1px solid $color-grey-cool;
+    }
+    &-side{
+        border-right: 1px solid $color-grey-cool;
+        border-left: 1px solid $color-grey-cool;
+    }
+    @include media-breakpoint-down(lg){
+        &-lg-up {
+            border-top: 1px solid $color-grey-cool;
+        }
+
+        &-lg-down {
+            border-bottom: 1px solid $color-grey-cool;
+        }
+
+        &-lg-section {
+            border-bottom: 1px solid $color-grey-cool;
+            border-top: 1px solid $color-grey-cool;
+        }
+
+        &-lg-left {
+            border-left: 1px solid $color-grey-cool;
+        }
+
+        &-lg-right {
+            border-right: 1px solid $color-grey-cool;
+        }
+        &-lg-side {
+            border-right: 1px solid $color-grey-cool;
+            border-left: 1px solid $color-grey-cool;
+        }
+    }
+    @include media-breakpoint-down(md){
+        &-md-up {
+            border-top: 1px solid $color-grey-cool;
+        }
+
+        &-md-down {
+            border-bottom: 1px solid $color-grey-cool;
+        }
+
+        &-md-section {
+            border-bottom: 1px solid $color-grey-cool;
+            border-top: 1px solid $color-grey-cool;
+        }
+
+        &-md-left {
+            border-left: 1px solid $color-grey-cool;
+        }
+
+        &-md-right {
+            border-right: 1px solid $color-grey-cool;
+        }
+        &-md-side {
+            border-right: 1px solid $color-grey-cool;
+            border-left: 1px solid $color-grey-cool;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        &-sm-up {
+            border-top: 1px solid $color-grey-cool;
+        }
+
+        &-sm-down {
+            border-bottom: 1px solid $color-grey-cool;
+        }
+
+        &-sm-section {
+            border-bottom: 1px solid $color-grey-cool;
+            border-top: 1px solid $color-grey-cool;
+        }
+
+        &-sm-left {
+            border-left: 1px solid $color-grey-cool;
+        }
+
+        &-sm-right {
+            border-right: 1px solid $color-grey-cool;
+        }
+    }
+}
+.dropdown-toggle{
+    &::after{
+        content: "\e806" !important;
+        font-family: $font-family-icons;
+        border: 0 !important;
+        font-size: 0.4rem;
+    }
+    &.right{
+        &::after{
+            content: "\e800" !important;
+            font-family: $font-family-icons;
+            border: 0 !important;
+            font-size: 0.4rem;
+        }
+    }
+}

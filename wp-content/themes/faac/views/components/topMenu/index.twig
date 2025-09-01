@@ -1,0 +1,14 @@
+<div class="topbar navbar navbar-dark ms-lg-1 dropdown">
+  <button class="btn btn-topbar dropdown-toggle" 
+    type="button" id="topbar_btn" data-bs-toggle="dropdown" aria-expanded="false">
+    Contact
+  </button>
+  <ul class="topbar-list d-lg-flex full-width justify-content-between dropdown-menu" aria-labelledby="topbar_btn">
+    {% for item in topMenu %}
+      <li class="nav-item">{# class: active #}
+        <a class="nav-link font-primary {{ item.active ? 'active' : '' }}" aria-current="page" 
+            href="{{ item.url }}">{{ item.text }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

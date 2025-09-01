@@ -1,0 +1,28 @@
+<div class="list-single-box px-2 py-3">
+    {% if deepen.link %}
+    <a href="{{ deepen.link|default('#') }}">
+    {% endif %}
+        <div class="list-image-wrapper ratio ratio-1x1 bg-color-blue">
+            {% if thumbnail %}
+            <img src="{{ thumbnail }}" alt="{{ title }}" class="">
+            {% else %}
+                <div class="logo-placeholder op-03"></div>                    
+            {% endif %}
+        </div>
+    {% if deepen.link %}
+    </a>
+    {% endif %}
+    <h5 class="color-grey-dark">{{ title }}</h5>
+    <div class="excerpt">{{ (excerpt|length > 80 ? excerpt|slice(0, 80) ~ '...' : excerpt) }}</div>
+
+    
+    {% if deepen.link %}
+    <div class="deepen">
+        <a href="{{ deepen.link|default('#') }}" class="deepen-btn">
+            {{ deepen.text|default('Explore category')}}
+            <i class="icon-right"></i>
+        </a>
+    </div>
+    {% endif %}
+
+</div>

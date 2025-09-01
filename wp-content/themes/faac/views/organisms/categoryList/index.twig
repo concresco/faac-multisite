@@ -1,0 +1,9 @@
+<section class="archive-list">
+    <div class="row">
+        {% for item in list %}
+            <div class="single-list col-12 col-md-6 col-xl-4">
+                {% include "components/archiveBox/index.twig" with item %}
+            </div>            
+        {% endfor %}
+    </div>
+</section>

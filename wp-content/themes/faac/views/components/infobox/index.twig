@@ -1,0 +1,25 @@
+{# 
+{% set over_title = over_title | default("Wha'ts the news?") %}
+{% set title = title | default("Contact us and we'll design your solution") %}
+{% set content = content | default("contact us from monday at thunsday <br>tel (0039)02 123456789") %}
+{% set cta = ({"text": "Go to the form"}) %}
+#}
+
+<div class="info-box {{ boxClass }} {% if small %}small{% endif %}{% if cta %} pb-cta{% endif %}">
+
+	{% if title_group and title_group.over_title %}
+		<h4 class="{% if small %}h6 mb-0{% endif %}">{{ title_group.over_title | raw }}</h4>
+	{% endif %}
+
+	{% if title_group and title_group.title %}
+		<h3 class="{% if small %}h5{% endif %}">{{ title_group.title | raw }}</h3>
+	{% endif %}
+
+	{% if content %}
+		<div class="content">{{ content | raw }}</div>
+	{% endif %}
+
+	{% if cta.text %}
+		{% include "components/button/index.twig" with cta %}
+	{% endif %}
+</div>

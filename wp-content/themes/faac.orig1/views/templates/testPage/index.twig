@@ -1,0 +1,25 @@
+{% extends "templates/base/index.twig" %}
+{% import "macros.twig" as macros %}
+{% block content %}
+  <div class="ht-250"></div>  
+    {# {{ macros.showcase("Base elements", "templates/base/index.twig", {}) }}
+    {{ macros.showcase("Buttons", "components/button/index.twig", {}) }} #}
+  
+    {% if emphasized %}
+      {{ macros.showcase("Emphasized", "components/emphasized/index.twig", emphasized) }}
+    {% endif %}
+  
+    {{ macros.showcase("News", "organisms/newsList/index.twig", news) }}
+    {{ macros.showcase("video gallery info", "components/videoGallery/index.twig", videoGallery) }}
+  
+  {% if formdata %}
+    {{ macros.showcase("Form", "organisms/form/index.twig", formdata) }}
+  {% endif %}
+  
+  {# {% set productLinesSection = productLinesSection | merge ({"baseUrl": baseUrl}) %} #}
+
+    {{ macros.showcasefull("News Slider", "organisms/sliderNews/index.twig", sliderNews) }}
+    {{ macros.showcase("Card", "sections/cardsSection/index.twig", cardsSection) }}
+    {{ macros.showcase("Info Boxes", "organisms/infoBoxes/index.twig", infoBoxes) }}
+    
+{% endblock %}

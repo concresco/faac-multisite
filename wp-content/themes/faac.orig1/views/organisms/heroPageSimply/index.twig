@@ -1,0 +1,44 @@
+<section class="hero-page-simply">
+    {% if post.thumbnail and post.thumbnail.src is not null %}
+    <div class="hero-image-simply"
+        style="background-image: url({{ post.thumbnail.src }})"
+    >
+    {% endif %}
+        <div class="container title-content">
+            <div class="row mb-4">
+                <div class="col-xs-12 col-md-12 col-xl-9">
+                    <div class="breadcrumbs mb-3">
+                        {% if breadcrumbs %}
+                        <h6 class="color-white">
+                            {% set breadurl = '' %}
+                            {% for item in breadcrumbs %}
+                                {# {% set breadurl = breadurl ~ '/' ~ item.text|lower|replace({' ':'-'})  ~ '/' %} #}
+                                {% set breadurl = breadurl ~ '/' ~ item.slug  ~ '/' %}
+                                {# {% if item.url %} #}
+                                {# <a href="{{ item.url }}"> #}
+                                <a href="{{ breadurl|replace({'//': '/'}) }}">
+                                {# {% endif %} #}
+                                    <span class="color-white">{{ item.text }}{{ loop.last ? "" : " \\ "}}</span>
+                                {# {% if item.url %} #}
+                                </a>
+                                {# {% endif %} #}
+                            {% endfor %}
+                        </h6>
+                        {% endif %}
+                    </div>
+                    <h1 class="color-white">{{ post.title }}</h1>
+                    {% if post.subtitle and post.subtitle is not null %}
+                        <h5 class="color-white">{{ post.subtitle}}</h5>
+                    {% endif %}
+                    {% if post.excerpt and post.excerpt is not null %}
+                        <div class="post-excerpt color-white">
+                            {{ post.excerpt | wpautop }}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% if post.thumbnail and post.thumbnail.src is not null %}
+    </div>
+    {% endif %}
+</section>

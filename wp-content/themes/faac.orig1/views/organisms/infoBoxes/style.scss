@@ -1,0 +1,42 @@
+.info-box{
+    padding: 35px 35px 35px 29px;
+    position: relative;
+    height: 435px;
+
+    .content{
+        p{
+            font-size: 0.90rem;
+        }
+    }
+    .btn.read-more{
+        position: absolute;
+        bottom: 35px;
+    }
+
+    &.small{
+        height: 217px;
+
+        h3{
+            color: $color-grey-dark;
+        }
+    }
+    @include media-breakpoint-down(xl){
+        h4{
+            font-size: 1.5rem !important;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        height: auto;
+        .btn.read-more{
+            position: relative;
+            bottom: unset;
+        }
+    }
+    &.height-auto{
+        height: auto;
+
+        &.pb-cta{
+            padding-bottom: 100px;
+        }
+    }
+}

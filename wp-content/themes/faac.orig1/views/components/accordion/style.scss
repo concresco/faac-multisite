@@ -1,0 +1,134 @@
+#accordion_information{
+    .accordion-item{
+        padding: 0;
+        border-radius: 0;
+        border-top: 0;
+        border-bottom: 0;
+        border-left: 1px solid $color-grey-cool;
+        border-right: 1px solid $color-grey-cool;
+
+        $accordion-pad: 42px;
+
+        .accordion-header{
+            padding: 0;
+            .accordion-button{
+                border-radius: 0;
+                padding: $accordion-pad !important;
+                line-height: 1;
+                height: auto;
+
+                &:not(.collapsed){
+                    background-color: $color-milk;
+                    border-bottom: 1px solid $color-grey-cool;
+                    color: $color-grey-dark;
+                    &::after{
+                        transform: rotate(180deg);
+                    }
+                }
+                &:focus{
+                    box-shadow: none;
+                }
+                &::after{
+                    content: '\e806'; // icon arrow down
+                    font-family: $font-family-icons;
+                    font-size: 9px;
+                    background: none;
+                    width: auto;
+                    height: auto;
+                }
+            }
+        }
+        .accordion-collapse{
+            &.show{
+                background-color: $color-milk;
+            }
+            .accordion-body{
+            padding: $accordion-pad;
+
+                p{
+                    font-size: 0.9rem;
+                    line-height: 1.4;
+                }
+                ul{
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0;
+                    li{
+                        width: 35%;
+                        margin-right: 12%;
+                        margin-left: 20px;
+                        margin-bottom: 15px;
+                        color: $color-grey;
+                        font-weight: 300;
+
+                        @include media-breakpoint-down(lg){
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .list {
+                    position: relative;
+                    border-bottom: 1px solid $color-grey-cool;
+
+                    @include media-breakpoint-up(xl) {
+                        &:not(:nth-child(4n)) {
+                            border-right: 1px solid $color-grey-cool;
+                        }
+                    }
+
+                    @include media-breakpoint-up(md) {
+                        min-height: 500px;
+                    }
+
+                    @include media-breakpoint-between(md, xl) {
+                        &:not(:nth-child(2n)) {
+                            border-right: 1px solid $color-grey-cool;
+                        }
+                    }
+                }
+                .ekr-techdata-table {
+                    border-collapse: collapse;
+                    width: 100%;
+                    border: 1px !important;
+                    font-family: Arial, sans-serif; /* Adatta il font secondo necessità */
+                }
+        
+                /* Stile delle celle e delle intestazioni */
+                .ekr-techdata-table th, .ekr-techdata-table td {
+                    border: 1px solid #ddd; /* Bordo delle celle */
+                    padding: 8px;
+                    text-align: left;
+                }
+        
+                /* Stile dell'intestazione della tabella */
+                .ekr-techdata-table th {
+                    background-color: #666666; /* Grigio più scuro per le intestazioni */
+                    color: white; /* Colore del testo */
+                    font-weight: bold; /* Testo in grassetto */
+                }
+
+                .ekr-techdata-table th p{
+                    color: white; /* Colore del testo */
+                    font-weight: bold; /* Testo in grassetto */
+                }
+        
+                /* Stile per le righe pari (se necessario) */
+                .ekr-techdata-table tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+        
+                /* Stile per il mouse hover sulle righe (opzionale) */
+                .ekr-techdata-table tr:hover {
+                    background-color: #ddd;
+                }
+        
+                /* Stile del testo all'interno della tabella */
+                .ekr-techdata-table p {
+                    margin: 0; /* Rimuove margini extra intorno ai paragrafi */
+                }
+            }
+
+        }
+    }
+}

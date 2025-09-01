@@ -1,0 +1,26 @@
+<section class="{{ sectionBg | default('double-bg-color-blue') }} py-5 overflow-hidden activities-slider-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-11 col-xl-10 {{ alignTitling | default('text-start') }}">
+                {% if activities_section_title %}
+                    <h2 class="{{ activities_title_color | default('color-white')}} mb-0">
+                        {{ activities_section_title }}
+                    </h2>
+                {% endif %}
+                {% if activities_section_description %}
+                    <p class="{{ activities_description_color | default('color-white')}} mb-2">
+                        {{ activities_section_description }}
+                    </p>
+                {% endif %}
+            </div>
+            <div class="col-12 position-relative mt-2">
+                {% include "organisms/miniCardSlider/index.twig" with activitiesSlider %}
+            </div>
+            {% if add_description %}
+            <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto mt-5 pt-2">
+                {{ postDescription | raw }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+[Unit]
+Description=Cursor IDE Server
+After=network.target
+
+[Service]
+Type=simple
+User=adin
+Environment=NODE_OPTIONS="--max-old-space-size=512 --expose-gc"
+Environment=NODE_ENV=production
+ExecStart=/home/adin/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/node /home/adin/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/out/server-main.js
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

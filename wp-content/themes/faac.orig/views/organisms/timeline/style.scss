@@ -1,0 +1,63 @@
+#{$sitename-selector} {
+    .timeline {
+        select {
+            border-radius: 1px;
+            height: calc(2.8rem + 2px);
+            line-height: 1;
+            padding-top: 10px;
+            height: 49px;
+            background-color: white;
+            border: 1px solid $color-blue;
+            width: 190px;
+            text-align: center;
+            color: $color-blue;
+        }
+        .swiper {
+            width: 90vw;
+            @include media-breakpoint-down(md) {
+                width: 100vw;
+            }
+            .swiper-slide {
+                p {
+                    @include media-breakpoint-down(md) {
+                        font-size: 1.2rem;
+                        line-height: 1.4rem;
+                    }
+                }
+            }
+        }        
+        overflow-x:hidden;
+        .navigation {
+            pointer-events: all;
+            .slider-prev, .slider-next {
+                cursor: pointer;
+            }
+            @include media-breakpoint-down(lg) {
+                transform: none;
+            }
+        }
+        .time-line-bar {
+            height: 25px;
+            &:before {
+                width: 25px;
+                height: 25px;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                border-radius: 50%;
+                border: 7px solid $color-blue;
+                background-color: white;
+                position: absolute;
+                content: '';
+            }
+            hr {
+                position: relative;
+                z-index: 0;
+                height: 3px;
+                color: $color-blue;
+                top: 11px;
+                opacity: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+// Put components style first then bigger pattern styles so that the latter ones take precedence
+/*
+Theme Name: FAAC Theme
+Theme URI: 
+Description:  
+Author: IAKI srl
+Author URI: 
+License: GNU General Public License v2 or later 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Template: FAAC
+*/
+@import "./components/animations/style.scss";
+@import "./components/accordion/style.scss";
+@import "./components/archiveBox/style.scss";
+@import "./components/emphasized/style.scss";
+@import "./components/button/style.scss";
+@import "./components/filtersResult/style.scss";
+@import "./components/homeSlider/style.scss";
+@import "./components/simplySlider/style.scss";
+@import "./components/simplyProductsSlider/style.scss";
+@import "./components/textBoxWithBg/style.scss";
+@import "./components/topMenu/style.scss";
+@import "./components/videoGallery/style.scss";
+@import "./organisms/header/style.scss";
+@import "./organisms/footer/style.scss";
+@import "./components/newsSlideView/style.scss";
+@import "./components/expandedTextContent/style.scss";
+@import "./organisms/archiveList/style.scss";
+@import "./organisms/form/style.scss";
+@import "./organisms/heroPage/style.scss";
+@import "./organisms/heroPageSimply/style.scss";
+@import "./organisms/timeline/style.scss";
+@import "./organisms/card/style.scss";
+@import "./organisms/infoBoxes/style.scss";
+@import "./organisms/productLines/style.scss";
+@import "./organisms/productMainInfo/style.scss";
+@import "./organisms/sidebar/style.scss";
+@import "./organisms/sliderNews/style.scss";
+@import "./sections/activitiesSliderHome/style.scss";

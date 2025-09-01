@@ -1,0 +1,11 @@
+{% extends "templates/base/index.twig" %}
+
+{% block content %}
+
+{% include "organisms/heroPost/index.twig" %}
+
+<section class="the-content">
+  {% include "components/htmlBlock/index.twig" with content %}
+</section>
+
+{% endblock %}

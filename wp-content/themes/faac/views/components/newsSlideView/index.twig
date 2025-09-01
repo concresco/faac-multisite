@@ -1,0 +1,35 @@
+{# set default value #}
+{# {% set subtitle = subtitle | default('What\'s news?') %}
+{% set title = title | default('The ultimate hugh speed door') %}
+{% set description = description | default('FAAC RR5000 offers the ultimate in speed, insulation and efficiency. It’s an entrance solution that combines the fast speeds of a high-performance door with the superior thermal performance of a sectional door. So you’ll never have to compromise.') %}
+{% set buttons = ([{"url": "#","text":"Discover more"},{"url": "#","text":"Watch the movie"}]) %}
+{% set img = 'https://picsum.photos/1024/600' %} #}
+
+<div class="news-sigle-slide">
+    <div class="row">
+        <div class="col-12 col-lg-6 mb-3">
+            <div class="text">
+                <h5 class="subtitle-news me-lg-1">{{ subtitle }}</h5>
+                <h3 class="h2 me-lg-1">{{ title | raw }}</h3>
+                <p class="small me-lg-1">{{ description | raw }}</p>
+                {% if buttons %}
+                <div class="buttons">
+                    {% for button in buttons %}
+                        <a href="{{ button.url }}" class="btn read-more large linear-out mx-0 mx-lg-1">{{ button.text }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 mb-3 position-relative">
+            <div class="img-news ratio ratio-16x9">
+                <img class="" src="{{ img }}" alt="{{ title }}">
+            </div>
+            {% if caption %}
+                <div class="caption">
+                    <p class="small m-0">{{ caption | raw }}</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

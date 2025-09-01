@@ -1,0 +1,38 @@
+@use "sass:map";
+
+$colors: (
+	"grey": 		#5f696e,
+	"grey-dark":	#16191A,
+	"grey-cool":	#9BAAAF,
+	"white": 		#FFFFFF,
+	"milk": 		#FDFAFA,
+	"green": 		#60C3AC,
+	"blue-light":	#75D0E9,
+	"ice-blue": 	#EFF6FA,
+	"blue": 		#00577D,
+);
+$color-grey: map.get($colors, "grey");
+$color-grey-dark: map.get($colors, "grey-dark");
+$color-grey-cool: map.get($colors, "grey-cool");
+$color-white: map.get($colors, "white");
+$color-milk: map.get($colors, "milk");
+$color-green: map.get($colors, "green");
+$color-blue-light: map.get($colors, "blue-light");
+$color-ice-blue: map.get($colors, "ice-blue");
+$color-blue: map.get($colors, "blue");
+
+#{$sitename-selector} {
+	@each $color, $value in $colors {
+		.color-#{$color} { color: $value; }
+		.color-#{$color}-important { color: $value !important; }
+		.bg-color-#{$color} { background-color: $value; }
+		.border-color-#{$color} { border-color: $value; }
+	}
+
+
+
+	.double-bg-color-blue{
+		background: rgb(0, 87, 125);
+			background: linear-gradient(180deg, rgba(0, 87, 125, 1) 0%, rgba(0, 87, 125, 1) 50%, rgba(255, 255, 255, 0.0032387955182072714) 50%, rgba(255, 255, 255, 0) 100%);
+	}
+}

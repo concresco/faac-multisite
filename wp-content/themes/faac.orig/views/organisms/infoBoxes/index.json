@@ -1,0 +1,32 @@
+{
+    "equal": true,
+    "boxes":[
+        {
+            "overTitle": "Contact us",
+            "_title": "Contact us and we'll design your solution",
+            "content": "<b>Please use this form if you need assistance or advice from us.</b><br>For matters related to service or of a more urgent nature, please use our service form or call service directly on 0845 450 4633.",
+            "cta":{
+                "url": "#",
+                "text": "Go to the form"
+            }
+        },
+        {
+            "overTitle": "Need Assistance?",
+            "_title": "Here's your fast lane",
+            "content": "<b>Please use this form if you need assistance or advice from us.</b><br>For matters related to service or of a more urgent nature, please use our service form or call service directly on 0845 450 4633.",
+            "cta": {
+                "url": "#",
+                "text": "Go to the form"
+            }
+        },
+        {
+            "overTitle": "Have your sayas",
+            "_title": "Out doors are open",
+            "content": "<b>Lorem ipsum dolor sit amet, or advice from us.</b> For matters related to service or of a more urgent nature, please use our service.",
+            "cta": {
+                "url": "#",
+                "text": "Go to the form"
+            }
+        }
+    ]
+}

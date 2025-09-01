@@ -1,0 +1,141 @@
+{% for item in flexibleContent %}
+
+	{# SIMPLY HTML EDITOR LAYOUT #}
+	{% if item.acf_fc_layout == "simply_html_layout" %}
+		<section class="simply-html-block">
+			{% include "components/htmlBlock/index.twig" with item.simply_html_block %}
+		</section>
+	{% endif %}
+
+	{# MULTIBOX LAYOUT #}
+	{% if item.acf_fc_layout == "multibox_layout" %}
+		<section class="multibox-block">
+			{% include "sections/multiBoxRepeter/index.twig" with { "flex_multibox" : item.flex_multibox} %}
+		</section>
+	{% endif %}
+
+	{# ACCORDION LAYOUT #}
+	{% if item.acf_fc_layout == "accordion_layout" %}
+		<section class="accordion-section my-4">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="ht-80 adaptive"></div>
+							{% include "components/titling/index.twig" with item.accordion_title %}
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						{% include "components/accordion/index.twig" with ({"accordion" : item.accordion_object}) %}
+					</div>
+				</div>
+			</div>
+		</section>
+	{% endif %}
+
+	{# THREE CARD LAYOUT #}
+	{% if item.acf_fc_layout == "cards_layout" %}
+		<section class="cards-layout">
+			<div class="container">
+				<div class="ht-100 adaptive"></div>
+				{% include "sections/cardsSection/index.twig" with item.cards_section %}
+				<div class="ht-100 adaptive"></div>
+
+			</div>
+		</section>
+	{% endif %}
+
+	{# TEXT BLOCK WITH IMG IN BG LAYOUT #}
+	{% if item.acf_fc_layout == "text_block_with_bg_image_layout" %}
+		{% include "components/textBoxWithBg/index.twig" with item.text_block_with_bg_image %}
+	{% endif %}
+
+	{# SLIDER NEWS LAYOUT #}
+	{% if item.acf_fc_layout == "slider_news_layout" %}
+		<section class="slider_news_layout">
+			<div class="container-fluid my-3 line-down">
+				<div class="row">
+					<div class="col-12">
+						{% include "organisms/sliderNews/index.twig" with {"sliderNews" : item.sliderNews} %}
+					</div>
+				</div>
+			</div>
+		</section>
+	{% endif %}
+
+	{# PRODUCT LINE SECTION LAYOUT #}
+	{% if item.acf_fc_layout == "product_lines_layout" %}
+<section class="product-lines-section {{ item.productLinesSection.styleSection }}">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						{# {% set item.productLinesSection = item.productLinesSection | merge ({"baseUrl": baseUrl}) %} #}
+						{% include "organisms/productLines/index.twig" with item.productLinesSection %}
+					</div>
+				</div>
+			</div>
+		</section>
+	{% endif %}
+
+
+	{# CONTACT FORM LAYOUT #}
+	{% if item.acf_fc_layout == "form_layout" %}
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="mb-3">
+							{% if item.formdata.title %}
+								<h2 class="">{{ item.formdata.title }}</h2>
+							{% endif %}
+							{% if item.formdata.preText %}
+								<p class="">{{ item.formdata.preText | raw }}</p>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="form-layout line-section">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							{% include "organisms/form/index.twig" with item.formdata %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{% if item.formdata.postText %}
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="my-3">
+								{% if item.formdata.postText %}
+									<p class="text-center">{{ item.formdata.postText | raw }}</p>
+								{% endif %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		{% endif %}
+	{% endif %}
+
+	{# RESELLERS SEARCH SECTION LAYOUT #}
+	{% if item.acf_fc_layout == "reseller_layout" %}
+		{% include "organisms/resellersSearchBlock/index.twig" with item.resellers_search %}
+	{% endif %}
+	
+	{# EMPTY SPACE LAYOUT #}
+	{% if item.acf_fc_layout == "empty_space" %}
+		<div class="ht-40 adaptive"></div>
+	{% endif %}
+
+{% endfor %}

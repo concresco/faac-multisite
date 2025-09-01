@@ -1,0 +1,3226 @@
+# Translation of Plugins - Yoast SEO - Stable (latest release) in Hungarian
+# This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-24 09:56:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: hu\n"
+"Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#: src/integrations/support-integration.php:107 js/dist/support.js:1
+msgid "Support"
+msgstr "Támogatás"
+
+#: src/integrations/academy-integration.php:111 js/dist/academy.js:3
+msgid "Academy"
+msgstr "Akadémia"
+
+#: src/presenters/admin/indexing-notification-presenter.php:93
+msgid "It looks like you've enabled media pages. We recommend that you help us to re-analyze your site by running the SEO data optimization. "
+msgstr "Úgy tűnik, engedélyezte a médiaoldalakat. Javasoljuk, hogy segítsen nekünk webhelye újraelemzésében a SEO adatoptimalizálás futtatásával. "
+
+#: admin/views/class-yoast-feature-toggles.php:210 js/dist/new-settings.js:288
+msgid "Learn more"
+msgstr "További információ"
+
+#: admin/class-yoast-form.php:912
+msgid "Unlock with Premium!"
+msgstr "Feloldás Prémiummal!"
+
+#: src/helpers/first-time-configuration-notice-helper.php:68
+msgid "SEO configuration"
+msgstr "SEO beállítások"
+
+#: src/integrations/admin/crawl-settings-integration.php:193
+msgid "Feed crawl settings"
+msgstr "Hírforrás feltérképezési beállítások"
+
+#: src/integrations/admin/crawl-settings-integration.php:191
+msgid "Basic crawl settings"
+msgstr "Alapvető feltérképezési beállítások"
+
+#: admin/pages/network.php:25 admin/views/tabs/network/crawl-settings.php:19
+msgid "Crawl settings"
+msgstr "Feltérképezési beállítások"
+
+#: src/integrations/admin/first-time-configuration-integration.php:126
+msgid "First-time configuration"
+msgstr "Első beállítás"
+
+#: src/integrations/admin/import-integration.php:105
+msgid "Clean up"
+msgstr "Takarítás"
+
+#: src/integrations/admin/import-integration.php:96
+msgid "Note: "
+msgstr "Megjegyzés:"
+
+#: src/integrations/admin/import-integration.php:98
+msgid "Select SEO plugin"
+msgstr "SEO bővítmény kiválasztása"
+
+#: src/integrations/admin/installation-success-integration.php:104
+msgid "Installation Successful"
+msgstr "Sikeres telepítés"
+
+#: src/config/schema-types.php:131
+msgid "Blog Post"
+msgstr "Blogbejegyzés"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#. translators: 1: Yoast WooCommerce SEO
+#: src/integrations/admin/workouts-integration.php:309
+#: js/dist/integrations-page.js:13
+msgid "Activate %s"
+msgstr "%s aktiválása"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:303
+msgid "Update %s"
+msgstr "%s frissítése"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:296
+msgid "Renew %s"
+msgstr "%s megújítása"
+
+#: src/integrations/admin/workouts-integration.php:238
+msgid "Get help activating your subscription"
+msgstr "Segítség az előfizetés aktiválásához"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:228
+msgid "Activate your subscription of %s"
+msgstr "%s előfizetés aktiválása"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:216
+msgid "Update to the latest version of %s"
+msgstr "Frissítés a %s legfrissebb verziójára"
+
+#: src/integrations/admin/workouts-integration.php:209
+msgid "Renew your subscription"
+msgstr "Előfizetés megújítása"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:199
+msgid "Renew your subscription of %s"
+msgstr "%s előfizetés megújítása"
+
+#: inc/class-wpseo-replace-vars.php:1498
+msgid "Current or first category title"
+msgstr "Jelenlegi vagy első kategória címe"
+
+#: inc/class-wpseo-replace-vars.php:1498
+msgid "Category Title"
+msgstr "Kategória címe"
+
+#: inc/class-wpseo-replace-vars.php:1497
+msgid "Replaced with the post content"
+msgstr "A bejegyzés tartalmával helyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1497
+msgid "Post Content"
+msgstr "Bejegyzés tartalma"
+
+#: inc/class-wpseo-replace-vars.php:1495
+msgid "Replaced with the last name of the author"
+msgstr "Lecserélve a szerző családnevére"
+
+#: inc/class-wpseo-replace-vars.php:1495
+msgid "Author last name"
+msgstr "Szerző vezetékneve"
+
+#: inc/class-wpseo-replace-vars.php:1494
+msgid "Replaced with the first name of the author"
+msgstr "Helyettesítve a szerző keresztnevével"
+
+#: inc/class-wpseo-replace-vars.php:1494
+msgid "Author first name"
+msgstr "Szerző keresztneve"
+
+#: inc/class-wpseo-replace-vars.php:1493
+msgid "Replaced with the day the post was published"
+msgstr "Helyettesítve a bejegyzés közzétételének napjával"
+
+#: inc/class-wpseo-replace-vars.php:1493
+msgid "Post day"
+msgstr "Bejegyzés napja"
+
+#: inc/class-wpseo-replace-vars.php:1492
+msgid "Replaced with the month the post was published"
+msgstr "Helyettesítve a bejegyzés közzétételének hónapjával"
+
+#: inc/class-wpseo-replace-vars.php:1492
+msgid "Post month"
+msgstr "Bejegyzés hónapja"
+
+#: inc/class-wpseo-replace-vars.php:1491
+msgid "Replaced with the year the post was published"
+msgstr "Helyettesítve a bejegyzés közzétételének évével"
+
+#: inc/class-wpseo-replace-vars.php:1491
+msgid "Post year"
+msgstr "Bejegyzés éve"
+
+#: inc/class-wpseo-replace-vars.php:1490
+msgid "Current day"
+msgstr "Mai nap"
+
+#: inc/class-wpseo-replace-vars.php:1489
+msgid "Current month"
+msgstr "Ez a hónap"
+
+#: inc/class-wpseo-replace-vars.php:1487
+msgid "Current date"
+msgstr "Mai dátum"
+
+#. translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Premium installation page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-error-presenter.php:102
+msgid "Below are the technical details for the error. See %1$sthis page%2$s for a more detailed explanation."
+msgstr "Alább található részletes technikai információ a hibáról. Bővebb magyarázatért kattints %1$side%2$s."
+
+#: src/integrations/admin/workouts-integration.php:93
+msgid "Workouts"
+msgstr "Edzések"
+
+#: admin/views/class-yoast-feature-toggles.php:125 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Link suggestions"
+msgstr "Link javaslatok"
+
+#: admin/views/redirects.php:22
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:280
+#: js/dist/elementor.js:97 js/dist/integrations-page.js:3
+#: js/dist/integrations-page.js:23 js/dist/introductions.js:9
+#: js/dist/new-settings.js:9 js/dist/post-edit.js:9 js/dist/support.js:27
+msgid "Unlock with Premium"
+msgstr "Feloldás Prémiummal"
+
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:255
+#: js/dist/new-settings.js:24 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:32 js/dist/new-settings.js:59
+#: js/dist/new-settings.js:68 js/dist/new-settings.js:98
+#: js/dist/new-settings.js:120 js/dist/new-settings.js:181
+#: js/dist/new-settings.js:197 js/dist/new-settings.js:204
+msgid "Social description"
+msgstr "Közösségi média leírás"
+
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:254
+#: js/dist/new-settings.js:24 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:32 js/dist/new-settings.js:59
+#: js/dist/new-settings.js:68 js/dist/new-settings.js:98
+#: js/dist/new-settings.js:120 js/dist/new-settings.js:181
+#: js/dist/new-settings.js:197 js/dist/new-settings.js:204
+msgid "Social title"
+msgstr "Közösségi média cím"
+
+#. Translators: %s expands to the error message.
+#: src/integrations/admin/addon-installation/installation-integration.php:189
+msgid "Addon installation failed because of an error: %s."
+msgstr "A bővítmény telepítése sikertelen a következő hiba miatt: %s."
+
+#: src/integrations/admin/addon-installation/installation-integration.php:185
+msgid "You are not allowed to install plugins."
+msgstr "Nincs számodra engedélyezve a bővítmények telepítése."
+
+#. Translators: %s expands to the name of the addon.
+#: src/integrations/admin/addon-installation/installation-integration.php:181
+msgid "Addon installed."
+msgstr "A bővítmény telepítve lett."
+
+#. Translators:%s expands to the error message.
+#: src/integrations/admin/addon-installation/installation-integration.php:157
+msgid "Addon activation failed because of an error: %s."
+msgstr "A bővítmény aktiválása sikertelen a következő hiba miatt: %s."
+
+#: src/integrations/admin/addon-installation/installation-integration.php:153
+msgid "You are not allowed to activate plugins."
+msgstr "Nincs számodra engedélyezve a bővítmények aktiválása."
+
+#. Translators: %s expands to the name of the addon.
+#: src/integrations/admin/addon-installation/installation-integration.php:151
+msgid "Addon activated."
+msgstr "A bővítmény aktiválva lett."
+
+#: src/integrations/admin/addon-installation/installation-integration.php:103
+msgid "Installing and activating addons"
+msgstr "Bővítmények telepítése és aktiválása"
+
+#: src/presenters/admin/badge-presenter.php:80
+#: src/presenters/admin/badge-presenter.php:87
+#: js/dist/externals/componentsNew.js:136 js/dist/integrations-page.js:3
+#: js/dist/integrations-page.js:23 js/dist/new-settings.js:304
+msgid "New"
+msgstr "Új"
+
+#: src/exceptions/indexable/post-not-found-exception.php:16
+msgid "The post could not be found."
+msgstr "A bejegyzés nem található."
+
+#: src/exceptions/indexable/term-not-found-exception.php:16
+msgid "The term could not be found."
+msgstr "A kifejezés nem található."
+
+#: src/presenters/admin/indexing-notification-presenter.php:81
+msgid "Because of a change in your category base setting, some of your SEO data needs to be reprocessed."
+msgstr "Amennyiben az kategória név beállítást változtatod, néhány SEO adatot frissíteni kell."
+
+#: admin/views/class-yoast-feature-toggles.php:190
+msgid "Find out how a rich snippet can improve visibility and click-through-rate."
+msgstr "Tudjuk meg, hogyan javíthatjuk a láthatóságot és az átkattintási arányt."
+
+#: admin/views/class-yoast-feature-toggles.php:189 js/dist/new-settings.js:288
+msgid "This adds an author byline and reading time estimate to the article’s snippet when shared on Slack."
+msgstr "Ez hozzáadja a szerző byline és az olvasási idő becslését a cikk részletéhez, mikor a Slack alkalmazásban megosztásra kerül."
+
+#: admin/views/class-yoast-feature-toggles.php:187
+msgid "Enhanced Slack sharing"
+msgstr "Továbbfejlesztett Slack megosztás"
+
+#. translators: 1: Expands to Yoast SEO
+#: src/presenters/admin/indexing-notification-presenter.php:129
+msgid "Wait for a week or so, until %1$s automatically processes most of your content in the background."
+msgstr "Várjunk nagyjából egy hetet, amíg a %1$s automatikusan feldolgozza a háttérben a tartalmaink nagy részét."
+
+#. translators: %s expands to the reading time number, in minutes
+#: src/presenters/slack/enhanced-data-presenter.php:55
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s perc"
+msgstr[1] "%s perc"
+
+#. translators: %s expands to the reading time number, in minutes
+#: src/presenters/slack/enhanced-data-presenter.php:55
+msgid "Est. reading time"
+msgstr "Becsült olvasási idő"
+
+#: src/presenters/slack/enhanced-data-presenter.php:50
+msgid "Written by"
+msgstr "Szerző:"
+
+#: inc/class-wpseo-admin-bar-menu.php:434
+msgid "Google Rich Results Test"
+msgstr "Google Bővített Találatok Teszt"
+
+#: src/presenters/admin/indexing-notification-presenter.php:84
+msgid "Because of a change in your tag base setting, some of your SEO data needs to be reprocessed."
+msgstr "Mivel változattál az URL beállításoaidon, néhány SEO adatot újra fel kell dolgoznunk."
+
+#. translators: %s: 'Semrush'
+#: admin/views/class-yoast-integration-toggles.php:71
+msgid "The %s integration offers suggestions and insights for keywords related to the entered focus keyphrase."
+msgstr ""
+"%s integrációs javaslat és a beírt fókusz kulcsszóhoz ajánlott kulcsszavak \n"
+" megjelenítése."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/network/integrations.php:27
+msgid "This tab allows you to selectively disable %1$s integrations with third-party products for all sites in the network. By default all integrations are enabled, which allows site admins to choose for themselves if they want to toggle an integration on or off for their site. When you disable an integration here, site admins will not be able to use that integration at all."
+msgstr "Ezen a fülön endegélyezheted a ki nem választott %1$s integrációkat a külső forrásból származó összes oldalra. Alapértelmezett esetben az összes integráció engedélyezett, ami lehetővé teszi a webhely rendszergazdáinak, hogy maguk választhassák ki, a webhely integráció be vagy ki kapcsolását."
+
+#: admin/class-admin.php:260
+msgid "Activate your subscription"
+msgstr "Feliratkozás aktiválása"
+
+#: src/presenters/admin/indexing-error-presenter.php:64
+msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please click the button again to re-start the process. "
+msgstr "Hoppá, valami hiba történt a SEO adatok optimalizálása megszakadt. Kérlek kattints újra a gombra a folyamat újrakezdéséhez."
+
+#: src/integrations/watchers/indexable-homeurl-watcher.php:97
+msgid "All permalinks were successfully reset"
+msgstr "Minden közvetlen hivatkozást sikeresen visszaállítottunk"
+
+#: src/presenters/admin/indexing-notification-presenter.php:96
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. "
+msgstr "Felgyorsíthatja webhelyét, ha engedélyezi, hogy néhány optimalizálást végezzünk a SEO adatok tárolásának módjával és a belső linkek összekapcsolódásának hálózatával kapcsolatban."
+
+#: src/presenters/admin/indexing-notification-presenter.php:59
+#: js/dist/first-time-configuration.js:4 js/dist/indexation.js:8
+msgid "Start SEO data optimization"
+msgstr "SEO adatok optimalizálásának indítása"
+
+#: src/presenters/admin/indexing-list-item-presenter.php:42
+msgid "Learn more about the benefits of optimized SEO data."
+msgstr "Tudjon meg többet az optimalizált SEO adatok előnyeiről."
+
+#: src/presenters/admin/indexing-list-item-presenter.php:40
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. If you have a lot of content it might take a while, but trust us, it's worth it."
+msgstr "Felgyorsíthatja webhelyét, ha engedélyezi, hogy néhány optimalizálást végezzünk a SEO adatok tárolásának módjával és a belső linkek összekapcsolódásának hálózatával kapcsolatban. Ha sok tartalma van, eltarthat egy ideig, de bízzon bennünk, megéri."
+
+#: src/presenters/admin/indexing-list-item-presenter.php:37
+msgid "Optimize SEO Data"
+msgstr "SEO adatok optimalizálása"
+
+#: src/presenters/admin/indexing-error-presenter.php:71
+#: src/presenters/admin/indexing-failed-notification-presenter.php:71
+msgid "If the problem persists, please contact support."
+msgstr "Ha a probléma továbbra is fennáll, vegye fel a kapcsolatot az ügyfélszolgálattal."
+
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Yoast SEO tools page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-failed-notification-presenter.php:59
+msgid "Something has gone wrong and we couldn't complete the optimization of your SEO data. Please %1$sre-start the process%2$s."
+msgstr "Hiba történt, és nem tudtuk befejezni a SEO-adatok optimalizálását. Kérjük, indítsa el a(z) %1$sre-folyamatot%2$s."
+
+#. translators: %s expands to a mailto support link.
+#: inc/class-addon-manager.php:854
+msgid "If you still need support and have an active subscription for this product, please email %s."
+msgstr "Ha továbbra is szüksége van támogatásra és aktív előfizetéssel rendelkezik erre a termékre, kérjük, küldjön e-mailt %s."
+
+#. translators: 1: expands to <a> that refers to the help page, 2: </a> closing
+#. tag.
+#: inc/class-addon-manager.php:851
+msgid "You can probably find an answer to your question in our %1$shelp center%2$s."
+msgstr "Valószínűleg megtalálhatja a választ a kérdésére %1$ssúgóközpontunkban%2$s."
+
+#: inc/class-addon-manager.php:848
+msgid "Need support?"
+msgstr "Segítségre van szükséged?"
+
+#. translators: %1$s: expands to an opening anchor tag, %2$s: expands to a
+#. closing anchor tag
+#: admin/views/class-yoast-feature-toggles.php:241
+msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitemaps. In some cases, this %1$s may result in SEO errors on your site%2$s. These may be reported in Google Search Console and other tools."
+msgstr "A Yoast SEO XML webhelytérképeinek letiltása nem fogja letiltani a WordPress központi webhelytérképeit. Bizonyos esetekben ez %1$s SEO hibákat okozhat%2$s a webhelyén. Ezeket a Google Search Console és más eszközök jelenthetik."
+
+#. translators: 1: Yoast SEO, 2: translated version of "Off"
+#: admin/views/class-yoast-feature-toggles.php:158
+msgid "The advanced section of the %1$s meta box allows a user to remove posts from the search results or change the canonical. The settings in the schema tab allows a user to change schema meta data for a post. These are things you might not want any author to do. That's why, by default, only editors and administrators can do this. Setting to \"%2$s\" allows all users to change these settings."
+msgstr "A %1$s meta mező speciális szakasza lehetővé teszi a felhasználó számára, hogy eltávolítsa a bejegyzéseket a keresési eredmények közül, vagy megváltoztassa a gyűjtőnevet. A séma lapon található beállítások lehetővé teszik a felhasználó számára, hogy módosítsa egy séma metaadatait. Ezek olyan dolgok, amelyeket nem kívánhat meg egyetlen szerzőtől sem. Ezért ezt alapértelmezés szerint csak a szerkesztők és a rendszergazdák tehetik meg. A \"%2$s\" értékre állítással minden felhasználó megváltoztathatja ezeket a beállításokat."
+
+#: admin/views/class-yoast-feature-toggles.php:154
+msgid "Security: no advanced or schema settings for authors"
+msgstr "Biztonság: nincsenek speciális vagy séma beállítások a szerzők számára"
+
+#: src/config/schema-types.php:159
+msgid "Report"
+msgstr "Jelentés"
+
+#: src/config/schema-types.php:155
+msgid "Tech Article"
+msgstr "Műszaki cikk"
+
+#: src/config/schema-types.php:151
+msgid "Scholarly Article"
+msgstr "Tudományos cikk"
+
+#: src/config/schema-types.php:147
+msgid "Satirical Article"
+msgstr "Szatirikus cikk"
+
+#: src/config/schema-types.php:143
+msgid "Advertiser Content Article"
+msgstr "Hírdetői cikk"
+
+#: src/config/schema-types.php:139
+msgid "News Article"
+msgstr "Újságcikk"
+
+#: src/config/schema-types.php:135
+msgid "Social Media Posting"
+msgstr "Közösségi Média Bejegyzés"
+
+#: src/config/schema-types.php:127
+msgid "Article"
+msgstr "Cikk"
+
+#: src/config/schema-types.php:104
+msgid "Search Results Page"
+msgstr "Keresési Eredmények Oldal"
+
+#: src/config/schema-types.php:100
+msgid "Real Estate Listing"
+msgstr "Ingatlan Felsorolása"
+
+#: src/config/schema-types.php:96
+msgid "Checkout Page"
+msgstr "Megrendelés Oldal"
+
+#: src/config/schema-types.php:92
+msgid "Collection Page"
+msgstr "Kollekció Oldal"
+
+#: src/config/schema-types.php:88
+msgid "Medical Web Page"
+msgstr "Orvosi Weboldal."
+
+#: src/config/schema-types.php:84
+msgid "Contact Page"
+msgstr "Kapcsolat Oldal"
+
+#: src/config/schema-types.php:80
+msgid "Profile Page"
+msgstr "Profil Oldal"
+
+#: src/config/schema-types.php:76
+msgid "QA Page"
+msgstr "KV Oldal"
+
+#: src/config/schema-types.php:72
+msgid "FAQ Page"
+msgstr "GYIK Oldal"
+
+#: src/config/schema-types.php:68
+msgid "About Page"
+msgstr "Rólam Oldal"
+
+#: src/config/schema-types.php:64
+msgid "Item Page"
+msgstr "Tétel Oldal"
+
+#: src/config/schema-types.php:60
+msgid "Web Page"
+msgstr "Weboldal"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:170
+msgid "Allow us to track some data about your site to improve our plugin."
+msgstr "Engedélyezze, hogy nyomon követhessünk néhány adatot a webhelyéről, hogy javíthassuk a bővítményünket."
+
+#: admin/views/class-yoast-feature-toggles.php:165
+#: admin/views/class-yoast-feature-toggles.php:166 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:284
+msgid "Usage tracking"
+msgstr "Használat követés"
+
+#: src/presenters/admin/indexing-notification-presenter.php:75
+msgid "Because of a change in your permalink structure, some of your SEO data needs to be reprocessed."
+msgstr "A belső linkek felépítésében való változás miatt egyes SEO adatait újra kell feldolgozni."
+
+#: src/presenters/admin/indexing-notification-presenter.php:78
+msgid "Because of a change in your home URL setting, some of your SEO data needs to be reprocessed."
+msgstr "A weboldal alapértelmezett URL -beállítások megváltozása miatt egyes SEO-adatait újra fel kell dolgozni."
+
+#. translators: %1$s expands to Yoast.
+#: src/integrations/blocks/block-categories.php:45
+msgid "%1$s Internal Linking Blocks"
+msgstr "%1$s belső összekapcsolási blokkok"
+
+#. translators: 1: Link to the Yoast help center, 2: Link closing tag.
+#: src/services/health-check/links-table-reports.php:100
+msgid "%1$sFind out how to solve this problem on our help center%2$s."
+msgstr "%1$sTaláld meg a megoldást a problémára a tudásbázisunkban%2$s."
+
+#: src/services/health-check/links-table-reports.php:58
+msgid "The text link counter feature is not working as expected"
+msgstr "A szöveg hivatkozás számláló funkció nem működik megfelelően"
+
+#. translators: 1: Link to the Yoast SEO blog, 2: Link closing tag.
+#: src/services/health-check/links-table-reports.php:73
+msgid "The text link counter helps you improve your site structure. %1$sFind out how the text link counter can enhance your SEO%2$s."
+msgstr "A szöveges hivatkozásszámláló segít javítani a webhely struktúráját. %1$sTudja meg, hogyan javíthatja a szöveges linkek számlálója a SEO%2$s."
+
+#: src/services/health-check/links-table-reports.php:45
+msgid "The text link counter is working as expected"
+msgstr "A szöveges hivatkozás-számláló a várt módon működik"
+
+#. translators: %1$s: Link to article about text links, %2$s: Anchor closing
+#. tag, %3$s: Emphasis open tag, %4$s: Emphasis close tag
+#: admin/class-yoast-columns.php:48
+msgid "The links columns show the number of articles on this site linking %3$sto%4$s this article and the number of URLs linked %3$sfrom%4$s this article. Learn more about %1$show to use these features to improve your internal linking%2$s, which greatly enhances your SEO."
+msgstr "A hivatkozások oszlopai a webhelyen található cikkek számát mutatják, amelyek a cikkhez %3$sto%4$s hivatkoznak, és a %3$sfr%4$s e cikkhez kapcsolódó URL-ek száma. Tudjon meg többet arról, hogy %1$shogyan használja ezeket a funkciókat a %2$s belső összeköttetésének javításához, ami nagyban javítja SEO-ját."
+
+#. translators: %1$s: Link to article about content analysis, %2$s: Anchor
+#. closing
+#: admin/class-yoast-columns.php:39
+msgid "We've written an article about %1$show to use the SEO score and Readability score%2$s."
+msgstr "Írtunk egy cikket arról, hogy %1$shogyan használja a SEO pontszámot és az olvashatósági pontszámot%2$s."
+
+#. translators: %1$s: Yoast SEO
+#: admin/class-yoast-columns.php:32
+msgid "%1$s adds several columns to this page."
+msgstr "%1$s több oszlopot ad ehhez az oldalhoz."
+
+#: src/presenters/admin/search-engines-discouraged-presenter.php:41
+msgid "I don't want this site to show in the search results."
+msgstr "Nem akarom, hogy ez a webhely megjelenjen a keresési eredmények között."
+
+#. translators: 1: Link start tag to the WordPress Reading Settings page, 2:
+#. Link closing tag.
+#: src/presenters/admin/search-engines-discouraged-presenter.php:36
+msgid "If you want search engines to show this site in their results, you must %1$sgo to your Reading Settings%2$s and uncheck the box for Search Engine Visibility."
+msgstr "Amennyiben szeretné, hogy megjelenjen weboldala a keresőmotorok keresési találatai között, menjen az %1$sOlvasási beállításokra%2$s és távolítsa el a jelölést a \"Megtiltjuk a keresőmotoroknak, hogy bejárják az oldalunkat\" jelölőnégyzetből."
+
+#: src/presenters/admin/migration-error-presenter.php:59
+msgid "Show debug information"
+msgstr "A hibakeresési információk megjelenítése"
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:53
+msgid "Your site will continue to work normally, but won't take full advantage of %s."
+msgstr "Webhelye továbbra is normálisan működik, de nem használja ki teljes mértékben a (z) %s előnyeit."
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:42
+msgid "%s had problems creating the database tables needed to speed up your site."
+msgstr "A(z) %s problémái voltak a webhely felgyorsításához szükséges adatbázistáblák létrehozásával."
+
+#: src/presenters/admin/indexing-notification-presenter.php:117
+msgid "We estimate this will take less than a minute."
+msgstr "Ez előreláthatólag kevesebb mint egy percet fog igénybe venni."
+
+#: src/presenters/admin/indexing-notification-presenter.php:121
+msgid "We estimate this will take a couple of minutes."
+msgstr "Ez előreláthatólag egy néhány percet fog igénybe venni."
+
+#. translators: 1: Link to article about indexation command, 2: Anchor closing
+#. tag, 3: Link to WP CLI.
+#: src/presenters/admin/indexing-notification-presenter.php:136
+msgid "%1$sRun the indexation process on your server%2$s using %3$sWP CLI%2$s."
+msgstr "%1$sLefuttatja az indexelési folyamatot az ön szerverén%2$s a %3$sWP CLI%2$s-t használva."
+
+#: src/presenters/admin/indexing-notification-presenter.php:124
+msgid "We estimate this could take a long time, due to the size of your site. As an alternative to waiting, you could:"
+msgstr "Becsléseink szerint ez hosszú időt vehet igénybe a webhely mérete miatt. A várakozás alternatívájaként:"
+
+#. translators: %1$s: link to help article about solving table issue. %2$s: is
+#. anchor closing.
+#: src/presenters/admin/migration-error-presenter.php:47
+msgid "Please read %1$sthis help article%2$s to find out how to resolve this problem."
+msgstr "Kérjük olvassa el %1$sezt a cikket%2$s hogy megtudja, hogyan lehet megoldani ezt a problémát."
+
+#: inc/class-wpseo-replace-vars.php:1485
+msgid "Replaced with the term ancestors hierarchy"
+msgstr "Helyettesítve az alap hiearchia kifejezés szerint"
+
+#: inc/class-wpseo-replace-vars.php:1485
+msgid "Term hierarchy"
+msgstr "Alapértelmezett hierarchia"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:181
+msgid "This %1$s REST API endpoint gives you all the metadata you need for a specific URL. This will make it very easy for headless WordPress sites to use %1$s for all their SEO meta output."
+msgstr "Ez a %1$s REST API-végpont megadja az összes metaadatot, amelyre az adott URL-hez szüksége van. Megkönnyítive a Head leírás nélküli WordPress oldalak számára a %1$s használatát az összes SEO metaleíráshoz."
+
+#: admin/views/class-yoast-feature-toggles.php:177
+msgid "REST API: Head endpoint"
+msgstr "REST API: Head leírási végpont"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: src/services/health-check/default-tagline-reports.php:63
+msgid "%1$sYou can change the tagline in the customizer%2$s."
+msgstr "%1$sA szlogen a Testreszabásban módosítható%2$s."
+
+#: src/services/health-check/default-tagline-reports.php:45
+msgid "You still have the default WordPress tagline. Even an empty one is probably better."
+msgstr "Még mindig van az alapértelmezett WordPress címke. Még egy üres is valószínűleg jobb."
+
+#: src/services/health-check/default-tagline-reports.php:43
+msgid "You should change the default WordPress tagline"
+msgstr "Meg kell változtatnia az alapértelmezett WordPress címke sort"
+
+#: src/services/health-check/default-tagline-reports.php:32
+msgid "You are using a custom tagline or an empty one."
+msgstr "Egyéni vagy üres címkét használ."
+
+#: src/services/health-check/default-tagline-reports.php:30
+msgid "You changed the default WordPress tagline"
+msgstr "Megváltoztatta az alapértelmezett WordPress címkét"
+
+#: src/services/health-check/page-comments-reports.php:32
+msgid "Comments on your posts are displayed on a single page. This is just like we'd suggest it. You're doing well!"
+msgstr "A bejegyzésed alatti kommentek egy oldalon láthatóak. Pontosan úgy, ahogy javasoltuk. Nagyon jól csinálod!"
+
+#. translators: %s expands to '/%postname%/'
+#: src/services/health-check/postname-permalink-reports.php:58
+msgid "It's highly recommended to have your postname in the URL of your posts and pages. Consider setting your permalink structure to %s."
+msgstr "Erősen ajánlott, hogy postai neve szerepeljen a bejegyzések és oldalak URL címében. Fontolja meg a közvetlen hivatkozás struktúra %s értékre állítását."
+
+#: src/services/health-check/postname-permalink-reports.php:43
+msgid "You do not have your postname in the URL of your posts and pages"
+msgstr "Nincs beállítva a bejegyzésnév URL-be ágyazása a bejegyzéseknél és az oldalaknál."
+
+#: src/services/health-check/postname-permalink-reports.php:32
+msgid "You do have your postname in the URL of your posts and pages."
+msgstr "A bejegyzések és oldalak URL címében szerepel a bejegyzése és az oldalai."
+
+#: src/services/health-check/postname-permalink-reports.php:30
+msgid "Your permalink structure includes the post name"
+msgstr "A közvetlen hivatkozás struktúrád tartalmazza a bejegyzés nevét"
+
+#: src/services/health-check/page-comments-reports.php:45
+msgid "Comments on your posts break into multiple pages. As this is not needed in 999 out of 1000 cases, we recommend you disable it. To fix this, uncheck \"Break comments into pages...\" on the Discussion Settings page."
+msgstr "A hozzászólások több oldalra vannak bontva. Erre 1000-ből egyszer van szükség, szóval azt tanácsoljuk, hogy ezt kapcsold ki. Ennek a javításához, vegyük ki a pipát a \"Hozzászólások oldalakra bontása, úgy hogy\" tétel elöl a pipát a Beszélgetés részben a Beállítások oldalon."
+
+#: src/services/health-check/page-comments-reports.php:43
+msgid "Comments break into multiple pages"
+msgstr "Hozzászólások több oldalra lesznek rakva"
+
+#: src/services/health-check/page-comments-reports.php:30
+msgid "Comments are displayed on a single page"
+msgstr "Hozzászólások egy oldalon vannak megjelenítve"
+
+#: src/helpers/post-helper.php:113
+msgid "No title"
+msgstr "Nincs cím"
+
+#. translators: 1: Start of a paragraph beginning with the Yoast icon, 2:
+#. Expands to 'Yoast SEO', 3: Paragraph closing tag.
+#: src/services/health-check/report-builder.php:201
+msgid "%1$sThis was reported by the %2$s plugin%3$s"
+msgstr "%1$sEzt a jelentést %2$s bővítmény küldte%3$s"
+
+#. translators: 1: Opening tag of the link to the discussion settings page, 2:
+#. Link closing tag.
+#: src/services/health-check/page-comments-reports.php:58
+msgid "%1$sGo to the Discussion Settings page%2$s"
+msgstr "%1$sTovább a Beállítások / Beszélgetések oldalra%2$s"
+
+#: admin/metabox/class-metabox.php:190
+msgid "If you want to apply advanced <code>meta</code> robots settings for this page, please define them in the following field."
+msgstr "Ha szeretnél alkalmazni haladó <code>meta</code> robot beállításokat, kérjük, írd őket a következő mezőbe."
+
+#. translators: 1: Link start tag to the Firefox website, 2: Link start tag to
+#. the Chrome website, 3: Link start tag to the Edge website, 4: Link closing
+#. tag.
+#: admin/metabox/class-metabox.php:153 admin/taxonomy/class-taxonomy.php:108
+msgid "The browser you are currently using is unfortunately rather dated. Since we strive to give you the best experience possible, we no longer support this browser. Instead, please use %1$sFirefox%4$s, %2$sChrome%4$s or %3$sMicrosoft Edge%4$s."
+msgstr "A böngésző, amit jelenleg használsz sajnos már nem támogatott. Azért küzdünk, hogy a legjobb élményt tudjuk neked nyújtani. Nem támogatjuk tovább ezt a böngészőt. Kerjük használd az alábbi böngészőket %1$sFirefox%4$s, %2$sChrome%4$s or %3$sMicrosoft Edge%4$s."
+
+#. translators: %1$s expands to Yoast SEO academy
+#. translators: %1$s expands to "Yoast SEO academy".
+#: src/presenters/admin/sidebar-presenter.php:105 js/dist/elementor.js:93
+#: js/dist/introductions.js:5 js/dist/new-settings.js:5 js/dist/post-edit.js:5
+#: js/dist/support.js:23
+msgid "Check out %1$s"
+msgstr "Felkeresem a %1$s-t"
+
+#: src/presenters/admin/sidebar-presenter.php:98 js/dist/elementor.js:91
+#: js/dist/introductions.js:3 js/dist/new-settings.js:3 js/dist/post-edit.js:3
+#: js/dist/support.js:21
+msgid "We have both free and premium online courses to learn everything you need to know about SEO."
+msgstr "Rendelkezünk ingyenes és prémium online kurzusokkal is, hogy mindent megtanulhass a SEO-ról, amire szükséged van."
+
+#. translators: %1$s expands to Yoast SEO academy, which is a clickable link.
+#. translators: %1$s expands to "Yoast SEO" academy, which is a clickable link.
+#: src/presenters/admin/sidebar-presenter.php:96 js/dist/elementor.js:91
+#: js/dist/introductions.js:3 js/dist/new-settings.js:3 js/dist/post-edit.js:3
+#: js/dist/support.js:21
+msgid "Want to learn SEO from Team Yoast? Check out our %1$s!"
+msgstr "Szeretnél a SEO-ról tanulni a Team Yoast-tól? Keresd fel a %1$s-t!"
+
+#: src/presenters/admin/sidebar-presenter.php:88 js/dist/elementor.js:91
+#: js/dist/introductions.js:3 js/dist/new-settings.js:3 js/dist/post-edit.js:3
+#: js/dist/support.js:21
+msgid "Learn SEO"
+msgstr "SEO tanulása"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-import.php:39
+msgid "%s settings to import:"
+msgstr "%s beállítások importáláshoz:"
+
+#. translators: 1: expands to Yoast SEO, 2: expands to Import settings.
+#: admin/views/tabs/tool/wpseo-import.php:23
+msgid "Import settings from another %1$s installation by pasting them here and clicking \"%2$s\"."
+msgstr "Importálási beállítások egy másik %1$s telepítésnél, illeszd be őket ide és klikkelj \"%2$s\"."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-export.php:68
+msgid "Your %1$s settings:"
+msgstr "%1$s beállításaid:"
+
+#: admin/metabox/class-metabox.php:433 js/dist/block-editor.js:295
+#: js/dist/elementor.js:292 js/dist/new-settings.js:24
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:32
+#: js/dist/new-settings.js:59 js/dist/new-settings.js:222
+#: js/dist/structured-data-blocks.js:13
+msgid "Schema"
+msgstr "Séma"
+
+#: admin/admin-settings-changed-listener.php:81
+msgid "Settings saved."
+msgstr "Beállítások elmentve."
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:167
+msgid "Please check the format of the YouTube URL you entered. %s"
+msgstr "Kérjük, ellenőrizd a megadott YouTube hivatkozás formátumát. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:157
+msgid "Please check the format of the Wikipedia URL you entered. %s"
+msgstr "Kérjük, ellenőrizd a megadott Wikipedia hivatkozás formátumát. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:142
+msgid "Please check the format of the Pinterest URL you entered. %s"
+msgstr "Kérjük, ellenőrizd a megadott Pinterest hivatkozás formátumát. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:137
+msgid "Please check the format of the MySpace URL you entered. %s"
+msgstr "Kérjük, ellenőrizd a megadott MySpace hivatkozás formátumát. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:127
+msgid "Please check the format of the LinkedIn URL you entered. %s"
+msgstr "Kérjük, ellenőrizd a megadott LinkedIn hivatkozás formátumát. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:122
+msgid "Please check the format of the Instagram URL you entered. %s"
+msgstr "Kérjük, ellenőrizd a megadott Instagram hivatkozás formátumát. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:112
+msgid "Please check the format of the Facebook Page URL you entered. %s"
+msgstr "Kérlek ellenőrizd le a megadott Facebook oldal URL címének formátumát. %s"
+
+#. translators: %s: form value as submitted.
+#: admin/class-yoast-input-validation.php:319
+msgid "The submitted value was: %s"
+msgstr "A beküldött érték: %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:162
+msgid "Yandex confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "A Yandex ellenörző kód csak betüket A-tól F-ig tartalmazhat, ezenkívül csak számokat, elválasztójelet és aláhúzásjelent (underscore). %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:152
+msgid "Twitter usernames can only contain letters, numbers, and underscores. %s"
+msgstr "Twitter felhasználónevek csak betüket tartalmazhatnak, továbbá még számokat és aláhúzásjelet (underscore). %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:147
+msgid "Pinterest confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "Pinterest ellenörző kód csak betüket A-tól F-ig tartalmazhat, ezenkívül csak számokat, elválasztójelet és aláhúzásjelent (underscore). %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:132
+msgid "Bing confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "Bing ellenörző kód csak betüket A-tól F-ig tartalmazhat, ezenkívül csak számokat, elválasztójelet és aláhúzásjelent (underscore). %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:117
+msgid "Google verification codes can only contain letters, numbers, hyphens, and underscores. %s"
+msgstr "A Google ellenőrzési kód csak betüket (a,b,c...), számokat (1,2,3...), kötőjelet ( - ) és aláhúzást ( _ ) tartalmazhat. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:107
+msgid "Baidu verification codes can only contain letters, numbers, hyphens, and underscores. %s"
+msgstr "Baidu ellenörző kód csak betüket tartalmazhat, továbbá számokat, elválasztójelet és aláhúzásjelet (underscore) %s"
+
+#: admin/views/partial-notifications-template.php:45
+msgid "Show this item."
+msgstr "Mutasd meg ezt!"
+
+#: admin/views/partial-notifications-template.php:38
+msgid "Hide this item."
+msgstr "Az elem elrejtése."
+
+#. translators: %d expands the amount of hidden problems.
+#: admin/views/partial-notifications-errors.php:25
+msgid "You have %d hidden problem:"
+msgid_plural "You have %d hidden problems:"
+msgstr[0] "%d db. rejtett probléma:"
+msgstr[1] "%d rejtett probléma:"
+
+#. translators: %d expands the amount of hidden notifications.
+#: admin/views/partial-notifications-warnings.php:25
+msgid "You have %d hidden notification:"
+msgid_plural "You have %d hidden notifications:"
+msgstr[0] "%d rejtett értesítés:"
+msgstr[1] "%d rejtett értesítés:"
+
+#: src/helpers/score-icon-helper.php:84
+msgid "Focus keyphrase not set"
+msgstr "Nem lett beállítva Fókusz kulcskifejezés"
+
+#. translators: %1$s: amount of errors, %2$s: the admin page title
+#: admin/class-yoast-input-validation.php:65
+msgid "The form contains %1$s error. %2$s"
+msgid_plural "The form contains %1$s errors. %2$s"
+msgstr[0] "A form %1$s hibát. %2$s tartalmaz"
+msgstr[1] "A form %1$s hibát. %2$s tartalmaz"
+
+#. translators: %s expands to the extension title
+#: admin/views/licenses.php:212 admin/views/licenses.php:323
+msgid "Activate %s for your site on MyYoast"
+msgstr "Aktiváld %s az első honlapodat a MyYoast-on"
+
+#: admin/class-customizer.php:109 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:121
+msgid "Show blog page in breadcrumbs"
+msgstr "Blog oldal megjelenítése a morzsamenüben"
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the SEO score.
+#: admin/formatter/class-metabox-formatter.php:113
+#: admin/formatter/class-metabox-formatter.php:120
+#: admin/formatter/class-metabox-formatter.php:127
+#: admin/formatter/class-metabox-formatter.php:134
+msgid "%1$sSEO%2$s: %3$s"
+msgstr "%1$sSEO%2$s: %3$s"
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the readability score.
+#: admin/formatter/class-metabox-formatter.php:143
+#: admin/formatter/class-metabox-formatter.php:150
+#: admin/formatter/class-metabox-formatter.php:157
+#: admin/formatter/class-metabox-formatter.php:164
+msgid "%1$sReadability%2$s: %3$s"
+msgstr "%1$sOlvashatóság%2$s: %3$s"
+
+#. translators: %s expands to the score
+#: admin/statistics/class-statistics-service.php:216
+#: admin/statistics/class-statistics-service.php:221
+#: admin/statistics/class-statistics-service.php:226
+msgid "Posts with the SEO score: %s"
+msgstr "Poszt SEO értékeléssel: %s"
+
+#. translators: %s: expends to Yoast SEO
+#: admin/class-admin.php:344
+msgid "%s video tutorial"
+msgstr "%s Videó segédlet"
+
+#: inc/class-wpseo-rank.php:191
+msgid "Post Noindexed"
+msgstr "Nem Indexelt Bejegyzés"
+
+#: inc/class-wpseo-rank.php:171
+msgid "No Focus Keyphrase"
+msgstr "Nincs Fókusz Kulcs-kifejezés"
+
+#. translators: %s expands to the SEO score
+#: inc/class-wpseo-rank.php:170 inc/class-wpseo-rank.php:175
+#: inc/class-wpseo-rank.php:180 inc/class-wpseo-rank.php:185
+#: inc/class-wpseo-rank.php:190
+msgid "SEO: %s"
+msgstr "SEO: %s"
+
+#. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
+#. anchor tag.
+#: admin/google_search_console/views/gsc-display.php:39
+msgid "To view your current crawl errors, %1$splease visit Google Search Console%2$s."
+msgstr "Jelenlegi crawl-hiba megtekintése érdekében, %1$slátogass el a Google Search Console-ra%2$s."
+
+#. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
+#. anchor tag.
+#: admin/google_search_console/views/gsc-display.php:32
+msgid "Google has discontinued its Crawl Errors API. Therefore, any possible crawl errors you might have cannot be displayed here anymore. %1$sRead our statement on this for further information%2$s."
+msgstr "Google már kivonta a forgalomból a Crawl Errors API-t. Ezért a továbbiakban bármely crawl-hiba, ami lehetséges lett volna, többé már nem kerül kijelzésre itt. %1$sOlvasd el mi a teendő a továbbiakban%2$s."
+
+#: src/integrations/admin/first-time-configuration-integration.php:511
+#: src/integrations/admin/first-time-configuration-integration.php:524
+#: js/dist/new-settings.js:292
+msgid "Organization"
+msgstr "Szervezet"
+
+#. translators: %1$s is a link start tag to the Search Appearance settings,
+#. %2$s is the link closing tag.
+#: admin/class-schema-person-upgrade-notification.php:60
+msgid "You have previously set your site to represent a person. We’ve improved our functionality around Schema and the Knowledge Graph, so you should go in and %1$scomplete those settings%2$s."
+msgstr "Korábban honlapod mint személy reprezentáció lett beállítva. Nemrégiben megújultak a Schema és a Knowledge Graph, tehát el kellene látogatnod és %1$svéglegesíteni az összes beállítást%2$s."
+
+#: admin/class-admin.php:309
+msgid "(if one exists)"
+msgstr "(Ha létezik)"
+
+#: admin/class-admin.php:309
+msgid "Wikipedia page about you"
+msgstr "Wikipédia oldal rólad"
+
+#: admin/class-admin.php:308
+msgid "YouTube profile URL"
+msgstr "YouTube profil URL"
+
+#: admin/class-admin.php:306
+msgid "Tumblr profile URL"
+msgstr "Tumblr profil URL"
+
+#: admin/class-admin.php:305
+msgid "SoundCloud profile URL"
+msgstr "SoundCloud profil URL"
+
+#: admin/class-admin.php:303
+msgid "MySpace profile URL"
+msgstr "MySpace profil URL"
+
+#: src/generators/schema/article.php:137
+msgid "Uncategorized"
+msgstr "Nem kategorizált"
+
+#: admin/class-admin.php:304
+msgid "Pinterest profile URL"
+msgstr "Pinterest profil URL"
+
+#: admin/class-admin.php:302
+msgid "LinkedIn profile URL"
+msgstr "LinkedIn profil URL"
+
+#: admin/class-admin.php:301
+msgid "Instagram profile URL"
+msgstr "Instagram profil URL"
+
+#: inc/class-my-yoast-api-request.php:141
+msgid "No JSON object was returned."
+msgstr "JSON objektum lekérése eredménytelen."
+
+#: src/integrations/admin/link-count-columns-integration.php:145
+msgid "Received internal links"
+msgstr "Bemenő belső linkek"
+
+#: src/integrations/admin/link-count-columns-integration.php:138
+msgid "Outgoing internal links"
+msgstr "Kimenő belső linkek"
+
+#: admin/class-meta-columns.php:111 js/dist/block-editor.js:174
+#: js/dist/classic-editor.js:170 js/dist/editor-modules.js:124
+#: js/dist/elementor.js:188 js/dist/wincher-dashboard-widget.js:88
+msgid "Keyphrase"
+msgstr "Kulcskifejezés"
+
+#. translators: 1: Yoast SEO.
+#: src/services/health-check/links-table-reports.php:87
+msgid "For this feature to work, %1$s needs to create a table in your database. We were unable to create this table automatically."
+msgstr "Hogy ez a lehetőség működjon, %1$s kell egy új táblázatot hozzon létre az adatbázisában. Mi nem tudtunk új táblázatot létrehozni automatikusan."
+
+#. translators: %1$s expands to the requested url
+#: admin/exceptions/class-file-size-exception.php:40
+msgid "Cannot get the size of %1$s because of unknown reasons."
+msgstr "Ismeretlen okból nem lehetett meghatározni a méretét %1$s."
+
+#. translators: %1$s expands to the requested url
+#: admin/exceptions/class-file-size-exception.php:23
+msgid "Cannot get the size of %1$s because it is hosted externally."
+msgstr "Nem lehetett meghatározni a méretét %1$s mert külsőleg van hostolva."
+
+#. translators: %s expands to the current page number
+#: src/generators/breadcrumbs-generator.php:410
+msgid "Page %s"
+msgstr "%s. oldal"
+
+#. translators: %1$s expands to the method name. %2$s expands to the class name
+#: src/exceptions/missing-method.php:24
+msgid "Method %1$s() does not exist in class %2$s"
+msgstr "Method %1$s() nem létezik a class %2$s-ban"
+
+#. translators: %s expands to Yoast SEO Premium
+#: admin/watchers/class-slug-change-watcher.php:220
+msgid "With %s, you can easily create such redirects."
+msgstr "Azzal, hogy %s, könnyen készíthetsz hasonló átirányításokat."
+
+#: admin/views/tabs/tool/wpseo-import.php:15
+msgid "Import of settings is only supported on servers that run PHP 5.3 or higher."
+msgstr "A beállítások importálása kizárólag azokon a szervereken támogatott, ahol PHP 5.3 vagy magasabb verzió fut."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-export.php:26
+msgid "Export your %1$s settings here, to copy them on another site."
+msgstr "Exportáld ki a %1$s beállításait innen, hogy bemásold majd egy másik honlapba."
+
+#: admin/import/class-import-settings.php:85
+msgid "No settings found."
+msgstr "Nem találhatók beállítások."
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to Yoast.com
+#: admin/class-export.php:89
+msgid "These are settings for the %1$s plugin by %2$s"
+msgstr "Ezek a beállításai a %1$s pluginnak a %2$s szerint"
+
+#. translators: %1$s expands to Import settings
+#: admin/class-export.php:57
+msgid "Copy all these settings to another site's %1$s tab and click \"%1$s\" there."
+msgstr "Másolj át valamennyi beállítást a %1$s fülén majd klikkelj a \"%1$s\" oda."
+
+#: admin/class-export.php:50
+msgid "You do not have the required rights to export settings."
+msgstr "Nincs megfelelő jogosultsága az export beállításokhoz."
+
+#. translators: %s expands to Yoast SEO Premium
+#. translators: %s expands to "Yoast SEO" Premium
+#: admin/class-premium-upsell-admin-block.php:86 js/dist/new-settings.js:306
+msgid "Upgrade to %s"
+msgstr "Frissítés %sra"
+
+#: admin/class-admin-init.php:336
+msgid "Learn about why permalinks are important for SEO."
+msgstr "Tudj meg többet arról, hogy miért fontosak a közvetlen hivatkozások a SEO-hoz."
+
+#. translators: %1$s and %2$s expand to <em> items to emphasize the word in the
+#. middle.
+#: admin/class-admin-init.php:330
+msgid "Changing your permalinks settings can seriously impact your search engine visibility. It should almost %1$s never %2$s be done on a live website."
+msgstr "Közvetlen hivatkozások megváltoztatása beállítása nagymértékben ráhat arra, ahogyan a keresők látnak majd. Éles honlapon %1$s soha sem %2$s javasolt."
+
+#: admin/class-admin-init.php:327
+msgid "WARNING:"
+msgstr "FIGYELMEZTETÉS:"
+
+#: admin/views/tabs/network/features.php:95
+#: admin/views/tabs/network/integrations.php:82
+#: src/integrations/admin/crawl-settings-integration.php:256
+msgid "Disable"
+msgstr "Kikapcsolás"
+
+#: admin/views/tabs/network/features.php:94
+#: admin/views/tabs/network/integrations.php:81
+#: src/integrations/admin/crawl-settings-integration.php:254
+msgid "Allow Control"
+msgstr "Engedélyezés"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/network/crawl-settings.php:24
+#: admin/views/tabs/network/features.php:27
+msgid "This tab allows you to selectively disable %s features for all sites in the network. By default all features are enabled, which allows site admins to choose for themselves if they want to toggle a feature on or off for their site. When you disable a feature here, site admins will not be able to use that feature at all."
+msgstr "Ez a lap lehetővé teszi a %s szolgáltatások szelektív letiltását a hálózat összes webhelyén. Alapértelmezés szerint az összes szolgáltatás engedélyezve van, amely lehetővé teszi a webhely adminisztrátorai számára, hogy eldönthessék, ha egy funkciót be vagy ki szeretnének kapcsolni a saját webhelyükön. Ha egy funkciót itt letilt, a webhely adminisztrátorai egyáltalán nem használják ezt a funkciót."
+
+#. translators: %s: argument name
+#: admin/views/class-yoast-feature-toggle.php:161
+msgid "%s is a required feature toggle argument."
+msgstr "A(z) %s egy szükséges tulajdonság-váltó argumentum."
+
+#: admin/formatter/class-metabox-formatter.php:72
+msgid "Remove keyphrase"
+msgstr "Kulcskifejezés eltávolítása"
+
+#: admin/formatter/class-metabox-formatter.php:71
+msgid "Keyphrase:"
+msgstr "Kulcskifejezés:"
+
+#: admin/class-yoast-form.php:1040 js/dist/first-time-configuration.js:13
+msgid "This feature has been disabled by the network admin."
+msgstr "Ez a funkció a kiszolgáló rendszergazdája által ki van kapcsolva."
+
+#: admin/class-yoast-form.php:749 admin/metabox/class-metabox.php:655
+#: admin/taxonomy/class-taxonomy-fields-presenter.php:133
+msgid "Clear Image"
+msgstr "Kép törlése"
+
+#: admin/class-premium-upsell-admin-block.php:58 js/dist/new-settings.js:306
+msgid "Multiple keyphrases"
+msgstr "Több kulcskifejezés"
+
+#: admin/class-meta-columns.php:172
+msgid "Focus keyphrase not set."
+msgstr "Fő kulcskifejezés nincs beállítva."
+
+#. translators: %s expands to Yoast SEO Premium
+#. translators: %s expands to 'Yoast SEO Premium'.
+#. translators: %s expands to "Yoast SEO" Premium
+#: admin/class-premium-popup.php:81
+#: admin/class-premium-upsell-admin-block.php:69
+#: admin/watchers/class-slug-change-watcher.php:224
+#: src/presenters/admin/sidebar-presenter.php:61 js/dist/block-editor.js:204
+#: js/dist/classic-editor.js:200 js/dist/elementor.js:218
+#: js/dist/externals-components.js:13 js/dist/externals-components.js:129
+#: js/dist/externals-components.js:147 js/dist/externals-components.js:149
+#: js/dist/externals-components.js:151 js/dist/externals-components.js:153
+#: js/dist/new-settings.js:308
+msgid "Get %s"
+msgstr "%s beszerzése"
+
+#: inc/class-wpseo-admin-bar-menu.php:874
+msgid "There is a new notification."
+msgid_plural "There are new notifications."
+msgstr[0] "Van egy új értesítés."
+msgstr[1] "Új értesítések vannak."
+
+#: inc/options/class-wpseo-option-titles.php:976
+msgid "Colon"
+msgstr "Kettőspont"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'SEO' plugin name of possibly
+#. conflicting plugin with regard to the creation of duplicate SEO meta.
+#: admin/class-plugin-conflict.php:88
+msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins at the same time is detrimental."
+msgstr "%1$s és %2$s egyszerre kezelik a webhely SEO-ját. Hátrányos két SEO bővítményt egy időben futtatni."
+
+#. translators: %d expands to the number of minute/minutes.
+#: src/integrations/blocks/structured-data-blocks.php:205
+#: js/dist/structured-data-blocks.js:5 js/dist/structured-data-blocks.js:9
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d perc"
+msgstr[1] "%d perc"
+
+#. translators: %d expands to the number of hour/hours.
+#: src/integrations/blocks/structured-data-blocks.php:198
+#: js/dist/structured-data-blocks.js:5 js/dist/structured-data-blocks.js:9
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d óra"
+msgstr[1] "%d óra"
+
+#. translators: %d expands to the number of day/days.
+#: src/integrations/blocks/structured-data-blocks.php:191
+#: js/dist/block-editor.js:93 js/dist/classic-editor.js:89
+#: js/dist/editor-modules.js:51 js/dist/elementor.js:107
+#: js/dist/structured-data-blocks.js:5 js/dist/structured-data-blocks.js:9
+#: js/dist/wincher-dashboard-widget.js:1
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d nap"
+msgstr[1] "%d nap"
+
+#. translators: %1$s expands to Yoast.
+#: src/integrations/blocks/block-categories.php:37
+msgid "%1$s Structured Data Blocks"
+msgstr "%1$s Struktúrált Adatblokk."
+
+#: src/integrations/blocks/structured-data-blocks.php:256
+#: js/dist/structured-data-blocks.js:5 js/dist/structured-data-blocks.js:13
+msgid "Time needed:"
+msgstr "Szükséges idő:"
+
+#: inc/class-wpseo-admin-bar-menu.php:429
+msgid "Check links to this URL"
+msgstr "Linkek ellenőrzése ehhez az URL-hez"
+
+#: inc/class-wpseo-admin-bar-menu.php:505 js/dist/structured-data-blocks.js:13
+msgid "How to"
+msgstr "Hogyan"
+
+#: admin/pages/network.php:31
+msgid "Restore Site"
+msgstr "Oldal helyreállítása"
+
+#: admin/menu/class-network-admin-menu.php:34
+msgid "Network Settings"
+msgstr "Hálózati beállítások"
+
+#: admin/class-yoast-network-admin.php:276
+msgid "You are not allowed to perform this action."
+msgstr "Nincs engedélye a művelethez."
+
+#. translators: %s: error message
+#: admin/class-yoast-network-admin.php:208
+msgid "Error: %s"
+msgstr "Hiba: %s"
+
+#. translators: %s: success message
+#: admin/class-yoast-network-admin.php:206
+msgid "Success: %s"
+msgstr "Siker: %s"
+
+#. translators: %s expands to the ID of a site within a multisite network.
+#: admin/class-yoast-network-admin.php:168
+msgid "Site with ID %d not found."
+msgstr "A(z) %d azonosítójú oldal nem található"
+
+#: admin/class-yoast-network-admin.php:159
+msgid "No site has been selected to restore."
+msgstr "Nincs kiválasztva oldal a helyreállításhoz"
+
+#: admin/class-yoast-network-admin.php:120
+msgid "You are not allowed to modify unregistered network settings."
+msgstr "Nincs engedélyed, hogy módosítsd a regisztrálatlan hálózati beállításokat."
+
+#: admin/class-yoast-network-admin.php:81
+msgid "deleted"
+msgstr "törölve"
+
+#: inc/class-wpseo-replace-vars.php:1474
+msgid "The site's tagline"
+msgstr "Honlap jelmondata"
+
+#. translators: %1$s expands to the missing field name.
+#: admin/menu/class-replacevar-editor.php:150
+msgid "Not all required fields are given. Missing field %1$s"
+msgstr "Nincs minden mező kitöltve.Hiányzó mezők: %1$s"
+
+#: inc/class-wpseo-replace-vars.php:1488 js/dist/externals-redux.js:1
+msgid "Current year"
+msgstr "Jelenlegi év"
+
+#: inc/class-wpseo-replace-vars.php:1474 js/dist/externals-redux.js:1
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:278
+msgid "Tagline"
+msgstr "Jelmondat"
+
+#: inc/class-wpseo-replace-vars.php:1517 js/dist/externals-redux.js:1
+msgid "Page"
+msgstr "Oldal"
+
+#: inc/class-wpseo-replace-vars.php:1525
+msgid "description (custom taxonomy)"
+msgstr "leírás (egyéni taxonómia)"
+
+#: inc/class-wpseo-replace-vars.php:1524
+msgid "(custom taxonomy)"
+msgstr "egyedi osztályozás"
+
+#: inc/class-wpseo-replace-vars.php:1523
+msgid "(custom field)"
+msgstr "(egyedi mező)"
+
+#: inc/class-wpseo-replace-vars.php:1522
+msgid "Term404"
+msgstr "404-es kifejezés"
+
+#: inc/class-wpseo-replace-vars.php:1520
+msgid "Caption"
+msgstr "címke"
+
+#: inc/class-wpseo-replace-vars.php:1519
+msgid "Pagenumber"
+msgstr "Oldalszám"
+
+#: inc/class-wpseo-replace-vars.php:1518
+msgid "Pagetotal"
+msgstr "Oldalak összesen"
+
+#: inc/class-wpseo-replace-vars.php:1516
+msgid "User description"
+msgstr "Felhasználói leírás"
+
+#: inc/class-wpseo-replace-vars.php:1514 js/dist/externals-redux.js:1
+msgid "ID"
+msgstr "ID"
+
+#: inc/class-wpseo-replace-vars.php:1513
+msgid "Modified"
+msgstr "Módosítva"
+
+#: inc/class-wpseo-replace-vars.php:1512
+msgid "Post type (plural)"
+msgstr "Bejegyzés típus (többesszám)"
+
+#: inc/class-wpseo-replace-vars.php:1511
+msgid "Post type (singular)"
+msgstr "Bejegyzés típus (egyes szám)"
+
+#: inc/class-wpseo-replace-vars.php:1486 js/dist/externals-redux.js:1
+#: js/dist/new-settings.js:28
+msgid "Separator"
+msgstr "Elválasztó"
+
+#: inc/class-wpseo-replace-vars.php:1484 js/dist/externals-redux.js:1
+msgid "Search phrase"
+msgstr "Keresőkifejezés"
+
+#: inc/class-wpseo-replace-vars.php:1483
+msgid "Term title"
+msgstr "Kifejezés címe"
+
+#: inc/class-wpseo-replace-vars.php:1482 js/dist/externals-redux.js:1
+msgid "Term description"
+msgstr "Kifejezés leírása"
+
+#: inc/class-wpseo-replace-vars.php:1481 js/dist/externals-redux.js:1
+msgid "Tag description"
+msgstr "Címke leírása"
+
+#: inc/class-wpseo-replace-vars.php:1480 js/dist/externals-redux.js:1
+msgid "Category description"
+msgstr "Ketegória leírás"
+
+#: inc/class-wpseo-replace-vars.php:1479 js/dist/externals-redux.js:1
+msgid "Primary category"
+msgstr "Elsődleges kategória"
+
+#: inc/class-wpseo-replace-vars.php:1478 js/dist/externals-redux.js:1
+msgid "Category"
+msgstr "Kategória"
+
+#: inc/class-wpseo-replace-vars.php:1477
+msgid "Tag"
+msgstr "Címke"
+
+#: inc/class-wpseo-replace-vars.php:1476 js/dist/externals-redux.js:1
+msgid "Excerpt only"
+msgstr "Csak kivonat"
+
+#: inc/class-wpseo-replace-vars.php:1475 js/dist/externals-redux.js:1
+msgid "Excerpt"
+msgstr "Kivonat"
+
+#: inc/class-wpseo-replace-vars.php:1473 js/dist/externals-redux.js:1
+msgid "Site title"
+msgstr "Oldalcím"
+
+#: inc/class-wpseo-replace-vars.php:1472
+msgid "Archive title"
+msgstr "Archív cím"
+
+#: inc/class-wpseo-replace-vars.php:1471 js/dist/externals-redux.js:1
+msgid "Parent title"
+msgstr "Szülő cím"
+
+#: inc/class-wpseo-replace-vars.php:1469 js/dist/externals-redux.js:1
+msgid "Date"
+msgstr "Dátum"
+
+#: inc/class-wpseo-admin-bar-menu.php:596 js/dist/block-editor.js:253
+#: js/dist/classic-editor.js:249 js/dist/elementor.js:267
+msgid "Get Yoast SEO Premium"
+msgstr "Válts Yoast SEO Prémiumra"
+
+#: admin/watchers/class-slug-change-watcher.php:218
+msgid "You should create a redirect to ensure your visitors do not get a 404 error when they click on the no longer working URL."
+msgstr "Átirányítás készítése lenne szükséges, hogy a látogatok ne kapjanak 404-es hibát, amikor egy már nem létező URL-re kattintanak."
+
+#: admin/watchers/class-slug-change-watcher.php:217
+msgid "Search engines and other websites can still send traffic to your deleted post."
+msgstr "A keresőmotorok és egyéb weboldalak továbbra is forgalmat küldenek a törölt bejegyzésedre."
+
+#: admin/watchers/class-slug-change-watcher.php:214
+msgid "Make sure you don't miss out on traffic!"
+msgstr "Bizonyosodj meg róla, hogy nem veszíted el a forgalmat!"
+
+#. translators: %1$s expands to the translated name of the post type.
+#. translators: 1: term label
+#: admin/watchers/class-slug-change-watcher.php:84
+#: admin/watchers/class-slug-change-watcher.php:105
+msgid "You just deleted a %1$s."
+msgstr "Töröltél egy %1$s."
+
+#. translators: %1$s expands to the translated name of the post type.
+#: admin/watchers/class-slug-change-watcher.php:65
+msgid "You just trashed a %1$s."
+msgstr "Lomtárba helyeztél egy %1$s."
+
+#. translators: %s is replaced with Yoast SEO.
+#: admin/import/plugins/class-abstract-plugin-importer.php:257
+msgid "The %s importer functionality uses temporary database tables. It seems your WordPress install does not have the capability to do this, please consult your hosting provider."
+msgstr "A %s importáló funkció ideiglenes adatbázis-táblákat használ. Úgy tűnik, a WordPress telepítés ehhez nem rendelkezik a megfelelő hozzáféréssel. Kérjük, vedd fel a kapcsolatot a tárhelyszolgáltatóddal."
+
+#. translators: %s is replaced with the plugin's name.
+#: admin/import/plugins/class-abstract-plugin-importer.php:132
+msgid "Cleanup of %s data failed."
+msgstr "A %s adat eltávolítása sikertelen."
+
+#: admin/class-bulk-editor-list-table.php:1003
+msgid "Content Type"
+msgstr "Tartalomtípus"
+
+#: admin/class-bulk-editor-list-table.php:411
+msgid "Filter by content type"
+msgstr "Tartalom típus szerinti szűrés"
+
+#: admin/class-bulk-editor-list-table.php:394
+msgid "Show All Content Types"
+msgstr "Összes tartalom típus mutatása"
+
+#: inc/class-wpseo-replace-vars.php:1472
+msgid "Replaced with the normal title for an archive generated by WordPress"
+msgstr "A WordPress által generált archívum szokásos címével váltja fel"
+
+#: admin/views/tabs/tool/import-seo.php:137
+msgid "Clean"
+msgstr "Törlés"
+
+#: admin/views/tabs/tool/import-seo.php:128
+msgid "Once you're certain your site is OK, you can clean up. This will remove all the original data."
+msgstr "Ha biztos vagy benne, hogy a webhely rendben akkor indíthatod a tisztítást. Ez eltávolítja az összes eredeti adatot."
+
+#: admin/views/tabs/tool/import-seo.php:126
+msgid "Step 5: Clean up"
+msgstr "5. lépés: Adatok takarítása"
+
+#: admin/views/tabs/tool/import-seo.php:107
+msgid "Please check your posts and pages and see if the metadata was successfully imported."
+msgstr "Kérlek ellenőrizd a bejegyzéseket és az oldalakat, hogy a metaadatok sikeresen lettek-e importálva."
+
+#: admin/views/tabs/tool/import-seo.php:105
+msgid "Step 3: Check your data"
+msgstr "3. lépés: Ellenőrizd az adataid"
+
+#. translators: 1: expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:67
+msgid "This will import the post metadata like SEO titles and descriptions into your %1$s metadata. It will only do this when there is no existing %1$s metadata yet. The original data will remain in place."
+msgstr "Ez importálja a bejegyzés metaadatokat, mint például a SEO címeket és leírásokat %1$s metaadataihoz. Ez csak akkor fog megtörténni, ha még nem létezik %1$s metaadat. Az eredeti adatok továbbra is érvényben maradnak."
+
+#: admin/views/tabs/tool/import-seo.php:62
+msgid "Step 2: Import"
+msgstr "2. lépés: Importáld"
+
+#: admin/views/tabs/tool/import-seo.php:57
+msgid "Please make a backup of your database before starting this process."
+msgstr "Kérlek, készíts egy biztonsági mentést az adatbázisodról, mielőtt elkezded a folyamatot."
+
+#: admin/views/tabs/tool/import-seo.php:55
+msgid "Step 1: Create a backup"
+msgstr "1. lépés: Végezz biztonsági mentést"
+
+#: admin/views/tabs/tool/import-seo.php:51
+msgid "We've detected data from one or more SEO plugins on your site. Please follow the following steps to import that data:"
+msgstr "Úgy tűnik, egy vagy több SEO bővítményből származó adat van a weboldaladon. Kérlek kövesd az alábbi lépéseket az adatok importálásához:"
+
+#: admin/views/tabs/tool/import-seo.php:39
+msgid "Plugin: "
+msgstr "Bővítmény: "
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:22
+msgid "%s did not detect any plugin data from plugins it can import from."
+msgstr "%s nem talált olyan előző bővítményt, aminek az adatai importálhatóak."
+
+#: admin/statistics/class-statistics-service.php:229
+msgid "Posts that should not show up in search results"
+msgstr "Bejegyzések, amelyeknek nem kellene megjelennie a keresési találatok között"
+
+#. translators: %s is replaced with the name of the plugin we've found data
+#. from.
+#: admin/import/class-import-status.php:128
+msgid "%s data found."
+msgstr "%s adat található."
+
+#. translators: %s is replaced with the name of the plugin we're removing data
+#. from.
+#: admin/import/class-import-status.php:124
+msgid "%s data successfully removed."
+msgstr "%s adatok sikeresen eltávolítva."
+
+#. translators: %s is replaced with the name of the plugin we're importing data
+#. from.
+#: admin/import/class-import-status.php:121
+msgid "%s data successfully imported."
+msgstr "%s adat sikeresen importálva."
+
+#. translators: %s is replaced with the name of the plugin we're trying to find
+#. data from.
+#: admin/import/class-import-status.php:61
+msgid "%s data not found."
+msgstr "%s adat nem található."
+
+#: admin/class-premium-upsell-admin-block.php:60 js/dist/block-editor.js:200
+#: js/dist/classic-editor.js:196 js/dist/elementor.js:214
+#: js/dist/externals-components.js:9 js/dist/externals-components.js:125
+#: js/dist/new-settings.js:306
+msgid "24/7 email support"
+msgstr "24/7 email támogatás"
+
+#: admin/views/user-profile.php:15
+msgid "this author's archives"
+msgstr "szerző archívumai"
+
+#. translators: %s expands to "this author's archives".
+#: admin/views/user-profile.php:14
+msgid "Do not allow search engines to show %s in search results."
+msgstr "Ne engedje, hogy a keresőmotorok a keresési eredmények között mutassák: %s"
+
+#: admin/class-yoast-form.php:936 admin/class-yoast-form.php:976
+#: admin/metabox/class-metabox.php:210 js/dist/externals/componentsNew.js:778
+msgid "On"
+msgstr "Be"
+
+#. translators: %s expands to a feature's name
+#. translators: %s expands to an integration's name
+#: admin/views/tabs/network/features.php:62
+#: admin/views/tabs/network/integrations.php:50
+msgid "Help on: %s"
+msgstr "Segítség a következőről: %s"
+
+#: admin/class-yoast-form.php:937 admin/class-yoast-form.php:977
+#: admin/metabox/class-metabox.php:209
+#: admin/views/class-yoast-feature-toggles.php:160
+#: js/dist/externals/componentsNew.js:778
+msgid "Off"
+msgstr "Ki"
+
+#: admin/views/class-yoast-feature-toggles.php:140
+msgid "Read why XML Sitemaps are important for your site."
+msgstr "Olvasd el, miért fontosak az oldalad számára az XML oldaltérképek?"
+
+#. translators: %s: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:139
+msgid "Enable the XML sitemaps that %s generates."
+msgstr "Engedélyezze az XML-webhelytérképeket, amelyek %s generálnak."
+
+#: admin/views/class-yoast-feature-toggles.php:70
+msgid "See the XML sitemap."
+msgstr "Lásd az XML-webhelytérképet."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/dashboard/dashboard.php:19
+msgid "See who contributed to %1$s."
+msgstr "Nézze meg, ki járult hozzá a %1$s-hoz."
+
+#: src/deprecated/admin/views/class-view-utils.php:66
+msgid "Help on this search results setting"
+msgstr "Segítség a keresési eredmények beállításában"
+
+#. translators: 1: expands to an indexable object's name, like a post type or
+#. taxonomy; 2: expands to <code>noindex</code>; 3: link open tag; 4: link
+#. close tag.
+#: src/deprecated/admin/views/class-view-utils.php:60
+msgid "Not showing the archive for %1$s in the search results technically means those will have a %2$s robots meta and will be excluded from XML sitemaps. %3$sMore info on the search results settings%4$s."
+msgstr "Ha a keresési eredmények között %1$s archívuma nem jelenik meg, az gyakorlatilag annyit jelent, hogy %2$s robots meta taggel rendelkezik, és az XML webhelytérképekről kizárásra kerül. %3$sTovábbi információ a keresési eredmények beállításaiban%4$s."
+
+#. translators: 1: expands to an indexable object's name, like a post type or
+#. taxonomy; 2: expands to <code>noindex</code>; 3: link open tag; 4: link
+#. close tag.
+#: src/deprecated/admin/views/class-view-utils.php:56
+msgid "Not showing %1$s in the search results technically means those will have a %2$s robots meta and will be excluded from XML sitemaps. %3$sMore info on the search results settings%4$s."
+msgstr "Ha a keresési eredmények között %1$s nem jelenik meg, az gyakorlatilag annyit jelent, hogy %2$s robots meta taggel rendelkezik, és az XML webhelytérképekről kizárásra kerül. %3$sTovábbi információ a keresési eredmények beállításaiban%4$s."
+
+#. translators: %1$s expands to the post type name.
+#: admin/metabox/class-metabox.php:185
+msgid "Should search engines follow links on this %1$s?"
+msgstr "A keresőmotorok ezen a linkeken érjék el ezt %1$s?"
+
+#. translators: %1$s expands to Yes or No,  %2$s expands to the post type name.
+#: admin/metabox/class-metabox.php:180
+msgid "Default for %2$s, currently: %1$s"
+msgstr "Alapértelmezés az alábbihoz: %2$s, jelenleg: %1$s"
+
+#. translators: %s expands to the post type name.
+#. Translators: %s translates to the Post Label in singular form
+#: admin/metabox/class-metabox.php:175 js/dist/block-editor.js:230
+#: js/dist/classic-editor.js:226 js/dist/elementor.js:244
+msgid "Allow search engines to show this %s in search results?"
+msgstr "Megengedjük a kereső motoroknak, hogy mutassák a(z) %s a keresési eredményekben?"
+
+#. translators: %s expands to an indexable object's name, like a post type or
+#. taxonomy
+#: admin/class-yoast-form.php:947
+msgid "Show %s in search results?"
+msgstr "Látszódjon a(z) %s a keresési találatokban?"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:80
+msgid "Toggle %1$s's XML Sitemap"
+msgstr "XML Webhelytérkép mutatása %1$s"
+
+#. translators: %s expands to WordProof
+#: src/integrations/third-party/wordproof-integration-toggle.php:85
+msgid "Read more about how %s works."
+msgstr "Olvasson többet arról, hogy %s hogyan működik."
+
+#. translators: %s: 'Semrush'
+#. translators: %s: Algolia.
+#. translators: %s: 'Wincher'
+#. translators: %s expands to WordProof
+#: admin/views/class-yoast-integration-toggles.php:67
+#: admin/views/class-yoast-integration-toggles.php:78
+#: src/integrations/third-party/wincher.php:68
+#: src/integrations/third-party/wordproof-integration-toggle.php:77
+msgid "%s integration"
+msgstr "%s integrálás"
+
+#: admin/views/class-yoast-feature-toggles.php:111
+msgid "Find out how the text link counter can enhance your SEO."
+msgstr "Tudjuk meg, hogyan növelheti a szöveges link-számláló a SEO értékünket!"
+
+#: admin/views/class-yoast-feature-toggles.php:110
+msgid "The text link counter helps you improve your site structure."
+msgstr "A szöveg link számláló segít feljavítani a weboldalad struktúráját."
+
+#: admin/views/class-yoast-feature-toggles.php:103
+msgid "Find out how cornerstone content can help you improve your site structure."
+msgstr "Fedezze fel, hogy a sarokkő-tartalom hogyan tudja javítani webhelye struktúráját!"
+
+#: admin/views/class-yoast-feature-toggles.php:102
+msgid "The cornerstone content feature lets you to mark and filter cornerstone content on your website."
+msgstr "A sarokkő-tartalom beállítás lehetővé teszi, hogy megjelöljön és szűrjön a sarokkő-tartalomra a webhelyén."
+
+#: admin/views/class-yoast-feature-toggles.php:86
+msgid "Discover why readability is important for SEO."
+msgstr "Fedezd fel, hogy az olvashatóság miért fontos a SEO-ban."
+
+#: admin/views/class-yoast-feature-toggles.php:85 js/dist/new-settings.js:288
+msgid "The readability analysis offers suggestions to improve the structure and style of your text."
+msgstr "Az olvashatósági elemzés javaslatokat tesz a szöveg struktúrájának és stílusának feljavítására."
+
+#: admin/views/class-yoast-feature-toggles.php:78
+msgid "Learn how the SEO analysis can help you rank."
+msgstr "Tudjunk meg többet arról hogy, hogyan segít az SEO elemzés jobb helyezés elérésében."
+
+#: admin/views/class-yoast-feature-toggles.php:77
+msgid "The SEO analysis offers suggestions to improve the SEO of your text."
+msgstr "Az SEO elemzés javaslatokat tesz a szöveg optimalizására."
+
+#: admin/views/class-yoast-feature-toggles.php:75
+#: js/dist/externals-components.js:156 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "SEO analysis"
+msgstr "SEO-elemzés"
+
+#: admin/formatter/class-metabox-formatter.php:239
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Good results"
+msgstr "Jó eredmények"
+
+#. Author URI of the plugin
+msgid "https://yoa.st/1uk"
+msgstr "https://yoa.st/1uk"
+
+#. Plugin URI of the plugin
+msgid "https://yoa.st/1uj"
+msgstr "https://yoa.st/1uj"
+
+#. translators: %1$s resolves to Yoast.com
+#: admin/class-yoast-dashboard-widget.php:122
+msgid "Latest blog posts on %1$s"
+msgstr "Legutóbbi blogbejegyzések a(z) %1$s oldalon"
+
+#: admin/formatter/class-metabox-formatter.php:241
+#: js/dist/externals/analysisReport.js:17
+msgid "Remove highlight from the text"
+msgstr "Szövegkiemelés eltávolítása."
+
+#: src/helpers/first-time-configuration-notice-helper.php:68
+msgid "First-time SEO configuration"
+msgstr "SEO beállítások első alkalommal"
+
+#: admin/formatter/class-metabox-formatter.php:240
+#: js/dist/externals/analysisReport.js:17
+msgid "Highlight this result in the text"
+msgstr "Emeld ki ezt az eredményt a szövegben."
+
+#: admin/formatter/class-metabox-formatter.php:238
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Considerations"
+msgstr "Megfontolandók"
+
+#: admin/formatter/class-metabox-formatter.php:235
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Errors"
+msgstr "Hibák"
+
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:186
+msgid "%s file"
+msgstr "%s fájl"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:174 admin/views/tool-file-editor.php:224
+msgid "Save changes to %s"
+msgstr "Változtatások mentése ide: %s"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:165 admin/views/tool-file-editor.php:215
+msgid "Edit the content of your %s:"
+msgstr "%s tartalmának szerkesztése:"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:125
+msgid "Create %s file"
+msgstr "%s fájl létrehozása"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:65
+msgid "Updated %s"
+msgstr "%s frissítve"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:49 admin/views/tool-file-editor.php:76
+msgid "You cannot edit the %s file."
+msgstr "Nem szerkesztheted a %s fájlt."
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:28
+msgid "You cannot create a %s file."
+msgstr "Nem hozhatsz létre egy %s fájlt."
+
+#. translators: %1$s expands to the dependency name.
+#: admin/class-suggested-plugins.php:136
+msgid "More information about %1$s"
+msgstr "Bővebb információ erről: %1$s"
+
+#: src/integrations/admin/old-configuration-integration.php:38
+msgid "Old Configuration Wizard"
+msgstr "Régi Konfigurációs varázsló"
+
+#. translators: %s expands to the extension title
+#: admin/views/licenses.php:199 admin/views/licenses.php:309
+msgid "Manage your %s subscription on MyYoast"
+msgstr "Menedzselje %s feliratkozását a MyYoast-on"
+
+#. translators: %1$s expands to the posttype label, %2$s expands anchor to blog
+#. post about cornerstone content, %3$s expands to </a>
+#: admin/filters/class-cornerstone-filter.php:104
+msgid "Mark the most important %1$s as 'cornerstone content' to improve your site structure. %2$sLearn more about cornerstone content%3$s."
+msgstr "Jelölje meg a legfontosabb %1$s-t \"sarokkő tartalmat\" a webhelystruktúra javítása érdekében. %2$s További információ a sarokkőről a %3$s-n."
+
+#: admin/class-admin-utils.php:78 admin/class-premium-popup.php:82
+#: admin/class-premium-upsell-admin-block.php:70 admin/class-yoast-form.php:912
+#: admin/formatter/class-metabox-formatter.php:243 admin/views/licenses.php:125
+#: admin/watchers/class-slug-change-watcher.php:225
+#: src/integrations/admin/workouts-integration.php:210
+#: src/integrations/admin/workouts-integration.php:239
+#: src/presenters/admin/help-link-presenter.php:75 js/dist/academy.js:6
+#: js/dist/block-editor.js:295 js/dist/elementor.js:97
+#: js/dist/externals/componentsNew.js:136 js/dist/externals/helpers.js:18
+#: js/dist/integrations-page.js:3 js/dist/integrations-page.js:15
+#: js/dist/integrations-page.js:23 js/dist/introductions.js:9
+#: js/dist/new-settings.js:9 js/dist/post-edit.js:9 js/dist/support.js:1
+#: js/dist/support.js:27
+msgid "(Opens in a new browser tab)"
+msgstr "(Új böngésző lapon nyílik)"
+
+#. translators: %1$s expands to an opening strong tag, %2$s expands to a
+#. closing strong tag
+#: admin/statistics/class-statistics-service.php:210
+msgid "Posts %1$swithout%2$s a focus keyphrase"
+msgstr "Bejegyzések fő kulcskifejezés  %1$snélkül%2$s"
+
+#: admin/statistics/class-statistics-service.php:77
+msgid "Hey, your SEO is doing pretty well! Check out the stats:"
+msgstr "Hello, a honlapod SEO szempontból nagyon szépen teljesít! Nézd meg a statisztikákat:"
+
+#: admin/statistics/class-statistics-service.php:73
+msgid "You don't have any published posts, your SEO scores will appear here once you make your first post!"
+msgstr "Még nincs közzétett bejegyzésed, a SEO érték itt fog megjelenni, amint elkészíted az első bejegyzésed!"
+
+#: admin/class-yoast-dashboard-widget.php:125
+msgid "Read more like this on our SEO blog"
+msgstr "Olvass hasonlókat a SEO blogunkon"
+
+#. translators: %s expands to the readability score
+#: inc/class-wpseo-rank.php:207 inc/class-wpseo-rank.php:212
+#: inc/class-wpseo-rank.php:217
+msgid "Readability: %s"
+msgstr "Olvashatóság: %s"
+
+#: admin/views/licenses.php:207 admin/views/licenses.php:318
+msgid "Not activated"
+msgstr "Nincs aktiválva"
+
+#: admin/views/licenses.php:194 admin/views/licenses.php:304
+msgid "Activated"
+msgstr "Aktiválva"
+
+#. translators: %1$s expands to Yoast
+#: src/presenters/admin/sidebar-presenter.php:28
+msgid "%1$s recommendations for you"
+msgstr "%1$s ajánlatai neked"
+
+#: admin/class-meta-columns.php:273
+msgid "All Readability Scores"
+msgstr "Olvashatóság összes pontszáma"
+
+#: admin/class-meta-columns.php:269
+msgid "Filter by Readability Score"
+msgstr "Szűrés olvashatósági pontozás alapján"
+
+#. translators: %1$s expands to the request method
+#: admin/class-remote-request.php:95
+msgid "Request method %1$s is not valid."
+msgstr "%1$s kérés módja nem megfelelő."
+
+#: admin/views/class-yoast-feature-toggles.php:108 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Text link counter"
+msgstr "Szöveges link-számláló"
+
+#: src/integrations/admin/link-count-columns-integration.php:144
+msgid "Number of internal links linking to this post. See \"Yoast Columns\" text in the help tab for more info."
+msgstr "Az ehhez a bejegyzéshez kapcsolódó belső hivatkozások száma. Nézd meg a \"Yoast oszlopok\" szöveget a súgó fülön további információkért."
+
+#: src/integrations/admin/link-count-columns-integration.php:137
+msgid "Number of outgoing internal links in this post. See \"Yoast Columns\" text in the help tab for more info."
+msgstr "A kifelé irányuló belső linkek száma a bejegyzésben. További információk a Segítség menüpontban a \"Yoast Oszlopok\" alatt."
+
+#. translators: %s expands to Yoast
+#: admin/class-yoast-columns.php:60
+msgid "%s Columns"
+msgstr "%s Oszlopok"
+
+#: admin/class-meta-columns.php:104
+#: admin/taxonomy/class-taxonomy-columns.php:91
+msgid "Readability score"
+msgstr "Olvashatósági pontszám"
+
+#: admin/filters/class-cornerstone-filter.php:87
+#: admin/views/class-yoast-feature-toggles.php:100
+#: js/dist/externals-components.js:16 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Cornerstone content"
+msgstr "Sarokkő-tartalom"
+
+#: admin/class-premium-upsell-admin-block.php:56 js/dist/block-editor.js:198
+#: js/dist/classic-editor.js:194 js/dist/elementor.js:212
+#: js/dist/externals-components.js:7 js/dist/externals-components.js:123
+#: js/dist/new-settings.js:306
+msgid "Superfast internal linking suggestions"
+msgstr "Szupergyors belső hivatkozási javaslatok"
+
+#: admin/class-yoast-form.php:141 admin/class-yoast-form.php:146
+#: js/dist/first-time-configuration.js:4 js/dist/new-settings.js:15
+msgid "Save changes"
+msgstr "Változtatások mentése"
+
+#: admin/class-premium-popup.php:88 js/dist/block-editor.js:204
+#: js/dist/classic-editor.js:200 js/dist/elementor.js:218
+#: js/dist/externals-components.js:13 js/dist/externals-components.js:129
+msgid "1 year free support and updates included!"
+msgstr "Ingyenes támogatás és frissítések egy éven át!"
+
+#. translators: %2$s expands to 'RS Head Cleaner' plugin name of possibly
+#. conflicting plugin with regard to differentiating output between search
+#. engines and normal users.
+#: admin/class-plugin-conflict.php:85
+msgid "The plugin %2$s changes your site's output and in doing that differentiates between search engines and normal users, a process that's called cloaking. We highly recommend that you disable it."
+msgstr "A(z) %2$s bővítmény megváltoztatja a webhelyed kimenetét, eközben különbséget tesz a keresőmotorok és a felhasználók között. Ezt a folyamatot cloaking-nak nevezzük. Javasoljuk, hogy a bővítményt kapcsold ki."
+
+#: admin/class-premium-upsell-admin-block.php:61 js/dist/block-editor.js:200
+#: js/dist/classic-editor.js:196 js/dist/elementor.js:214
+#: js/dist/externals-components.js:9 js/dist/externals-components.js:125
+#: js/dist/new-settings.js:306
+msgid "No ads!"
+msgstr "Reklámmentes!"
+
+#: admin/class-premium-upsell-admin-block.php:57 js/dist/new-settings.js:306
+msgid "Facebook & Twitter"
+msgstr "Facebook és Twitter"
+
+#: admin/class-premium-upsell-admin-block.php:57 js/dist/new-settings.js:306
+msgid "Social media preview"
+msgstr "Közösségi média előnézet"
+
+#: admin/class-premium-upsell-admin-block.php:55 js/dist/new-settings.js:306
+msgid "Easy redirect manager"
+msgstr "Egyszerű átirányítási menedzser"
+
+#: admin/class-premium-upsell-admin-block.php:55 js/dist/new-settings.js:306
+msgid "No more dead links"
+msgstr "Nincs több halott link"
+
+#: admin/class-premium-upsell-admin-block.php:58 js/dist/new-settings.js:306
+msgid "Increase your SEO reach"
+msgstr "Növelje SEO elérését"
+
+#: admin/class-admin.php:345
+msgid "Scroll to see the table content."
+msgstr "Görgess lejjebb a táblázat tartalmához."
+
+#: admin/views/partial-notifications-warnings.php:22
+msgid "No new notifications."
+msgstr "Nincs új értesítés."
+
+#: admin/class-bulk-editor-list-table.php:892
+msgid "Save all"
+msgstr "Összes mentése"
+
+#: admin/class-bulk-editor-list-table.php:891
+msgid "Save"
+msgstr "Mentés"
+
+#. translators: 1: Author name; 2: Site name.
+#: inc/options/class-wpseo-option-titles.php:255
+msgid "%1$s, Author at %2$s"
+msgstr "%1$s, Szerző | %2$s"
+
+#: admin/formatter/class-metabox-formatter.php:242
+#: js/dist/externals/analysis.js:332 js/dist/externals/analysisReport.js:17
+msgid "Marks are disabled in current view"
+msgstr "A jelek tiltva vannak a jelenlegi nézetben"
+
+#: inc/class-wpseo-replace-vars.php:1515 js/dist/first-time-configuration.js:6
+msgid "Name"
+msgstr "Név"
+
+#: admin/views/tool-import-export.php:89
+msgid "Export settings"
+msgstr "Beállítások exportálása"
+
+#: admin/class-product-upsell-notice.php:169
+msgid "Please don't show me this notification anymore"
+msgstr "Nem akarom többé látni ezt az értesítést"
+
+#. translators: %1$s is a link start tag to the bugreport guidelines on the
+#. Yoast help center, %2$s is the link closing tag.
+#: admin/class-product-upsell-notice.php:162
+msgid "If you are experiencing issues, %1$splease file a bug report%2$s and we'll do our best to help you out."
+msgstr "Ha problémákat észlelsz, %1$skérlek küldj egy hibajelentést%2$s és legjobb tudásunk alapján segítünk neked."
+
+#. translators: %1$s expands to Yoast SEO, %2$s is a link start tag to the
+#. plugin page on WordPress.org, %3$s is the link closing tag.
+#: admin/class-product-upsell-notice.php:154
+msgid "We've noticed you've been using %1$s for some time now; we hope you love it! We'd be thrilled if you could %2$sgive us a 5 stars rating on WordPress.org%3$s!"
+msgstr "Észleltük, hogy egy ideje már használjuk a %1$s-t, reméljük örömmel. Nagyon boldogok lennénk, ha ezt %2$sa WordPress.org-on is megosztanád, és 5 csillaggal értékelnél minket%3$s!"
+
+#. translators: %1$s: '%%term_title%%' variable used in titles and meta's
+#. template that's not compatible with the given template, %2$s: expands to
+#. 'HelpScout beacon'
+#: admin/class-admin.php:339
+msgid "Warning: the variable %1$s cannot be used in this template. See the %2$s for more info."
+msgstr "Figyelem: A(z) %1$s változó nem használható ebben a sablonban. További információért tekintsd meg a %2$s-t!"
+
+#. translators: %1$s expands anchor to premium plugin page, %2$s expands to
+#. </a>
+#: admin/class-product-upsell-notice.php:137
+msgid "By the way, did you know we also have a %1$sPremium plugin%2$s? It offers advanced features, like a redirect manager and support for multiple keyphrases. It also comes with 24/7 personal support."
+msgstr "Egyébként tudta-e, hogy van egy %1$sPrémium bővítményünk%2$s? Ez speciális funkciókat is tartalmaz, mint az átirányítás-kezelő és több kulcskifejezés kezelését is támogatja egy tartalmon belül. Továbbá 24/7 nonstop személyes támgatást biztosít."
+
+#: admin/class-bulk-editor-list-table.php:799
+msgid "(no title)"
+msgstr "(nincs cím)"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:150
+msgid "The %1$s admin bar menu contains useful links to third-party tools for analyzing pages and makes it easy to see if you have new notifications."
+msgstr "A %1$s admin menü hasznos, egyrészt hasznos, harmadik féltől származó eszközöket tartalmaz az oldalak elemzésére, másrészt megkönnyíti az új értesítések észrevételét."
+
+#: admin/views/class-yoast-feature-toggles.php:147 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288 js/dist/new-settings.js:289
+msgid "Admin bar menu"
+msgstr "Admin menüsor"
+
+#: admin/pages/network.php:19 admin/views/tabs/network/features.php:22
+msgid "Features"
+msgstr "Funkciók"
+
+#: admin/views/licenses.php:183
+msgid "Gain access to our 24/7 support team"
+msgstr "Szerezzen hozzáférést éjjel-nappali ügyfélszolgálatunkhoz"
+
+#: admin/metabox/class-metabox.php:171 js/dist/externals/analysis.js:118
+#: js/dist/externals/analysis.js:240 js/dist/externals/analysis.js:332
+#: js/dist/externals/replacementVariableEditor.js:83
+#: js/dist/externals/searchMetadataPreviews.js:270 js/dist/new-settings.js:23
+#: js/dist/new-settings.js:25 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:32 js/dist/new-settings.js:55
+#: js/dist/new-settings.js:66 js/dist/new-settings.js:94
+#: js/dist/new-settings.js:117 js/dist/new-settings.js:179
+#: js/dist/new-settings.js:193 js/dist/new-settings.js:203
+#: js/dist/new-settings.js:222
+msgid "SEO title"
+msgstr "SEO cím"
+
+#: inc/options/class-wpseo-option-titles.php:1016
+msgid "Greater than sign"
+msgstr "Nagyobb jel"
+
+#: inc/options/class-wpseo-option-titles.php:1012
+msgid "Less than sign"
+msgstr "Kisebb jel"
+
+#: inc/options/class-wpseo-option-titles.php:1008
+msgid "Right angle quotation mark"
+msgstr "Jobbos macskaköröm"
+
+#: inc/options/class-wpseo-option-titles.php:1004
+msgid "Left angle quotation mark"
+msgstr "Balos macskaköröm"
+
+#: inc/options/class-wpseo-option-titles.php:1000
+msgid "Small tilde"
+msgstr "Kis hullám jel"
+
+#: inc/options/class-wpseo-option-titles.php:996
+msgid "Vertical bar"
+msgstr "Függőleges vonal"
+
+#: inc/options/class-wpseo-option-titles.php:992
+msgid "Low asterisk"
+msgstr "Alacsony csillag"
+
+#: inc/options/class-wpseo-option-titles.php:988
+msgid "Asterisk"
+msgstr "Csillag"
+
+#: inc/options/class-wpseo-option-titles.php:984
+msgid "Bullet"
+msgstr "Pontok"
+
+#: inc/options/class-wpseo-option-titles.php:980
+msgid "Middle dot"
+msgstr "Középső pont"
+
+#: inc/options/class-wpseo-option-titles.php:972
+msgid "Em dash"
+msgstr "Hosszú gondolatjel"
+
+#: inc/options/class-wpseo-option-titles.php:968
+msgid "En dash"
+msgstr "Gondolatjel"
+
+#: inc/options/class-wpseo-option-titles.php:964
+msgid "Dash"
+msgstr "Kötőjel"
+
+#: admin/metabox/class-metabox.php:182 admin/metabox/class-metabox.php:187
+#: js/dist/block-editor.js:224 js/dist/classic-editor.js:220
+#: js/dist/elementor.js:238
+msgid "No"
+msgstr "Nem"
+
+#: admin/metabox/class-metabox.php:181 admin/metabox/class-metabox.php:186
+#: js/dist/block-editor.js:224 js/dist/classic-editor.js:220
+#: js/dist/elementor.js:238
+msgid "Yes"
+msgstr "Igen"
+
+#: admin/views/tool-bulk-editor.php:63
+msgid "Posts list"
+msgstr "Üzenetek listája"
+
+#: admin/views/tool-bulk-editor.php:62
+msgid "Posts list navigation"
+msgstr "Posztok lista navigációja"
+
+#: admin/views/tool-bulk-editor.php:61
+msgid "Filter posts list"
+msgstr "Üzenetek szűrése"
+
+#. translators: Text between 1: and 2: will only be shown to screen readers. 3:
+#. expands to the product name.
+#. translators: Text between 1: and 2: will only be shown to screen readers. 3:
+#. expands to the product name, e.g. "News SEO" or "all the Yoast Plugins"
+#: admin/views/licenses.php:241 admin/views/licenses.php:351
+msgid "More information %1$sabout %3$s%2$s"
+msgstr "További információ %1$sabout %3$s%2$s"
+
+#: admin/views/licenses.php:188 admin/views/licenses.php:298
+msgid "Installed"
+msgstr "Telepítve"
+
+#: admin/views/licenses.php:182
+msgid "Premium support"
+msgstr "Prémium támogatás"
+
+#: admin/views/licenses.php:63
+msgid "Optimize your site for Google News"
+msgstr "Optimalizáld az oldalad a google hírek számára"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:813
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Szerkesztés &#8220;%s&#8221;"
+
+#: admin/menu/class-base-menu.php:258
+#: src/integrations/admin/menu-badge-integration.php:35 js/dist/academy.js:6
+msgid "Premium"
+msgstr "Prémium"
+
+#: admin/class-admin.php:267
+msgid "Get Premium"
+msgstr "Válts prémium verzióra"
+
+#: admin/views/partial-notifications-warnings.php:20
+#: inc/class-wpseo-admin-bar-menu.php:390
+msgid "Notifications"
+msgstr "Értesítések"
+
+#: admin/views/user-profile.php:48
+msgid "Removes the focus keyphrase section from the metabox and disables all SEO-related suggestions."
+msgstr "Eltávolítja a metadobozból a fő kulcskifejezés szakaszt, és letiltja az összes SEO-val kapcsolatos javaslatot."
+
+#: admin/views/user-profile.php:45
+msgid "Disable SEO analysis"
+msgstr "SEO elemzés kikapcsolása"
+
+#: admin/views/js-templates-primary-term.php:28
+msgid "Make primary"
+msgstr "Legyen elsődleges"
+
+#. translators: %s: number of notifications
+#: admin/menu/class-admin-menu.php:118 inc/class-wpseo-admin-bar-menu.php:854
+msgid "%s notification"
+msgid_plural "%s notifications"
+msgstr[0] "%s értesítés"
+msgstr[1] "%s értesítés"
+
+#: admin/views/user-profile.php:57
+msgid "Disable readability analysis"
+msgstr "Olvashatósági elemzés kikapcsolása"
+
+#: admin/views/user-profile.php:60
+msgid "Removes the readability analysis section from the metabox and disables all readability-related suggestions."
+msgstr "Eltünteti az olvashatóság fület a metaboxból és letilt minden olvashatósággal kapcsolatos javaslatot."
+
+#: admin/views/class-yoast-feature-toggles.php:83
+#: js/dist/externals-components.js:94 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Readability analysis"
+msgstr "Olvashatósági elemzés"
+
+#: admin/formatter/class-metabox-formatter.php:123
+#: admin/formatter/class-metabox-formatter.php:153
+#: admin/formatter/class-metabox-formatter.php:183
+#: admin/statistics/class-statistics-service.php:217
+#: inc/class-wpseo-rank.php:140 inc/class-wpseo-rank.php:176
+#: inc/class-wpseo-rank.php:208 inc/class-wpseo-rank.php:235
+#: js/dist/block-editor.js:1 js/dist/editor-modules.js:1
+#: js/dist/externals-components.js:175 js/dist/externals/analysis.js:332
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Needs improvement"
+msgstr "Javítani szükséges"
+
+#: admin/formatter/class-metabox-formatter.php:70
+#: admin/metabox/class-metabox-section-readability.php:28
+#: inc/class-wpseo-admin-bar-menu.php:251
+msgid "Readability"
+msgstr "Olvashatóság"
+
+#: admin/formatter/class-metabox-formatter.php:237
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Improvements"
+msgstr "Fejlesztések"
+
+#: admin/views/partial-notifications-errors.php:22
+msgid "Good job! We could detect no serious SEO problems."
+msgstr "Szép munka! Nincs különösebb SEO probléma."
+
+#: admin/views/partial-notifications-errors.php:21
+msgid "We have detected the following issues that affect the SEO of your site."
+msgstr "Az alábbi problémákat találtuk, amelyek befolyásolhatják az oldalad SEO-ját."
+
+#: admin/formatter/class-metabox-formatter.php:236
+#: admin/views/partial-notifications-errors.php:20
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Problems"
+msgstr "Problémák"
+
+#: admin/formatter/class-metabox-formatter.php:203
+msgid "Analysis"
+msgstr "Elemzés"
+
+#: admin/formatter/class-metabox-formatter.php:116
+#: admin/formatter/class-metabox-formatter.php:146
+#: admin/formatter/class-metabox-formatter.php:176 inc/class-wpseo-rank.php:138
+msgid "Not available"
+msgstr "Nem elérhető"
+
+#: admin/class-meta-columns.php:241
+msgid "Filter by SEO Score"
+msgstr "Szűrés SEO pontszám szerint"
+
+#: admin/class-meta-columns.php:157
+msgid "Meta description not set."
+msgstr "Metaleírás nincs megadva."
+
+#: admin/menu/class-admin-menu.php:54 admin/pages/dashboard.php:32
+msgid "Dashboard"
+msgstr "Vezérlőpult"
+
+#. translators: %1$s is a link start tag to the permalink settings page, %2$s
+#. is the link closing tag.
+#: src/services/health-check/postname-permalink-reports.php:71
+msgid "You can fix this on the %1$sPermalink settings page%2$s."
+msgstr "Helyrehozhatod ezt a %1$sKözvetlen Hivatkozások oldalon%2$s."
+
+#: inc/class-wpseo-replace-vars.php:1479
+msgid "Replaced with the primary category of the post/page"
+msgstr "Kicserélve az oldal/bejegyzés főkategóriájára"
+
+#. translators: $s expands to Yoast SEO Premium
+#. translators: %s expands to the product name, e.g. "News SEO" or "all the
+#. Yoast Plugins"
+#. translators: 1: Yoast WooCommerce SEO
+#: admin/views/licenses.php:228 admin/views/licenses.php:337
+#: js/dist/integrations-page.js:15
+msgid "Buy %s"
+msgstr "%s vásárlása"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-bulk-title-editor-list-table.php:50
+msgid "New %1$s Title"
+msgstr "Új %1$s címsor"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-bulk-title-editor-list-table.php:48
+msgid "Existing %1$s Title"
+msgstr "Létező %1$s címsor"
+
+#: inc/sitemaps/class-sitemaps-cache-validator.php:294
+msgid "Expected an integer as input."
+msgstr "Csak egész számot lehet megadni."
+
+#: inc/sitemaps/class-sitemaps-cache-validator.php:111
+msgid "Trying to build the sitemap cache key, but the postfix and prefix combination leaves too little room to do this. You are probably requesting a page that is way out of the expected range."
+msgstr "Megpróbálom felépíteni a webhelytérkép gyorsítótár kulcsát, de a postfix és prefix kombináció túl kevés helyet hagy ahhoz, hogy ezt megtehesse. Valószínűleg egy olyan oldalt kér, amely kifutott a várható tartományból."
+
+#: admin/views/redirects.php:32
+#: src/integrations/admin/redirects-page-integration.php:48
+msgid "Redirects"
+msgstr "Átirányítások"
+
+#: src/integrations/admin/crawl-settings-integration.php:247
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: src/integrations/admin/crawl-settings-integration.php:246
+msgid "Keep"
+msgstr "Megtart"
+
+#. translators: %s is the taxonomy title. This will be shown to screenreaders
+#: admin/views/js-templates-primary-term.php:38
+msgid "Primary %s"
+msgstr "Elsődleges %s"
+
+#: admin/views/js-templates-primary-term.php:32
+msgid "Primary"
+msgstr "Elsődleges"
+
+#. translators: accessibility text. %1$s expands to the term title, %2$s to the
+#. taxonomy title.
+#: admin/views/js-templates-primary-term.php:18
+msgid "Make %1$s primary %2$s"
+msgstr "Make %1$s primary %2$s"
+
+#: admin/pages/network.php:20 admin/views/tabs/network/integrations.php:22
+#: src/integrations/admin/integrations-page.php:80
+#: js/dist/integrations-page.js:65
+msgid "Integrations"
+msgstr "Integrációk"
+
+#: admin/taxonomy/class-taxonomy-columns.php:172
+msgid "Term is set to noindex."
+msgstr "A kifejezéshez noindex van állítva."
+
+#: src/integrations/admin/crawl-settings-integration.php:200
+#: src/presenters/admin/light-switch-presenter.php:120
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: src/integrations/admin/crawl-settings-integration.php:199
+#: src/presenters/admin/light-switch-presenter.php:120
+msgid "Disabled"
+msgstr "Letiltva"
+
+#. translators: %s: wp_title() function.
+#: inc/class-wpseo-replace-vars.php:1461
+msgid "The separator defined in your theme's %s tag."
+msgstr "A téma %s címkéjében meghatározott elválasztó."
+
+#: inc/class-wpseo-rank.php:139
+msgid "No index"
+msgstr "No index"
+
+#: src/deprecated/admin/ryte/class-ryte.php:137
+msgid "Once Weekly"
+msgstr "Hetente egyszer"
+
+#: admin/class-meta-columns.php:100
+#: admin/taxonomy/class-taxonomy-columns.php:87
+#: inc/class-wpseo-admin-bar-menu.php:240
+msgid "SEO score"
+msgstr "SEO-pontszám"
+
+#. Author of the plugin
+msgid "Team Yoast"
+msgstr "Yoast csapata"
+
+#. Description of the plugin
+msgid "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more."
+msgstr "Az első tényleges minden-az-egyben SEO megoldás WordPresshez, amely oldalakon belüli tartalom elemzést, XML oldaltérképet és sok mást is tartalmaz."
+
+#. Plugin Name of the plugin
+#: admin/capabilities/class-capability-manager-integration.php:72
+#: src/presenters/meta-description-presenter.php:36 js/dist/block-editor.js:295
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: wp-seo-main.php:541
+msgid "Activation failed:"
+msgstr "Az aktiválás nem sikerült:"
+
+#: wp-seo-main.php:530
+msgid "The filter extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "A szűrő kiterjesztése elérhetetlennek tűnik.Kérlek, fordulj a web host -jához, hogy kapcsolja be."
+
+#. translators: %1$s expands to Yoast SEO, %2$s / %3$s: links to the
+#. installation manual in the Readme for the Yoast SEO code repository on
+#. GitHub
+#: wp-seo-main.php:506
+msgid "The %1$s plugin installation is incomplete. Please refer to %2$sinstallation instructions%3$s."
+msgstr "A %1$s plugin installálása nem teljes. Kérlek, hivatkozz a %2$sinstallálási instrukciókra%3$s."
+
+#: wp-seo-main.php:484
+msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "Az alapvető PHP Könyvtár (SPL) kiterjesztés úgy néz ki elérhetetlen. Kérlek keresd a tárhely-szolgáltatódat az engedélyezze az elérést."
+
+#: inc/class-wpseo-admin-bar-menu.php:623
+#: inc/class-wpseo-admin-bar-menu.php:671
+msgid "SEO Settings"
+msgstr "SEO beállítások"
+
+#: inc/class-wpseo-admin-bar-menu.php:449
+msgid "Mobile-Friendly Test"
+msgstr "Mobilbarát teszt"
+
+#: inc/class-wpseo-admin-bar-menu.php:444
+msgid "Google Page Speed Test"
+msgstr "Google PageSpeed teszt"
+
+#: inc/class-wpseo-admin-bar-menu.php:439
+msgid "Facebook Debugger"
+msgstr "Facebook hibakereső"
+
+#: inc/class-wpseo-admin-bar-menu.php:420
+msgid "Analyze this page"
+msgstr "Oldal elemzése"
+
+#. translators: %s expands to an invalid URL.
+#: inc/options/class-wpseo-option.php:391
+msgid "%s does not seem to be a valid url. Please correct."
+msgstr "%s érvénytelen url. Kérjük javítani!"
+
+#. translators: 1: Verification string from user input; 2: Service name.
+#: inc/options/class-wpseo-option.php:355
+msgid "%1$s does not seem to be a valid %2$s verification string. Please correct."
+msgstr "%1$s érvénytelen %2$s érvényesítő kódnak látszik. Kérjük javítani!"
+
+#. translators: %s expands to the name of a post type (plural).
+#: inc/class-upgrade.php:1375 inc/options/class-wpseo-option-titles.php:292
+msgid "%s Archive"
+msgstr "%s Archívált"
+
+#. translators: %s expands to the search phrase.
+#: inc/options/class-wpseo-option-titles.php:257
+msgid "You searched for %s"
+msgstr "Keresés: %s"
+
+#. translators: %s expands to a twitter user name.
+#: inc/options/class-wpseo-option-social.php:184
+msgid "%s does not seem to be a valid Twitter Username. Please correct."
+msgstr "%s érvénytelen Twitter felhasználónév. Kérlek javítsd ki."
+
+#: inc/options/class-wpseo-option-social.php:110
+msgid "Summary with large image"
+msgstr "Összegzés nagyméretű képpel"
+
+#. translators: 1: link to post; 2: link to blog.
+#: inc/options/class-wpseo-option-titles.php:260
+msgid "The post %1$s appeared first on %2$s."
+msgstr "A %1$s bejegyzés először %2$s-én jelent meg."
+
+#: inc/options/class-wpseo-option-ms.php:245
+msgid "No numeric value was received."
+msgstr "Nem numerikus értéket kapott."
+
+#. translators: %s is the ID number of a blog.
+#: inc/options/class-wpseo-option-ms.php:233
+msgid "This must be an existing blog. Blog %s does not exist or has been marked as deleted."
+msgstr "Egy létező Blognak kell lennie. A Blog %s nem létezik, vagy törlésre van beállítva."
+
+#: inc/options/class-wpseo-option-ms.php:229
+#: inc/options/class-wpseo-option-ms.php:245
+msgid "The default blog setting must be the numeric blog id of the blog you want to use as default."
+msgstr "Az alap blog beállításnak meg kell egyeznie a használni kívánt numerikus blog id-val (azonosítóval)."
+
+#. translators: %1$s expands to the option name and %2$sexpands to Yoast SEO
+#: inc/options/class-wpseo-option-ms.php:210
+msgid "%1$s is not a valid choice for who should be allowed access to the %2$s settings. Value reset to the default."
+msgstr "%1$s nem helyes választás a tekintetben, hogy kinek kéne hozzáférnie a %2$s beállításokhoz. Érték visszaállítása az eredetire."
+
+#. translators: %s expands to a taxonomy slug.
+#: inc/options/class-wpseo-option-titles.php:565
+msgid "Please select a valid post type for taxonomy \"%s\""
+msgstr "Kérlek válassz egy helyes bejegyzés típust az alábbi taxonómiához: \"%s\""
+
+#. translators: %s expands to a post type.
+#: inc/options/class-wpseo-option-titles.php:527
+msgid "Please select a valid taxonomy for post type \"%s\""
+msgstr "Kérlek válassz egy helyes taxonómiát az alábbi bejegyzés típushoz: \"%s\""
+
+#: inc/options/class-wpseo-option-titles.php:265
+msgid "You searched for"
+msgstr "A következőre kerestünk rá"
+
+#: inc/options/class-wpseo-option-titles.php:264
+msgid "Home"
+msgstr "Kezdőlap"
+
+#: inc/options/class-wpseo-option-titles.php:263
+msgid "Archives for"
+msgstr "Archívumban"
+
+#: inc/options/class-wpseo-option-titles.php:262
+msgid "Error 404: Page not found"
+msgstr "404-es hiba: az oldal nem található"
+
+#: admin/formatter/class-metabox-formatter.php:137
+#: admin/formatter/class-metabox-formatter.php:167
+#: admin/formatter/class-metabox-formatter.php:197
+#: admin/statistics/class-statistics-service.php:227
+#: inc/class-wpseo-rank.php:142 inc/class-wpseo-rank.php:186
+#: inc/class-wpseo-rank.php:218 inc/class-wpseo-rank.php:245
+#: js/dist/block-editor.js:1 js/dist/editor-modules.js:1
+#: js/dist/externals-components.js:175 js/dist/externals/analysis.js:332
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Good"
+msgstr "Jó"
+
+#: inc/class-wpseo-replace-vars.php:1525
+msgid "Replaced with a custom taxonomies description"
+msgstr "Kicserélve az egyéni taxonómia leírásával"
+
+#: inc/class-wpseo-replace-vars.php:1524
+msgid "Replaced with a posts custom taxonomies, comma separated."
+msgstr "Kicserélve a bejegyzések egyéni taxonomiáival, vesszővel elválasztva"
+
+#: inc/class-wpseo-replace-vars.php:1523
+msgid "Replaced with a posts custom field value"
+msgstr "Helyettesítve egy bejegyzés egyedi mezőértékével"
+
+#: inc/class-wpseo-replace-vars.php:1522
+msgid "Replaced with the slug which caused the 404"
+msgstr "Helyettesítve egy keresőbarát névvel, ami 404-es hibát okozott"
+
+#: inc/class-wpseo-replace-vars.php:1521
+msgid "Replaced with the posts focus keyphrase"
+msgstr "Felváltva a bejegyzés fő kulcskifejezésével"
+
+#: inc/class-wpseo-replace-vars.php:1520
+msgid "Attachment caption"
+msgstr "Mellékelt képaláírás"
+
+#: inc/class-wpseo-replace-vars.php:1519
+msgid "Replaced with the current page number"
+msgstr "Helyettesítve az aktuális oldal számával"
+
+#: inc/class-wpseo-replace-vars.php:1518
+msgid "Replaced with the current page total"
+msgstr "Behelyettesítve az aktuális oldal összes lap számával"
+
+#: inc/class-wpseo-replace-vars.php:1517
+msgid "Replaced with the current page number with context (i.e. page 2 of 4)"
+msgstr "Helyettesítve az aktuális oldalszámmal és tartalommal (pl.: 2/4 oldal)"
+
+#: inc/class-wpseo-replace-vars.php:1488
+msgid "Replaced with the current year"
+msgstr "Behelyettesítve az aktuális évszámmal"
+
+#: inc/class-wpseo-replace-vars.php:1489
+msgid "Replaced with the current month"
+msgstr "Behelyettesítve az aktuális hónappal"
+
+#: inc/class-wpseo-replace-vars.php:1490
+msgid "Replaced with the current day"
+msgstr "Cseréli az aktuális napon"
+
+#: inc/class-wpseo-replace-vars.php:1487
+msgid "Replaced with the current date"
+msgstr "Behelyettesítve az aktuális dátummal"
+
+#: inc/class-wpseo-replace-vars.php:1516
+msgid "Replaced with the post/page author's 'Biographical Info'"
+msgstr "Behelyettesítve a bejegyzés / oldal szerzőjének (szerzőinek) 'Életrajzi adataival'"
+
+#: inc/class-wpseo-replace-vars.php:1515
+msgid "Replaced with the post/page author's 'nicename'"
+msgstr "Behelyettesítve a bejegyzés / oldal szerzőjének (szerzőinek) 'felhasználónevével'"
+
+#: inc/class-wpseo-replace-vars.php:1514
+msgid "Replaced with the post/page ID"
+msgstr "Behelyettesítve a bejegyzés / oldal ID-vel"
+
+#: inc/class-wpseo-replace-vars.php:1513
+msgid "Replaced with the post/page modified time"
+msgstr "A bejegyzés / oldal módosításának időpontjával helyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1512
+msgid "Replaced with the content type plural label"
+msgstr "Kicserélve a tartalom típus többes szám címkéjére"
+
+#: inc/class-wpseo-replace-vars.php:1511
+msgid "Replaced with the content type single label"
+msgstr "Kicserélve a tartalom típus egyes szám címkéjére"
+
+#: inc/class-wpseo-replace-vars.php:1484
+msgid "Replaced with the current search phrase"
+msgstr "Behelyettesítve az aktuális keresési kifejezéssel"
+
+#: inc/class-wpseo-replace-vars.php:1483
+msgid "Replaced with the term name"
+msgstr "A kategória névvel helyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1482
+msgid "Replaced with the term description"
+msgstr "A kategória leírással helyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1481
+msgid "Replaced with the tag description"
+msgstr "A címke leírásával helyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1480
+msgid "Replaced with the category description"
+msgstr "A kategória leírással helyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1478
+msgid "Replaced with the post categories (comma separated)"
+msgstr "A bejegyzés kategóriákkal helyettesítve (vesszővel elválasztva)"
+
+#: inc/class-wpseo-replace-vars.php:1477
+msgid "Replaced with the current tag/tags"
+msgstr "A jelenlegi címkével/címkékkel helyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1476
+msgid "Replaced with the post/page excerpt (without auto-generation)"
+msgstr "A bejegyzés / oldal kivonatával (nem automatikusan generálva)"
+
+#: inc/class-wpseo-replace-vars.php:1475
+msgid "Replaced with the post/page excerpt (or auto-generated if it does not exist)"
+msgstr "A bejegyzés / oldal kivonatával helyettesítve (vagy automatikusan legenerálva, amennyiben még nem létezett)"
+
+#: inc/class-wpseo-replace-vars.php:1473
+msgid "The site's name"
+msgstr "A weboldal neve"
+
+#: inc/class-wpseo-replace-vars.php:1471
+msgid "Replaced with the title of the parent page of the current page"
+msgstr "A jelenlegi oldal szülőoldalának címével behelyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1470
+msgid "Replaced with the title of the post/page"
+msgstr "A bejegyzés / oldal címével behelyettesítve"
+
+#: inc/class-wpseo-replace-vars.php:1469
+msgid "Replaced with the date of the post/page"
+msgstr "A bejegyzés / oldal dátumával behelyettesítve"
+
+#. translators: 1: current page number, 2: total number of pages.
+#: inc/class-wpseo-replace-vars.php:1032
+msgid "Page %1$d of %2$d"
+msgstr "Oldal %1$d a %2$d-ből"
+
+#: inc/class-wpseo-replace-vars.php:122
+msgid "You cannot overrule a WPSEO standard variable replacement by registering a variable with the same name. Use the \"wpseo_replacements\" filter instead to adjust the replacement value."
+msgstr "Nem szabályozhatod felül a WPSEO irányadó változó cseréjét azzal, hogy azonos névvel regisztálsz egy változót. Használd a \"wpseo_replacements\" szűrőt a csereérték megadása helyett!"
+
+#: inc/class-wpseo-replace-vars.php:118
+msgid "A replacement variable with the same name has already been registered. Try making your variable name unique."
+msgstr "A helyettesítő változó ugyan ezzel a névvel már használatban van. Próbálj másik, egyedi változónevet megadni."
+
+#: inc/class-wpseo-replace-vars.php:108
+msgid "A replacement variable can not start with \"%%cf_\" or \"%%ct_\" as these are reserved for the WPSEO standard variable variables for custom fields and custom taxonomies. Try making your variable name unique."
+msgstr "A helyettesítő változó nem kezdődhet a \"%%cf_\" vagy \"%%ct_\" karakterlánccal, mivel ez a WPSEO egyéni változóinak és taxonómiáinak vannak fenntartva. Próbálj másik, egyedi változónevet megadni."
+
+#: inc/class-wpseo-replace-vars.php:105
+msgid "A replacement variable can only contain alphanumeric characters, an underscore or a dash. Try renaming your variable."
+msgstr "A helyettesítő változó csak alfanumerikus (betűk és számok) karaktereket tartalmazhat, valamint aláhúzást és kötőjelet. Próbálj másik, egyedi változónevet megadni."
+
+#. translators: %1$s resolves to Yoast SEO, %2$s resolves to the Settings
+#. submenu item.
+#: src/presenters/meta-description-presenter.php:35
+msgid "Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [%1$s - %2$s] menu and set up a template."
+msgstr "Adminisztrátornak szóló figyelmeztetés: ez az oldal azért nem jelenít meg metaleírást, mert nincs megadva hozzá. Írjunk hozzá egyet vagy a [%1$s - %2$s] menüben állítsunk be egy sablont!"
+
+#: inc/options/class-wpseo-option-titles.php:258
+msgid "Page not found"
+msgstr "Az oldal nem található"
+
+#. translators: %s expands to the variable used for term title.
+#: admin/formatter/class-term-metabox-formatter.php:162
+#: inc/class-upgrade.php:1378 inc/options/class-wpseo-option-titles.php:328
+msgid "%s Archives"
+msgstr "%s Archívum"
+
+#: admin/views/user-profile.php:28
+msgid "Meta description to use for Author page"
+msgstr "A szerző oldalán használandó metalírás"
+
+#: admin/views/user-profile.php:24
+msgid "Title to use for Author page"
+msgstr "A szerző oldalán használt cím"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/user-profile.php:11
+msgid "%1$s settings"
+msgstr "%1$s beállítások"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-export.php:15
+msgid "Export your %1$s settings"
+msgstr "%1$s Beállításod exportálása"
+
+#: admin/class-export.php:61 admin/views/tabs/tool/wpseo-import.php:25
+#: admin/views/tabs/tool/wpseo-import.php:45
+#: admin/views/tool-import-export.php:86
+msgid "Import settings"
+msgstr "Beállítások importálása"
+
+#: admin/views/tabs/tool/import-seo.php:18
+#: admin/views/tabs/tool/import-seo.php:49
+#: admin/views/tool-import-export.php:92
+msgid "Import from other SEO plugins"
+msgstr "Importálás másik SEO bővítményből"
+
+#: admin/views/tabs/tool/import-seo.php:100
+msgid "Import"
+msgstr "Importálás"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:135 admin/views/tool-file-editor.php:235
+msgid "If you had a %s file and it was editable, you could edit it from here."
+msgstr "Ha %s fájlod van és az szerkeszthető, akkor itt szerkesztheted."
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:153 admin/views/tool-file-editor.php:203
+msgid "If your %s were writable, you could edit it from here."
+msgstr "Amennyiben a %s írható, akkor itt szerkesztheted."
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:116
+msgid "You don't have a %s file, create one here:"
+msgstr "A %s fájl hiányzik, itt hozható létre:"
+
+#: admin/statistics/class-statistics-service.php:80
+msgid "Below are your published posts' SEO scores. Now is as good a time as any to start improving some of your posts!"
+msgstr "Az alábbiakban megtaláljuk a bejegyzés SEO értékeit. Most érkezett el az idő arra, hogy fejlesszük néhány bejegyzésünket!"
+
+#: admin/views/tabs/dashboard/dashboard.php:40
+msgid "Credits"
+msgstr "Készítők"
+
+#: admin/pages/tools.php:90
+msgid "&laquo; Back to Tools page"
+msgstr "&laquo; Vissza az Eszközök oldalra"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/pages/tools.php:49
+msgid "%1$s comes with some very powerful built-in tools:"
+msgstr "%1$s erőteljes beépített eszközökkel érkezik:"
+
+#: admin/pages/tools.php:37
+msgid "This tool allows you to quickly change important files for your SEO, like your robots.txt and, if you have one, your .htaccess file."
+msgstr "Ez az eszköz segít abban, hogy gyorsan változtathass a SEO-d szempontjából olyan fontos fájlokon mint a robots.tx, és a .htaccess."
+
+#: admin/pages/tools.php:36
+msgid "File editor"
+msgstr "Fájlszerkesztő"
+
+#: admin/pages/tools.php:31
+msgid "Import settings from other SEO plugins and export your settings for re-use on (another) site."
+msgstr "Beállítások importálása más SEO bővítményekből és beállításaid mentése azok alkalmazásához (egy másik) blogon."
+
+#: admin/pages/tools.php:30
+msgid "Import and Export"
+msgstr "Importálás és Exportálás"
+
+#: admin/pages/tools.php:43
+msgid "This tool allows you to quickly change titles and descriptions of your posts and pages without having to go into the editor for each page."
+msgstr "Ez az eszköz lehetővé teszi, hogy könnyen megváltoztassuk a bejegyzéseink címét és leírását anélkül, hogy az adott bejegyzések egyenként kellene szerkeszteni a hagyományos szerkesztővel."
+
+#: admin/pages/tools.php:42
+msgid "Bulk editor"
+msgstr "Tömeges szerkesztő"
+
+#: src/integrations/admin/import-integration.php:117
+msgid "Default settings"
+msgstr "Alapértelmezett beállítások"
+
+#: admin/views/tool-bulk-editor.php:111 js/dist/new-settings.js:224
+msgid "Description"
+msgstr "Leírás"
+
+#: admin/views/tabs/network/restore-site.php:32
+msgid "Restore site to defaults"
+msgstr "Alapértelmezett beállítások visszaállítása"
+
+#: admin/views/tabs/network/restore-site.php:23
+#: admin/views/tabs/network/restore-site.php:28
+msgid "Site ID"
+msgstr "Oldal ID"
+
+#: admin/views/tabs/network/restore-site.php:16
+msgid "Using this form you can reset a site to the default SEO settings."
+msgstr "Az űrlap segítségével vissza tudod állítani az eredeti SEO beállításokat."
+
+#: admin/views/tabs/network/general.php:54
+msgid "Privacy sensitive (FB admins and such), theme specific (title rewrite) and a few very site specific settings will not be imported to new sites."
+msgstr "Adatvédelmileg érzékeny (FB adminok és hasonlók), téma specifikus (cím újraírás) és néhány oldal specifikus beállítás nem kerül importálásra az új blogokban."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/tabs/network/general.php:47
+msgid "Enter the %1$sSite ID%2$s for the site whose settings you want to use as default for all sites that are added to your network. Leave empty for none (i.e. the normal plugin defaults will be used)."
+msgstr "Írd be azt a %sWeboldal Azonosítót (Site ID)%s amelynek a beállításai alapértelmezettek lesznek minden, a hálózatba felvett weboldal esetében. Hagyd üresen, ha egyik oldal beállításait se szeretnéd alapértelmezettnek (ebben az esetben a bővítmény saját alapbeállításai lesznek használatban)."
+
+#: admin/views/tabs/network/general.php:40
+msgid "Choose the site whose settings you want to use as default for all sites that are added to your network. If you choose 'None', the normal plugin defaults will be used."
+msgstr "Válassz egy weboldalt, amelynek a beállításai alapértelmezettek lesznek minden, a hálózatba felvett weboldal esetében. Ha az 'Egyik sem' (None) opciót választod, a bővítmény saját alapbeállításai lesznek használatban."
+
+#: admin/views/tabs/network/general.php:37
+#: admin/views/tabs/network/general.php:43
+msgid "New sites in the network inherit their SEO settings from this site"
+msgstr "A hálózatba kerülő új weboldalak ennek a weboldalnak a SEO beállításait öröklik"
+
+#: admin/views/tabs/network/general.php:28
+msgid "Super Admins only"
+msgstr "Csak szuper adminisztrátoroknak"
+
+#: admin/views/tabs/network/general.php:27
+msgid "Site Admins (default)"
+msgstr "Oldal adminisztrátoroknak (alapértelmezett)"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/network/general.php:25
+msgid "Who should have access to the %1$s settings"
+msgstr "Akik hozzáférhetnek a %1$s beállításaihoz"
+
+#: admin/class-yoast-network-admin.php:80
+msgid "spam"
+msgstr "spam"
+
+#: admin/class-yoast-network-admin.php:79
+msgid "mature"
+msgstr "felnőtt"
+
+#: admin/class-yoast-network-admin.php:78
+msgid "archived"
+msgstr "archiválva"
+
+#: admin/class-yoast-network-admin.php:77
+msgid "public"
+msgstr "nyilvános"
+
+#. translators: %s expands to the name of a site within a multisite network.
+#: admin/class-yoast-network-admin.php:174
+msgid "%s restored to default SEO settings."
+msgstr "%s visszaállítva az eredeti SEO beállításokra."
+
+#: admin/class-yoast-network-admin.php:140
+msgid "Settings Updated."
+msgstr "Beállítások frissítve."
+
+#: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1470
+#: js/dist/externals-redux.js:1
+msgid "Title"
+msgstr "Címsor"
+
+#: admin/views/tabs/network/general.php:54
+msgid "Take note:"
+msgstr "Figyelembe kell venni:"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/views/licenses.php:122
+msgid "%1$s Extensions"
+msgstr "%1$s Kiterjesztések"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-plugin-availability.php:82 admin/views/licenses.php:79
+msgid "Seamlessly integrate WooCommerce with %1$s and get extra features!"
+msgstr "A %1$s Woocemmerce integrációja zökkenőmentesen zajlik és extra funkciókhoz jutsz!"
+
+#: admin/class-plugin-availability.php:70 admin/views/licenses.php:32
+msgid "Rank better locally and in Google Maps, without breaking a sweat!"
+msgstr "Érj el jobb helyezest mind helyi szinten, mind a Google Mapsban anélkül, hogy megizzadnál!"
+
+#: admin/class-plugin-availability.php:60 admin/views/licenses.php:60
+msgid "Are you in Google News? Increase your traffic from Google News by optimizing for it!"
+msgstr "Ön tagja a Google hírek szolgáltatásnak? Növelje oldala forgalmát a Google hírek optimalizálásával!"
+
+#: admin/class-plugin-availability.php:50 admin/views/licenses.php:46
+msgid "Optimize your videos to show them off in search results and get more clicks!"
+msgstr "Optimalizáld a videóidat, hogy megjelenjenek a keresési eredmények között és többen kattintsanak rád!"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-plugin-availability.php:38 admin/views/licenses.php:22
+msgid "The premium version of %1$s with more features & support."
+msgstr "A  %1$s prémium változat, több beállítási lehetőséget és támogatást tartalmaz."
+
+#: src/integrations/admin/first-time-configuration-integration.php:516
+#: js/dist/new-settings.js:292
+msgid "Person"
+msgstr "Személy"
+
+#: inc/class-wpseo-replace-vars.php:1496
+msgid "Permalink"
+msgstr "Közvetlen hivatkozás"
+
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:43
+msgid "Authenticate"
+msgstr "Hitelesítés"
+
+#. Translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
+#. Premium plugin page.
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:22
+msgid "To be able to create a redirect and fix this issue, you need %1$s. You can buy the plugin, including one year of support and updates, on %2$s."
+msgstr "Ahhoz, hogy átirányítást hozzunk létre és megoldjuk ezt a problémát, %1$s -ra van szükségünk. Megvásárolhatjuk a bővítményt, beleértve 1 évi támogatást és frissítést itt: %2$s."
+
+#. Translators: %s: expands to Yoast SEO Premium
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:15
+msgid "Creating redirects is a %s feature"
+msgstr "Készítsen átirányítást a %s bővítményhez"
+
+#: admin/views/redirects.php:175 admin/views/redirects.php:222
+msgid "New URL"
+msgstr "Új URL"
+
+#: admin/views/redirects.php:112
+msgid "URL"
+msgstr "URL"
+
+#. translators: %s: 'Facebook' plugin name of possibly conflicting plugin
+#: admin/class-yoast-plugin-conflict.php:182
+msgid "Deactivate %s"
+msgstr "%s kiegészítő kikapcsolása"
+
+#. translators: %1$s: 'Facebook & Open Graph' plugin name(s) of possibly
+#. conflicting plugin(s), %2$s to Yoast SEO
+#: admin/class-yoast-plugin-conflict.php:178
+msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
+msgstr "A %1$s bővítmény problémát okozhat, ha együtt van használva a %2$s bővítménnyel."
+
+#: admin/class-yoast-form.php:741 admin/metabox/class-metabox.php:650
+#: admin/taxonomy/class-taxonomy-fields-presenter.php:127
+msgid "Upload Image"
+msgstr "Kép feltöltése"
+
+#. translators: %s is the plugin name
+#: admin/class-yoast-dashboard-widget.php:75
+msgid "%s Posts Overview"
+msgstr "%s - Bejegyzések áttekintése"
+
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:219
+msgid "Social settings"
+msgstr "Közösségi beállítások"
+
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:27
+#: js/dist/elementor.js:97 js/dist/externals-components.js:140
+#: js/dist/externals/componentsNew.js:136 js/dist/introductions.js:9
+#: js/dist/new-settings.js:9 js/dist/new-settings.js:15
+#: js/dist/new-settings.js:36 js/dist/post-edit.js:9 js/dist/support.js:27
+msgid "Close"
+msgstr "Bezárás"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'Google XML Sitemaps' plugin
+#. name of possibly conflicting plugin with regard to the creation of sitemaps.
+#: admin/class-plugin-conflict.php:76
+msgid "Both %1$s and %2$s can create XML sitemaps. Having two XML sitemaps is not beneficial for search engines and might slow down your site."
+msgstr "Mind a %1$s , mind pedig a %2$s képes XML oldaltérképek létrehozására.Két XML oldaltérkép egyidejű használata nem tesz jót a keresőmotoroknak, hanem le is lassíthatják a weboldaladat."
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:69
+msgid "Configure %1$s's Open Graph settings"
+msgstr "%1$s Open Graph beállításai"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'Facebook' plugin name of
+#. possibly conflicting plugin with regard to creating OpenGraph output.
+#: admin/class-plugin-conflict.php:65
+msgid "Both %1$s and %2$s create Open Graph output, which might make Facebook, Twitter, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
+msgstr "Mind a %1$s, mind pedig a %2$s Open Graph kimenetet hoz létre, amely előidézheti, hogy a Facebook, Twitter, LinkedIn és más közösségi hálózatok rossz szövegeket és képeket használnak, amikor az oldalaid megosztásra kerülnek."
+
+#: admin/formatter/class-metabox-formatter.php:130
+#: admin/formatter/class-metabox-formatter.php:160
+#: admin/statistics/class-statistics-service.php:222
+#: inc/class-wpseo-rank.php:141 inc/class-wpseo-rank.php:181
+#: inc/class-wpseo-rank.php:213 js/dist/block-editor.js:1
+#: js/dist/editor-modules.js:1 js/dist/externals-components.js:175
+#: js/dist/externals/analysis.js:332 js/dist/frontend-inspector-resources.js:1
+#: js/dist/post-edit.js:1 js/dist/term-edit.js:1
+msgid "OK"
+msgstr "OK"
+
+#: admin/class-meta-columns.php:108
+msgid "Meta Desc."
+msgstr "Metaleírás"
+
+#: admin/class-meta-columns.php:245
+msgid "All SEO Scores"
+msgstr "Összes SEO pontszám"
+
+#: admin/metabox/class-metabox.php:947
+#: src/integrations/third-party/elementor.php:467
+msgid "SEO issue: The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
+msgstr "A felhasznált képnek legalább 200x200pixel felbontásúnak kell lennie ahhoz, hogy felhasználható legyen a Facebook-on vagy más közösségi média oldalon."
+
+#: admin/metabox/class-metabox.php:889 admin/taxonomy/class-taxonomy.php:161
+#: admin/taxonomy/class-taxonomy.php:291
+#: src/integrations/third-party/elementor.php:417
+msgid "(no parent)"
+msgstr "(nincs szülő)"
+
+#: admin/class-meta-columns.php:738
+msgid "Post is set to noindex."
+msgstr "Bejegyzéshez noindex van beállítva."
+
+#: admin/metabox/class-metabox.php:214
+msgid "The URL that this page should redirect to."
+msgstr "Az URL, amire ennek az oldalnak át kell irányítania."
+
+#: admin/metabox/class-metabox.php:213
+msgid "301 Redirect"
+msgstr "301-es átirányítás"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/metabox/class-metabox.php:202
+msgid "The canonical URL that this page should point to. Leave empty to default to permalink. %1$sCross domain canonical%2$s supported too."
+msgstr "A kanonikus URL, amelyre ez az oldal mutasson. Hagyjuk üresen, ha az alapértelmezett közvetlen linkeket szeretnénk használni. %1$sDomainek közti kanonikus URL-ek%2$s is támogatottak."
+
+#: admin/metabox/class-metabox.php:198 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "Canonical URL"
+msgstr "Kanonikus URL-ek"
+
+#: admin/metabox/class-metabox.php:196
+msgid "Title to use for this page in breadcrumb paths"
+msgstr "Ezt a címet jeleníti meg az oldalhoz az útvonalban"
+
+#: admin/metabox/class-metabox.php:195 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "Breadcrumbs Title"
+msgstr "Útvonal mutató címe"
+
+#: admin/metabox/class-metabox.php:193 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "No Snippet"
+msgstr "Nincs kódrészlet"
+
+#: admin/metabox/class-metabox.php:192 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "No Archive"
+msgstr "Nincs archívum"
+
+#: admin/metabox/class-metabox.php:191 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "No Image Index"
+msgstr "Nincs indexkép"
+
+#: admin/class-yoast-network-admin.php:43 src/config/schema-types.php:163
+#: src/integrations/settings-integration.php:546 js/dist/new-settings.js:15
+#: js/dist/new-settings.js:308
+msgid "None"
+msgstr "Egyik sem"
+
+#: admin/metabox/class-metabox.php:189 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "Meta robots advanced"
+msgstr "Robotok beállítása (haladó)"
+
+#: admin/metabox/class-metabox.php:177
+msgid "Warning: even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
+msgstr "Figyelmeztetés: noha itt is állíthatod a metarobotok beállításait, az egész oldal noindex-re van állítva az oldalra vonatkozó privacy beállításokban, így ezeknek a beállításoknak nem lesz hatása."
+
+#: admin/metabox/class-metabox.php:172 js/dist/externals/analysis.js:332
+#: js/dist/externals/replacementVariableEditor.js:83
+#: js/dist/externals/searchMetadataPreviews.js:270 js/dist/new-settings.js:23
+#: js/dist/new-settings.js:25 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:32 js/dist/new-settings.js:55
+#: js/dist/new-settings.js:66 js/dist/new-settings.js:94
+#: js/dist/new-settings.js:117 js/dist/new-settings.js:179
+#: js/dist/new-settings.js:193 js/dist/new-settings.js:203
+#: js/dist/new-settings.js:222
+msgid "Meta description"
+msgstr "Metaleírás"
+
+#: admin/class-meta-columns.php:107
+msgid "SEO Title"
+msgstr "SEO Cím"
+
+#: inc/class-wpseo-replace-vars.php:1521
+msgid "Focus keyword"
+msgstr "Fő kulcsszó"
+
+#: admin/import/class-import-settings.php:117
+msgid "Settings successfully imported."
+msgstr "Beállítások sikeresen importálva."
+
+#: admin/import/class-import-settings.php:85
+msgid "Settings could not be imported:"
+msgstr "A beállításokat nem sikerült importálni:"
+
+#: admin/class-customizer.php:193
+msgid "Breadcrumb for 404 pages:"
+msgstr "Morzsa 404 oldalnak:"
+
+#: admin/class-customizer.php:181
+msgid "Prefix for search result pages:"
+msgstr "Találati oldalak előtagja:"
+
+#: admin/class-customizer.php:169
+msgid "Prefix for archive pages:"
+msgstr "Archív oldalak előtagja:"
+
+#: admin/class-customizer.php:157
+msgid "Prefix for breadcrumbs:"
+msgstr "Morzsamenü előtagja:"
+
+#: admin/class-customizer.php:145
+msgid "Anchor text for the homepage:"
+msgstr "A kezdőoldal horgony szövege:"
+
+#: admin/class-customizer.php:132
+msgid "Breadcrumbs separator:"
+msgstr "Morzsa elválasztó:"
+
+#. translators: %s is the name of the plugin
+#: admin/class-customizer.php:86
+msgid "%s Breadcrumbs"
+msgstr "%s morzsák"
+
+#: admin/class-config.php:102 admin/metabox/class-metabox.php:919
+#: admin/taxonomy/class-taxonomy.php:176
+#: src/integrations/third-party/elementor.php:443
+msgid "Use Image"
+msgstr "Kép használata"
+
+#: admin/class-bulk-editor-list-table.php:1011
+msgid "Action"
+msgstr "Művelet"
+
+#: admin/class-bulk-editor-list-table.php:1006
+msgid "Page URL/Slug"
+msgstr "Oldal URL / Közvetlen hivatkozás"
+
+#: admin/class-bulk-editor-list-table.php:1005
+msgid "Publication date"
+msgstr "Közzététel dátuma"
+
+#: admin/class-bulk-editor-list-table.php:1004
+msgid "Post Status"
+msgstr "Bejegyzés állapota"
+
+#: admin/class-bulk-editor-list-table.php:1002
+msgid "WP Page Title"
+msgstr "WP oldal címe"
+
+#: admin/class-bulk-editor-list-table.php:836 js/dist/block-editor.js:93
+#: js/dist/classic-editor.js:89 js/dist/editor-modules.js:51
+#: js/dist/elementor.js:107 js/dist/wincher-dashboard-widget.js:1
+#: js/dist/wincher-dashboard-widget.js:76
+msgid "View"
+msgstr "Megtekintés"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:835
+msgid "View &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; megtekintése"
+
+#: admin/class-bulk-editor-list-table.php:826
+msgid "Preview"
+msgstr "Előnézet"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:825
+msgid "Preview &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; előnézete"
+
+#: admin/class-bulk-editor-list-table.php:814
+#: js/dist/first-time-configuration.js:18
+#: js/dist/first-time-configuration.js:20 js/dist/installation-success.js:13
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: admin/class-bulk-editor-list-table.php:420 admin/views/redirects.php:141
+msgid "Filter"
+msgstr "Szűrő"
+
+#. translators: %s expands to the number of trashed posts in localized format.
+#: admin/class-bulk-editor-list-table.php:342
+msgctxt "posts"
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgid_plural "Trash <span class=\"count\">(%s)</span>"
+msgstr[0] "Lomtár <span class=\"count\">(%s)</span>"
+msgstr[1] "Lomtár <span class=\"count\">(%s)</span>"
+
+#. translators: %s expands to the number of posts in localized format.
+#: admin/class-bulk-editor-list-table.php:293
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Összes <span class=\"count\">(%s)</span>"
+msgstr[1] "Összes <span class=\"count\">(%s)</span>"
+
+#: admin/class-bulk-description-editor-list-table.php:47
+msgid "New Yoast Meta Description"
+msgstr "Új Yoast metaleírás"
+
+#: admin/class-bulk-description-editor-list-table.php:46
+msgid "Existing Yoast Meta Description"
+msgstr "Meglévő Yoast metaleírás"
+
+#: admin/class-admin.php:300
+msgid "Facebook profile URL"
+msgstr "Facebook profil URL"
+
+#: admin/class-admin.php:307
+msgid "Twitter username (without @)"
+msgstr "Twitter felhasználónév (@ nélkül)."
+
+#: admin/class-admin.php:231 js/dist/structured-data-blocks.js:13
+msgid "FAQ"
+msgstr "GYIK"
+
+#: admin/class-admin.php:226 admin/views/redirects.php:42
+#: src/integrations/settings-integration.php:312
+#: src/presenters/meta-description-presenter.php:37
+#: js/dist/structured-data-blocks.js:9
+msgid "Settings"
+msgstr "Beállítások"
+
+#: src/presenters/admin/search-engines-discouraged-presenter.php:33
+msgid "Huge SEO Issue: You're blocking access to robots."
+msgstr "Súlyos SEO hiba: A keresőrobotok blokkolva vannak."
+
+#: admin/class-admin.php:184
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#: admin/menu/class-network-admin-menu.php:63
+msgid "Edit Files"
+msgstr "Fájlok szerkesztése"
+
+#: admin/menu/class-admin-menu.php:89
+#: admin/menu/class-network-admin-menu.php:56 admin/pages/network.php:18
+#: js/dist/new-settings.js:304
+msgid "General"
+msgstr "Általános"
+
+#: admin/menu/class-network-admin-menu.php:66
+msgid "Extensions"
+msgstr "Kiegészítők"
+
+#: admin/menu/class-admin-menu.php:91
+msgid "Search Console"
+msgstr "Google Search Console"
+
+#: admin/menu/class-admin-menu.php:95 js/dist/new-settings.js:288
+msgid "Tools"
+msgstr "Eszközök"
+
+#: admin/views/class-yoast-feature-toggles.php:136 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:289 js/dist/new-settings.js:290
+msgid "XML sitemaps"
+msgstr "XML oldaltérképek"
+
+#: admin/metabox/class-metabox.php:441
+#: admin/taxonomy/class-taxonomy-metabox.php:158 js/dist/new-settings.js:32
+msgid "Social"
+msgstr "Közösségi beállítások"
+
+#: admin/metabox/class-metabox.php:416
+#: admin/taxonomy/class-taxonomy-metabox.php:140
+#: inc/class-wpseo-admin-bar-menu.php:702
+#: src/services/health-check/report-builder.php:168
+#: js/dist/structured-data-blocks.js:13
+msgid "SEO"
+msgstr "SEO"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the installed
+#. version, %3$s expands to Gutenberg
+#: admin/class-admin-gutenberg-compatibility-notification.php:88
+msgid "%1$s detected you are using version %2$s of %3$s, please update to the latest version to prevent compatibility issues."
+msgstr "%1$s észlelte, hogy a(z) %3$s %2$s verzióját használjuk, kérjük frissítse a legújabb verzióra a kompatibilitási hibák elkerülése végett."
+
+#: src/services/health-check/default-tagline-runner.php:31
+msgid "Just another WordPress site"
+msgstr "Újabb WordPress honlap"
+
+#: admin/ajax.php:194
+msgid "You have used HTML in your value which is not allowed."
+msgstr "Nem megengedett HTML használata az érték megadásánál."
+
+#. translators: %s expands to the name of a post type (plural).
+#: admin/ajax.php:185
+msgid "You can't edit %s that aren't yours."
+msgstr "A %s nem szerkeszthető, mert nem a sajátja."
+
+#. translators: %s expands to post type name.
+#: admin/ajax.php:173
+msgid "You can't edit %s."
+msgstr "A %s nem szerkeszthető."
+
+#. translators: %s expands to post type.
+#: admin/ajax.php:161
+msgid "Post has an invalid Content Type: %s."
+msgstr "A bejegyzéshez érvénytelen tartalom típus tartozik: %s."
+
+#: admin/ajax.php:150
+msgid "Post doesn't exist."
+msgstr "A bejegyzés nem létezik."

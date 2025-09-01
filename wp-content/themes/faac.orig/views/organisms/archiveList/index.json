@@ -1,0 +1,49 @@
+{
+    "list":[
+        {
+            "title": "Access controlled revolving doors",
+            "excerpt": "Fully automated access controlled revolving doors.",
+            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "deepen":{
+                "text": "Explore category",
+                "link": "#"
+            }
+        },
+        {
+            "title": "All glass revolving doors",
+            "excerpt": "All glass revolving doors for a masterpiece entrance.",
+            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "deepen":{
+                "text": "Explore category",
+                "link": "#"
+            }
+        },
+        {
+            "title": "Compact revolving doors",
+            "excerpt": "Compact revolving doors that fit your entrance needs.",
+            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "deepen":{
+                "text": "Explore category",
+                "link": "#"
+            }
+        },
+        {
+            "title": "High capacity revolving doors",
+            "excerpt": "Reliable high-capacity revolving doors.",
+            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "deepen":{
+                "text": "Explore category",
+                "link": "#"
+            }
+        },
+        {
+            "title": "Manual revolving doors",
+            "excerpt": "Compact and low-energy manual revolving doors.",
+            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "deepen":{
+                "text": "Explore category",
+                "link": "#"
+            }
+        }
+    ]
+}

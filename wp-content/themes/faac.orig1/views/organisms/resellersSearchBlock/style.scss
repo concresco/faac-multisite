@@ -1,0 +1,31 @@
+#{$sitename-selector} {
+    .resellers{
+
+        .resellers-search-form{
+            form{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+                .row{
+                    width: 40%;
+                }
+                .row,
+                .submit-area{
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                }
+                @include media-breakpoint-down(md){
+                    .row{
+                        width: 90%;
+                    }
+                }
+                button.submit-form-btn{
+                    height: calc(2.8rem + 2px);
+                }
+            }
+        }
+    }
+}

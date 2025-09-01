@@ -1,0 +1,31 @@
+<div class="accordion" id="accordion_information">
+    {% for item in accordion %}
+<div class="row line-up {% if loop.last %}line-down{% endif %}">
+
+        <div class="col-12">
+            <div class="container px-lg-0">
+                <div class="row">
+                    <div class="accordion-item col-12">
+                        <h4 class="color-blue accordion-header" id="heading_{{ loop.index }}">
+                            <button class="h4 m-0 accordion-button collapsed" type="button"
+            
+                                data-bs-toggle="collapse" data-bs-target="#collapseInfo_{{ loop.index }}" 
+                                aria-expanded="true" aria-controls="collapseInfo_{{ loop.index }}">
+                                {{ item.accordionTitle }}
+                            </button>
+                        </h4>
+                        <div id="collapseInfo_{{ loop.index }}" class="accordion-collapse collapse" 
+                                aria-labelledby="heading_{{ loop.index }}" data-bs-parent="#accordion_information">
+                            <div class="accordion-body">
+                                {{ item.accordionBody | raw }}
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        	
+    {% endfor %}
+</div>

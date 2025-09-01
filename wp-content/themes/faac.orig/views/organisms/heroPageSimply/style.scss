@@ -1,0 +1,42 @@
+#{$sitename-selector} {
+    .hero-page-simply {
+        background-color: $color-blue;
+
+        .hero-image-simply{
+            &::before{
+                content: '';
+                background-color: $color-grey-dark;
+                opacity: 0.5;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 5;
+            }
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .title-content{
+            position: relative;
+            z-index: 10;
+            padding-top: 250px;
+            padding-bottom: 100px;
+            @include media-breakpoint-down(md) {
+                padding-top: calc(150px + 5vw);
+                padding-bottom: calc(50px + 5vw);
+            }
+        }
+        .post-content{
+            p, a, h1, h2, h3, h4, h5, h6{
+                color: $color-white;
+            }
+        }
+        a {
+            text-decoration: none !important;
+        }
+         
+    }
+}

@@ -1,0 +1,13 @@
+<div id="activities_slider" class="swiper">
+    <div class="swiper-wrapper">
+        {% for slide in sliderActivities %}
+            <div class="swiper-slide">
+                {% include "components/miniCard/index.twig" with slide %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+<div id="activities_nav" class="navigation with-arrow">
+    <div class="slider-prev {{ navigationColor | default('blue') }}"></div>
+    <div class="slider-next {{ navigationColor | default('blue') }}"></div>
+</div>

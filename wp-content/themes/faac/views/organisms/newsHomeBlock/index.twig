@@ -1,0 +1,25 @@
+<div class="row">
+    {% if sectionTitle %}
+        <div class="col-12">
+            <h2 class="section-title mb-0 {{ sectionTitleClass }}{{alignTitling}}">{{ sectionTitle }}</h2>
+        </div>
+    {% endif %}
+    {% for post in postList %}
+        {% if loop.index == 1 %}
+        <div class="col-12 col-lg-8">
+            {% include "components/newsPreview/index.twig" with post %}
+        </div>
+        {% endif %}
+    {% endfor %}
+    <div class="col-12 col-lg-4">
+        {% for post in postList %}
+            {% if loop.index > 1 %}
+                {% set size = "small" %}
+                <div class="col-12">
+                    {% include "components/newsPreview/index.twig" with post %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <div class="ht-200 adaptive"></div>
+</div>

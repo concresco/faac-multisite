@@ -1,0 +1,25 @@
+#{$sitename-selector} {
+    .textbox-with-bg{
+
+        min-height: 600px;
+        display: flex;
+        align-items: center;
+        padding: 140px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        .textbox-content{
+            padding: 30px;
+            &.bg-color-white{
+                h3{
+                    color: $color-blue;
+                }
+            }
+            &.bg-color-blue{
+                h3{
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}

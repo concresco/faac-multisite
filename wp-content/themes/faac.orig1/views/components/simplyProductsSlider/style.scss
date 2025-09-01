@@ -1,0 +1,55 @@
+#{$sitename-selector}{
+    #simply_products_swiper {
+        h4.slider-title{
+            color: $color-white;
+            position: absolute;
+            top: 50px;
+            left: 30px;
+            z-index: 10;
+        }
+        .swiper-wrapper {            
+            .swiper-slide{
+                .gradient{
+                    position: absolute;
+                    z-index: 5;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background: rgb(23, 25, 26);
+                    background: -moz-linear-gradient(0deg, rgba(23, 25, 26, 0.7035189075630253) 0%, rgba(23, 25, 26, 0.2049194677871149) 35%, rgba(23, 25, 26, 0) 50%, rgba(23, 25, 26, 0.1) 85%, rgba(23, 25, 26, 0.3) 100%);
+                    background: -webkit-linear-gradient(0deg, rgba(23, 25, 26, 0.7035189075630253) 0%, rgba(23, 25, 26, 0.2049194677871149) 35%, rgba(23, 25, 26, 0) 50%, rgba(23, 25, 26, 0.1) 85%, rgba(23, 25, 26, 0.3) 100%);
+                    background: linear-gradient(0deg, rgba(23, 25, 26, 0.7035189075630253) 0%, rgba(23, 25, 26, 0.2049194677871149) 35%, rgba(23, 25, 26, 0) 50%, rgba(23, 25, 26, 0.1) 85%, rgba(23, 25, 26, 0.3) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#17191a", endColorstr="#17191a", GradientType=1);
+                }
+    
+                .content {
+                    position: absolute;
+                    z-index: 10;
+                    width: 80%;
+                    left: 85px;
+                    bottom: 80px;
+                    
+                    .description{
+                        @extend .h5;
+                        color: $color-white;
+                    }
+                    @include media-breakpoint-down(lg){
+                        position: relative;
+                        width: 100%;
+                        padding: 10px 20px;
+                        left: unset;
+                        bottom: unset;
+                        .description{
+                            color: $color-grey;
+                            font-size: 1.19rem;
+                        }
+                        a.btn-white{
+                            border: 1px solid $color-grey;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

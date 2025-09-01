@@ -1,0 +1,420 @@
+/* Manrope Font by Google */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&display=swap');
+
+@font-face {
+    font-family: $font-family-primary;
+    src: url('../../fonts/Univers-Light.woff2') format('woff2'),
+        url('../../fonts/Univers-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $font-family-primary;
+    src: url('../../fonts/Univers-Roman.woff2') format('woff2'),
+        url('../../fonts/Univers-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* PERSONAL ICONS FONT */
+@font-face {
+  font-family: 'faac';
+  src: url('../../fonts/faac.eot?62284549');
+  src: url('../../fonts/faac.eot?62284549#iefix') format('embedded-opentype'),
+       url('../../fonts/faac.woff2?62284549') format('woff2'),
+       url('../../fonts/faac.woff?62284549') format('woff'),
+       url('../../fonts/faac.ttf?62284549') format('truetype'),
+       url('../../fonts/faac.svg?62284549#faac') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'faac';
+    src: url('../font/faac.svg?54239790#faac') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "faac";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-right:before { content: '\e800'; } /* '' */
+.icon-left:before { content: '\e801'; } /* '' */
+.icon-globe:before { content: '\e802'; } /* '' */
+.icon-chat:before { content: '\e803'; } /* '' */
+.icon-arrow-right:before { content: '\e804'; } /* '' */
+.icon-arrow-left:before { content: '\e805'; } /* '' */
+.icon-down:before { content: '\e806'; } /* '' */
+.icon-top:before { content: '\e807'; } /* '' */
+.icon-close:before { content: '\e808'; } /* '' */
+.icon-check:before { content: '\e809'; } /* '' */
+.icon-doc:before { content: '\e812'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-youtube:before { content: '\f16a'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-vimeo:before { content: '\f27d'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-linkedin:before { content: '\f318'; } /* '' */
+
+/*  END PERSONAL ICONS FONT */
+
+html{
+    font-size: 131.25%; // font base 21px
+
+    @include media-breakpoint-down(xl){
+        font-size: 118.75%; // 19px
+    }
+    @include media-breakpoint-down(lg){
+        font-size: 100%; // 16px
+    }
+}
+#{$sitename-selector} {
+    overflow-x: hidden;
+    font-family: $font-family-primary;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	
+    h1, .h1, h2, .h2, h3, .h3 {
+        font-family: $font-family-primary;
+        color: $color-grey-dark;
+        font-weight: 300;
+    }
+
+    h4, .h4, h5, .h5, h6, .h6 {
+        font-family: $font-family-primary;
+        color: $color-blue;
+        font-weight: 300;
+    }
+
+    h1, .h1 {
+        font-size: 4.286rem; // 90px
+        line-height: 0.888;
+        font-family: $font-family-primary;
+
+        &:not([class*="color-"]) {
+            color: $color-grey-dark;
+        }
+
+        @include media-breakpoint-down(xl) {
+            font-size: 2.8rem;
+            line-height: 2.8rem;
+        }
+
+        @include media-breakpoint-down(md) {
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+    }
+    h2, .h2 {
+        font-family: $font-family-primary;
+        font-size: 3.428rem; // 72px
+        line-height: 1.111;
+
+        @include media-breakpoint-down(md) {
+            font-size: 2.25rem;
+            line-height: 1;
+        }
+    }
+    h2.hero-title-home,
+    .h2.hero-title-home {
+        font-family: $font-family-primary;
+        font-size: 3rem;
+        line-height: 3rem;
+
+        @include media-breakpoint-down(xl) {
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+        }
+
+        @include media-breakpoint-down(md) {
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+    }
+    h2.alt-title {
+        font-size: calc(1.2rem + 1.2vw);
+    }
+
+    h2.section-title {
+        font-family: $font-family-primary;
+        font-size: 3.428rem; // 72px
+        line-height: 1.111;
+        text-align: left;
+        color: $color-grey-dark;
+        margin-bottom: 1.3rem;
+    }
+
+    h3, .h3 {
+        font-family: $font-family-primary;
+        font-size: 2.857rem; // 60px
+        line-height: 1;
+
+        @include media-breakpoint-down(md) {
+            font-size: 1.57rem;
+            line-height: 1.57rem;
+        }
+    }
+
+    h4, .h4 {
+        font-family: $font-family-primary;
+        font-size: 2.286rem; // 48px
+        line-height: 1.25;
+
+        @include media-breakpoint-down(md) {
+            font-size: 1.57rem;
+            line-height: 1.57rem;
+        }
+    }
+
+    h5, .h5 {
+        font-size: 1.524rem;
+        line-height: 1.5;
+        font-family: $font-family-primary;
+    }
+    h6, .h6 {
+        font-size: 1.19rem;
+        line-height: 1;
+        font-family: $font-family-primary;
+
+        &.small{
+            font-size: 0.9524rem;
+        }
+    }
+
+    .blog-excerpt-title {
+        font-family: $font-family-primary;
+        font-size: 2rem;
+        line-height: 2rem;
+
+        @include media-breakpoint-down(md) {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .super-numbers {
+        font-family: $font-family-primary;
+        font-size: 7.5rem;
+        line-height: 7.5rem;
+        font-weight: bold;
+
+        sup {
+            font-size: 3.75rem;
+            line-height: 3.75rem;
+            font-weight: normal;
+            vertical-align: middle;
+        }
+
+        @include media-breakpoint-down(xl) {
+            font-size: 3.75rem;
+            line-height: 3.75rem;
+
+            sup {
+                font-size: 1.88rem;
+                line-height: 1.88rem;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    .blog-excerpt-category {
+        font-size: 1.1rem;
+
+        @include media-breakpoint-down(md) {
+            font-size: 1rem;
+        }
+    }
+
+    p {
+        font-family: $font-family-primary;
+        font-size: 1rem;
+        line-height: 1.4;
+        font-weight: 300;
+        margin-bottom: 10px;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: $color-grey;
+
+        // @include media-breakpoint-down(md) {
+        //     font-size: 1.25rem;
+        //     line-height: 1.25rem;
+        // }
+        &.small{
+            font-size: 0.905rem;
+            line-height: 1.5;
+        }
+    }
+    a{
+        color: $color-grey-dark;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    strong, b {
+        font-weight: 900;
+    }
+
+    article p {
+        &:not([class*="color-"]) {
+            color: $color-grey;
+        }
+
+        a {
+            color: $color-blue;
+            font-weight: bold;
+        }
+
+        a:hover,
+        a:visited,
+        a:focus {
+            color: $color-grey-dark;
+        }
+    }
+
+    section.section-numbers p {
+        @include media-breakpoint-down(md) {
+            font-size: 1.1rem;
+        }
+    }
+
+	.font-primary {
+		font-family: $font-family-primary !important;
+	}
+
+	.font-secondary {
+		font-family: $font-family-secondary !important;
+	}
+
+	.font-light {
+		font-weight: 300 !important;
+	}
+
+	.font-bold {
+		font-weight: 700 !important;
+	}
+
+	.font-regular {
+		font-weight: 400 !important;
+	}
+
+	button, .btn {
+		border-radius: 0;
+		padding: 18px 29px ;
+		height: 60px;
+		font-size: 0.95rem;
+		line-height: 1.3;
+		@include media-breakpoint-down(md) {
+			padding: 16px 34px;
+			height: 50px;
+			line-height: 1.25;
+		}
+        &:focus {
+            box-shadow: none;
+		}
+	}
+
+	mark, .mark {
+		padding: 0;
+		position: relative;
+		color: inherit;
+		font-weight: bold;
+	}
+
+	.bg-color-grey-slate, .bg-color-grey-dark, .bg-color-grey,
+    .bg-color-milk, .bg-color-white {
+		mark, .mark {
+			background: linear-gradient(to top, $color-ice-blue 45%, transparent 45%);
+		}
+	}
+    blockquote{
+        width: 80%;
+        margin: 20px auto;
+        @include media-breakpoint-down(md){
+            width: 100%;
+        }
+        p {
+        font-size: 2.2857rem;
+        font-weight: bold;
+        color: $color-blue;
+        background: linear-gradient(to top, $color-ice-blue 45%, transparent 45%);
+        display: unset;
+        padding: 0 20px;
+        }
+    }
+    //==========================================================
+    // Images, pictures
+    //==========================================================
+
+    .icon-img {
+        width: 60px;
+        height: auto;
+
+        @include media-breakpoint-down(lg) {
+            width: 50px;
+        }
+    }
+
+    .ratio > * {
+        object-fit: cover;
+    }
+
+    .ratio.mobile-release {
+        @include media-breakpoint-down(lg) {
+            --bs-aspect-ratio: auto;
+
+            & > * {
+                position: static;
+            }
+        }
+    }
+
+    .ratio.mobile-portrait {
+        @include media-breakpoint-down(lg) {
+            --bs-aspect-ratio: 120%;
+        }
+    }
+
+}

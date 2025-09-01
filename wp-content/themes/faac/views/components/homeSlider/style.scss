@@ -1,0 +1,124 @@
+#home_slider{
+    .swiper-wrapper {
+        
+        .swiper-slide{
+            background-color: $color-blue;
+            position: relative;
+            .image-bg{
+                width: 100%;
+                padding-bottom: 42%;
+                background-size: cover;
+
+                &::before{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                    background: rgb(23, 25, 26);
+                    background: -moz-linear-gradient(0deg, rgba(23, 25, 26, 0.3) 0%, rgba(23, 25, 26, 0) 40%, rgba(23, 25, 26, 0) 55%, rgba(23, 25, 26, 0) 75%, rgba(23, 25, 26, 0.3) 100%);
+                    background: -webkit-linear-gradient(0deg, rgba(23, 25, 26, 0.3) 0%, rgba(23, 25, 26, 0) 40%, rgba(23, 25, 26, 0) 55%, rgba(23, 25, 26, 0) 75%, rgba(23, 25, 26, 0.3) 100%);
+                    background: linear-gradient(0deg, rgba(23, 25, 26, 0.3) 0%, rgba(23, 25, 26, 0) 40%, rgba(23, 25, 26, 0) 55%, rgba(23, 25, 26, 0) 75%, rgba(23, 25, 26, 0.3) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#17191a", endColorstr="#17191a", GradientType=1);
+                }
+
+                .content{
+                    position: absolute;
+                    bottom: 150px;
+                    left: 0;
+                    right: 0;
+                    z-index: 5;
+                    @extend .container;
+                    
+                    .title-slide{
+                        width: 60%;
+                    }
+                }
+                @include media-breakpoint-down(xxl){
+                    
+                    .content{
+                        bottom: 100px;
+                        .title-slide{
+                            width: 80%;
+                        }
+                    }
+                }
+                @include media-breakpoint-down(xl){
+                    padding-bottom: 55%;
+                    .content{
+                        bottom: 70px;
+                    }
+                }
+                
+                @include media-breakpoint-down(lg){
+                    padding-bottom: 75%;
+                    .content{
+                        .title-slide{
+                            width: 85%;
+                        }
+                    }
+                }
+                @include media-breakpoint-down(md){
+                    padding-bottom: 95%;
+                    margin-top: 90vw;
+
+                    .content{
+                        //position: relative;
+                        bottom: 48%;
+
+                        .title-slide{
+                            width: 100%;
+                        }
+                    }
+                    .content:has(.up){
+                        bottom: 51%;
+                    }
+                }
+                .description{
+                    display: flex;
+                    justify-content: flex-end;
+                    text-align: right;
+                    position: absolute;
+                    right: 50px;
+                    bottom: 10px;
+                    z-index: 5;
+                    color: $color-white;
+                    font-weight: 300;
+                }
+
+            }
+        }
+    }
+    .navigation.homeSlider{
+        top: 200px;
+        right: 8%;
+        @include media-breakpoint-down(lg){
+            top: 150px;
+            right: 15%;
+        }
+        @include media-breakpoint-down(sm){
+            top: 150px;
+            right: 70px;
+        }
+    }
+}
+#{$sitename-selector} {
+    .swiper-pagination{
+        .swiper-pagination-bullet{
+            width: 20px;
+            height: 20px;
+            background-image: url(./../../../assets/images/bullet-empy.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: transparent;
+            
+            &.swiper-pagination-bullet-active{
+                background-image: url(./../../../assets/images/bullet-full.png);
+                
+            }
+        }
+    }
+}

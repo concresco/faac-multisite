@@ -1,0 +1,114 @@
+#{$sitename-selector}{
+    .product-main-info{
+        .product-title{
+            .product-content {
+                padding-top: 40px;
+                color: $color-grey;
+                line-height: 1.4;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .add-read-more{
+        &.show-less-content{
+            .second-section{
+                display: none;
+                @include transition(0.5s);
+            }
+            .read-less-btn{
+                display: none;
+            }
+        }
+        &.show-more-content {
+            .read-more-btn {
+                display: none;
+            }
+        }
+        .read-more-btn,
+        .read-less-btn {
+            position: relative;
+            margin-top: 30px;
+            padding-right: 30px;
+            font-weight: 300;
+            display: inline-flex;
+            align-items: center;
+            color: $color-blue;
+            cursor: pointer;
+            
+            &:before{
+                font-size: 7px;
+                position: absolute;
+                right: 5px;
+                margin-top: -3px;
+            }
+        }
+    }
+    
+
+
+.add-read-more {
+    width: 100%;
+    margin: 0 auto;
+}
+    #product_gallery{
+        .gradient{
+            z-index: 5;
+            background: rgb(23, 25, 26);
+            background: -moz-linear-gradient(0deg, rgba(23, 25, 26, 0.5046393557422969) 0%, rgba(23, 25, 26, 0) 25%, rgba(23, 25, 26, 0) 100%);
+            background: -webkit-linear-gradient(0deg, rgba(23, 25, 26, 0.5046393557422969) 0%, rgba(23, 25, 26, 0) 25%, rgba(23, 25, 26, 0) 100%);
+            background: linear-gradient(0deg, rgba(23, 25, 26, 0.5046393557422969) 0%, rgba(23, 25, 26, 0) 25%, rgba(23, 25, 26, 0) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#17191a", endColorstr="#17191a", GradientType=1);
+        }
+
+        .caption{
+            position: absolute;
+            z-index: 15;
+            right: 30px;
+            bottom: 20px;
+            p{
+                color: $color-white;                
+            }
+        }
+        .swiper-pagination{
+            text-align: left;
+            left: 30px;
+            bottom: 20px;
+        }
+        .navigation.with-arrow{
+            top: 50px;
+            right: 140px;
+        }
+    }
+    .quick-links{
+        ul{
+            list-style: none;
+            display: flex;
+            padding: 0;
+
+            li{
+                display: inline-flex;
+                border: 1px solid $color-grey;
+                border-right: none;
+                .quick-link-btn{
+                    padding: 17px 35px;
+                    background-color: $color-milk;
+                    text-decoration: none;
+                    color: $color-grey;
+                    font-weight: 300;
+                    line-height: 1;
+
+                }
+                &:last-child{
+                    border-right: 1px solid $color-grey;
+                }
+            }
+        }
+    }
+
+    #bim_section{
+        .textbox-with-bg{
+            min-height: 400px;
+        }
+    }
+}

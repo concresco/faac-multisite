@@ -1,0 +1,205 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FAAC Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-17 12:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: faactheme"
+
+#: inc/timber.php:39
+msgid " FAAC SPA Soc. Unipersonale P.IVA 03820731200 - All rights reserved -"
+msgstr ""
+
+#: product-page.php:322
+msgid "/p/"
+msgstr ""
+
+#: category-page.php:209 contact-page.php:241
+msgid "/products"
+msgstr ""
+
+#: product-page.php:322
+msgid "/products/"
+msgstr ""
+
+#: inc/helpers.php:12
+msgid "Click to Show Less"
+msgstr ""
+
+#: inc/helpers.php:11
+msgid "Click to Show More"
+msgstr ""
+
+#: inc/timber.php:39
+msgid "Cookie Policy"
+msgstr ""
+
+#: product-page.php:248
+msgid "Download"
+msgstr ""
+
+#: product-page.php:255
+msgid "Download all"
+msgstr ""
+
+#: functions.php:243 functions.php:257
+msgid "Error sending message"
+msgstr ""
+
+#: category-page.php:222 contact-page.php:251
+msgid "Explore category"
+msgstr ""
+
+#. Name of the theme
+msgid "FAAC Theme"
+msgstr ""
+
+#: functions.php:230
+#, php-format
+msgid "File %s size too large error, 8MB limit"
+msgstr ""
+
+#: contact-page.php:160
+msgid "File size too large error, 8MB limit"
+msgstr ""
+
+#: category-posts.php:116
+msgid "Filter"
+msgstr ""
+
+#: category-posts.php:114
+msgid "Filter by industry"
+msgstr ""
+
+#: category-posts.php:115
+msgid "Filter by product type"
+msgstr ""
+
+#: functions.php:455
+msgid "First"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://iaki.it/"
+msgstr ""
+
+#. Author of the theme
+msgid "Iaki srl"
+msgstr ""
+
+#: category-posts.php:122 category-posts.php:124
+msgid "industry:"
+msgstr ""
+
+#: functions.php:466
+msgid "Last"
+msgstr ""
+
+#: contact-page.php:161
+msgid "Maximum file size: 8MB"
+msgstr ""
+
+#: product-page.php:245
+msgid "Notes"
+msgstr ""
+
+#: functions.php:22 product-page.php:45 product-page.php:128
+msgid "p"
+msgstr ""
+
+#: contact-page.php:159
+msgid "Please wait..."
+msgstr ""
+
+#: inc/timber.php:39
+msgid "Privacy Policy"
+msgstr ""
+
+#: functions.php:19
+msgid "Product"
+msgstr ""
+
+#: product-page.php:74
+msgid "product"
+msgstr ""
+
+#: contact-page.php:219
+msgid "Product range"
+msgstr ""
+
+#: category-page.php:202 product-page.php:181 product-page.php:186
+#: contact-page.php:233
+msgid "Products"
+msgstr ""
+
+#: functions.php:23 functions.php:479 functions.php:550 functions.php:570
+#: category-page.php:62 category-page.php:63 category-page.php:69
+#: category-page.php:114 product-page.php:42 product-page.php:76
+#: product-page.php:95 product-page.php:336
+msgid "products"
+msgstr ""
+
+#: functions.php:20
+msgid "Products Category"
+msgstr ""
+
+#: category-posts.php:128 category-posts.php:130
+msgid "producttype:"
+msgstr ""
+
+#: product-page.php:314
+msgid "Read more"
+msgstr ""
+
+#: functions.php:87
+msgid "Reseller"
+msgstr ""
+
+#: functions.php:86
+msgid "Resellers"
+msgstr ""
+
+#: category-page.php:228 product-page.php:351 contact-page.php:257
+msgid "See product"
+msgstr ""
+
+#: inc/helpers.php:10
+msgid "Show less"
+msgstr ""
+
+#: inc/helpers.php:9
+msgid "Show more"
+msgstr ""
+
+#: product-page.php:258
+msgid "Sign in to download all"
+msgstr ""
+
+#: product-page.php:242
+msgid "Technical description"
+msgstr ""
+
+#: functions.php:234
+#, php-format
+msgid ""
+"Unsupported %s file type error:  only .gif, .png, .jpg, .jpeg, .doc, .docx, ."
+"xls, .xlsx, .ppt, .pptx, .odt, .ods, .odp, .pdf, .zip, .rar, .7zip are "
+"supported!"
+msgstr ""
+
+#: contact-page.php:162
+msgid ""
+"Unsupported file type error:  only .gif, .png, .jpg, .jpeg, .doc, .docx, ."
+"xls, .xlsx, .ppt, .pptx, .odt, .ods, .odp, .pdf, .zip, .rar, .7zip are "
+"supported!"
+msgstr ""

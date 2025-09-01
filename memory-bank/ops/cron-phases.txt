@@ -1,0 +1,26 @@
+Bozza rollout cron multisite (non applicare senza verifica)
+
+Fase 1 (48h)
+  - Frequenza: ogni 30 minuti
+  - Comando (RunCloud cron):
+    BATCH_SIZE=3 TIMEOUT=90 /bin/bash /home/runcloud/webapps/FAAC/memory-bank/ops/run-wp-cron-multisite.sh > /dev/null 2>&1
+
+Fase 2 (48–72h)
+  - Frequenza: ogni 10 minuti
+  - Comando:
+    BATCH_SIZE=5 TIMEOUT=120 /bin/bash /home/runcloud/webapps/FAAC/memory-bank/ops/run-wp-cron-multisite.sh > /dev/null 2>&1
+
+Fase 3 (stabile)
+  - Frequenza: ogni 5 minuti
+  - Comando:
+    BATCH_SIZE=8 TIMEOUT=120 /bin/bash /home/runcloud/webapps/FAAC/memory-bank/ops/run-wp-cron-multisite.sh > /dev/null 2>&1
+
+Fallback semplice (singolo wp-cron)
+  - */10 * * * * /usr/local/lsws/lsphp81/bin/php -q /home/runcloud/webapps/FAAC/wp-cron.php > /dev/null 2>&1
+
+Note
+  - Mantenere DISABLE_WP_CRON=true.
+  - Garantire wp-cli e php path corretti.
+  - Usare flock/timeout nel runner.
+
+

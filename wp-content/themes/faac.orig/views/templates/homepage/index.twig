@@ -1,0 +1,56 @@
+{% extends "templates/base/index.twig" %}
+
+{% block content %}
+
+{% if swiperheader.isHome %}
+    {% include "components/homeSlider/index.twig" with swiperheader %}
+{% endif %}
+<section class="product-lines-section {{ productLinesSection.styleSection }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% if productLinesSection %}
+          {% set productLinesSection = productLinesSection | merge ({"baseUrl": baseUrl}) %}
+          {% include "organisms/productLines/index.twig" with productLinesSection %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container-fluid my-3 line-down">
+    <div class="row">
+      <div class="col-12">
+        {% if sliderNews %}
+            {% include "organisms/sliderNews/index.twig" with {"sliderNews" : sliderNews} %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cards-section">
+  <div class="container">
+    {% if cardsSection %}
+    <div class="ht-100 adaptive"></div>
+    {% include "sections/cardsSection/index.twig" with cardsSection %}
+    <div class="ht-100 adaptive"></div>
+    {% endif %}
+  </div>
+  {% if activitiesSection %}
+    {% include "sections/activitiesSliderHome/index.twig" with activitiesSection %}
+  {% endif %}
+  
+    <div class="container-fluid line-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {% if infoboxes %}
+              {% include "organisms/infoBoxes/index.twig" with infoboxes %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+{% endblock %}

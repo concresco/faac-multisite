@@ -1,0 +1,101 @@
+
+<section class="product-head">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-0">
+                <div class="ht-220 bg-color-blue"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="product-page overflow-hidden">
+    {% include "organisms/productMainInfo/index.twig" with productInfo %}
+
+    {% if productInfo.bimSection %}
+    <section id="bim_section">
+        {% include "components/textBoxWithBg/index.twig" with productInfo.bimSection %}
+    </section>
+    {% endif %}
+
+    {% if productInfo.videoGallery %}
+    <section id="video_section" class="line-up">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-12 px-lg-0 line-side">
+                    <div class="row">
+                        <div class="col-12 col-md-10 col-lg-8 mx-auto position-relative px-lg-0">
+                            <div class="ht-60 adaptive"></div>
+                            {% include "components/videoGallery/index.twig" with productInfo.videoGallery %}
+                            <div class="ht-70 adaptive"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+    
+    {% if productInfo.dataSection %}
+    <section id="tech_data_section">
+        {% include "components/productAccordion/index.twig" with productInfo.dataSection %}
+    </section>
+    {% endif %}
+
+    {% if productInfo.referenceSection %}
+    <section id="reference_section" class="reference-slider-block line-left line-right">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-12 position-relative px-lg-0">
+                    {% include "components/simplyProductsSlider/index.twig" with productInfo.referenceSection %}
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    {% if productInfo.relatedProductsSection %}
+    <div id="related_products_section">
+        {% include "components/productAccordion/index.twig" with productInfo.relatedProductsSection %}
+    </div>
+    {% endif %}
+    <div class="ht-80 adaptive"></div>
+</section>
+
+<style>
+        /* Stile generale della tabella */
+        .ekr-techdata-table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px !important;
+            font-family: Arial, sans-serif; /* Adatta il font secondo necessità */
+        }
+
+        /* Stile delle celle e delle intestazioni */
+        .ekr-techdata-table th, .ekr-techdata-table td {
+            border: 1px solid #ddd; /* Bordo delle celle */
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Stile dell'intestazione della tabella */
+        .ekr-techdata-table th {
+            background-color: #666666; /* Grigio più scuro per le intestazioni */
+			color: white; /* Colore del testo */
+			font-weight: bold; /* Testo in grassetto */
+        }
+
+        /* Stile per le righe pari (se necessario) */
+        .ekr-techdata-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Stile per il mouse hover sulle righe (opzionale) */
+        .ekr-techdata-table tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Stile del testo all'interno della tabella */
+        .ekr-techdata-table p {
+            margin: 0; /* Rimuove margini extra intorno ai paragrafi */
+        }
+    </style>

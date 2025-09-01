@@ -1,0 +1,16 @@
+<div class="card excerpt">
+  {% if kicker %}
+    <p class="red">{{ kicker }}</p>
+  {% endif %}
+  
+  {% if slides %}
+    <div class="slider">
+    {% for slide in slides %}
+      {% include "components/cardInner/index.twig" with slide only %}
+    {% endfor %}
+    </div>
+  {% else %}
+    {% set card = card | default({}) %}
+    {% include "components/cardInner/index.twig" with card only %}
+  {% endif %}
+</div>

@@ -1,0 +1,10 @@
+li#toplevel_page_OutoftheBox_settings .wp-submenu a[href*='settings_getting_started'] {
+    border-top: 1px solid hsla(0, 0%, 100%, 0.2);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    color: #f18500 !important;
+    font-weight: bold;
+}

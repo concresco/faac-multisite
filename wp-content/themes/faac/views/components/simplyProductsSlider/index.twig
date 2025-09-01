@@ -1,0 +1,28 @@
+<div id="simply_products_swiper" class="swiper">
+    {% if sliderTitle %}
+        <h4 class="slider-title">{{sliderTitle | default('References')}}</h4>
+    {% endif %}
+    <div class="swiper-wrapper">
+        {% for slide in productsSlider %}
+            <div class="swiper-slide">
+                <div class="image ratio ratio-21x9">
+                    <div class="gradient"></div>
+                    <img src="{{ slide.image }}" alt="{{ slide.description }}">   
+                </div>
+                <div class="content">
+                    {% if slide.description %}
+                        <div class="description color-white mt-lg-4">{{ slide.description }}</div>
+                    {% endif %}
+                    
+                    {% if slide.url %}
+                        <a class="btn-white linear-out" href="{{slide.url}}">{{ slide.textBtn | default('Read More')}}</a>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="navigation simplySlider">
+        <div class="slider-prev blue"></div>
+        <div class="slider-next blue"></div>
+    </div>
+</div>

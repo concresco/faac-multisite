@@ -1,0 +1,62 @@
+#{$sitename-selector} {
+    @mixin transition($speed) {
+        transition: all $speed ease;
+    }
+
+    @mixin rotate($deg) {
+        transform: rotate($deg);
+    }
+    .line{
+        .line-wrapper{
+            display: flex;
+            align-items: center;
+            padding: 20px 0;
+            .filter-container{
+                .active-filters{
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: 10px;
+                    margin-bottom: 0;
+                    padding: 0;
+                    li{
+                        margin: 5px 10px;
+                        display: inline-flex;
+                        a{
+                            padding: 17px 20px 15px 20px;
+                            background-color: $color-milk;
+                            color: $color-grey;
+                            border: 1px solid $color-grey;
+                            font-size: 20px;
+                            line-height: 1;
+                            font-weight: 300;
+                            text-decoration: none;
+                            display: inline-flex;
+                            align-items: center;
+                            @include transition(0.3s);
+                            i{
+                                font-size: 17px;
+                                margin-right: 14px;
+                                margin-top: -3px;
+                                &:before{
+                                    @include transition(0.5s);
+                                }   
+                            }
+                            &:hover{
+                                color: $color-blue;
+                                background-color: $color-ice-blue;
+                                i::before{
+                                    @include rotate(180deg);
+                                    @include transition(0.5s);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @include media-breakpoint-down(lg) {
+                flex-direction: column;
+            }
+        }
+    }
+}

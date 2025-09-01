@@ -1,0 +1,13 @@
+<div id="latest_news" class="swiper">
+    <div class="swiper-wrapper">
+        {% for slide in sliderNews %}
+            <div class="swiper-slide">
+                {% include "components/newsSlideView/index.twig" with slide %}
+            </div>
+        {% endfor %}
+    </div>
+    <div class="navigation with-arrow me-lg-2">
+        <div class="slider-prev blue"></div>
+        <div class="slider-next blue"></div>
+    </div>
+</div>

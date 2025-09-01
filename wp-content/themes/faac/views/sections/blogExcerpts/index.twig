@@ -1,0 +1,29 @@
+<section class="blog-excerpts">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        {% if title %}
+          <h2 class="section-title color-blue">{{ title | raw }}</h2>
+        {% endif %}
+        {% if subtitle %}
+          <h5 class="mb-5 color-grey-slate">{{ subtitle | raw | striptags('<span>') }}</h5>
+        {% endif %}
+        <div class="row">
+          {% for item in blogPosts %}
+            <div class="col-md-4 mb-3 mb-md-4">
+              {% include "organisms/card/index.twig" with item only %}
+            </div>
+          {% endfor %}
+        </div>
+        {% if callToAction %}
+          <h2 class="section-title color-grey-slate">{{ callToAction | raw }}</h2>
+        {% endif %}
+        {% if buttonText and buttonLink %}
+        <div class="full-width text-center">
+          <a href="{{ buttonLink }}" class="btn bg-color-red color-white"><span class="font-bold">{{ buttonText }}</span></a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

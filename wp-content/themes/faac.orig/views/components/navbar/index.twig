@@ -1,0 +1,94 @@
+{# {% set logoSrc = logoSrc | default('/wp-content/themes/faac/assets/images/logo-faac-black.png') %}
+{% set logoAltSrc = logoAltSrc | default('/wp-content/themes/faac/assets/images/logo-faac-white.png') %} #}
+{# {% set isHome = false %} #}
+{% if isHome %}
+	{% set logoSrc = logoAltSrc %}
+{% endif %}
+
+<nav class="navbar navbar-expand-lg 
+      {% if isHome %}navbar-dark{% else %}navbar-light{% endif %} p-0 
+      {{ isAdmin ? 'add-offset' : ''}}" id="mainMenu" role="navigation">
+
+	<div class="container d-lg-flex align-items-lg-start px-lg-0">
+		<div class="offcanvas offcanvas-start-lg order-lg-2 col-lg-9 col-12" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header d-flex d-lg-none">
+				<h5 class="offcanvas-title text-white" id="offcanvasExampleLabel">
+					<a class="navbar-brand text-white" href="{{ homeUrl | default('/') }}">
+						<img src="{{ logoAltSrc }}" alt="Faac Logo">
+					</a>
+				</h5>
+				<button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body p-lg-0">
+				<ul class="navbar-nav d-lg-flex full-width justify-content-end align-items-lg-center">
+					{% for item in mainMenu %}
+						{% if item.submenu %}
+							<li class="nav-item dropdown mx-3">
+								<a class="nav-link font-secondary dropdown-toggle {% if isHome %}is-home{% endif %} {{ item.active ? 'active' : '' }}" href="#" id="offcanvasNavbarDropdown_{{ loop.index }}" 
+								role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									{{ item.text }}
+								</a>
+								<ul class="dropdown-menu animate slideIn {% if isHome %}is-home{% endif %}" aria-label="offcanvasNavbarDropdown_{{ loop.index }}">
+									{% for child in item.submenu %}
+										{% if child.submenu %}
+											<li class="nav-item dropdown">
+												<a class="dropdown-item font-secondary dropdown-toggle right {% if isHome %}is-home{% endif %} {{ child.active ? 'active' : '' }}"
+													href="#" id="offcanvasNavbarDropdown_{{ loop.index }}" role="button" data-bs-toggle="dropdown"
+													aria-expanded="false">
+													{{ child.text }}
+												</a>
+												<ul class="dropdown-menu submenu animate slideRight {% if isHome %}is-home{% endif %}"
+													aria-label="offcanvasNavbarDropdown_s{{ loop.index }}"
+													
+													>
+													{% for child in child.submenu %}
+													<li>
+														<a class="dropdown-item font-secondary {% if isHome %}is-home{% endif %} {{ child.active ? 'active' : '' }}"
+															href="{{ child.url }}">{{ child.text }}</a>
+													</li>
+													{% endfor %}
+												</ul>
+											</li>
+											{% else %}
+											<li class="nav-item">
+												<a class="dropdown-item font-secondary {% if isHome %}is-home{% endif %} {{ child.active ? 'active' : '' }}" 
+												href="{{ child.url }}">{{ child.text }}</a>
+											</li>
+													
+											{% endif %}											
+											
+									{% endfor %}
+								</ul>
+							</li>
+						{% else %}
+							<li
+								class="nav-item mx-3">
+								{# class: active #}
+								<a class="nav-link font-secondary {% if isHome %}is-home{% endif %} {{ item.active ? 'active' : '' }}" 
+								aria-current="page" href="{{ item.url }}">{{ item.text }}</a>
+							</li>
+						{% endif %}
+					{% endfor %}
+					<div class="flags-block order-lg-4">
+						<a class="nav-link font-secondary dropdown-toggle icon-globe {% if isHome %}is-home{% endif %} {{ item.active ? 'active' : '' }}" href="#" id="offcanvasNavbarDropdown_lang" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							{{ languageActive }}
+						</a>
+						<ul class="dropdown-menu animate slideIn px-lg-3 ms-lg-n3 {% if isHome %}is-home{% endif %}" aria-labelledby="offcanvasNavbarDropdown_lang">
+							{% for child in language %}
+								<li>
+									<a class="dropdown-item font-family-secondary {% if isHome %}is-home{% endif %} {{ child.active ? 'active' : '' }}" href="{{ child.url }}">{{ child.value }}</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<a class="navbar-brand text-white order-lg-1 col-lg-3 col" href="{{ homeUrl | default('/') }}">
+			<img src="{{ logoSrc }}" alt="Faac Logo">
+		</a>
+		<button class="navbar-toggler order-4 order-lg-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	</div>
+</nav>

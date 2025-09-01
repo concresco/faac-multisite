@@ -1,0 +1,233 @@
+{
+    "productInfo":{
+        "breadcrumbs":[
+            {
+                "text":"Product",
+                "url":"#"
+            },
+            {
+                "text":"Automatic doors",
+                "url":"#"
+            },
+            {
+                "text":"Revolving doors",
+                "url":"#"
+            }
+        ],
+        "title": "RD3 / RD4 compact revolving door",
+        "subtitle": "Climate-control with the attractive RD3 and RD4 revolving doors.",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.<br>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.<br>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil.",
+        "gallery":[
+            {
+                "img": "https://picsum.photos/1024/600",
+                "caption": "lorem ipsum dolor sit amet"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "caption": "lorem ipsum dolor sit amet"
+            },
+            {
+                "img": "https://picsum.photos/1024/600",
+                "caption": "lorem ipsum dolor sit amet"
+            }
+        ],
+        "btnShowMore": "Show more",
+        "productExtraBtn": [
+            {
+                "textBtn": "How to buy this product",
+                "url": "#"
+            },
+            {
+                "textBtn": "Environmental Product Declaration",
+                "url": "#"
+            }
+        ],
+        "bimSection":{
+            "bg_image": "https://picsum.photos/1920/900",
+            "bg_color": "bg-color-white",
+            "content": "<h3 classs=\"h2 color-blue\">BIM Object</h3><a href=\"#\" class=\"btn btn-black\">Download the file</a>"
+        },
+        "videoGallery":{
+            "sliderTitle": "Product video",
+            "videoSlider":[
+                {
+                    "image" : "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                    "title": "Video Title here",
+                    "description" : "Description.. FAAC Automatic Doors BV supplies access solutions for retail and wholesale, catering, banks, ships, housing associations, hospitals and healthcare institutions, etc. Our clientele includes Schiphol Airport and various large retail chains",
+                    "videoUrl": "https://www.youtube.com/embed/RPup22z8_rk"
+                },
+                {
+                    "image" : "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                    "title": "Video Title here",
+                    "description" : "Description.. Our clientele includes Schiphol Airport and various large retail chains",
+                    "videoUrl": "https://www.youtube.com/embed/ZufvU76wThQ"
+                }
+            ]
+        },
+        "dataSection":{
+            "ID": "data",
+            "accordion":[
+                {
+                    "ID": "tech_data_section",
+                    "accordionTitle": " Technical description",
+                    "accordionBody": "<h3>Lorem ipsum</h3><ul><li>Power supply: 230 V, 50 Hz,mains fuse max 10 A,100-120 V, 50/60 Hz,mains fuse max 16 A</li><li>Internal height non-standard (2100 - 2600 mm)</li><li>Power consumption: 200 W /30 W resting</li><li>Fascia height non-standard (200-1250 mm)</li><li>Powder-coated finish (RAL colours)</li><li>Anodizing, clear or bronze</li><li>Anodizing, clear or bronze</li></ul>"
+                },
+                {
+                    "ID": "green_section",
+                    "accordionTitle": "Automatically green",
+                    "accordionBody": "<h3>Lorem ipsum</h3><p>dolor sit omen</p>"
+                },
+                {
+                    "ID": "downloads_section",
+                    "accordionType": "download",
+                    "accordionTitle": "Downloads",
+                    "download_all" : "#",
+                    "accordionBody":[
+                        {
+                            "category_name": "Product leaflet",
+                            "file_list":[
+                                {
+                                    "name_file": "Product leaflet - RD3 and RD4 - EN",
+                                    "type_file": "PDF",
+                                    "size_file": "5MB",
+                                    "url_file": "/media/pdf/Scheda-tecnica-portone-XY.pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "category_name": "User manual",
+                            "file_list":[
+                                {
+                                    "name_file": "User manual - RD3 and RD4 - EN",
+                                    "type_file": "PDF",
+                                    "size_file": "3MB",
+                                    "url_file": "/media/pdf/Scheda-tecnica-portone-XY.pdf"
+                                },
+                                {
+                                    "name_file": "Manuale utente - RD3 and RD4 - IT",
+                                    "type_file": "PDF",
+                                    "size_file": "3MB",
+                                    "url_file": "/media/pdf/Scheda-tecnica-portone-XY.pdf"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "referenceSection": {
+            "sliderTitle": "References",
+            "productsSlider":[
+                {
+                    "image" : "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                    "description" : "FAAC Automatic Doors BV supplies access solutions for retail and wholesale, catering, banks, ships, housing associations, hospitals and healthcare institutions, etc. Our clientele includes Schiphol Airport and various large retail chains",
+                    "url": "#"
+                },
+                {
+                    "image" : "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                    "description" : "Our clientele includes Schiphol Airport and various large retail chains",
+                    "url": "#"
+                }
+            ]
+        },
+        "relatedProductsSection":{
+            "ID": "related",
+            "accordion":[
+                {
+                    "ID": "accessories",
+                    "accordionType": "list",
+                    "accordionTitle": "Accessories",
+                    "productsList":[
+                        {
+                            "title": "Access controlled revolving doors",
+                            "excerpt": "Fully automated access controlled revolving doors. All glass revolving doors for a masterpiece entrance Fully automated access controlled revolving doors. All glass revolving doors for a masterpiece entrance.",
+                            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                            "deepen":{
+                                "text": "Explore category",
+                                "link": "#"
+                            }
+                        },
+                        {
+                            "title": "All glass revolving doors",
+                            "excerpt": "All glass revolving doors for a masterpiece entrance.",
+                            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                            "deepen":{
+                                "text": "Explore category",
+                                "link": "#"
+                            }
+                        },
+                        {
+                            "title": "Compact revolving doors",
+                            "excerpt": "Compact revolving doors that fit your entrance needs.",
+                            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                            "deepen":{
+                                "text": "Explore category",
+                                "link": "#"
+                            }
+                        },
+                        {
+                            "title": "High capacity revolving doors",
+                            "excerpt": "Reliable high-capacity revolving doors.",
+                            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                            "deepen":{
+                                "text": "Explore category",
+                                "link": "#"
+                            }
+                        }
+                    ],
+                    "btnLoadMore":{
+                        "text": "Load More",
+                        "url": "#loadmore"
+                    }
+                },
+                {
+                    "ID": "similar",
+                    "accordionType": "list",
+                    "accordionTitle": "Similar",
+                    "productsList":[
+                        {
+                            "title": "Access controlled revolving doors",
+                            "excerpt": "Fully automated access controlled revolving doors. All glass revolving doors for a masterpiece entrance Fully automated access controlled revolving doors. All glass revolving doors for a masterpiece entrance.",
+                            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                            "deepen":{
+                                "text": "Explore category",
+                                "link": "#"
+                            }
+                        },
+                        {
+                            "title": "All glass revolving doors",
+                            "excerpt": "All glass revolving doors for a masterpiece entrance.",
+                            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                            "deepen":{
+                                "text": "Explore category",
+                                "link": "#"
+                            }
+                        },
+                        {
+                            "title": "Compact revolving doors",
+                            "excerpt": "Compact revolving doors that fit your entrance needs.",
+                            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                            "deepen":{
+                                "text": "Explore category",
+                                "link": "#"
+                            }
+                        },
+                        {
+                            "title": "High capacity revolving doors",
+                            "excerpt": "Reliable high-capacity revolving doors.",
+                            "thumbnail": "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+                            "deepen":{
+                                "text": "Explore category",
+                                "link": "#"
+                            }
+                        }
+                    ],
+                    "btnLoadMore":{
+                        "text": "Load More",
+                        "url": "#loadmore"
+                    }
+                }
+            ]
+        }
+    }
+}

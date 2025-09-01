@@ -1,0 +1,58 @@
+{% for item in multi_page_builder %}
+
+	{# MULTIBOX LAYOUT #}
+	{% if item.acf_fc_layout == "multibox_layout_clone" %}
+
+		<section class="multibox-block">
+			{% include "sections/multiBoxRepeter/index.twig" with {"flex_multibox" : item.multi_boxes_repeter} %}
+		</section>
+	{% endif %}
+
+	{# SIMPLY HTML EDITOR LAYOUT #}
+	{% if item.acf_fc_layout == "simply_html_layout" %}
+		<section class="simply-html-block">
+			{% include "components/htmlBlock/index.twig" with item.simply_html_block %}
+		</section>
+	{% endif %}
+
+	{# EXPANDED TEXT CONTENT LAYOUT #}
+	{% if item.acf_fc_layout == "expanded_text_layout" %}
+		<section class="expanded-text-block">
+			{% include "components/expandedTextContent/index.twig" with item.expanded_text_section %}
+		</section>
+	{% endif %}
+
+	{# SIMPLY SLIDE LAYOUT #}
+	{% if item.acf_fc_layout == "simply_slider_layout" %}
+		<section class="simply-slider-block my-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-10 col-lg-8 mx-auto">
+						{% include "components/simplySlider/index.twig" with {"simplySlider" : item.simplySlider} %}
+					</div>
+				</div>
+			</div>
+		</section>
+	{% endif %}
+
+	{# ACTIVITIES SLIDER LAYOUT #}
+	{% if item.acf_fc_layout == "activities_slider_layout" %}
+		{% include "sections/activitiesSliderHome/index.twig" with item.activitiesSection %}
+	{% endif %}
+
+	{# TEXT BLOCK WITH IMG IN BG LAYOUT #}
+	{% if item.acf_fc_layout == "text_block_with_bg_image_layout" %}
+		{% include "components/textBoxWithBg/index.twig" with item.text_block_with_bg_image %}
+	{% endif %}
+
+	{# TIMELINE LAYOUT #}
+	{% if item.acf_fc_layout == "timeline_layout" %}
+		{% include "organisms/timeline/index.twig" with item.timeline %}
+	{% endif %}
+
+	{# EMPTY SPACE LAYOUT #}
+	{% if item.acf_fc_layout == "empty_space" %}
+	<div class="ht-40 adaptive"></div>
+	{% endif %}
+
+{% endfor %}

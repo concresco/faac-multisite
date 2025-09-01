@@ -1,0 +1,67 @@
+#{$sitename-selector}{
+    #video_gallery {
+        h4.slider-title{
+            color: $color-blue;
+        }
+        .swiper-wrapper {            
+            .swiper-slide{
+                button.btn-play{
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: transparent;
+                    background-image: url(./../../../assets/images/icon-play.svg);
+                    background-position: center;
+                    background-size: 77px;
+                    background-repeat: no-repeat;
+                    z-index: 5;
+                }
+                .content {
+                    position: relative;
+                    width: 100%;
+                    padding: 15px 0px;
+                    display: flex;
+                }                
+            }
+        }
+        .navigation.with-arrow {
+            right: 0;
+            @include media-breakpoint-down(lg){
+                right: 60px;
+            }
+            @include media-breakpoint-down(md){
+                top: -10px;
+            }
+        }
+    }
+    .video-modal{
+        .modal-dialog{
+            .modal-content{
+                .modal-body{
+                    background-color: $color-grey-dark;
+                    padding: 2px;
+                    button.btn-close{
+                        position: absolute;
+                        width: 20px;
+                        height: 20px;
+                        top: 0;
+                        right: -25px;
+                        color: $color-white;
+                        background: transparent url(./../../../assets/images/icon-close-white.svg) no-repeat;
+                    }
+                    .video-container{
+                        position: relative;
+                        height: 0;
+                        padding-bottom: 56%;
+                        iframe{
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

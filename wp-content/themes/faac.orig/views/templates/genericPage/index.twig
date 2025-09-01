@@ -1,0 +1,9 @@
+{% extends "templates/base/index.twig" %}
+
+{% block content %}
+
+    {% include "organisms/heroPage/index.twig" %}
+
+    {% include "sections/multiPageBuilder/index.twig" with {"multi_page_builder": multi_page_builder} %}
+
+{% endblock %}

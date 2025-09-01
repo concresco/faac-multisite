@@ -1,0 +1,172 @@
+#{$sitename-selector} {
+    @mixin transition($speed) {
+        transition: all $speed ease;
+    }
+
+    @mixin rotate($deg) {
+        transform: rotate($deg);
+    }
+
+    .sidebar{
+        padding-left: 20px;
+        .cat-btn-wrapper{
+            &:hover{
+                .cat-link{
+                    &:hover,
+                    &[aria-expanded="true"] {
+                        color: $color-grey-dark;
+                    }
+                }
+
+            }
+        }
+        .cat-link{
+            display: flex;
+            position: relative;
+            font-weight: 300;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            color: $color-blue;
+
+            &:hover,
+            &[aria-expanded="true"] {
+                color: $color-grey-dark;
+            }
+        }
+        .btn-toggle{
+            position: relative;
+            &::after{
+                position: absolute;
+                right: 20px;
+                font-family: 'faac';
+                content: '\e806'; // .icon-down
+                font-size: 6px;
+                line-height: 0;
+                transition: transform .35s ease;
+            }
+            &[aria-expanded="true"]::after {
+                transform: rotate(-180deg);
+            }
+        }
+        button.btn-toggle{
+            height: 10px;
+            width: 50px;
+        }
+        
+        .btn-plus{
+            position: relative;
+            .plus{
+                position: absolute;
+                right: 20px;
+                width: 21px;
+                height: 21px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 21px;
+                    height: 3px;
+                    background: $color-blue;
+                    border-radius: 1px;
+                    @include transition(0.5s);
+                }
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 3px;
+                    height: 21px;
+                    background: $color-blue;
+                    border-radius: 1px;
+                    @include transition(0.5s);
+                }
+            }
+            &[aria-expanded="true"] {
+                .plus{
+                    &::before {
+                        color: $color-grey-dark;
+                        @include rotate(180deg);
+                        @include transition(0.5s);
+                    }
+
+                    &::after {
+                        color: $color-grey-dark;
+                        @include rotate(90deg);
+                        @include transition(0.5s);
+                    }
+                }
+            }
+        }
+        .archive-first-element{
+            color: $color-grey-dark;
+            padding-bottom: 20px;
+            &.btn-toggle::after{
+                font-size: 10px;
+                right: 17px;
+            }
+            &.cecklist{
+                color: $color-blue;
+                &[aria-expanded="true"]{
+                    color: $color-grey-dark;
+                }
+            }
+        }
+        .first-ul{
+            .list-unstyled{
+                padding-left: 20px;
+            }
+            li{
+                padding-top: 10px;
+                padding-bottom: 11px;
+                .first-lev{
+                    border-left: 1px solid $color-blue;
+                }
+                .second-lev{
+                    .cat-link{
+                        color: $color-grey;
+                        &:hover, &:active, &:focus{
+                            color: $color-grey-dark;
+                        }
+                    }
+                }
+            }
+        }
+        .sidebar-checklist{
+            .list-group{
+                border: none;
+                background: none;
+                .list-group-item{
+                    display: inline-flex;
+                    background: none;
+                    border: none;
+                    padding-left: 0;
+                    font-weight: 300;
+                    color: $color-blue;
+                    cursor: pointer;
+                    
+                    input{
+                        margin-top: 0;
+                        margin-right: 15px;
+                        outline: none;
+                    }
+                    .form-check-input{
+                        border-color: $color-blue;
+                        &[type=checkbox]{
+                            border-radius: 1px;
+                            border-color: $color-blue;
+                        }
+                        &:checked{
+                            background-color: $color-white;
+                            border-color: $color-blue;
+                            &[type=checkbox] {
+                                background-image: url('./../../../assets/images/icon-check.svg');  
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

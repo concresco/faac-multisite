@@ -1,0 +1,23 @@
+<div class="line">
+    <div class="row">
+        <div class="col-12">
+            <div class="line-wrapper">
+                <div class="line-label">
+                    <label class="desktop">{{ FilterLabel }}</label>
+                </div>
+                <div class="filter-container">
+                    <ul class="active-filters">
+                        {% for item in filtersSelected %}
+                            <li>
+                                <a href="{{item.url}}">
+                                    <i class="icon-close"></i>
+                                    {{item.filter}}
+                                </a>
+                            </li>                    
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

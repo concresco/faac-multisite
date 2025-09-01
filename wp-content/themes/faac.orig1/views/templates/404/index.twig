@@ -1,0 +1,26 @@
+{% extends "templates/base/index.twig" %}
+
+{% block content %}
+
+	<section class="404-page">
+		<div class="container-fluid my-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="ht-250 adaptive"></div>
+						<h1 class="color-grey-dark">{{ post.post_title }}</h1>
+					</div>
+				</div>
+                <div class="row position-relative ht-150 release-mobile z-index-10">
+                    <div class="post-content col-xs-12 col-md-8 col-xl-6 bg-color-white position-absolute z-index-20 py-4 px-md-4">
+                        <div class="full-width">
+                            {{ post.post_content | wpautop }}
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}
+

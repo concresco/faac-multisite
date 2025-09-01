@@ -1,0 +1,10 @@
+#OutoftheBox.gf_upload_box .fileupload-start-button {
+    display: none !important;
+}
+
+#OutoftheBox .fileupload-header-title,
+#OutoftheBox .fileupload-add-button button,
+#OutoftheBox .upload-add-file,
+#OutoftheBox .upload-add-folder {
+    pointer-events: none;
+}

@@ -1,0 +1,9 @@
+<div class="news-preview {% if size == "small" %}small{% elseif size == "big" %}big{% else %}medium{% endif %}">
+    <a href="{{ post_url }}">
+        <div class="image ratio ratio-11x7">
+            <img src="{{ thumbnails.url }}" alt="{{ post_title }}">
+        </div>
+        <div class="gradient"></div>
+        <h4 class="title-news {% if size == "small" %}h5{% endif %}">{{ post_title }}</h4>
+    </a>
+</div>

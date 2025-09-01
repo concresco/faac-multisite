@@ -1,0 +1,18 @@
+{
+    "homeSlider":[
+        {
+            "imageBg" : "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "title" : "LOCALE Leader in automatic doors",
+            "btnText" : "Contact us for you solution",
+            "url" : "/",
+            "description" : "Lorem ipsum dolor sit"
+        },
+        {
+            "imageBg" : "http://faac.loc/wp-content/uploads/2022/06/slide-home.jpg",
+            "title" : "The best product for you solution",
+            "btnText" : "Find you product",
+            "url" : "/",
+            "description" : "Not yet here"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+# Istruzioni per il Ripristino dell'Ottimizzazione di Node.js per Cursor
+
+## Prerequisiti
+- Sistema operativo Linux
+- Node.js installato
+- Cursor IDE installato
+- Permessi sudo
+
+## File Necessari
+1. kill-cursor.sh
+2. cursor.service
+
+## Passi per il Ripristino
+
+### 1. Copia dei File
+```bash
+sudo cp kill-cursor.sh /usr/local/bin/
+sudo cp cursor.service /etc/systemd/system/
+```
+
+### 2. Impostazione dei Permessi
+```bash
+sudo chmod +x /usr/local/bin/kill-cursor.sh
+sudo chown root:root /usr/local/bin/kill-cursor.sh
+sudo chmod 644 /etc/systemd/system/cursor.service
+```
+
+### 3. Configurazione del Servizio
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable cursor.service
+sudo systemctl start cursor.service
+```
+
+### 4. Configurazione del Cleanup Automatico
+Aggiungi al file ~/.bash_logout:
+```bash
+if [ -f /usr/local/bin/kill-cursor.sh ]; then
+    sudo /usr/local/bin/kill-cursor.sh
+fi
+```
+
+## Verifica
+1. Controlla lo stato del servizio:
+```bash
+sudo systemctl status cursor.service
+```
+
+2. Verifica che il cleanup funzioni:
+- Connettiti via SSH
+- Lancia Cursor
+- Disconnettiti
+- Verifica che i processi Node.js siano stati terminati
+
+## Monitoraggio
+- I log del servizio sono disponibili tramite:
+```bash
+journalctl -u cursor.service
+```
+
+- Le metriche di monitoraggio sono salvate in:
+```bash
+~/cursor-monitor.log
+```
+
+## Risoluzione Problemi
+1. Se il servizio non si avvia:
+```bash
+sudo systemctl restart cursor.service
+sudo journalctl -u cursor.service -n 50
+```
+
+2. Se i processi non vengono terminati:
+```bash
+sudo /usr/local/bin/kill-cursor.sh
+ps aux | grep node
+```
+
+## Note Importanti
+- Il servizio è configurato per limitare l'uso di memoria a 512MB
+- La garbage collection è abilitata manualmente
+- Il servizio si riavvia automaticamente in caso di fallimento
+- Il cleanup viene eseguito automaticamente alla disconnessione SSH

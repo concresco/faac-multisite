@@ -1,0 +1,26 @@
+{
+    "sectionTitle": "News",
+    "postList": [
+        {
+            "post_title": "Blocco 1 ipsum dolor sit amet, consectetur adipiscing elit",
+            "thumbnails": {
+                "url": "https://picsum.photos/1200/800"
+            },
+            "post_url": "#"
+        },
+        {
+            "post_title": "Blocco 2 ipsum dolor sit amet, consectetur adipiscing elit",
+            "thumbnails": {
+                "url": "https://picsum.photos/1200/800"
+            },
+            "post_url": "#"
+        },
+        {
+            "post_title": "Blocco 3 ipsum dolor sit amet, consectetur adipiscing elit",
+            "thumbnails": {
+                "url": "https://picsum.photos/1200/800"
+            },
+            "post_url": "#"
+        }
+    ]
+}

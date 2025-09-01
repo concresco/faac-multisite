@@ -1,0 +1,342 @@
+# Translation of Plugins - Paid Membership, Ecommerce, Registration Form, Login Form, User Profile, Paywall &amp; Restrict Content – ProfilePress - Stable (latest release) in Hungarian
+# This file is distributed under the same license as the Plugins - Paid Membership, Ecommerce, Registration Form, Login Form, User Profile, Paywall &amp; Restrict Content – ProfilePress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-06 16:02:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: hu\n"
+"Project-Id-Version: Plugins - Paid Membership, Ecommerce, Registration Form, Login Form, User Profile, Paywall &amp; Restrict Content – ProfilePress - Stable (latest release)\n"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+msgid "URL"
+msgstr "URL"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:167
+#: src/ContentProtection/views/view.access-condition.php:159
+msgid "Custom URL"
+msgstr "Egyedi URL"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:154
+msgid "wp_user_avatar_align"
+msgstr "wp_user_avatar_align"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+msgid "Alignment"
+msgstr "Igazítás"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:156
+#: src/Themes/DragDrop/AbstractBuildScratch.php:409
+msgid "Center"
+msgstr "Középre"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:157
+#: src/Themes/DragDrop/AbstractBuildScratch.php:349
+#: src/Themes/DragDrop/AbstractBuildScratch.php:408
+msgid "Left"
+msgstr "Balra"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:158
+#: src/Themes/DragDrop/AbstractBuildScratch.php:350
+#: src/Themes/DragDrop/AbstractBuildScratch.php:410
+msgid "Right"
+msgstr "Jobbra"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:164
+msgid "wp_user_avatar_link"
+msgstr "wp_user_avatar_link"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+msgid "Link To"
+msgstr "Hivatkozás:"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:166
+msgid "Image File"
+msgstr "Képfájl"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:171
+msgid "wp_user_avatar_link_external_section"
+msgstr "wp_user_avatar_link_external_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:173
+msgid "wp_user_avatar_link_external"
+msgstr "wp_user_avatar_link_external"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:177
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "wp_user_avatar_target"
+msgstr "wp_user_avatar_target"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "Open link in a new window"
+msgstr "Hivatkozás megnyitása új ablakban"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_caption"
+msgstr "wp_user_avatar_caption"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+msgid "Caption"
+msgstr "Képaláírás"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:187
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:197
+msgid "Insert into Post"
+msgstr "Beillesztés a bejegyzésbe"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:191
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "wp_user_avatar_upload"
+msgstr "wp_user_avatar_upload"
+
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:244
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:845
+msgid "Search"
+msgstr "Keresés"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/EditProfile/ShowProfilePicture.php:30
+msgid "Size"
+msgstr "Méret"
+
+#: src/Admin/SettingsPages/FormList.php:240
+#: src/Admin/SettingsPages/Membership/CouponsPage/CouponWPListTable.php:67
+#: src/Admin/SettingsPages/Membership/CustomersPage/CustomerWPListTable.php:86
+#: src/Admin/SettingsPages/Membership/OrdersPage/OrderWPListTable.php:108
+#: src/Admin/SettingsPages/Membership/PlansPage/PlanWPListTable.php:65
+#: src/Admin/SettingsPages/Membership/SubscriptionsPage/SubscriptionWPListTable.php:111
+#: src/Admin/SettingsPages/Membership/views/customers/data-metabox.php:84
+#: src/Admin/SettingsPages/Membership/views/orders/order-data-metabox.php:114
+#: src/ContentProtection/WPListTable.php:84
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:243
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:79
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:300
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:100
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:119
+#: src/templates/checkout/form-checkout-sidebar.php:89
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:243
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:206
+msgid "Undo"
+msgstr "Visszavonás"
+
+#: src/ContentProtection/ContentConditions.php:232
+#: src/ContentProtection/ContentConditions.php:245
+#: src/ContentProtection/ContentConditions.php:257
+#: src/ContentProtection/ContentConditions.php:331
+#: src/ContentProtection/ContentConditions.php:367
+msgid "Select %s"
+msgstr "%s kiválasztása"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:177
+msgid "Profile updated."
+msgstr "Adatlap frissítve."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:202
+#: src/Themes/DragDrop/AbstractTheme.php:113
+msgid "Update Profile"
+msgstr "Adatlap frissítése"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+msgid "Insert"
+msgstr "Beillesztés"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "[avatar_upload]"
+msgstr "[avatar_upload]"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:56
+#: src/Widgets/Form.php:65 src/Widgets/TabbedWidget.php:473
+#: src/Widgets/UserPanel.php:74
+msgid "Title:"
+msgstr "Címsor:"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:60
+msgid "Description:"
+msgstr "Leírás:"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:65
+msgid "Automatically add paragraphs"
+msgstr "Bekezdések  automatikus hozzáadása"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:73
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:186
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:189
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:38
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:70
+msgid "Maximum upload file size: %d%s."
+msgstr "Maximális fájlméret: %d%s."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:190
+msgid "Allowed Files"
+msgstr "Engedélyezett fájlok"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:190
+msgid "<code>jpg jpeg png gif</code>"
+msgstr "<code>jpg jpeg png gif</code>"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:196
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:139
+msgid "Original Size"
+msgstr "Eredeti méret"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:200
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:142
+msgid "Thumbnail"
+msgstr "Bélyegkép"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:203
+msgid "Remove Image"
+msgstr "Kép eltávolítása"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:253
+msgid "This file is not an image. Please try another."
+msgstr "Ez a fájl nem tartalmaz képet. A műveletet (most már helyesen) meg kell ismételni."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:257
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:284
+msgid "Memory exceeded. Please try another smaller file."
+msgstr "A memória meghaladja az engedélyezett méretet, ezér a műveletet - kisebb fájllal - meg kell ismételni."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:261
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "A(z) %s könyvtárat nem sikerült létrehozni. A szülőkönyvtár írható a szerveren?"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:127
+msgid "wp_user_avatar_user"
+msgstr "wp_user_avatar_user"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+msgid "User Name"
+msgstr "Felhasználói név"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:137
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_size"
+msgstr "wp_user_avatar_size"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:140
+#: src/Themes/DragDrop/AbstractBuildScratch.php:335
+msgid "Large"
+msgstr "Nagy"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:141
+#: src/Themes/DragDrop/AbstractBuildScratch.php:334
+msgid "Medium"
+msgstr "Közepes"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:143
+#: src/Admin/SettingsPages/Membership/DashboardPage/SettingsPage.php:264
+msgid "Custom"
+msgstr "Egyéni"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:147
+msgid "wp_user_avatar_size_number_section"
+msgstr "wp_user_avatar_size_number_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+msgid "wp_user_avatar_size_number"
+msgstr "wp_user_avatar_size_number"
+
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:75
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:81
+msgid "Image"
+msgstr "Kép"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:102
+msgid "Disable Gravatar and use only local avatars"
+msgstr "Gravatar kikapcsolása, és a helyi avatarok használata"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:36
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:68
+msgid "%s exceeds the maximum upload size for this site."
+msgstr "%s meghaladja a honlapon engedélyezett maximális feltöltési méretet."
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:75
+msgid "Resize avatars on upload"
+msgstr "Avatar átméretezése a feltöltés során"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:79
+#: src/Themes/DragDrop/AbstractBuildScratch.php:83
+#: src/Themes/DragDrop/AbstractBuildScratch.php:224
+#: src/Themes/DragDrop/AbstractBuildScratch.php:492
+msgid "Width"
+msgstr "Szélesség"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:81
+msgid "Height"
+msgstr "Magasság"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:85
+msgid "Crop avatars to exact dimensions"
+msgstr "Vágjuk az avatarokat pontos méretre"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:124
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "Az összes olyan felhasználó számára, akik nem rendelkeznek saját avatarral, létrehozhatunk egy általános avatart, vagy az e-mail cím alapján a rendszer automatikusan generál egyet."
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:89
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:232
+#: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:98
+#: src/Admin/SettingsPages/GeneralSettings.php:43
+#: src/Admin/SettingsPages/GeneralSettings.php:44
+#: src/Admin/SettingsPages/Membership/PaymentSettings.php:30
+#: src/Classes/Miscellaneous.php:153
+msgid "Settings"
+msgstr "Beállítások"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:201
+msgid "Mystery Man"
+msgstr "Mystery Man"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:202
+msgid "Blank"
+msgstr "Üres"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:203
+msgid "Gravatar Logo"
+msgstr "Gravatar logó"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:204
+msgid "Identicon (Generated)"
+msgstr "Identicon (generált)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:205
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (generált)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:206
+msgid "MonsterID (Generated)"
+msgstr "MonsterID (generált)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:207
+msgid "Retro (Generated)"
+msgstr "Retro (generált)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:242
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:180
+msgid "Choose Image"
+msgstr "Kép kiválasztása"

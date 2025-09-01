@@ -1,0 +1,16 @@
+{
+    "accordion":[
+        {
+            "accordionTitle": " Architects & Specification",
+            "accordionBody": "<h3>Lorem ipsum</h3><p>tel+39 333 123456789<br>email: <a href=\"#\">info@ciccio.it</a></p>"
+        },
+        {
+            "accordionTitle": " More services",
+            "accordionBody": "<h3>Lorem ipsum</h3><p>come quando fuori piove oggi ce ne andremo in riva al mare e guarderemo gli asini volare</p>"
+        },
+        {
+            "accordionTitle": " Architects & Specification",
+            "accordionBody": "<h3>Lorem ipsum</h3><p>come quando fuori piove oggi ce ne andremo in riva al mare e guarderemo gli asini volare</p>"
+        }
+    ]
+}

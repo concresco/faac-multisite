@@ -1,0 +1,207 @@
+{
+	"formId": "lavora_con_noi",
+	"formMethod": "POST",
+	"formAction": "#",
+	"formClass": "needs-validation",
+	"title": "Contatti",
+	"CustomValidationMessages": false,
+	"preText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+	"postText": "*Campi obbligatori",
+	"rows": [
+		{
+			"rowTitle": false,
+			"styles": "",
+			"disabled": false,
+			"class": "d-block d-md-flex",
+			"fields": [
+				{
+					"type": "text",
+					"mandatory": true,
+					"name": "nome",
+					"placeholder": "Nome",
+					"label": "Nome"
+				},
+				{
+					"type": "text",
+					"mandatory": true,
+					"name": "cognome",
+					"placeholder": "Cognome",
+					"label": "Cognome"
+				},
+				{
+					"type": "date",
+					"style": "",
+					"mandatory": true,
+					"name": "birthdate",
+					"placeholder": "Data",
+					"label": "Data di nascita"
+				}
+			]
+		},
+		{
+			"rowTitle": false,
+			"class": "d-block d-md-flex",
+			"fields": [
+				{
+					"type": "text",
+					"mandatory": true,
+					"name": "phone",
+					"placeholder": "Telefono",
+					"label": "Telefono",
+					"attributes": [
+						{
+							"name": "",
+							"value": ""
+						}
+					]
+				},
+				{
+					"type": "text",
+					"mandatory": true,
+					"name": "email",
+					"placeholder": "Email",
+					"label": "Email"
+				},
+				{
+					"type": "select",
+					"mandatory": true,
+					"name": "region",
+					"placeholder": "Scegli",
+					"label": "Regione",
+					"options": [
+						{
+							"value": "puglia",
+							"text": "Puglia"
+						},
+						{
+							"value": "lombardia",
+							"text": "Lombardia"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": false,
+			"class": "d-block d-md-flex",
+			"fields": [
+				{
+					"type": "text",
+					"mandatory": true,
+					"name": "city",
+					"placeholder": "Città",
+					"label": "Città"
+				},
+				{
+					"type": "text",
+					"mandatory": true,
+					"name": "province",
+					"placeholder": "Provincia",
+					"label": "Provincia"
+				},
+				{
+					"type": "text",
+					"mandatory": true,
+					"name": "address",
+					"placeholder": "Indirizzo",
+					"label": "Indirizzo"
+				}
+			]
+		},
+		{
+			"rowTitle": false,
+			"class": "d-block d-md-flex",
+			"fields": [
+				{
+					"type": "text",
+					"mandatory": true,
+					"name": "cap",
+					"placeholder": "CAP",
+					"label": "CAP",
+					"attributes": [
+						{
+							"name": "",
+							"value": ""
+						}
+					],
+					"options": null
+				},
+				{
+					"type": "select",
+					"mandatory": true,
+					"name": "studies",
+					"placeholder": "Scegli",
+					"label": "Titolo di studio",
+					"options": [
+						{
+							"value": "diploma",
+							"text": "Diploma"
+						},
+						{
+							"value": "degree",
+							"text": "Laurea"
+						},
+						{
+							"value": "master",
+							"text": "Dottorato / Master"
+						}
+					]
+				},
+				{
+					"type": "file",
+					"mandatory": true,
+					"name": "curriculum",
+					"style": " ",
+					"innerStyle": "form-control-lg",
+					"label": "Curriculum vitae",
+					"attributes": [
+						{
+							"name": "accept",
+							"value": ".pdf,.PDF,.doc,.DOC,.docx,.DOCX"
+						}
+					],
+					"options": null
+				}
+			]
+		},
+		{
+			"rowTitle": false,
+			"class": "d-block d-md-flex",
+			"field": {
+				"type": "textarea",
+				"mandatory": true,
+				"label": "Lettera di presentazione",
+				"name": "presentation",
+				"placeholder": "Scrivi qui",
+				"style": false,
+				"attributes": [
+					{
+						"name": "cols",
+						"value": "50"
+					},
+					{
+						"name": "rows",
+						"value": "8"
+					}
+				]
+			}
+		}
+	],
+	"submit_Area_Fields": [
+		{
+			"type": "checkbox",
+			"mandatory": true,
+			"label": "Acconsenti al trattamento dei tuoi dati per le finalità indicate nella nostra <a href='/informativa-privacy/'>policy</a>",
+			"name": "accept_1",
+			"placeholder": "Scrivi qui",
+			"innerStyle": "color-white"
+		},
+		{
+			"style": "text-center",
+			"type": "submit",
+			"text": "Invia",
+			"innerStyle": "btn btn-lg btn-primary"
+		}
+	],
+	"additionalContent": false
+}

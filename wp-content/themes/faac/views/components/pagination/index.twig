@@ -1,0 +1,17 @@
+<nav aria-label="page navigation">
+    <ul class="pagination {{ style }} d-flex justify-content-md-center justify-content-between">
+        <li class="page-item {{ isFirstPage ? 'disabled' : '' }} ">
+            <a class="page-link icon-left" tabindex="-1" href="{{ isFirstPage ? '#' : firstPageUrl }}">{{ firstPage }}</a>
+        </li>
+        {% if not isFirstPage %}
+        <li class="page-item"><a class="page-link" href="{{ prevPageUrl }}">{{ prevPage }}</a></li>
+        {% endif %}
+        <li class="page-item current"><a class="page-link" href="{{ currentPageUrl }}">{{ currentPage }}</a></li>
+        {% if not isLastPage %}
+        <li class="page-item"><a class="page-link" href="{{ nextPageUrl }}">{{ nextPage }}</a></li>
+        {% endif %}
+        <li class="page-item {{ isLastPage ? 'disabled' : '' }} ">
+            <a class="page-link icon-right" href="{{ isLastPage ? '#' : lastPageUrl }}">{{ lastPage }}</a>
+        </li>
+    </ul>
+</nav>
